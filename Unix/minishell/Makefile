@@ -5,7 +5,7 @@
 ## Login   <guillo_e@epitech.net>
 ## 
 ## Started on  Thu Dec 15 19:03:35 2011 lyoma guillou
-## Last update Sun Jan  1 22:27:15 2012 lyoma guillou
+## Last update Mon Jan 16 18:36:09 2012 lyoma guillou
 ##
 
 CC 	= 	gcc
@@ -35,6 +35,9 @@ all: 		$(NAME)
 
 $(NAME): 	$(OBJS)
 	$(CC) $(OBJS) -o $(NAME) $(CFLAGS)
+
+debug:
+	$(CC) $(SRCS) $(CFLAGS) -ggdb3
 
 clean:
 	$(RM) $(OBJS)

@@ -5,7 +5,7 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Wed Dec 28 15:12:12 2011 lyoma guillou
-** Last update Sun Jan  1 22:40:33 2012 lyoma guillou
+** Last update Mon Jan 16 18:46:25 2012 lyoma guillou
 */
 
 #include <stdio.h>
@@ -21,18 +21,25 @@ int	main(int ac, char **av, char **envp)
   char	**my_env;
 
   if (ac != 1 || !av[0] || (buffer = malloc(4096 * sizeof(*buffer))) == NULL)
-    return (0);
+    {
+      my_putstr("buffer allocation problem\n");
+      return (0);
+    }
   len = 1;
   buffer = my_strset(buffer, 4096);
   my_env = copy_envp(envp);
-  while (len != 0)
+  buffer = get_path(my_env);
+  my_putstr(buffer);
+  /*
+    while (len != 0)
     {
-      my_putstr("$>");
-      len = read(0, buffer, 4095);
-      if (len > 1)
-	cmd_to_exec(buffer, my_env);
-      buffer = my_strset(buffer, len);
+    my_putstr("$>");
+    len = read(0, buffer, 4095);
+    if (len > 1)
+    cmd_to_exec(buffer, my_env);
+    buffer = my_strset(buffer, len);
     }
-  my_putstr("Exiting");
+  */
+  my_putstr("Exiting\n");
   return (0);
 }

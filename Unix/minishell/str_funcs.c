@@ -5,11 +5,31 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Wed Dec 28 15:32:51 2011 lyoma guillou
-** Last update Sun Jan  1 22:25:44 2012 lyoma guillou
+** Last update Mon Jan 16 15:51:52 2012 lyoma guillou
 */
 
 #include <stdlib.h>
 #include "my_sh.h"
+
+char	*my_strcat(char *str, char *ptr)
+{
+  char	*src;
+  int	i;
+
+  i = 0;
+  if ((src = malloc((my_strlen(str) + my_strlen(ptr)) * sizeof(*src))) == NULL)
+    return (NULL);
+  while (i < (my_strlen(str) + my_strlen(ptr)))
+    {
+      if (i >= my_strlen(str))
+	src[i] = ptr[i - my_strlen(str)];
+      else
+	src[i] = str[i];
+      i = i + 1;
+    }
+  src[i] = '\0';
+  return (src);
+}
 
 char	*my_strdup(char *src)
 {

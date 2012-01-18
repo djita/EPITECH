@@ -5,7 +5,7 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Wed Dec 21 10:37:43 2011 lyoma guillou
-** Last update Sun Jan  1 22:17:23 2012 lyoma guillou
+** Last update Mon Jan 16 15:51:51 2012 lyoma guillou
 */
 
 #ifndef MY_SH_
@@ -20,6 +20,7 @@ void	cmd_to_exec(char *src, char **env);
 int	my_tablen(char **tab);
 char	**my_tabset(char **tab, int len);
 
+char	*my_strcat(char *str, char *ptr);
 char	*my_strdup(char *src);
 char	*my_strset(char *str, int lim);
 int	my_strcmp(char *src, char *dst);
@@ -28,7 +29,6 @@ int	my_strncmp(char *src, char *dst, int len);
 void	my_putchar(char c);
 int	my_strlen(char *str);
 void	my_putstr(char *str);
-char	*my_strfus(char *str, char *ptr);
 
 int	is_alphanum(char c);
 int	word_len(char *str, int cursor);
