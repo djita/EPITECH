@@ -1,0 +1,3 @@
+- Dans le fichier .cor, les COMMENT_SIZE + NAME_SIZE premiers caractères - précédés de COREMAGIC - sont réservés au nom + comment du programme. Derrière sont placées les autres informations ;
+- Le maximum des T_DIR doit être 512. Au-delà, warning et remplacement de la valeur (décalage de bits pour la valeur de remplacement) ;
+- Vérifier si on a bien un .comment & .name + si pas .extend, dire Error sur les .code.
