@@ -5,7 +5,7 @@
 ## Login   <guillo_e@epitech.net>
 ## 
 ## Started on  Thu Dec 15 19:03:35 2011 lyoma guillou
-## Last update Tue Jan 31 16:27:03 2012 lyoma guillou
+## Last update Fri Feb 10 17:51:18 2012 lyoma guillou
 ##
 
 CC 	= 	gcc
@@ -16,19 +16,20 @@ CFLAGS += 	-Wextra -Wall -Werror
 CFLAGS += 	-ansi -pedantic
 CFLAGS += 	-I.
 CFLAGS +=	-D_XOPEN_SOURCE=500
+CFLAGS +=	-ggdb3
 
 LDFLAGS =
 
 NAME 	= 	mysh
 
-SRCS 	= 	main.c \
-		my_str_to_wordtab.c \
-		mem_funcs.c \
-		str_funcs.c \
-		str_utils.c \
-		tab_funcs.c \
-		envp.c \
-		command.c
+SRCS 	= 	src/main.c \
+		src/my_str_to_wordtab.c \
+		src/mem_funcs.c \
+		src/str_funcs.c \
+		src/str_utils.c \
+		src/tab_funcs.c \
+		src/envp.c \
+		src/command.c
 
 OBJS 	= 	$(SRCS:.c=.o)
 
@@ -36,9 +37,6 @@ all: 		$(NAME)
 
 $(NAME): 	$(OBJS)
 	$(CC) $(OBJS) -o $(NAME) $(CFLAGS)
-
-debug:
-	$(CC) $(SRCS) $(CFLAGS) -ggdb3
 
 clean:
 	$(RM) $(OBJS)
