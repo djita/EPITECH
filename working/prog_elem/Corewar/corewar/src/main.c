@@ -1,102 +1,62 @@
 /*
-** main.c for corewar in /home/duverd_l/Documents/Projets/corewar/corewar
-**
+** main.c for corewar in /home/duverd_l/Documents/Projets/corewar/corewar/src
+** 
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-**
-** Started on  Thu Jan 26 14:13:11 2012 louis duverdier
-** Last update Thu Jan 26 17:12:38 2012 louis duverdier
+** 
+** Started on  Tue Feb 21 14:05:12 2012 louis duverdier
+** Last update Tue Feb 21 16:47:20 2012 louis duverdier
 */
 
 #include <corewar.h>
 
-static void	_print_usage()
+static void	_simulate_gaelle_part(t_handler *h, int argc, char **argv)
 {
-  my_puterr("Usage: corewar [-dump nbr_cycle] "
-    "[[-n prog_number] [-a load_address ] prog_name]\n");
-}
+  int		tmp;
+  t_champ	*champ;
+  t_process	*process;
 
-static void	_init_handler(t_handler *h, t_mem *m)
-{
-  int		i;
+  MY_UNUSED(argc);
+  MY_UNUSED(argv);
 
-  i = 0;
-  while (i < MAX_FLAGS)
-    h->data[i++] = 0;
-  h->flags = 0;
-  h->progs = list_create();
-  h->current_cycle = 0;
-  h->cycle_to_die = CYCLE_TO_DIE;
-  h->mem = m;
-  m->carry = 0;
-  m->memory = my_memset(xmalloc(MEM_SIZE * sizeof(*(m->memory))), 0, MEM_SIZE);
-  m->pc = my_memset(xmalloc(REG_SIZE * sizeof(*(m->pc))), 0, REG_SIZE);
-  m->regs = xmalloc((REG_NUMBER + 1) * sizeof(*(m->regs)));
-  i = 0;
-  while (i < REG_NUMBER)
+  h->mem = xmalloc((MEM_SIZE + 1) * sizeof(*h->mem));
+  my_memset(h->mem, 0, MEM_SIZE + 1);
+  h->mem[0] = 1;
+  h->mem[1] = 0;
+  h->mem[2] = 0;
+  h->mem[3] = 0;
+  h->mem[4] = 1;
+
+  champ = xmalloc(sizeof(*champ));
+  champ->alive = 1;
+  champ->champ_id = 1;
+  champ->comment = "Yo.";
+  champ->name = "Test";
+  champ->last_live = 0;
+  champ->process_list = list_create();
+
+  process = xmalloc(sizeof(*process));
+  process->carry = 0;
+  process->champ = champ;
+  process->next_action = 0;
+  process->pc = 1;
+
+  tmp = 0;
+  while (tmp <= REG_NUMBER)
     {
-      m->regs[i] = xmalloc(REG_SIZE * sizeof(*(m->regs[i])));
-      my_memset(m->regs[i], 0, REG_SIZE);
-      ++i;
+      process->reg[tmp] = 0;
+      ++tmp;
     }
-  m->regs[i] = NULL;
+
+  h->champ_list = list_create();
+  list_append(h->champ_list, node_create_from(process));
 }
 
-static void	_free_handler(t_handler *h)
+int		main(int argc, char **argv)
 {
-  int		i;
-
-  i = 0;
-  while (h->mem->regs[i])
-    free(h->mem->regs[i++]);
-  free(h->mem->regs);
-  free(h->mem->memory);
-  free(h->mem->pc);
-  list_free(h->progs);
-}
-
-static int	_parse_args(t_handler *h, int argc, char **argv)
-{
-  int	i;
-  char	*d;
-
-  i = 0;
-  while (i < argc)
-    {
-      d = i + 1 < argc ? argv[i + 1] : NULL;
-      if (!my_strcmp(argv[i], "-dump")
-          && !handle_flag(h, d, FLAG_DUMP_DEFINED, 0))
-        return (0);
-      else if (!my_strcmp(argv[i], "-n")
-          && !handle_flag(h, d, FLAG_PROG_DEFINED, 1))
-        return (0);
-      else if (!my_strcmp(argv[i], "-a")
-          && !handle_flag(h, d, FLAG_ADDR_DEFINED, 2))
-        return (0);
-      else if (!handle_prog(h, argv[i]))
-        return (0);
-      ++i;
-    }
-  return (1);
-}
-
-int			main(int argc, char **argv)
-{
-  t_mem		m;
   t_handler	h;
 
-  if (argc < 1)
-    {
-      _print_usage();
-      return (EXIT_FAILURE);
-    }
-  _init_handler(&h, &m);
-  if (!_parse_args(&h, argc - 1, argv + 1))
-    {
-      _print_usage();
-      _free_handler(&h);
-      return (EXIT_FAILURE);
-    }
-  _free_handler(&h);
+  _simulate_gaelle_part(&h, argc, argv);
+  /*main_loop(&h);*/
   return (EXIT_SUCCESS);
 }

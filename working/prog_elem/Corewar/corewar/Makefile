@@ -1,16 +1,19 @@
 ##
-## Makefile for corewar in /home/duverd_l/
+## Makefile for corewar in /home/duverd_l/Documents/Projets/corewar/corewar
 ## 
 ## Made by louis duverdier
 ## Login   <duverd_l@epitech.net>
 ## 
-## Started on  Wed Jan 18 14:39:02 2012 louis duverdier
-## Last update Thu Jan 26 17:11:43 2012 louis duverdier
+## Started on  Tue Feb 21 13:56:51 2012 louis duverdier
+## Last update Tue Feb 21 14:12:39 2012 louis duverdier
 ##
 
-CC=	gcc
-NAME=	corewar
-SRC=	op.c \
+CC	= gcc
+NAME	= corewar
+RM	= rm -f
+SRC	= op.c \
+	lib/list/list_handlers.c \
+	lib/list/list_init.c \
 	lib/misc/my_char_type.c \
 	lib/misc/my_getnbr.c \
 	lib/misc/my_memset.c \
@@ -26,12 +29,9 @@ SRC=	op.c \
 	lib/xfnc/xmalloc.c \
 	lib/xfnc/xopen.c \
 	lib/xfnc/xwrite.c \
-	src/init.c \
-	src/list_handlers.c \
-	src/list_init.c \
 	src/main.c
-OBJ=	$(SRC:.c=.o)
-CFLAGS=	-W -Wall -Wextra -Iinclude -I. -pedantic -ggdb3
+OBJ	= $(SRC:.c=.o)
+CFLAGS	= -W -Wall -Wextra -Iinclude -I.
 
 all:	$(NAME)
 

@@ -1,10 +1,13 @@
 .name "machin"
 .comment "just a machin"
-.extend
+#.extend
 
-live: live %:machin
-.code AA BB CC 7E machinbud
-machin: live %:live
+
+live: live %1
+	
+#live: live :machin
+#.code AA BB CC 7E machinbud
+#machin: live %:live
 
 # sti r1,%1,%1 => 0x0b 0x68 0x00 0x00 0x00 0x01 0x01
 # sti r2, 1,%1 => 0x0b 0x78 0x02 0x00 0x00 0x00 ...

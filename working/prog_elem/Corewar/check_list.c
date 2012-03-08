@@ -5,14 +5,14 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Wed Jan 18 15:35:30 2012 lyoma guillou
-** Last update Sat Jan 28 14:35:05 2012 lyoma guillou
+** Last update Wed Feb 15 12:53:46 2012 lyoma guillou
 */
 
 #include <asm.h>
 
-static t_node	*_is_code(t_node *node, t_header *head)
+static int	_is_code(t_node *node, t_header *head)
 {
-  static	code = 0;
+  static int	code = 0;
 
   if ((node->type & T_DAT) && code == 1)
     return (1);

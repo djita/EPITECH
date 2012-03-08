@@ -1,11 +1,11 @@
 /*
-** check_param.c for check_param in /home/guillo_e//Documents/working/prog_elem
-** 
+** check_param.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by lyoma guillou
 ** Login   <guillo_e@epitech.net>
-** 
+**
 ** Started on  Thu Jan 19 18:46:39 2012 lyoma guillou
-** Last update Thu Jan 26 18:09:16 2012 lyoma guillou
+** Last update mer. févr. 15 21:34:14 2012 gaby czegany
 */
 
 #include <asm.h>
@@ -23,12 +23,12 @@ static int	_is_valid_reg(t_node *node)
       if (!my_is_number(node->data[i]) || nb <= 0 || nb > REG_NUMBER)
 	{
 	  my_puterr("Invalid register value.\n ");
-	  return (0);
+	  return (FAILURE);
 	}
     }
   if (node->label)
-    return (0);
-  return (node->data ? 1 : 0);
+    return (FAILURE);
+  return (node->data ? SUCCESS : FAILURE);
 }
 
 static int	_is_valid_dir(t_node *node)
@@ -39,7 +39,7 @@ static int	_is_valid_dir(t_node *node)
   i = -1;
   nb = 0;
   if (!node->data)
-    return ((node->label && node->label[0] != '\0') ? 1 : 0);
+    return ((node->label && node->label[0] != '\0') ? SUCCESS : FAILURE);
   while (node->data[++i])
     {
       if (node->data && my_is_number(node->data[i]))
@@ -47,7 +47,7 @@ static int	_is_valid_dir(t_node *node)
       if (i == 0 && node->data[i] != '-' && !my_is_number(node->data[i]))
 	{
 	  my_puterr("Invalid direct value.\n");
-	  return (0);
+	  return (FAILURE);
 	}
     }
   if (nb < 0 || nb > 512)
@@ -55,7 +55,7 @@ static int	_is_valid_dir(t_node *node)
       nb >>= 1;
       my_putstr("Warning: Direct value rescaled (Exceeded 0 or 512)\n");
     }
-  return (1);
+  return (SUCCESS);
 }
 
 static int	_is_valid_ind(t_node *node)
@@ -68,21 +68,13 @@ static int	_is_valid_ind(t_node *node)
       if (node->data ? !my_is_number(node->data[i]) : !my_is_letter(node->label[i]))
 	{
 	  my_puterr("Invalid indirect value.\n");
-	  return (0);
+	  return (FAILURE);
 	}
     }
   if ((node->data != NULL) ^ (node->label != NULL))
-    return (1);
-  return (0);
+    return (SUCCESS);
+  return (FAILURE);
 }
-
-#define MAX_FLAG 3
-
-typedef struct s_type
-{
-  int		flag;
-  int		(*fnc)(t_node *);
-} t_type;
 
 static const t_type	type_handler[MAX_FLAG] =
 {

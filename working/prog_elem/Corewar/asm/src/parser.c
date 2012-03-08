@@ -1,11 +1,11 @@
 /*
-** parser.c for asm in /home/duverd_l/
-** 
+** parser.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Thu Jan 19 14:37:33 2012 louis duverdier
-** Last update Thu Jan 26 17:54:49 2012 lyoma guillou
+** Last update mer. févr. 15 11:03:36 2012 gaby czegany
 */
 
 #include <asm.h>
@@ -80,7 +80,6 @@ static void		_parse_line(t_handler *h, const char *str)
 
 void	_init_handler(t_handler *h)
 {
-  h->head = xmalloc(sizeof(*(h->head)));
   h->head->comment[0] = 0;
   h->head->prog_name[0] = 0;
   h->head->magic = 0;
@@ -101,62 +100,4 @@ void	parse(t_handler *h, const char *path)
     }
   set_labels(h->list);
   xclose(fd);
-}
-
-#include <stdio.h>
-
-const char	*get_type(int type)
-{
-  if (type & T_ACT)
-    return ("T_ACT");
-  if (type & T_DIR)
-    return ("T_DIR");
-  if (type & T_IND)
-    return ("T_IND");
-  if (type & T_SEP)
-    return ("T_SEP");
-  if (type & T_REG)
-    return ("T_REG");
-  if (type & T_COD)
-    return ("T_COD");
-  if (type & T_DAT)
-    return ("T_DAT");
-  return ("Unknown");
-}
-
-int			main(int argc, char **argv)
-{
-  t_handler	h;
-  t_node	*node;
-
-  h.list = NULL;
-  if (argc > 1)
-    parse(&h, argv[1]);
-  check_list(&h);
-  if (h.list)
-    {
-      printf("\n");
-      node = h.list->first;
-      while (node)
-        {
-          printf("Type: %s%s, Label: %s, Label_ref: %s, Data: %s\n",
-                 get_type(node->type),
-                 node->type & T_LAB ? " | T_LAB" : "",
-                 node->label ? node->label : "NULL",
-                 node->label_ref ? node->label_ref : "NULL",
-                 node->data ? node->data : "NULL");
-          if (node->data)
-            free(node->data);
-          if (node->label)
-            free(node->label);
-          if (node->label_ref)
-            free(node->label_ref);
-          node = node->next;
-        }
-      list_free(h.list);
-      printf("\nName: %s\nComment: %s\nMode %sextended.\n\n",
-             h.head->prog_name, h.head->comment, h.head->magic ? "" : "non ");
-      free(h.head);
-    }
-  return (EXIT_SUCCESS);
 }

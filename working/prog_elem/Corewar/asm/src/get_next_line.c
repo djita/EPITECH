@@ -1,11 +1,11 @@
 /*
-** get_next_line.c for asm in /home/duverd_l/
-** 
+** get_next_line.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Fri Jan 20 14:21:48 2012 louis duverdier
-** Last update Tue Jan 24 18:48:27 2012 louis duverdier
+** Last update dim. févr. 12 15:18:24 2012 gaby czegany
 */
 
 #include <get_next_line.h>
@@ -25,10 +25,10 @@ static void	_pop_data(char *buffer, int i)
   buffer[offset] = 0;
 }
 
-static char		*_get_data(char **buffer, int *offset)
+static char	*_get_data(char **buffer, int *offset)
 {
-  int			i;
-  char			*tmp;
+  int		i;
+  char		*tmp;
 
   i = 0;
   while ((*buffer)[i])
@@ -53,19 +53,19 @@ static char		*_get_data(char **buffer, int *offset)
   return (NULL);
 }
 
-char			*get_next_line(const int fd)
+char		*get_next_line(const int fd)
 {
   static int	offset = 0;
   static char	*buffer = NULL;
-  int			len;
+  int		len;
 
   if (!buffer)
     {
       buffer = xmalloc(BUFFER_MAX_SIZE * sizeof(char));
       buffer[0] = 0;
     }
-  if ((len = read(fd, buffer + offset, MAX_CHAR_READ - offset)) == -1
-      || (offset == 0 && len == 0))
+  if ((len = read(fd, buffer + offset, MAX_CHAR_READ - offset)) == -1 ||
+      (offset == 0 && len == 0))
     {
       free(buffer);
       buffer = NULL;

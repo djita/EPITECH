@@ -4,46 +4,50 @@
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
 **
-** Started on  Thu Jan 26 14:30:55 2012 louis duverdier
-** Last update Thu Jan 26 16:45:35 2012 louis duverdier
+** Started on  Tue Feb 21 14:14:07 2012 louis duverdier
+** Last update Tue Feb 21 16:41:31 2012 louis duverdier
 */
 
 #ifndef COREWAR_H_
 #  define COREWAR_H_
 
 #  include <my.h>
-#  include <op.h>
 #  include <list.h>
-#  include <stdlib.h>
+#  include <op.h>
 
-#  define MAX_FLAGS	3
+#  if (REG_SIZE == 1)
+typedef char t_reg;
+#  elif (REG_SIZE == 2)
+typedef short int t_reg;
+#  else
+typedef int t_reg;
+#  endif
 
-enum e_flags
+typedef struct s_champ
 {
-  FLAG_DUMP_DEFINED		= 1 << 0,
-  FLAG_PROG_DEFINED		= 1 << 1,
-  FLAG_ADDR_DEFINED		= 1 << 2
-};
+  char		*name;
+  char		*comment;
+  char		alive;
+  int		champ_id;
+  int		last_live;
+  int		dump_nbr;
+  t_list	*process_list;
+} t_champ;
 
-typedef struct s_mem
+typedef struct s_process
 {
-  unsigned char	**regs;
-  unsigned char	*pc;
-  unsigned char	*memory;
-  int			carry;
-} t_mem;
+  t_reg		reg[REG_NUMBER + 1];
+  t_reg		pc;
+  char		carry;
+  int		next_action;
+  t_champ	*champ;
+} t_process;
 
 typedef struct s_handler
 {
-  int			flags;
-  int			data[MAX_FLAGS];
-  int			current_cycle;
-  int			cycle_to_die;
-  t_mem			*mem;
-  t_list		*progs;
+  char		*mem;
+  t_list	*champ_list;
+  int		cycle_to_die;
 } t_handler;
-
-int		handle_flag(t_handler *, const char *, int, int);
-int		handle_prog(t_handler *, const char *);
 
 #endif

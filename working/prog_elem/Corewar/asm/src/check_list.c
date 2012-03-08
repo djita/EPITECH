@@ -1,28 +1,28 @@
 /*
-** check_list.c for asm in /home/guillo_e//Documents/working/prog_elem/asm/src
-** 
+** check_list.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by lyoma guillou
 ** Login   <guillo_e@epitech.net>
-** 
+**
 ** Started on  Wed Jan 18 15:35:30 2012 lyoma guillou
-** Last update Sat Jan 28 14:35:05 2012 lyoma guillou
+** Last update mer. févr. 15 22:08:24 2012 gaby czegany
 */
 
 #include <asm.h>
 
-static t_node	*_is_code(t_node *node, t_header *head)
+static int	_is_code(t_node *node, t_header *head)
 {
-  static	code = 0;
+  static int	code = 0;
 
   if ((node->type & T_DAT) && code == 1)
-    return (1);
+    return (SUCCESS);
   if ((node->type & T_COD) && head->magic == 1)
     {
       code = 1;
-      return (1);
+      return (SUCCESS);
     }
   my_puterr(".extend not found or .code not found\n");
-  return (0);
+  return (FAILURE);
 }
 
 static int	_is_action(t_node *node)
@@ -37,7 +37,7 @@ static int	_is_action(t_node *node)
       ++i;
     }
   my_puterr("Instruction not found.\n");
-  return (0);
+  return (FAILURE);
 }
 
 static int	_is_valid_arg(t_node *node_act, t_node *tmp, int arg)
@@ -46,13 +46,13 @@ static int	_is_valid_arg(t_node *node_act, t_node *tmp, int arg)
 
   prev = tmp->prev->type;
   if (is_valid_type(node_act, tmp, arg) && (prev & (T_SEP | T_ACT) || !prev))
-    return (1);
+    return (SUCCESS);
   my_puterr("Syntax error around '");
   my_puterr(node_act->data);
   my_puterr("' in argument '");
   my_puterr(tmp->data ? tmp->data : tmp->label);
   my_puterr("'.\n");
-  return (0);
+  return (FAILURE);
 }
 
 t_node		*is_valid_format(t_node *node)
@@ -71,7 +71,7 @@ t_node		*is_valid_format(t_node *node)
 	  if (!(tmp->type & T_SEP))
 	    {
 	      if (!_is_valid_arg(node, tmp, max_arg - nbr_args))
-		return (0);
+		return (FAILURE);
 	      --nbr_args;
 	    }
 	}
@@ -80,7 +80,7 @@ t_node		*is_valid_format(t_node *node)
   my_puterr("Instruction '");
   my_puterr(node->data);
   my_puterr("' may have been put in a wrong format.\n");
-  return (0);
+  return (FAILURE);
 }
 
 int		check_list(t_handler *hand)
@@ -95,17 +95,17 @@ int		check_list(t_handler *hand)
       if (tmp->type & T_COD || tmp->type & T_DAT)
 	{
 	  if (!_is_code(tmp, hand->head))
-	    return (0);
+	    return (FAILURE);
 	}
       else if ((tmp = is_valid_format(tmp)) == NULL)
 	{
 	  my_puterr("Error was on instructiony line: ");
 	  my_putnbr(line);
 	  my_putchar('\n');
-	  return (0);
+	  return (FAILURE);
 	}
       ++line;
       tmp = tmp->next;
     }
-  return (1);
+  return (SUCCESS);
 }

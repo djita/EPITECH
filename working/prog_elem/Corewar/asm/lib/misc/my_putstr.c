@@ -1,11 +1,11 @@
 /*
-** my_putstr.c for asm in /home/duverd_l/
-** 
+** my_putstr.c for misc in /home/czegan_g/project/current/corewar/asm/lib/misc
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Fri Jan 20 10:44:05 2012 louis duverdier
-** Last update Fri Jan 20 10:44:06 2012 louis duverdier
+** Last update jeu. févr. 02 20:39:37 2012 gaby czegany
 */
 
 #include <my.h>
