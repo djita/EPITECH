@@ -1,6 +1,0 @@
--- guillo_e --
-- aff_z: success (grade: 5)
-- str_capitalize: failed (grade: 0)
-- rotone: success (grade: 5)
-- hidenp: failed (grade: 0)
-grade: 5

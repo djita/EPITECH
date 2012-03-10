@@ -1,1 +1,0 @@
-echo "Les asteks ne sentent pas toujours bon." | wc -c
