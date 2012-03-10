@@ -5,8 +5,10 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Mon Mar  5 18:54:08 2012 lyoma guillou
-** Last update Thu Mar  8 15:00:13 2012 lyoma guillou
+** Last update Sat Mar 10 17:06:53 2012 lyoma guillou
 */
+
+#define _BSD_SOURCE
 
 #include <signal.h>
 #include <stdio.h>
@@ -14,6 +16,7 @@
 #include <unistd.h>
 
 char		c = 0;
+int		i = 0;
 
 void		my_putchar(char c)
 {
@@ -30,33 +33,24 @@ void		my_putstr(char *str)
   write(1, str, i);
 }
 
-void		signal_handler(int signo)
+void		signal_bit(int signo)
 {
-  if (signo)
-    my_putchar(c);
-}
-
-void		signal_start(int signo)
-{
-  if (signo)
-    {
-      usleep(50);
-      ++c;
-    }
+  c <<= 1;
+  c |= (signo == SIGUSR1) ? 1 : 0;
+  ++i;
 }
 
 int		main()
 {
-  int		i;
   int		pid;
 
-  i = 0;
   pid = getpid();
   printf("=%d=\n", pid);
-  while (i >= 0)
+  while (42 && i < 8)
     {
-      signal(SIGUSR2, signal_handler);
-      signal(SIGUSR1, signal_start);
+      signal(SIGUSR1, signal_bit);
+      signal(SIGUSR2, signal_bit);
     }
+  printf("char: %c, value: %d\n", c, c);
   return (0);
 }
