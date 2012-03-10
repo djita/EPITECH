@@ -1,6 +1,6 @@
-cp -r ~/Documents/* ~/GitTimeMachine/EPITECH/
-#cp -r ~/Pictures/* ~/GitTimeMachine/EPITECH/Pictures/
-#cp -r /afs/epitech.net/users/all/guillo_e/epreuve/ ~/GitTimeMachine/EPITECH/Exams
+cp -r ~/Documents/* ~/GitTimeMachine/EPITECH/Documents/
+cp -r ~/Pictures/* ~/GitTimeMachine/EPITECH/Pictures/
+cp -r /afs/epitech.net/users/all/guillo_e/epreuve/ ~/GitTimeMachine/EPITECH/Exams
 date >> date.log
 echo ' Commited by '>> date.log
 echo $USER >> date.log
