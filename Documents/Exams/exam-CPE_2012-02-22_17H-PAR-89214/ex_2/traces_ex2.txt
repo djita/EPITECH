@@ -1,0 +1,90 @@
+#### TEST 1 ####
+
+=> Command: ./sort_word "jean aime les filles de joie" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+aime de filles jean joie les$
+
+<-------------->
+
+<---- correction ---->
+aime de filles jean joie les$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./sort_word "    bienva_r est moche   " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bienva_r est moche$
+
+<-------------->
+
+<---- correction ---->
+bienva_r est moche$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./sort_word "chux aime faire de la boxe jog" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+aime boxe chux de faire jog la$
+
+<-------------->
+
+<---- correction ---->
+aime boxe chux de faire jog la$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./sort_word "Bonsoir! Le Chocolat est bon" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bon Bonsoir! Chocolat est Le$
+
+<-------------->
+
+<---- correction ---->
+bon Bonsoir! Chocolat est Le$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+SUCCESS!!!
+prg is alive

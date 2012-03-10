@@ -1,0 +1,53 @@
+Working in: /space/exam/2010exam1_ept1/guillo_e, at: 09/12/2010 16:57:29
+
+You files:
+total 24
+drwxr-xr-x    2 albator  wheel  1024 Dec  9 16:57 .
+drwx------  303 albator  wheel  6144 Dec  9 16:49 ..
+-rw-r--r--    1 albator  wheel     9 Dec  3 19:35 auteur
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_01.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_02.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_03.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_04.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_05.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_06.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_07.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_08.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_09.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_10.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_11.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_12.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_13.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_14.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_15.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_16.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_17.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_18.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_19.sql.out
+-rw-r--r--    1 albator  wheel     0 Dec  9 16:57 ex_20.sql.out
+-rw-r-xr-x    1 albator  wheel    13 Dec  3 19:35 time
+
+
+- auteur: 1
+- ex_01.sql: 0 (file not found or not a valid single SQL query)
+- ex_02.sql: 0 (file not found or not a valid single SQL query)
+- ex_03.sql: 0 (file not found or not a valid single SQL query)
+- ex_04.sql: 0 (file not found or not a valid single SQL query)
+- ex_05.sql: 0 (file not found or not a valid single SQL query)
+- ex_06.sql: 0 (file not found or not a valid single SQL query)
+- ex_07.sql: 0 (file not found or not a valid single SQL query)
+- ex_08.sql: 0 (file not found or not a valid single SQL query)
+- ex_09.sql: 0 (file not found or not a valid single SQL query)
+- ex_10.sql: 0 (file not found or not a valid single SQL query)
+- ex_11.sql: 0 (file not found or not a valid single SQL query)
+- ex_12.sql: 0 (file not found or not a valid single SQL query)
+- ex_13.sql: 0 (file not found or not a valid single SQL query)
+- ex_14.sql: 0 (file not found or not a valid single SQL query)
+- ex_15.sql: 0 (file not found or not a valid single SQL query)
+- ex_16.sql: 0 (file not found or not a valid single SQL query)
+- ex_17.sql: 0 (file not found or not a valid single SQL query)
+- ex_18.sql: 0 (file not found or not a valid single SQL query)
+- ex_19.sql: 0 (file not found or not a valid single SQL query)
+- ex_20.sql: 0 (file not found or not a valid single SQL query)
+=> 0 en 32 minute(s)
+

@@ -1,0 +1,213 @@
+Working in: /home/leger_i/SQL/test_pj/exam-sql/exam/20111223_ept1/guillo_e, at: 26/12/2011 22:28:44
+
+You files:
+total 836
+drwxr-xr-x    2 leger_i  users    1024 Dec 26 22:28 .
+drwx------  286 leger_i  users    5632 Dec 26 22:27 ..
+-rw-r--r--    1 leger_i  users       9 Dec 23 11:57 auteur
+-rw-r--r--    1 leger_i  users      73 Dec 23 11:57 ex_01.sql
+-rw-r--r--    1 leger_i  users  276022 Dec 26 22:28 ex_01.sql.out
+-rw-r--r--    1 leger_i  users      48 Dec 23 11:57 ex_02.sql
+-rw-r--r--    1 leger_i  users      19 Dec 26 22:28 ex_02.sql.out
+-rw-r--r--    1 leger_i  users      76 Dec 23 11:57 ex_03.sql
+-rw-r--r--    1 leger_i  users     110 Dec 26 22:28 ex_03.sql.out
+-rw-r--r--    1 leger_i  users       0 Dec 26 22:28 ex_04.sql.out
+-rw-r--r--    1 leger_i  users     110 Dec 23 11:57 ex_05.sql
+-rw-r--r--    1 leger_i  users      19 Dec 26 22:28 ex_05.sql.out
+-rw-r--r--    1 leger_i  users      87 Dec 23 11:57 ex_06.sql
+-rw-r--r--    1 leger_i  users      22 Dec 26 22:28 ex_06.sql.out
+-rw-r--r--    1 leger_i  users      84 Dec 23 11:57 ex_07.sql
+-rw-r--r--    1 leger_i  users      14 Dec 26 22:28 ex_07.sql.out
+-rw-r--r--    1 leger_i  users       0 Dec 26 22:28 ex_08.sql.out
+-rw-r--r--    1 leger_i  users       0 Dec 26 22:28 ex_09.sql.out
+-rw-r--r--    1 leger_i  users       0 Dec 26 22:28 ex_10.sql.out
+-rw-r--r--    1 leger_i  users      64 Dec 23 11:57 ex_11.sql
+-rw-r--r--    1 leger_i  users   61708 Dec 26 22:28 ex_11.sql.out
+-rw-r--r--    1 leger_i  users      89 Dec 23 11:57 ex_12.sql
+-rw-r--r--    1 leger_i  users     355 Dec 26 22:28 ex_12.sql.out
+-rw-r--r--    1 leger_i  users      86 Dec 23 11:57 ex_13.sql
+-rw-r--r--    1 leger_i  users     937 Dec 26 22:28 ex_13.sql.out
+-rw-r--r--    1 leger_i  users      62 Dec 23 11:57 ex_14.sql
+-rw-r--r--    1 leger_i  users      47 Dec 26 22:28 ex_14.sql.out
+-rw-r--r--    1 leger_i  users       0 Dec 26 22:28 ex_15.sql.out
+-rw-r--r--    1 leger_i  users      64 Dec 23 11:57 ex_16.sql
+-rw-r--r--    1 leger_i  users      77 Dec 26 22:28 ex_16.sql.out
+-rw-r--r--    1 leger_i  users     105 Dec 23 11:57 ex_17.sql
+-rw-r--r--    1 leger_i  users      47 Dec 26 22:28 ex_17.sql.out
+-rw-r--r--    1 leger_i  users       2 Dec 23 11:57 ex_18.sql
+-rw-r--r--    1 leger_i  users       1 Dec 26 22:28 ex_18.sql.out
+-rw-r--r--    1 leger_i  users       2 Dec 23 11:57 ex_19.sql
+-rw-r--r--    1 leger_i  users       1 Dec 26 22:28 ex_19.sql.out
+-rw-r--r--    1 leger_i  users       2 Dec 23 11:57 ex_20.sql
+-rw-r--r--    1 leger_i  users       1 Dec 26 22:28 ex_20.sql.out
+-rw-------    1 leger_i  users      14 Dec 23 11:57 time
+
+
+- ex_01.sql: 1
+- ex_02.sql: Wrong answer, your file is on the left
+1c1
+< nombre film	
+---
+> nombre films	
+
+0
+- ex_03.sql: Wrong answer, your file is on the left
+1,6c1,6
+< titre	id_genre	
+< Any Given Sunday	1	
+< Birthday Girl	1	
+< Monday Morning	1	
+< Friday Night	1	
+< Friday Night Lights	1	
+---
+> titre	
+> Any Given Sunday	
+> Birthday Girl	
+> Monday Morning	
+> Friday Night	
+> Friday Night Lights	
+
+0
+- ex_04.sql: 0 (file not found or not a valid single SQL query)
+- ex_05.sql: Wrong answer, your file is on the left
+2c2
+< 3679	
+---
+> 3673	
+
+0
+- ex_06.sql: Wrong answer, your file is on the left
+2c2
+< 5	170	
+---
+> 5	171	
+
+0
+- ex_07.sql: 1
+- ex_08.sql: 0 (file not found or not a valid single SQL query)
+- ex_09.sql: 0 (file not found or not a valid single SQL query)
+- ex_10.sql: 0 (file not found or not a valid single SQL query)
+- ex_11.sql: Wrong answer, your file is on the left
+6a7
+> In MyISAM of Me	
+9,10d9
+< In MyISAM of Me	
+< Brick Lane	
+13d11
+< 4:30	
+18a17,18
+> Brick Lane	
+> 4:30	
+20d19
+< I Don't Want to Sleep Alone	
+22d20
+< Wristcutters : A Love Story	
+24,25d21
+< Sleuth	
+< Shrooms	
+28a25,30
+> I Don't Want to Sleep Alone	
+> Wristcutters : A Love Story	
+> Sleuth	
+> Shrooms	
+> Stardust	
+> Nancy Drew	
+31d32
+< Anna M.	
+34d34
+< Cocaine Cowboys	
+37d36
+< Stardust	
+39d37
+< Nancy Drew	
+41,42c39,42
+< American Gangster	
+< Weirdsville	
+---
+> Anna M.	
+> Cocaine Cowboys	
+> The Invasion	
+> Blame it on Fidel	
+45d44
+< The Invasion	
+47,49c46,48
+< Blame it on Fidel	
+< Urgiganten der Meere 3D	
+< The Lookout	
+---
+> American Gangster	
+> Earth	
+> Weirdsville	
+
+0
+- ex_12.sql: 1
+- ex_13.sql: Wrong answer, your file is on the left
+1,48c1,48
+< titre_maj	id_film	
+< ROGER AND ME	4	
+< TILAI	5	
+< THE WITCHES	6	
+< WHO BOMBED BIRMINGHAM?	7	
+< PRETTY WOMAN	8	
+< GREMLINS 2, THE NEW BATCH	9	
+< GHOST	10	
+< THE JETSONS	11	
+< AKIRA	12	
+< ASTERIX AND THE BIG FIGHT	13	
+< THELMA AND LOUISE	14	
+< STALKER	15	
+< DANZON	16	
+< HOME ALONE	17	
+< TERMINATOR 2 : JUDGEMENT DAY	18	
+< SLACKER	19	
+< CURLY SUE	20	
+< THE DOUBLE LIFE OF VERONIQUE	21	
+< EUROPA EUROPA	22	
+< NOSTALGHIA	23	
+< HEAR MY SONG	24	
+< STRICTLY BALLROOM	25	
+< ROMPER STOMPER	26	
+< BYE BYE BABY	27	
+< STAR TREK VI: THE UNDISCOVERED COUNTRY	28	
+< CAPE FEAR	29	
+< HOOK	30	
+< DELICATESSEN	31	
+< BATMAN RETURNS	32	
+< FERNGULLY: THE LAST RAINFOREST	33	
+< HOME ALONE 2	34	
+< THE NIGHTMARE BEFORE CHRISTMAS	35	
+< LAST ACTION HERO	36	
+< THE REMAINS OF THE DAY	37	
+< THE CONFORMIST	38	
+< LIKE WATER FOR CHOCOLATE	39	
+< BLUE	40	
+< IN PARADISUM	41	
+< RESERVOIR DOGS	42	
+< BRAM STOKER'S DRACULA	43	
+< ALADDIN	44	
+< BRAIN DEAD	45	
+< SLEEPLESS IN SEATTLE	46	
+< JURASSIC PARK	47	
+< DENNIS	48	
+< MUCH ADO ABOUT NOTHING	49	
+< THE FUGITIVE	50	
+---
+
+0
+- ex_14.sql: 1
+- ex_15.sql: 0 (file not found or not a valid single SQL query)
+- ex_16.sql: 1
+- ex_17.sql: 1
+- ex_18.sql: Wrong answer, your file is on the left
+1c1
+< 1
+\ No newline at end of file
+---
+> 2
+\ No newline at end of file
+
+0
+- ex_19.sql: 1
+- ex_20.sql: 1
+=> 8 en 115 minute(s) soit, 14 mn/pt
+

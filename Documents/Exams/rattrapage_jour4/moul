@@ -1,0 +1,31 @@
+Moulinette start at 'Fri Dec 17 14:02:08 CET 2010'
+
+
+Start exo_01: my_aff_tab
+
+cc /home/judge/share//ramasse//rattrapage_jour4/main_my_aff_tab.c /home/judge/share//ramasse//rattrapage_jour4/my_putchar.c *.c -o my_aff_tab
+/home/judge/bin/timer 5 ./my_aff_tab unused
+
+End exo_01
+
+Start exo_02: my_sort_tab
+
+cc /home/judge/share//ramasse//rattrapage_jour4/main_my_sort_tab.c /home/judge/share//ramasse//rattrapage_jour4/my_putchar.c *.c -o my_sort_tab
+/home/judge/bin/timer 5 ./my_sort_tab toto is beautiful
+
+End exo_02
+
+Start exo_03: my_delelem_in_tab
+
+cc /home/judge/share//ramasse//rattrapage_jour4/main_my_delelem_in_tab.c /home/judge/share//ramasse//rattrapage_jour4/my_putchar.c *.c -o my_delelem_in_tab
+/home/judge/share//ramasse//rattrapage_jour4/main_my_delelem_in_tab.c: In function 'main':
+/home/judge/share//ramasse//rattrapage_jour4/main_my_delelem_in_tab.c:22: warning: assignment makes pointer from integer without a cast
+/home/judge/bin/timer 5 ./my_delelem_in_tab delelem_in_tab
+Got: "failed"
+exo_03: FAIL
+Note: 10
+
+Note Total: 10
+
+
+Moulinette stop at 'Fri Dec 17 14:02:08 CET 2010'

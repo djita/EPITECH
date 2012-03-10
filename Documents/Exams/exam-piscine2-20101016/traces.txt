@@ -1,0 +1,6 @@
+-- guillo_e --
+- aff_z: not found (grade: 0)
+- paramsum: not found (grade: 0)
+- rotone: not found (grade: 0)
+- hidenp: not found (grade: 0)
+grade: 0

@@ -1,0 +1,134 @@
+#### TEST 1 ####
+
+=> Command: ./str_capitalize "j'ai un ecran 30 pouces, et vous?" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+J'ai Un Ecran 30 Pouces, Et Vous?$
+
+<-------------->
+
+<---- correction ---->
+J'ai Un Ecran 30 Pouces, Et Vous?$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./str_capitalize "les	TIG	cOmmencent	a	9h" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+Les	TIG	COmmencent	A	9h$
+
+<-------------->
+
+<---- correction ---->
+Les	TIG	COmmencent	A	9h$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./str_capitalize "                    plein                   d'espaces     &  de					 tabulations           !!!                 " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+                    Plein                   D'espaces     &  De					 Tabulations           !!!                 $
+
+<-------------->
+
+<---- correction ---->
+                    Plein                   D'espaces     &  De					 Tabulations           !!!                 $
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./str_capitalize "a" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+A$
+
+<-------------->
+
+<---- correction ---->
+A$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+#### TEST 5 ####
+
+=> Command: ./str_capitalize "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 5 is ok]
+### END OF TEST 5 ###
+
+
+#### TEST 6 ####
+
+=> Command: ./str_capitalize | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 6 is ok]
+### END OF TEST 6 ###
+
+
+SUCCESS!!!
+prg is alive

@@ -1,0 +1,71 @@
+#### TEST 1 ####
+
+=> Command: ./ord_alphlong "De son baton il frappa la pierre et l eau jailli" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+
+<-------------->
+
+<---- correction ---->
+l$
+De et il la$
+eau son$
+baton$
+frappa jailli pierre$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 1 failed]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./ord_alphlong "A a b B cc ca cd" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+
+<-------------->
+
+<---- correction ---->
+A a b B$
+ca cc cd$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 2 failed]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./ord_alphlong | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+FAIL...
+prg is alive

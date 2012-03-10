@@ -1,0 +1,112 @@
+#### TEST 1 ####
+
+=> Command: ./aff_z | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+z$
+
+<-------------->
+
+<---- correction ---->
+z$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./aff_z z | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+z$
+
+<-------------->
+
+<---- correction ---->
+z$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./aff_z ze zozotte quand ze parle | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+z$
+
+<-------------->
+
+<---- correction ---->
+z$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./aff_z "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+z$
+
+<-------------->
+
+<---- correction ---->
+z$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+#### TEST 5 ####
+
+=> Command: ./aff_z bonjour | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+z$
+
+<-------------->
+
+<---- correction ---->
+z$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 5 is ok]
+### END OF TEST 5 ###
+
+
+SUCCESS!!!
+prg is alive

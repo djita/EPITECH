@@ -1,0 +1,20 @@
+Norme start at 'Mon Oct 11 23:48:43 CEST 2010'
+
+Check norme on ./my_factorielle_it.c...
+ Check norme done
+Check norme on ./my_factorielle_rec.c...
+ 
+Note: -1
+Norme: ./my_factorielle_rec.c:16:bad return format.
+
+Note: -1
+Norme: ./my_factorielle_rec.c:20:bad return format.
+
+Note: -1
+Norme: ./my_factorielle_rec.c:27:bad return format.
+Check norme done
+Check norme on ./my_power_it.c...
+ }}Check norme done
+Note Total: -3
+
+Norme end at 'Mon Oct 11 23:48:43 CEST 2010'

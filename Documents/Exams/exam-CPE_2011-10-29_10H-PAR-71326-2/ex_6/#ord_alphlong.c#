@@ -1,0 +1,73 @@
+/*
+** ord_alphlong.c for ord_alphlong in /exam//rendu/ex_6
+** 
+** Made by exam_user
+** Login   <guillo_e@epitech.net>
+** 
+** Started on  Sat Oct 29 11:00:55 2011 exam_user
+** Last update Sat Oct 29 13:00:35 2011 exam_user
+*/
+
+void	my_swap(char *src, char *dst)
+{
+  char	*tmp;
+
+  tmp = src;
+  src = dst;
+  src = tmp;
+}
+
+int	my_strcmp(char *src, char *dst)
+{
+  if (src > dst)
+    return (1);
+  if (src == dst)
+    return (0);
+  if (src < dst)
+    return (-1);
+}
+
+char	**my_tab_sort(char **tab)
+{
+  int	i;
+  int	swap;
+
+  i = 0;
+  swap = 1;
+  while (swap == 1)
+    {
+      swap = 0;
+      if (strcmp(tab[i], tab[i + 1]) == 1)
+	{
+	  my_swap(tab[i], tab[i + 1]);
+	  i = 0;
+	  swap = 1;
+	}
+      i++;
+    }
+  return (tab);
+}
+
+void	ord_alphlong(char *str)
+{
+  char	**tab;
+  int	i;
+  int	line;
+
+  tab = my_str_to_wordtab(str);
+  tab = my_tab_sort(tab);
+  i = 0;
+  line = 1;
+  while (tab[i])
+    {
+      while (my_strlen(tab[i]) == line)
+	{
+	  my_putstr(tab[i]);
+	  if (my_strlen(tab[i + 1]) == line)
+	    my_putchar(' ');
+	  i++;
+	}
+      my_putchar('\n');
+      line++;
+    }
+}

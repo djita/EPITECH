@@ -1,0 +1,68 @@
+#### TEST 1 ####
+
+=> Command: ./ord_alphlong "pourquoi as tu faux a cet exercice peut etre car tu as triche" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$name not found!<-------------->
+
+<---- correction ---->
+a$
+as as tu tu$
+car cet$
+etre faux peut$
+triche$
+exercice pourquoi$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 1 failed]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./ord_alphlong "A a b B cc ca cd" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$name not found!<-------------->
+
+<---- correction ---->
+A a b B$
+ca cc cd$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 2 failed]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./ord_alphlong | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$name not found!<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 3 failed]
+### END OF TEST 3 ###
+
+
+FAIL...
+prg is alive
