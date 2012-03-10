@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+<title>Raytracer cours 4</title>
+</head><body>
+<center><h1>Premières réflexions</h1></center>
+
+	  <br><img src="etape1_ept1_raytracer_cours_4_files/img2.png" alt="$\bullet$" border="0" height="29" width="25" align="BOTTOM">
+	 
+ La vue est symétrique haut/bas. On a pour chaque moitié
+
+<br>
+d'image un demi bout de mur et un bout de sol ou plafond.
+
+	  <br><img src="etape1_ept1_raytracer_cours_4_files/img2.png" alt="$\bullet$" border="0" height="29" width="25" align="BOTTOM">
+	 
+ A <img src="etape1_ept1_raytracer_cours_4_files/img13.png" alt="$x$" border="0" height="31" width="27" align="BOTTOM"> constant, plus le mur est loin, plus la demi-ligne ``mur''
+
+<br>
+est petite (et donc la ligne sol ou plafond est plus grande).
+
+	  <br><img src="etape1_ept1_raytracer_cours_4_files/img2.png" alt="$\bullet$" border="0" height="29" width="25" align="BOTTOM">
+	 
+ D'où le principe de calculer le distance entre nous et le mur
+
+<br>
+pour chaque <img src="etape1_ept1_raytracer_cours_4_files/img13.png" alt="$x$" border="0" height="31" width="27" align="BOTTOM"> de notre image. On trace alors une ligne verticale
+
+<br>
+pour le plafond suivie d'une ligne verticale pour le mur et enfin
+
+<br>
+une pour le sol.
+</body></html>
