@@ -1,0 +1,6 @@
+-- guillo_e --
+- aff_z: success (grade: 5)
+- strlen.sh: failed (grade: 0)
+- maff_alpha: success (grade: 5)
+- mult_42: failed (grade: 0)
+grade: 5

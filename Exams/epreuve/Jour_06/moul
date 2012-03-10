@@ -1,0 +1,23 @@
+Moulinette start at 'Tue Oct 12 23:52:57 CEST 2010'
+
+
+Start exo_01
+
+cc /home/judge/share//ramasse//Jour_06/test_my_strcpy.c /home/judge/share//ramasse//Jour_06/my_putchar.c my_strcpy.c -o my_strcpy
+/home/judge/bin/timer 5 ./my_strcpy salut
+Got: "salut"
+
+End exo_01
+
+Start exo_02
+
+cc /home/judge/share//ramasse//Jour_06/test_my_strncpy.c /home/judge/share//ramasse//Jour_06/my_putchar.c my_strncpy.c -o my_strncpy
+/home/judge/bin/timer 5 ./my_strncpy salut 4
+Got: ""
+exo_02: FAIL
+Note: 1
+
+Note Total: -3
+
+
+Moulinette stop at 'Tue Oct 12 23:52:57 CEST 2010'

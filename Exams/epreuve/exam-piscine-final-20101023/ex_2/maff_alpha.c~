@@ -1,0 +1,38 @@
+/*
+** maff_alpha.c for maff_alpha in /exam//rendu/ex_2
+** 
+** Made by exam_user
+** Login   <guillo_e@epitech.net>
+** 
+** Started on  Sat Oct 23 10:25:43 2010 exam_user
+** Last update Sat Oct 23 10:41:17 2010 exam_user
+*/
+
+int	my_putchar(char c)
+{
+  write(1, &c, 1);
+}
+
+int	maff_alpha()
+{
+  char	alpha;
+
+  alpha = 97;
+  while (alpha >= 97 && alpha < 122)
+    {
+      my_putchar(alpha);
+      alpha = alpha - 31;
+      if (alpha > 65 && alpha <= 90)
+	{
+	  my_putchar(alpha);
+	  alpha = alpha + 33;
+	}
+    }
+  my_putchar(10);
+  return;
+}
+
+int	main()
+{
+  maff_alpha();
+}

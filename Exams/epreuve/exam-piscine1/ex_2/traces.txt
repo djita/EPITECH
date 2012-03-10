@@ -1,0 +1,89 @@
+#### TEST 1 ####
+
+=> Command: /bin/sh strlen.sh 'guigou aime les girafes' | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+40$
+
+<-------------->
+
+<---- correction ---->
+23$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 1 failed]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: /bin/sh strlen.sh 'http://perso.epita.fr/~jog/boxe/' | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+40$
+
+<-------------->
+
+<---- correction ---->
+32$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 2 failed]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: /bin/sh strlen.sh 'le bocal est tres friands d asteks morts' | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+40$
+
+<-------------->
+
+<---- correction ---->
+40$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: /bin/sh strlen.sh '' | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+40$
+
+<-------------->
+
+<---- correction ---->
+0$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 4 failed]
+### END OF TEST 4 ###
+
+
+FAIL...

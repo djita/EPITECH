@@ -1,0 +1,68 @@
+#### TEST 1 ####
+
+=> Command: ./rotone " " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+ $
+
+<-------------->
+
+<---- correction ---->
+ $
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./rotone "abcdefghijklmnopqrstuvwxyz 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bcdefghijklmnopqrstuvwxyza 0123456789 BCDEFGHIJKLMNOPQRSTUVWXYZA$
+
+<-------------->
+
+<---- correction ---->
+bcdefghijklmnopqrstuvwxyza 0123456789 BCDEFGHIJKLMNOPQRSTUVWXYZA$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./rotone "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+SUCCESS!!!
+prg is alive

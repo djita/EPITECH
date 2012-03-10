@@ -1,0 +1,25 @@
+/home/exam/sujets/all-new/maff_alpha/prg/compile
+#### TEST 1 ####
+
+=> Command: ./maff_alpha | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$
+
+<-------------->
+
+<---- correction ---->
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+SUCCESS!!!
+prg is alive

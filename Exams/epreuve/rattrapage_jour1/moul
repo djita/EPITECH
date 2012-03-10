@@ -1,0 +1,46 @@
+Moulinette start at 'Tue Dec 14 14:56:08 CET 2010'
+
+
+Start exo_01: my_swap
+
+cc /home/judge/share//ramasse//rattrapage_jour1/main_my_swap.c /home/judge/share//ramasse//rattrapage_jour1/my_putchar.c my_swap.c -o my_swap
+/home/judge/bin/timer 5 ./my_swap 42 21
+Got: "21 42"
+
+End exo_01
+
+Start exo_02: my_incstr
+
+cc /home/judge/share//ramasse//rattrapage_jour1/main_my_incstr.c /home/judge/share//ramasse//rattrapage_jour1/my_putchar.c my_incstr.c -o my_incstr
+/home/judge/bin/timer 5 ./my_incstr abcdefghijklmnopqrstuvwxyz
+Got: "bcdefghijklmnopqrstuvwxyzA"
+
+End exo_02
+
+Start exo_03: my_revstr
+
+cc /home/judge/share//ramasse//rattrapage_jour1/main_my_revstr.c /home/judge/share//ramasse//rattrapage_jour1/my_putchar.c my_revstr.c -o my_revstr
+/home/judge/bin/timer 5 ./my_revstr abcdefghijklmnopqrstuvwxyz
+Got: "zyxwvutsrqponmlkjihgfedcba"
+
+End exo_03
+
+Start exo_04: my_op
+
+cc /home/judge/share//ramasse//rattrapage_jour1/main_my_op.c /home/judge/share//ramasse//rattrapage_jour1/my_putchar.c my_op.c -o my_op
+/home/judge/bin/timer 5 ./my_op + 42 21
+Got: "63"
+/home/judge/bin/timer 5 ./my_op - 42 21
+Got: "21"
+/home/judge/bin/timer 5 ./my_op \* 42 21
+Got: "882"
+/home/judge/bin/timer 5 ./my_op / 42 21
+Got: "2"
+
+End exo_04
+Note: 20
+
+Note Total: 20
+
+
+Moulinette stop at 'Tue Dec 14 14:56:08 CET 2010'

@@ -1,0 +1,5 @@
+
+man terminfo
+man curs_terminfo
+man tgoto
+man ioctl

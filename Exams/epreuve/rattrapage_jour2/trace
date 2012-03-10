@@ -1,0 +1,32 @@
+Ramassage start at 'Tue Dec 14 23:44:28 CET 2010'
+
+Access to: /u/epitech_2015/guillo_e/rendu/piscine_rattrapage//Jour_02
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine_rattrapage/
+total 4
+drwxr-xr-x 2 75666 32015 2048 Dec 13 12:44 Jour_01
+drwxr-xr-x 2 75666 32015 2048 Dec 14 19:10 Jour_02
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine_rattrapage/
+Access list for /u/epitech_2015/guillo_e/rendu/piscine_rattrapage/ is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine_rattrapage//Jour_02
+total 2
+-rw-r--r-- 1 75666 32015 1055 Dec 14 19:10 my_memfunc.c
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine_rattrapage//Jour_02
+Access list for /u/epitech_2015/guillo_e/rendu/piscine_rattrapage//Jour_02 is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+Copying files
+Done
+
+Ramassage end at Tue Dec 14 23:44:28 CET 2010

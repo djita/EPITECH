@@ -1,0 +1,169 @@
+Details administratifs:
+
+- Aucune forme de communication n'est permise.
+
+       - Vous devez avoir votre carte d'etudiant. Vous devez la poser face visible
+          sur votre table
+
+        - Ceci est un examen, il est interdit de discuter, ecouter de la musique,
+          faire du bruit, ou de produire toute autres nuisances pouvant deranger les
+          autres etudiants ou perturber le bon deroulement de l'examen
+
+        - Vos telephones portables doivent etre eteints.
+
+        - Il faudra utiliser le sous-repertoire "rendu" a la racine du compte,
+          il contiendra les fichiers aux noms demandes pour chaque
+          exercice.
+
+        - Le repertoire "rendu", doit contenir un fichier nomme "auteur"
+          comprenant :
+                le login (ex: jog) suivi d'un '\n'.
+          ce qui doit donner:
+
+          jog@neutron> cat -e ~/rendu/auteur
+          jog$
+
+	  Si votre fichier auteur est faux, il n'y aura pas de correction de l'exam.
+	  
+        - C'est un programme qui s'occupe du ramassage, respectez les noms,
+          les chemins, les fichiers et les repertoires ...
+
+        - LES DROITS DE VOS FICHIERS N'ONT AUCUNE IMPORTANCE, VOUS N'AVEZ DONC
+          PAS BESOIN DE LES CHANGER (SAUF SI ON VOUS LE DEMANDE DANS LE SUJET).
+
+        - En cas de probleme technique avec le sujet, on ne doit s'adresser qu'au
+          surveillant uniquement.
+
+        - Tout materiel non explicitement autorise est strictement interdit.
+
+        - Toute sortie est definitive.
+
+ ----------******------------*****------------******------------*****----------
+
+Vous devez effectuer le rendu dans ~/rendu/
+Pour chaque question vous devez rendre un fichier nomme
+ex_"no_question".sql contenant la requete sql de l'exercice en question (la
+requete doit etre valide).
+
+Par exemple pour l'exercice 05 le fichier doit s'appeler ex_05.sql.
+
+Pour le qcm, mettez juste le numero de la reponse dans le fichier
+ex_"no_question".sql (avec ou sans \n ca n'a pas d'importance).
+
+Vous n'avez le droit de faire qu'une seule requete par question (en gros il ne doit
+y avoir q'un seul ';' dans chaque fichier), sauf quand il
+est explicitement precise que l'on doit faire plusieurs requetes.
+
+
+Quand vous vous loguez, la base de donnee n'est pas initialisee et lancee.
+Vous devez l'initialiser avec le script "~/sujet/install_sql.sh".
+Attention la base va etre completement effacee et le server relance.
+La base de donnee se trouve dans /tmp.
+
+Une fois la base lancee, vous pouvez vous y connecter avec votre client
+mysql. Le login est "root" et il n'y as pas de password
+La base de donnee a utiliser s'appelle epitech_tp, c'est la seule base a
+utiliser, dans les reponses que vous rendrez il ne faut pas selectionner la base.
+
+(machin_t@bidule) mysql -u root -S /tmp/mysql.sock  epitech_tp
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1
+Server version: 5.0.45 FreeBSD port: mysql-server-5.0.45
+
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+
+mysql>
+
+
+Le contenu de la base utilisee pour la correction sera le meme que celle que vous avez
+au detail pres que les id de chaque entree est susceptible de changer (mais les lien 
+entre les entrees seront toujours les memes: les films auront les memes distributeurs,
+les membres seront alles voir les memes films et auront les memes cartes de reduction).
+
+
+Questions:
+
+01. Afficher le titre des films (dans une colonne "titre film")
+qui ont comme id de genre 0, 6 ou 5 et dont leurs titres commence par la
+lettre E (case insensitive).
+
+02. Faire une requete qui affiche le titre des films en majuscule de la table
+film du cinema qui ont un id compris (inclu) entre 4, et 50.
+La colonne titre en majuscule devra s'appeler "titre_maj"
+
+03. Faire une requete qui affiche le titre de tous les films dans la colonne
+titre, ordonnee par date de fin d'affiche decroissante
+
+04. Trouver les 50 derniers films classes par id genre et afficher dans une
+colone "titre - resum" le titre et le resume separe par " - " du film
+(exemple : 28 jours plus tard - Un film genial)
+
+05. On aimerai afficher le titre de tous les films en MD5, dans la colonne "titre md5"
+et en SHA1 dans la colonne "titre sha1"
+
+06. Faire une requete qui compte le nombre de places dans le cinema (nbr place)
+
+07. Faire une requete qui affiche le nombre de films qu'il y a dans la table
+film (nombre films)
+
+08. Afficher la liste des prenoms des personnes dont le nom commence par un 'A' et fini par un 'Y' (case insensitive)
+
+09. On veu afficher le nombre de films que contiennent chaque genre.
+Meme si des films sont nuls, NULL n'est pas un genre de film valide, le tout classe par ordre de nombre de film decroissant, puis par ordre de  nom croissant.
+Les colonnes demandees sont: le nom du genre (nom), le total de film du genre (nb_film)
+
+10. Faire une requete qui affiche pour chaque genre des films de la table
+film: l'id du genre, et le nombre de films qu'il y a dans ce genre :
+ Il y aura donc une colonne id_genre, "nombre films". En plus de cela, cette
+requete devra aussi afficher
+le nombre Total de films sur la dernière ligne, celle ci aura un id_genre
+null ! (Indice : Compatible qu'avec Mysql, super agregat...)
+
+11. Faire une requete qui affiche le plus grand id_film dans une colonne
+"max id film" pour
+le genre "action"
+
+12. Compter le nombre d'abonnement propose par le cinema, ainsi que la moyenne
+du cout des abonnements, arrondi à l'unite (superieur).Il faudra afficher le nombre
+d'abonnement dans une colonne "nbr abo" et la moyenne dans une colonne "c abo"
+
+13. Compter le nombre de distributeur dont le numero de telephone commence par 05, et l'afficher dans une colonne nbr_d
+
+14. Afficher le nom des reductions qui ont un pourcentage de reduction positif, 
+et qui ne sont pas egale à 25. Vous les ordonnerez par id_reduction croissant
+
+15. Affichez le nom (nom) et la ville (ville) des personnes qui viennent de charente-maritime
+(departement 17)
+
+16. Selectionner le titre des films qui ont un des id suivants :
+"1, 34, 45, 2, 123, 42642, LOLARD, 4525, 2, 46, 48574, 37, 90, 05,
+5436, 0005, ABC, 3, 0x34, 875783, 224, 1964"
+
+17. Affichez pour chaque genre (NULL n'est pas un genre) l'id du genre (id_genre), et la duree du film (duree_min)
+le plus cours appartenant a ce genre (0 n'est pas une duree valide).
+
+18. Qu'elle requette fonctionera sur l'ensemble des serveurs sql 
+(en sachant que les champs id_genre et titre sont uniques) ?
+
+1:
+SELECT id_genre, titre
+   FROM film
+WHERE 1
+GROUP BY id_genre;
+
+2:
+SELECT id_genre, titre
+FROM film
+WHERE 1
+GROUP BY id_genre, titre;
+
+19. Quel serveur n'existe pas ?
+1: "Microsoft SQL Server"
+2: "PostgreSQL"
+3: "Eclipse"
+
+20. Qu'elle est la requete la plus optimise :
+
+1: Select id_film, titre, resum FROM film having id_film = 1141;
+2: Select id_film, titre, resum FROM film where id_film = 1141;
+
