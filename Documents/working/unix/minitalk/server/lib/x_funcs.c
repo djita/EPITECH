@@ -5,10 +5,12 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Mon Mar  5 17:49:58 2012 lyoma guillou
-** Last update Mon Mar  5 17:54:12 2012 lyoma guillou
+** Last update Thu Mar 15 18:16:30 2012 lyoma guillou
 */
 
 #include	<serv.h>
+#include	<unistd.h>
+#include	<stdlib.h>
 
 int		xwrite(int fd, char *buf, int size)
 {

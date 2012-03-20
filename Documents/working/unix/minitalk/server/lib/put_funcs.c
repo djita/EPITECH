@@ -5,7 +5,7 @@
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Mon Mar  5 17:44:49 2012 lyoma guillou
-** Last update Mon Mar  5 17:54:13 2012 lyoma guillou
+** Last update Thu Mar 15 17:00:03 2012 lyoma guillou
 */
 
 #include	<serv.h>
@@ -35,11 +35,9 @@ void		my_puterr(char *s)
   xwrite(2, s, i);
 }
 
-void		my_putnbr(int nb)
+void		my_putnbr(unsigned int nb)
 {
-  if (nb < 0)
-    my_putchar('-');
-  if (nb < 0 ? nb <= -10 : nb >= 10)
-    my_putnbr(nb / ((nb < 0) ? -10 : 10));
+  if (nb >= 10)
+    my_putnbr(nb / 10);
   my_putchar((nb % 10) + '0');
 }

@@ -1,11 +1,11 @@
 /*
 ** my_kill.c for my_kill in /home/guillo_e//Documents/working/unix/minitalk/tp
-** 
+~** 
 ** Made by lyoma guillou
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Mon Mar  5 17:59:43 2012 lyoma guillou
-** Last update Sat Mar 10 17:11:37 2012 lyoma guillou
+** Last update Thu Mar 15 17:54:54 2012 lyoma guillou
 */
 
 #define _POSIX_SOURCE
@@ -28,12 +28,21 @@ int		main(int ac, char **av)
   c = 'c';
   while (i < 8)
     {
-      usleep(50);
-      if (c & (1 << 7 - i))
+      usleep(1500);
+      if (c & (1 << (7 - i)))
 	kill(pid, SIGUSR1);
       else
 	kill(pid, SIGUSR2);
-      c >>= 1;
+      ++i;
+    }
+  c = 0;
+  while (i < 8)
+    {
+      usleep(1500);
+      if (c & (1 << (7 - i)))
+	kill(pid, SIGUSR1);
+      else
+	kill(pid, SIGUSR2);
       ++i;
     }
   return (0);
