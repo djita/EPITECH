@@ -1,14 +1,14 @@
 /*
-** my_strdup.c for asm in /home/duverd_l/
-** 
+** my_strdup.c for misc in /home/czegan_g/project/current/corewar/asm/lib/misc
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Thu Jan 19 17:49:23 2012 louis duverdier
-** Last update Fri Jan 20 10:42:47 2012 louis duverdier
+** Last update ven. mars 23 00:34:47 2012 gaby czegany
 */
 
-#include <my.h>
+# include       <my.h>
 
 char	*my_strdup(const char *str)
 {

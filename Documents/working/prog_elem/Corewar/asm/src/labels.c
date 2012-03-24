@@ -1,14 +1,14 @@
 /*
-** labels.c for asm in /home/duverd_l/
-** 
+** labels.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Mon Jan 23 15:02:04 2012 louis duverdier
-** Last update Tue Jan 24 17:26:14 2012 louis duverdier
+** Last update ven. mars 23 00:33:44 2012 gaby czegany
 */
 
-#include <asm.h>
+# include       <asm.h>
 
 static void	_set_label(t_node *node)
 {

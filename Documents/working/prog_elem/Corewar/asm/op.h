@@ -15,7 +15,7 @@
 #define IDX_MOD                 512   /* modulo de l'index < */
 #define MAX_ARGS_NUMBER         4     /* this may not be changed 2^*IND_SIZE */
 
-#define COMMENT_CHAR            ';'
+#define COMMENT_CHAR            '#'
 #define LABEL_CHAR              ':'
 #define DIRECT_CHAR             '%'
 #define SEPARATOR_CHAR          ','

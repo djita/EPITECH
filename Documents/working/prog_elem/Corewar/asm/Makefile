@@ -1,17 +1,18 @@
 ##
-## Makefile for asm in /home/czegan_g/project/current/corewar/asm
+## Makefile for asm in /home/czegan_g/tmp/asm
 ##
 ## Made by louis duverdier
 ## Login   <duverd_l@epitech.net>
 ##
 ## Started on  Wed Jan 18 14:39:02 2012 louis duverdier
-## Last update mar. févr. 21 14:14:14 2012 gaby czegany
+## Last update ven. mars 23 00:19:44 2012 gaby czegany
 ##
 
 CC=	gcc
 NAME=	asm
 SRC=	op.c \
 	lib/misc/my_char_type.c \
+	lib/misc/my_getnbr.c \
 	lib/misc/my_putchar.c \
 	lib/misc/my_putnbr.c \
 	lib/misc/my_putstr.c \
@@ -36,8 +37,9 @@ SRC=	op.c \
 	src/check_list.c \
 	src/check_param.c \
 	src/build.c	\
+	src/build_body.c	\
 	src/build_param.c	\
-	src/build_handlers.c	\
+	src/subroutines.c	\
 	src/asm.c
 
 OBJ=	$(SRC:%.c=%.o)

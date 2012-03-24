@@ -5,7 +5,7 @@
 ** Login   <czegan_g@epitech.net>
 **
 ** Started on  mar. janv. 31 06:56:56 2012 gaby czegany
-** Last update mar. févr. 14 08:14:43 2012 gaby czegany
+** Last update dim. mars 04 01:48:01 2012 gaby czegany
 */
 
 void    *my_memset(void *s, int c, int n)

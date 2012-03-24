@@ -1,17 +1,17 @@
 /*
-** list.h for asm in /home/duverd_l/
-** 
+** list.h for include in /home/czegan_g/project/current/corewar/asm/include
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Wed Jan 18 14:44:00 2012 louis duverdier
-** Last update Tue Jan 24 14:15:19 2012 louis duverdier
+** Last update ven. mars 23 00:37:57 2012 gaby czegany
 */
 
 #ifndef LIST_H_
-#  define LIST_H_
+# define LIST_H_
 
-#  include <stdlib.h>
+# include       <stdlib.h>
 
 typedef struct s_node
 {
@@ -19,8 +19,8 @@ typedef struct s_node
   char			*label;
   char			*label_ref;
   char			*data;
-  struct s_node	*prev;
-  struct s_node	*next;
+  struct s_node	        *prev;
+  struct s_node	        *next;
 } t_node;
 
 typedef struct s_list

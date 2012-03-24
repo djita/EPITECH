@@ -5,11 +5,11 @@
 ** Login   <duverd_l@epitech.net>
 **
 ** Started on  Thu Jan 19 14:37:33 2012 louis duverdier
-** Last update mer. févr. 15 11:03:36 2012 gaby czegany
+** Last update ven. mars 23 00:33:11 2012 gaby czegany
 */
 
-#include <asm.h>
-#include <get_next_line.h>
+# include       <asm.h>
+# include       <get_next_line.h>
 
 static void		_handle_other(const char *str, int *off, t_node **node)
 {

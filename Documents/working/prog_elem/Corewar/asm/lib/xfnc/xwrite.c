@@ -1,15 +1,15 @@
 /*
-** xwrite.c for asm in /home/duverd_l/
-** 
+** xwrite.c for xfnc in /home/czegan_g/project/current/corewar/asm/lib/xfnc
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Wed Jan 18 16:38:07 2012 louis duverdier
-** Last update Wed Jan 18 16:40:05 2012 louis duverdier
+** Last update ven. mars 23 00:35:32 2012 gaby czegany
 */
 
-#include <unistd.h>
-#include <my.h>
+# include       <unistd.h>
+# include       <my.h>
 
 void	xwrite(int fd, const char *str, int size)
 {

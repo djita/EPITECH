@@ -1,14 +1,14 @@
 /*
-** list_init.c for asm in /home/duverd_l/
-** 
+** list_init.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Fri Jan 20 10:57:25 2012 louis duverdier
-** Last update Mon Jan 23 10:58:19 2012 louis duverdier
+** Last update ven. mars 23 00:33:19 2012 gaby czegany
 */
 
-#include <asm.h>
+# include       <asm.h>
 
 t_node		*node_create(int type, char *label, char *label_ref, char *data)
 {

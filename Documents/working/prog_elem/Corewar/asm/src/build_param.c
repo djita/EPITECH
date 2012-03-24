@@ -1,69 +1,109 @@
 /*
-** build_param.c for src in /home/czegan_g/project/current/corewar/asm/src
+** build_param.c for src in /home/czegan_g/work/school/corewar/asm/src
 **
 ** Made by gaby czegany
 ** Login   <czegan_g@epitech.net>
 **
 ** Started on  mar. févr. 14 06:15:14 2012 gaby czegany
-** Last update mer. févr. 15 21:38:59 2012 gaby czegany
+** Last update sam. mars 24 19:14:58 2012 gaby czegany
 */
 
-#include <asm.h>
+# include       <asm.h>
 
-static unsigned char	*_act(unsigned char *area, t_node *node, t_handler *h)
+static int      _fill_memory(uchar *area, int range)
 {
-  int		key;
-  int		i;
+  int   count;
 
-  MY_UNUSED(h);
-  if (node->data)
-    key = is_act(node->data);
-  if (key == -1)
-    return (area);
-  *area = op_tab[key].code;
-  if (op_tab[key].nbr_args < 2)
-    return (++area);
-  i = 0;
-  ++area;
-  node = node->next;
-  while (node && i < MAX_ARGS_NUMBER)
+  count = 0;
+  while (count < range)
   {
-    if (i < op_tab[key].nbr_args)
-    {
-      node = node->next;
-      *area = (*area | get_param(node->type)) << 2;
-    }
-    else
-      *area = *area << 2;
-    ++i;
+    *area = 0xFF;
+    ++area;
+    ++count;
   }
-  return (++area);
+  return (count);
 }
 
-static unsigned char    *(*ftype[TOTAL_TYPE])(unsigned char *, t_node *, t_handler *) =
+static uchar    *_write_dir(t_handler *h, uchar *area, t_node *node)
 {
-  _act,
-  /*_register,*/
-  /*_direct,*/
-  /*_indirect*/
+  int           value;
+  int           ret;
+
+  ret = 0;
+  if (node->label)
+    ret = get_label(h->last_act, &value, node->label);
+  else if (node->data)
+    value = my_getnbr(node->data);
+  write_in_area(DIR_SIZE, h->counter, COUNTER_LEN, ADD_AREA);
+  if (ret == LABEL_BEFORE || value < 0)
+  {
+    _fill_memory(area, DIR_SIZE);
+    write_in_area(ABS(value), area, DIR_SIZE, SUB_AREA);
+  }
+  else
+    write_in_area(value, area, DIR_SIZE, ADD_AREA);
+  area += DIR_SIZE;
+  return (area);
+}
+
+static uchar    *_write_ind(t_handler *h, uchar *area, t_node *node)
+{
+  int           value;
+  int           ret;
+
+  ret = 0;
+  if (node->label)
+    ret = get_label(h->last_act, &value, node->label);
+  else if (node->data)
+    value = my_getnbr(node->data);
+  write_in_area(IND_SIZE, h->counter, COUNTER_LEN, ADD_AREA);
+  if (ret == LABEL_BEFORE || value < 0)
+  {
+    _fill_memory(area, IND_SIZE);
+    write_in_area(ABS(value), area, IND_SIZE, SUB_AREA);
+  }
+  else
+    write_in_area(value, area, IND_SIZE, ADD_AREA);
+  area += IND_SIZE;
+  return (area);
+}
+
+static uchar    *_write_reg(t_handler *h, uchar *area, t_node *node)
+{
+  int           value;
+
+  value = my_getnbr(node->data);
+  write_in_area(value, area, 1, ADD_AREA);
+  write_in_area(1, h->counter, COUNTER_LEN, ADD_AREA);
+  area += 1;
+  return (area);
+}
+
+static const t_param	type_handler[MAX_PARAM] =
+{
+  { T_REG, _write_reg },
+  { T_IND, _write_ind },
+  { T_DIR, _write_dir }
 };
 
-/*unsigned char*/
-/**build_param(unsigned char *area, t_node *node, t_handler *h, int acc)*/
-/*{*/
-  /*int           i;*/
+uchar   *build_param(t_handler *h, t_node *node, uchar *area)
+{
+  int   action;
+  int   i;
 
-  /*if (node && acc < MEM_SIZE)*/
-  /*{*/
-    /*i = 0;*/
-    /*while (i < TOTAL_TYPE)*/
-    /*{*/
-      /*area = (*ftype[i])(area, node, h);*/
-      /*++i;*/
-    /*}*/
-    /*++acc;*/
-    /*node = node->next;*/
-    /*build_param(area, node, h, acc);*/
-  /*}*/
-  /*return (area);*/
-/*}*/
+  i = 0;
+  action = is_act(h->last_act->data);
+  while (i < MAX_PARAM)
+  {
+    if (node->type & type_handler[i].flag)
+    {
+      if (type_handler[i].flag & T_DIR && action > 7 && action < 11)
+        area = _write_ind(h, area, node);
+      else
+        area = type_handler[i].fnc(h, area, node);
+      return (area);
+    }
+    ++i;
+  }
+  return (area);
+}

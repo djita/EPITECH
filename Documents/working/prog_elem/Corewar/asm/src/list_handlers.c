@@ -1,14 +1,14 @@
 /*
-** list_handlers.c for asm in /home/duverd_l/
-** 
+** list_handlers.c for src in /home/czegan_g/project/current/corewar/asm/src
+**
 ** Made by louis duverdier
 ** Login   <duverd_l@epitech.net>
-** 
+**
 ** Started on  Wed Jan 18 15:43:58 2012 louis duverdier
-** Last update Tue Jan 24 17:42:51 2012 louis duverdier
+** Last update ven. mars 23 00:33:26 2012 gaby czegany
 */
 
-#include <asm.h>
+# include       <asm.h>
 
 void		list_free(t_list *list)
 {

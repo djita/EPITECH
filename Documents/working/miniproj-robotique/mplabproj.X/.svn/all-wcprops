@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X
+END
+jobs.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/jobs.h
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/init.c
+END
+picdem2.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/picdem2.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/main.c
+END
+init.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/init.h
+END
+picdem2.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/picdem2.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/Makefile
+END
+jobs.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/subversion/!svn/ver/702/miniproj-robotique/mplabproj.X/jobs.c
+END

@@ -1,26 +1,53 @@
 /*
-** build.c for src in /home/czegan_g/project/current/corewar/asm/src
+** build.c for src in /home/czegan_g/work/school/corewar/asm/src
 **
 ** Made by gaby czegany
 ** Login   <czegan_g@epitech.net>
 **
 ** Started on  mar. févr. 14 06:15:06 2012 gaby czegany
-** Last update mar. févr. 21 14:52:37 2012 gaby czegany
+** Last update ven. mars 23 15:42:48 2012 gaby czegany
 */
 
-#include <asm.h>
+# include       <asm.h>
 
-static unsigned char    *_append_magic(unsigned char *area)
+int	write_in_area(int value, uchar *ptr, int range, char state)
 {
-  int                   magic;
-  int                   value;
-  int                   count;
-  int                   offset;
+  int	i;
+  int   max_value;
+  int   min_value;
+
+  min_value = state == ADD_AREA ? 0x00 : 0xFF;
+  max_value = state == ADD_AREA ? 0xFF : 0x00;
+  while (value > 0)
+  {
+    i = range - 1;
+    while (i >= 0 && ptr[i] == max_value)
+      ptr[i--] = min_value;
+    if (i == -1)
+    {
+      warning("Param value overflow.");
+      return (FAILURE);
+    }
+    if (state == ADD_AREA)
+      ptr[i] += 1;
+    else
+      ptr[i] -= 1;
+    --value;
+  }
+  return (SUCCESS);
+}
+
+static uchar    *_append_magic(uchar *area)
+{
+  int           magic;
+  int           value;
+  int           count;
+  int           offset;
 
   magic = COREWAR_EXEC_MAGIC;
   value = magic;
   count = 0;
-  while (value)
+  while (value != 0)
   {
     value = value / 256;
     ++count;
@@ -28,50 +55,32 @@ static unsigned char    *_append_magic(unsigned char *area)
   count = count % 2 == 0 ? count : count + 1;
   offset = count;
   value = magic;
-  while (count)
+  while (count != 0)
   {
     value = magic % 256;
     magic = magic / 256;
-    area[count - 1] = (unsigned char) value;
+    area[count - 1] = (uchar) value;
     --count;
   }
   area += offset;
   return (area);
 }
 
-static unsigned char    *_build_header(unsigned char *area, t_handler *handler)
+static uchar    *_build_header(uchar *area, t_handler *handler)
 {
-  int   i = 0;
-  if (MEM_SIZE > PROG_NAME_LENGTH && MEM_SIZE > COMMENT_CHAR)
-  {
-    area = _append_magic(area);
-    my_memcpy(area, handler->head->prog_name, PROG_NAME_LENGTH);
-    area += PROG_NAME_LENGTH;
-    handler->cursor = area; /* Cursor @ last action number */
-    while (i < 1000)
-    {
-    add_size(1111, handler->cursor);
-    add_size(1111, handler->cursor);
-    add_size(1111, handler->cursor);
-    add_size(1111, handler->cursor);
-    add_size(11111, handler->cursor);
-    add_size(11111, handler->cursor);
-    add_size(11111, handler->cursor);
-    add_size(11111, handler->cursor);
-    ++i;
-    }
-    area += ACTION_LENGTH;
-    my_memcpy(area, handler->head->comment, COMMENT_LENGTH);
-    area += COMMENT_LENGTH + 4;
-    return (area);
-  }
-  my_puterr("Error: Overflow memory. Exit");
-  return (FAILURE);
+  area = _append_magic(area);
+  my_memcpy(area, handler->head->prog_name, PROG_NAME_LENGTH);
+  area += PROG_NAME_LENGTH;
+  handler->counter = area;
+  area += ACTION_LENGTH;
+  my_memcpy(area, handler->head->comment, COMMENT_LENGTH);
+  area += COMMENT_LENGTH + 4;
+  return (area);
 }
 
 static void     _remove_sep(t_list *list, t_node *node)
 {
-  if (node)
+  if (node != 0)
   {
     node = node->next;
     if (node && node->prev->type & T_SEP)
@@ -80,21 +89,16 @@ static void     _remove_sep(t_list *list, t_node *node)
   }
 }
 
-unsigned char   *build(t_handler *handler)
+uchar   *build(t_handler *handler)
 {
-  unsigned char *area;
-  unsigned char *first_area;
+  uchar *area;
+  uchar *first_area;
 
-  /* Fill area */
   area = xmalloc(MEM_SIZE + 1);
   first_area = area;
   my_memset(area, 0, MEM_SIZE + 1);
-
   _remove_sep(handler->list, handler->list->first);
-
   area = _build_header(area, handler);
-  /*if (area)*/
-    /*area = build_param(area,handler->list->first, handler, 0);*/
-  handler->last_area = area;
+  handler->last_area = build_body(area, handler->list->first, handler);
   return (first_area);
 }
