@@ -1,0 +1,70 @@
+#include <p18cxxx.h>
+#include "init.h"
+
+void    delay(int);
+
+static void _init_thermal_sensor(void)
+{
+  SSPCON1 = 0b00101001;
+//  PORTC = 0b00000000;
+//  SSPCON1bits.SSPEN = 1;
+//  SSPOV .... ????
+}
+
+void    init_lcd(void)
+{
+  /* Page 97 (PICDEM) */
+  /* 1 = set PORTD en Input, 0 = set PORTD en Output */
+  TRISD = 1; 
+
+  /* Attente du Busy Flag (DB7) reset a 0 */
+  while (PORTD != 0b10010000);
+
+  /* Set de la taille de transmission a 4 bits */
+  PORTD = 0b10001000;
+  delay(1);
+  PORTD = 0b10000010;
+  delay(1);
+
+  /* En theorie le code qui suit devrait allumer le LCD */
+  PORTD = 0b10001111;
+  delay(1);
+  PORTD = 0b10000000;
+  delay(1);
+
+  /* Code pour clear le display */
+  /* 
+     PORTD = 0b10000000;
+     PORTD = 0b10000001;
+   */
+
+  /*
+    PORTD = 0b10000000;
+    delay(40);
+    PORTD = 0b11000010;
+    delay(5);
+    PORTD = 0b11000010;
+    delay(1);
+    PORTD = 0b11000000;
+    delay(1);
+    PORTD = 0b11000000;
+    delay(1);
+    PORTD = 0b11001110;
+    delay(1);
+    PORTD = 0b11000000;
+    delay(1);
+    PORTD = 0b11000110;
+    delay(1);
+    PORTD = 0b11010100;
+    delay(1);
+    PORTD = 0b11011000;
+  */
+}
+
+void    init_all(void)
+{
+  _init_thermal_sensor();
+  init_lcd();
+  TRISB = 0b11110000;
+  PORTB = 0x0F;
+}

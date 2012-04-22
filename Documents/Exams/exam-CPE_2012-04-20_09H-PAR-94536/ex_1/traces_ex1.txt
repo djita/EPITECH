@@ -1,0 +1,128 @@
+#### TEST 1 ####
+
+=> Command: ./rstr_capitalizer "bonjour" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bonjouR$
+
+<-------------->
+
+<---- correction ---->
+bonjouR$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./rstr_capitalizer blih blah blouh | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bliH$
+blaH$
+blouH$
+
+<-------------->
+
+<---- correction ---->
+bliH$
+blaH$
+blouH$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./rstr_capitalizer "Les Asteks c'est des ..." "Les asteks	c'est	des ..." "  Les asteks c'est des ..." "Les asteks c'est des ...   " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+leS astekS c'esT deS ...$
+leS astekS	c'esT	deS ...$
+  leS astekS c'esT deS ...$
+leS astekS c'esT deS ...   $
+
+<-------------->
+
+<---- correction ---->
+leS astekS c'esT deS ...$
+leS astekS	c'esT	deS ...$
+  leS astekS c'esT deS ...$
+leS astekS c'esT deS ...   $
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./rstr_capitalizer | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+#### TEST 5 ####
+
+=> Command: ./rstr_capitalizer "" "" "" "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+$
+$
+$
+
+<-------------->
+
+<---- correction ---->
+$
+$
+$
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 5 is ok]
+### END OF TEST 5 ###
+
+
+SUCCESS!!!
+prg is alive

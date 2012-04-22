@@ -1,0 +1,435 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$	test.s	/^$ <Ê›]$/;"	l
+$	test.s	/^\$$/;"	l
+$	test.s	/^\$/;"	l
+$V	test.s	/^$V$/;"	l
+A	test.s	/^A	‚ñÇãRïD#¨EZA¾Í&¦ÑaAÎãĞšùÊlö,ü¦¢­`š%Š]©oaæ—tÛ—VÓı~iZ‡é ¹ı8It¯É6gÎVjõÛ¦jİ…½ZÚM=ÂOU¯˜ÃŞ"¬p)YdîÑ¾—¡Š¥='”×ø,OûtŞakogCb±R••¬ıGl\\f/;"	l
+A	test.s	/^A/;"	l
+A	test.s	/^A$/;"	l
+A0	test.s	/^A0E<}0FFMÇæã‚Şâed+ıœñ0fÙ­J“=‰}-òSÎ´¬R &8˜v$/;"	l
+ACTION_LENGTH	include/asm.h	26;"	d
+ALL_CHARS	include/asm.h	18;"	d
+ASM_H_	include/asm.h	12;"	d
+Ay	test.s	/^Ay KòºãåÕX,Øå¡T^ä$/;"	l
+B	test.s	/^B£‹óÓ}˜çE‡›ı„\/ïË×m¿Lù¼ó¬Š|nX:ÃôØ9Ö‹Ú¶$/;"	l
+B	test.s	/^B¬¯åõ®$/;"	l
+B	test.s	/^B$/;"	l
+B	test.s	/^B/;"	l
+BD	test.s	/^BD$/;"	l
+BUFFER_MAX_SIZE	include/get_next_line.h	18;"	d
+Bl	test.s	/^BlÇÊÉJ&¹=ZÊŒ§76µ«Fq¨$/;"	l
+C	test.s	/^C	²õ³J½¼àµãÛ²acÔClµ»DîVªŠ Éş_“)I…Š§ÀĞ YqÆD#59YyÔŠ¥˜Xœ¢!šQÿ?Û…´ªÙ×*¾&Ğ9=Õ"x0{)puÿìœ±6á,;lú¤ÿ¹èºì”\/e"Ä†kFæRŞíWq /;"	l
+CA	test.s	/^CA'p¦è—Ğö•Û“¢BwXIgG:Ä t—¯OÒ£'(ªÃt”¹ÑNç®¥­ÛÇv¶¶c¨.õöYş˜îû©hGáe0bÜNõùùôü×?KßÇğë<şúE@®÷úğë„‘22I=ùÚ›üØ;àmšgV_Ä„:/;"	l
+CC	Makefile	/^CC=	gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=	-W -Wall -Wextra -Iinclude -I. -pedantic -ggdb3$/;"	m
+COMMENT_CHAR	op.h	18;"	d
+COMMENT_CMD_STRING	op.h	26;"	d
+COMMENT_LENGTH	op.h	79;"	d
+COREWAR_EXEC_MAGIC	op.h	84;"	d
+CYCLE_DELTA	op.h	97;"	d
+CYCLE_TO_DIE	op.h	96;"	d
+D	test.s	/^D/;"	l
+DIRECT_CHAR	op.h	20;"	d
+DIR_SIZE	op.h	65;"	d
+E	test.s	/^E	s‰¢i0)Ã›öµzü_B¶Q”Ä^EÛ±„ñ©[*ÉdrœŒí§MŠÏô`Æ4z÷y1º²-ŒĞ;¥,7ş_´òzÂ3;×ÿ@àë¼ä@s$z…pKRV³yo	Œ,æx3ƒY’J…xl6[^¯«¾Ê	¾N™%m÷9‚	¶„ŒY§n-	$ÕQ5²$Ú$/;"	l
+E	test.s	/^E¸ú\/Èë´ßu2ÎMy:ÜÈ5ÓWãè›Tô$/;"	l
+E	test.s	/^E=…L•¡³Qpk½D|ÌPŠ¼ë³·T¯“²ëÿÎ\\_"!‰i™AƒRósBxÿĞ«G8eë8'C/;"	l
+E	test.s	/^E ¬´şîŸ7Á¯ªÔLé×*Ò+ùşÒ#¿\/(uEaûÊÒ±+ìôÛ$/;"	l
+E	test.s	/^E$/;"	l
+F	test.s	/^F$/;"	l
+FM	test.s	/^FM sŸÃÂMZ{E¦/;"	l
+G	test.s	/^G *Œ£$/;"	l
+G	test.s	/^G$/;"	l
+G	test.s	/^G/;"	l
+GET_NEXT_LINE_H_	include/get_next_line.h	12;"	d
+GN	test.s	/^GN	$/;"	l
+H	test.s	/^H	,×©•tZ½$/;"	l
+H	test.s	/^H	,Øííh8\\™‹,•ô­o2Â®Pıfƒú¸Èf¯JR)@²9Y¹Á¤„­,	tMâ­Ãw7a\/¤«‡/;"	l
+H	test.s	/^H	ÂÒFäû=¿çÿØ/;"	l
+H	test.s	/^H ÛítÑ¹•Ãï"Ì1OÈ%cöquËaÆ0àãÈ5Ëª—\\×$/;"	l
+H	test.s	/^H$/;"	l
+H	test.s	/^H/;"	l
+HA	test.s	/^HA	{Ø'&O½U¦ì1‰ÅBéjÕª…µ9º‡OR³#¿[‘Ÿ‡â”*`t\/.cË»Abœ½Ä	œ-?aEwG¬ÉÊz§sœÓÙ~uÊ›=IÀ•eñ`ì†Ù…”éT•¦Â³ôD ,ôcP7û‚L¦|ô…­:v}±+œÅì•§ÉR*{³ŒôQ‘\\¦¬]J¡òÒİ‡¥“¨ùÜc~Nk¤²L8ÿUÔvê È0ğ\/@²³2¤¯\/@•jZ|±=\/	”G)Iò]˜y` AØ„R„îD-£‘ÃOïü­N$ŞR±Ğê—/;"	l
+I	test.s	/^I	[é\\|7ˆø]äòrœÄŠáÂµcÇı—p`	0+¼û²±ø)´—ğNõS-rÂDïã‡ƒxïœÍ.a×^şDÓ%_¤E)$/;"	l
+I	test.s	/^I«¥‰Ê»1ü$ïº¥rWQ×\\İ‡ı,0¸¦Uã{¥•IF…÷áO#Éø£“WJAİ³t½ˆ¯}D>ô f´$/;"	l
+I	test.s	/^I?†`ö[÷9tÿ_~Ò,f^{üvÓ¼zÒ¤.À“-Á°ÂãP²,ò”¾i¢’„•åo’¿Òr¾ò–ÿNÔ±°:¦¬ö°6M½”2î`¾•CÏPú‡‹¹¤	›êÔ9Hèñü±MT/;"	l
+I	test.s	/^I Z¿²˜ş–Ø8ï’t|¡Ö©v„T$/;"	l
+I	test.s	/^I$/;"	l
+I5	test.s	/^I5g´dk0âi-7êÂ oYÛ$/;"	l
+IDF	test.s	/^IDF/;"	l
+IDX_MOD	op.h	15;"	d
+IND_SIZE	op.h	63;"	d
+Idu	test.s	/^Idu|PÖó_²0ê²‡İV.* Wäê(_{:–KŞH îV:aN¶Ïk~?®c!úÉĞQ×¤73¸z³ß:}+‡›IÒ©Ğu$/;"	l
+J	test.s	/^J	AŞæ¦VTX)\/¢|¯©ºÆdÔ[R&Ia;ŞÑ\\$F¢çPiæıSŸìJªqšÆ4ÁE|¨#Ğ@ŠZ’‡òŸ˜´¦Ç;ôÍPÍ ¯'	,/;"	l
+J	test.s	/^Jbº-ÁğÇÄ5ÛşQ:Ş›ƒ´ãnf3h™ˆXé²—ZÀ(´icãv¿¤ºu5úŠ´c^ER!0‰bø˜q{UJ¡uó¶C•Ş‘nyÔQğğ˜Ü poÇì†K< Ğ§2%›t•áİ¶AYà5Û…¼Lˆ÷9°êï«Ÿˆ‚<e?;U˜'Ë.\\ë>×*Ú§¾BxÑ÷c??E¥ŞLéù¡‰˜®ÍdHè.õ2BLƒ½ÍC3e²	Ø"¯G9z~ïtæNèöe¯„·îrÔğä­Û›é¿S‹õñ¿©ÅyF@ ¥|´ÅJ±`Æšêîµ‚ñßÉ²ê6tª©.1Z¡vÉZß(5ŸŞíÚ”“ñğl»¿OâıØ‚€‹&7xĞ•vŠÙÙnÆ©}ËêÿÛÓ‹[é	&¦›C»ƒˆıİ1oÂŠª$/;"	l
+J	test.s	/^J ^ó‰´4+ğı.P*$/;"	l
+J	test.s	/^J$/;"	l
+JI5	test.s	/^JI5 $/;"	l
+Jhl	test.s	/^Jhl	ÇDPcìÓ$/;"	l
+K	test.s	/^K ŒöÔèšyšÌ¥aa¿ƒaWQìLõ	â/;"	l
+Kw3	test.s	/^Kw3/;"	l
+L	test.s	/^L	õTaßrÈXÆLÙ^E;Œ¤L«’ƒ,n‰±èOÏÕ¦FÏæú¶‰qu›ÑenEİ›ô¯P'ø1®˜ïº¦³÷¿YóáiÖi»:­šïRÄQ>àAƒ#²×‚ŒIşÉsüõ·åtQOàÚè€5'(ƒÉ×Õj±‚‹Ô”û³Ùõ`j5$/;"	l
+L	test.s	/^LùSÀ°ØTOç¥ôMÂØ<8”Çú[xFi&ÊõÒ"Ù}ğmC•÷Í˜—ß'º¯[‚à\/pÄÜHhòàŠ'Y£Pl¿OÛ³7#uE±Õ‡ÚBÇš<³Bœ"uÀ‘û¸q²€FÔ"â•…‰­zÇÙö1 2Zq¢Oqy/;"	l
+L	test.s	/^Láõ€a)ìeV|M($/;"	l
+L	test.s	/^LRñ’°Tù¢ë7ú2×Ñ‹	âfZ…%ò¼¤ì\\ï’\/™_ÇIpñïÇx(J*á¶ŠaÕ	¨¡1Ê+ğ¦‡¨è´*½˜êƒruyeUâkV°Š‰à¡ØdGVÏÉ‰3-†È§î4ÙŸ cï~Ş;ì¦X}ÆS@)PÏr‚–RE( >ÅñÅhÙø÷EÍşÈv¶$/;"	l
+L	test.s	/^L$/;"	l
+L	test.s	/^L/;"	l
+L8	test.s	/^L8	…/;"	l
+LABEL_CHAR	op.h	19;"	d
+LABEL_CHARS	op.h	23;"	d
+LETTER_CHARS	include/asm.h	19;"	d
+LIST_H_	include/list.h	12;"	d
+M	test.s	/^M“·¹ßeöØ^Zaiˆ–¨ñof‰ñì6š¶šLpÈ„óß§G.nœ×šr›F›Ôj’c1kÿ^µÅæa.Ø9­ëPŒõ¤¢ıCØ”Ã­…ê£TÈRÓ­»æŸ¥OŒnóié 8‡—C”ì¯Şbô‘u÷íqõĞ)~u¢ªUŠÃğÓ³·Ç#ñÅpó:öØÍbúô>„‡¿£[İ®37î¦¹»dèlÛ&,ä`îó“u‹wjˆÒLïüç?­•ÎäŒC·ïÂÒ¦B¬M2Ö8t„'#v@ùp7™tQNtÀmPßJÍK)U*ksDî#¢«NÊ€jc4ôûÈ6ewˆ,ôhH¬æ#éšWš÷+fÉ&í¸Êc‡:¥pË$8Œe0ŸÄeÅçÜ«B‘ÛÇº-)+	ªµ£“[E¶.êpõ„Üaî´$/;"	l
+M	test.s	/^M Œ$ÙªêÇùTÿ»ÿœ]p%?ÿ¸]FVXŸ2ÓÑõ<Àù€ú¥=Ÿ*áï€4nØÀHu¶š$EÍ;5iû)aå«Ì	m‰2Uœk÷'{AëœK™íl½ÛóéÊ‰oWî¹È­Ø,AfHèï™«•>?S Ãöé²[’YVô `l&ûiØMéøàÚ•Ë¹—<nn½ßê¬{ûRÒEÃƒ¤OÌ]!­Ğô-EDßÙ.‰k¬–lmu±°	Ör1eÖ$/;"	l
+M	test.s	/^M/;"	l
+MAX_ARGS_NUMBER	op.h	16;"	d
+MAX_CHAR_READ	include/get_next_line.h	17;"	d
+MAX_FLAG	src/check_param.c	79;"	d	file:
+MAX_LINE_LEN	include/asm.h	21;"	d
+MEM_SIZE	op.h	14;"	d
+MT	test.s	/^MT bK#»`mŒP"ˆ3.{¥9)»ı0Øø¨?\\Ò°ùi÷H~Ø8:	\/j7t2ÜúÌ“mŞ“ÄÔ Y]øø:d·-~^iN)¾Ò†(ÒG¿ü¯G^µ·«tÜ8¨†É£F£ÕÈÜG2ÚqùşàG§#3Ä›hÀÅQ¯Ì¶ø5üí¦#×m.[&šıîPd:Zø´@Í	óGA†^üåCdv‰&	“ÚWô#v»Ù!:°ÊÈ"Nîw‰ƒEuÄÍ¢Í£0ì	“æózX^R–xwV®µ¸'7ùƒ}s8ìÒ.as”Q05W1ØÛp7¹–‹zcH ÿän'Aèª¥vvTò}Úõ|Q)ˆá3¬œø¤õàçÓc‰JªW”•n_~	;ò«›êSv¶&îY÷º>ÄŞÄ¹ nÛÜâõW-Å/;"	l
+MY_H_	include/my.h	12;"	d
+MY_UNUSED	include/my.h	19;"	d
+N	test.s	/^N$/;"	l
+NAME	Makefile	/^NAME=	asm$/;"	m
+NAME_CMD_STRING	op.h	25;"	d
+NBR_LIVE	op.h	98;"	d
+NT	test.s	/^NT$/;"	l
+NUM_CHARS	include/asm.h	20;"	d
+Ng	test.s	/^Ng)ëp÷×OÁ ÍeU«˜CÌGP©Ç%RÃ:½Spyî5£hùn“µÃìFÌÍÌàxÿ/;"	l
+OBJ	Makefile	/^OBJ=	$(SRC:.c=.o)$/;"	m
+OE	test.s	/^OE	Òïšt>0@¢Ş”ÁĞnnA3ÊŠZ(|êtBàq;Êí2¶ëyÇv)µ"ä[4Š&cïI®pI&j>ª×=†¢ùHšÈôzåÙ°Ïªk¿tÏİ"»¥ÌÕšğæzÇóe°|¼7‡å$/;"	l
+OP	test.s	/^OP	¹›÷DÙT‰ãTë?À(^#jÇB:Å€İtğuLàõ†y¹IvıóôtCŸEìõØãi'4vŞë4éûtÛM•zŒ»÷êøÆ¬s:€š»Y‚€}QeÕˆ³oÏ®	|k1¿XyEB\/Êeêv˜Øªºá˜$ŠÀfÚ@k–|Oª6l<Û³™‹m¹¤ò!Ñ^ï5t>'ÑÄñA=X®=Â”ù£¦'§26Øİ€â­ÁïÍaª­¯µç¡6È½Ş{ß·Ëeß¡q0X'Ç/;"	l
+P	test.s	/^P$/;"	l
+P6m	test.s	/^P6m	Xÿ×ëR.èK“vpÿÉA¥^a¹!/;"	l
+PROG_NAME_LENGTH	op.h	78;"	d
+Q	test.s	/^Q	îéI\/Ø¡Ãà\/æ‘,K†Ì»))*uîISŸ©01î{¼gD1;ÎC“+~å0İIN¹ º6,6+¯ë¥¹.v&ù=—¯Bâ<k8)± [›Ü.éÆmè2ˆ"²dq€¢Ãk$â3şØ{Àİ¿½ï°SçïÂœß¾‡iGşï£¢‘–60°J€µór¥Jša]&p6ˆŞØuO:—…;Ç,8°0Ó`§r²ß$wÀT‰{wØ§?XgŞhTåñ¬ä@î‘³?ïµ}C–qÇLLêÍšÄ¶d<5	&u5¹uo§¼‹UäN}&—}ôˆQ¶»pÎóYÅ“¦â4¢ÿrlÙ$/;"	l
+Q	test.s	/^Q4ı„KôÄ&(›…Éf`}Ä'ağVê¯÷ª£ùËÃ­ÌÓå®íJyôrë†ßnÑRüÔ²ĞY<të^,[*µ®ª¸²Qág™|Äÿ	ï¹ÓÏòUI§\/šmbÉ„;»éK'ôÃÿåEfV0/;"	l
+Q	test.s	/^Q …4~;Ë#ò•O)ëg8iñWª}qù¿‘—“¦¿­nE|.¬CaZ0=Õé8ŞnÕâ?®ntßlÔvCú{£ÂñiÍ£ş^åü<òUÕüÑ÷ìwVäñ¶Y~ÛÖ·8ë”;88¸ah›1˜¤•iâ$£~¤®;ŞC\/ÔR¯¬‡F¦\\óÎöôû7©àT‘qßS¢¢ÌÖÑ¾wª—Lh–Rítå…ˆk2NÊø®©ˆÆªöøç•ïÅ1tŞnF\\rZÆ¨ˆ¤Ì«ñızX-ôÖ5§hüûÁ?°ÿ‰pÕ;À¤h¹û¥ºœjĞ‚qNşZh&İ–és„mªíMÓè¬ã¯á¹U±ÂY¤.½kî¾¬½vØEœL€ìVÙ¯^kŞÙXÈÚ ßYÿœ3ƒ{—ù4Õ¶tLY„5déËhíl¨Sªv“‚¸íæ±P·(ƒş¬EÍ¦EÃÕà5eªV—ÖŠFdoîF# Ã˜Y<ß:¬G¥Ú‰?”ğ9xœ¬pˆç$/;"	l
+Q	test.s	/^Q/;"	l
+QJ	test.s	/^QJ½Ã5Ë	yÚ<LtÂf×Ö‹ø“Å“Ê°\/¬[?íê/;"	l
+R	test.s	/^/;"	l
+R	test.s	/^R	$6âîÏ«‰Cé¶<ik=Y~zËuÓ•xÖf¹h 4:o÷ƒ¸û2Ÿ°h\\*œ8^Ó€m3ƒü–TZnê¬0m© FN–û2kõ=cüPg¹ÃYï`ñİ$/;"	l
+R	test.s	/^R	ˆ­ö>VÇXF@ÃD9ÄS£ş†¸ª»‡¢‰ä¬B^ú{XD¬K†æ²h4­ØÚ»4—lß<a)Š&,ÉÔÛ™ïE®À„´tÎÒÍ ÒõvÚÊ	LPø£™@U}[0şëyÆ‡x,Æôıc0Tj'g×‹20ölp~¸—J×õÿ0~Öq¢NŸê¿r-.Á‰Ø*p¬ÓtP’ª£…£>ñ©Tàí·B?\\A²à/;"	l
+R	test.s	/^RŞ×p¡œ}ñ%±v5È–z÷%‡(Z2ï*^3ßbFw‰° ñç]dù<g"âÖ.ˆ@wv»!Õÿ5Éµ»X(ÄgJ¶ÒFØòÚı>Çd8³Éä©$/;"	l
+R	test.s	/^RLÔß/;"	l
+R	test.s	/^R$/;"	l
+REG_NUMBER	op.h	32;"	d
+REG_SIZE	op.h	64;"	d
+Ro7	test.s	/^Ro7	Ç¥ÿn»¢p›n¯j=À„†v[±¨5_s*{Üdúú4½6ÉI¸a&	¦_éŸ\/ò´ÅÅÀªá6©£l|-®ğ&>ŞìAe7[\/WÃ¿@§ñi>™L:a	èB!¾‘rõáÍ¹Ïà¡1 JÅ†ñ+s»;/;"	l
+S	test.s	/^S	‡pLğò™zïÔ–oŠoß%1iÓ3¾ÄÕI†e[$/;"	l
+S	test.s	/^SH^	ˆc·ë°SÏ<-ÈUŠè²ŞMØ@ P	@*ŒØĞy^×ºéP&’“Â¾r’ç[ñ'ô'õ$/;"	l
+S	test.s	/^SFœúDÍÜª¥? s?û¶jö!:R÷;Ù§¿tæ–Ğpıp¡2— şµH<ëä:Ñ6–›ªrRqÇ¾|ÖànÈÇbàè…¿±ü¡¯P‚õ+Äñº Œ‰N;r‰M»³#u	LÚâ˜¿-›S””E8 Š"‚Á&rÛ?”–R¿¶¼/;"	l
+S	test.s	/^SïW ¦!ú€y!»Œ$/;"	l
+S	test.s	/^S hÄÌOYÁ;SöóDğ³²ú,ÒwTsñ…·u\/å=;Š/;"	l
+S	test.s	/^S$/;"	l
+SEPARATOR_CHAR	op.h	21;"	d
+SRC	Makefile	/^SRC=	op.c \\$/;"	m
+Sh	test.s	/^Sh$/;"	l
+Sl	test.s	/^Sl$/;"	l
+T	test.s	/^T y¸xÕˆ*Œb§æB·Õ@Sºe¶.dÑÇ*]à2tswq¥t¹~¤¯å¸;"Œ.¢ ×|Z8 ßÏ% _/;"	l
+T	test.s	/^T 1†úô¤~<¬ô.–pİvz¹¬Üù«(“î$/;"	l
+T	test.s	/^T$/;"	l
+T_ACT	include/asm.h	22;"	d
+T_COD	include/asm.h	24;"	d
+T_DAT	include/asm.h	25;"	d
+T_DIR	op.h	41;"	d
+T_IND	op.h	42;"	d
+T_LAB	op.h	45;"	d
+T_REG	op.h	40;"	d
+T_SEP	include/asm.h	23;"	d
+Tm	test.s	/^Tm$/;"	l
+U	test.s	/^U	É}‹Eîh$/;"	l
+U	test.s	/^U	ÕVX.ß`sÛ®¸=÷¼½¹Šo	ø™$‡2Oø“7{5s¶ºïJW%ËU•K¡÷ã¶`/;"	l
+U	test.s	/^U$/;"	l
+U9	test.s	/^U9$/;"	l
+UJ	test.s	/^UJ$/;"	l
+Uz4	test.s	/^Uz42ÌúMÜù!bş`T´–]ãÒ-²œİ¶—ş5Q\\Qÿ*ù”_K_¯i,ËØúgî_æãƒv—æñ¡Gã˜šË€BˆÊ¢1(ã2ijçÓ´9‹ÇTK<›1ØpÎœU[Ñ»²À¿(¢òƒø}”ó_ÑXq=òN_9²dU'†Qoõé‹–¹·—.ëÑ:‘tHóJQóßm"õ‹ÙÏiÚ°Œ¾‹‘i°ÀÆ„ oí#×÷¬Ä”¢phıíT«Û*_  *Fótzxnóç’º`±‘1 /;"	l
+V	test.s	/^Vj¢‡Ûµü¼IºóŸåİÏïAg…Ö×t¶‰tPÏ>g»SõH\/T^_3JÔrçÇ›¿8FFıŸÄÔd†D÷üŠõá<Ljæ~$/;"	l
+V	test.s	/^V º\\ÆB<_¹`&Ì5ØÄ-ÍüÅöu},„NddÁµdp¿õsê2AâtE}gH­úAÅş	¯ñsÚ“6ê\\bô‡±ñ¯^[šUëÆù²IQÊR¡l¨–O4"òÑ¾dÔ…nfƒ!Kû¶Î;gİóuç9Ùä86%~ßpr}*¥#ø)3éùòÿLæñÆïDI®Œ6æ`l;Øøºıøû'™°ï›=i$/;"	l
+VE	test.s	/^VE	û»	õì„$/;"	l
+VHv	test.s	/^VHv$/;"	l
+W	test.s	/^W Q‘¡&W“¬h’Kh]«|ÃÑÆÊ/;"	l
+W	test.s	/^W$/;"	l
+WE	test.s	/^WEóäìê;”×tSn#È“\\ŒBÍ6æ\/:] ¼ïcÛàNC”8_$/;"	l
+Wb	test.s	/^Wb $j¸õ5b½:°z0{‚ïuÈwÕ5ì¥ù¡#Z¥mÌ‘«/;"	l
+X	test.s	/^X	9'ğ·*,~÷Û„NÄÃ±	£‰/;"	l
+X	test.s	/^X	b(ÿ\\›jÕ‰7Ö¢Šì¦]:¶Äa¼Ó4SW7Z‘>„LâèlÉÜ½$Ök§–©Åß<Où\\u½a36ˆW+ÄÙ] ßìZ¬ÿŠuo¢w~^¹›$/;"	l
+X	test.s	/^Xg÷0qTg®È%Š#E/;"	l
+X	test.s	/^X$/;"	l
+X4	test.s	/^X4$/;"	l
+Y	test.s	/^Y	;ÈôBéÁ[oµˆ´l°uú¸õæ/;"	l
+Y	test.s	/^Y^SsíÙKŒ/;"	l
+Y	test.s	/^Y”bwîRMi=Ş2•&Ó…7½44UgçB@LB5PÈN¥†¸jêVß’$/;"	l
+Y	test.s	/^Y$/;"	l
+Y	test.s	/^Y/;"	l
+Ylh	test.s	/^Ylh	]”¿CÚ8g‘ßK–0‘‡Š%à…IÊô{çkƒÌ|îöÓ¹°3løLSùÅğ³·Í¶C7b“7—4-'ä‘S@¸ìFéâW\/	ÌU~ıöBÂÃJI° ×‡ë\\#á\\ôÖ	b o:†£aO¤1‰Ùõğš™œ®:>™/;"	l
+Yt1	test.s	/^Yt1eeJ_jœ|4·|¹ÍjüÆSë¿W\/•Ó\/(C­ÊŠ..’Rä3Í7P[İYäù/;"	l
+Z	test.s	/^Z C+@m²(¼^òÖë÷½Õ»İg6µMà‚À¨nóUói?´íÒ«¤ tè?×Zş°Y—¼Ó‡ÁjqÁM÷çoãiYCY‹jUt†Ï·ğ­Bˆ>è›Îşéû’ÓÇñ,Ñ6£Ò|XıàŸ($0>Nc|©à›g=–NÉxíÔ/;"	l
+Z	test.s	/^Z$/;"	l
+ZT	test.s	/^ZT	©Ôàfç¯¶àX.\/Û„}’EÇ}ŠëòNå«Ÿ©Y¾-L\\œ kÍ˜@‹ÖD4_Áâ2û·»áİ¯“ÍÂä|}82à0˜¿%Äá›Í}½¸®e¸~ÿy”^f¾Ñ4-µÃÈ8wùöÇÛ›¤(Ê&„]Ä}$±1ÚóÛQ.süÏ§w¬•óøÍ¡i;«Pˆ#ï”éØÙ|“ÖwßâLP<BÂ*ì=´¯÷üğq'“Ñß¯ì6gÃ¡?·¯úáòÈõ80ê­jä …gÒ©6>ùåKÑ·f|(Á_î#<™a ĞräôI4ıMtTŸL?dü¾÷ùÂÂr2…1¶Í¦fĞÅµwu¯cP~ì÷şƒ$Pp­¹üQ½†J?3%Ø1Rü/;"	l
+_	test.s	/^_	í"KsUK&q¤€R@ÜË’{×’±k^ÛO‘#SmÄËC£$/;"	l
+_OP_H_	op.h	10;"	d
+_create_node	src/parser.c	/^static t_node	*_create_node(const char *str, int *off)$/;"	f	file:
+_fill_define	src/parser_handlers.c	/^static void	_fill_define(char *tab, const char *str, int max)$/;"	f	file:
+_fill_headers	src/code.c	/^static unsigned char    *_fill_headers(unsigned char *area, t_handler *handler)$/;"	f	file:
+_get_data	src/get_next_line.c	/^static char		*_get_data(char **buffer, int *offset)$/;"	f	file:
+_handle_code	src/parser_handlers.c	/^static void	_handle_code(t_list *list, const char *str)$/;"	f	file:
+_handle_error	src/parser_handlers.c	/^static void	_handle_error(const char *name)$/;"	f	file:
+_handle_other	src/parser.c	/^static void		_handle_other(const char *str, int *off, t_node **node)$/;"	f	file:
+_init_handler	src/parser.c	/^void	_init_handler(t_handler *h)$/;"	f
+_is_action	src/check_list.c	/^static int	_is_action(t_node *node)$/;"	f	file:
+_is_valid_arg	src/check_list.c	/^static int	_is_valid_arg(t_node *node_act, t_node *tmp, int arg)$/;"	f	file:
+_is_valid_dir	src/check_param.c	/^static int	_is_valid_dir(t_node *node)$/;"	f	file:
+_is_valid_ind	src/check_param.c	/^static int	_is_valid_ind(t_node *node)$/;"	f	file:
+_is_valid_reg	src/check_param.c	/^static int	_is_valid_reg(t_node *node)$/;"	f	file:
+_j	test.s	/^_j$/;"	l
+_my_write	lib/misc/my_putstr.c	/^static void	_my_write(int fd, const char *str)$/;"	f	file:
+_parse_line	src/parser.c	/^static void		_parse_line(t_handler *h, const char *str)$/;"	f	file:
+_pop_data	src/get_next_line.c	/^static void	_pop_data(char *buffer, int i)$/;"	f	file:
+_recurse_code	src/parser_handlers.c	/^static void	_recurse_code(t_list *list, const char *str)$/;"	f	file:
+_remove_sep	src/code.c	/^static void     _remove_sep(t_list *list, t_node *node)$/;"	f	file:
+_set_label	src/labels.c	/^static void	_set_label(t_node *node)$/;"	f	file:
+a	test.s	/^a	Ä/;"	l
+a	test.s	/^aZ#K~êâB£•’£®§—ª19[óÖkI•$/;"	l
+a	test.s	/^a Ces»¾Òä)’kÂ2]h«›,æß÷ÜÆÏ†iŸtÛÁ¤ğu–ÃËğ…éP¸v¾%S|±í=¾¾şû½'ìüƒ=­5€š„ålîEüĞÌ9%`Ô…=8Ò‘Ÿ1ïÔÄ@°ô1^bb4œQCÇ·Gùª5¢˜Ñ„jÿÿÌw>†Yš/;"	l
+a	test.s	/^a Œ&ä±1Ø3‘ƒ²$«ŸÂ®\\k«A6Y´Œ‰ĞhaËùå.úÓ¿ø0†;T;Fy»¾gâ¡_DÃ•ã?â§¯@lEö‚qåe“§”¾OÎjçÇ5c›“áÚqõİµr=àdú±ºé3¢’ûû¢uM\/qæW¶Xeú¨³S$/;"	l
+a	test.s	/^a °˜t*7ZçL¦³‘ÚìÍô¿…^ØRË<y2Èì³É_Z|sáñÕĞê~†ÏŸ’øÛ¡ h5)Z/;"	l
+a	test.s	/^a$/;"	l
+a	test.s	/^a/;"	l
+aA	test.s	/^aA$/;"	l
+aB7	test.s	/^aB7 FÌ´{\/ õî¬À[æ$/;"	l
+and	machin.s	/^and r1,%0,r1$/;"	l
+append_magic	src/code.c	/^static unsigned char    *append_magic(unsigned char *area)$/;"	f	file:
+args_type_t	op.h	/^typedef char    args_type_t;$/;"	t
+az	test.s	/^azë&ŸzŞ·£(YX›}+¹¹Àdî»dR"’àïén›FWëãB‡«¼Ûhä˜"»xAê÷VıØü5Zš®èÇáÕ1æ«ñ–W‡nèÒØndúÆÉæ?\/{G['æ«íš¿ã*i?5º›?:¤½…qMÛd–ã­Õeã°Ó¿}:QøP’1A™u&<@º÷gÁÒ–¿#;¶¹+áŒ´ÿQ™Aï\\Z[‘3›6çCœgßÔy“Gi,XC¶àÂ) |GŒ3Ø!ÊÑÂ¤qJ¨¼¼/;"	l
+b	test.s	/^b	RaMîáü­A»ô³;Œˆ(øÂÏHU6Vî‡3åTÃŸâ¤ßÁ®BÔ\/Ù|£<8²†ŸóW™”äù{®×,Ã¨&øøVû40®úê&q\\£ºl¡PÙ™‹§ŸffnbZÑğ¢Ó2=Øœè+\\ij¥$/;"	l
+b	test.s	/^bœ--sVë¯¼qÛ¼t¯QÀ–lŞÔqYúŠ\\ôŒ%²‰Â…H«¿ú[ÂP²SË·§S_Z›ê.CÀ||QJë‹nr3¤¿©¡üp—ñ£Ñe.ÏĞN&x	C‚Ùú°*6ĞAl¼Ôø=†ş;PE˜¤Ã5Á¤ü®ô”ítı°ÃÜ)HeÍc”n”È_†ljOl[TÂá(Ø<ÈxÑ	%ÁëÇ»ãƒ‚Ø	(µÅW5ò‹Ùx›ÚôÀ5¾Dm)nZhÃiÖğtü †ÇàÅ+ôÄoËªö’¥ê"&óEòKYDûúA¬‚œE»ëY~ô4Ó>kOø6ßt‚DB)é$/;"	l
+b	test.s	/^by²D$àø‡ùu&«c+V­Ïh„ì±’‚¶ÿi(Î²VıùE%Ù¯=•ĞÉÄËõšŠjoà¨1­¾4µ–%—ÌKôŠ#‚ı7†ËS„;ÛÛŒÕ®ÇØuË[#¿©O¦İe€ı¶™¶¢Ä³¥ª2Ã€/;"	l
+bQ	test.s	/^bQ	p]s?×PKŠVª‘‚y|ê0É¦½(b ªéäTşAö1ôså$/;"	l
+boost	mortel.s	/^boost:	ld %12,r2$/;"	l
+c	test.s	/^c	¼×å_ËË_ÕŞmV7º¶‰Š¸Û_-'BsÍ;tá”Ófû±Éê³ªíQqBZ^¶Ñğÿ_‡<pŸê´lAy¡W‘¡ÿ ”.Æ1C´Î_ˆeÿm¢¥ì²à€•HPr£yE	­H¯Š*î÷–Z¿©*ˆL’³(ÇÓLáÆ˜/;"	l
+c	test.s	/^c/;"	l
+cM	test.s	/^cMíĞò™°ÊÛ·•Q¼4,Ùôïj¸XÚ×.°6y­x9c·vH×n¨¡µyê/;"	l
+check_list	src/check_list.c	/^int		check_list(t_handler *hand)$/;"	f
+code	op.h	/^   char         code;$/;"	m	struct:op_s
+code	src/code.c	/^unsigned char   *code(t_handler *handler)$/;"	f
+comment	op.h	/^   char         *comment;$/;"	m	struct:op_s
+comment	op.h	/^   char comment[COMMENT_LENGTH+1];$/;"	m	struct:header_s
+contains	src/misc.c	/^int	contains(const char *str, char c)$/;"	f
+cursor	include/asm.h	/^  unsigned char *cursor;$/;"	m	struct:s_handler
+d	test.s	/^d	Ë¾¡şœ<B«+â¸ïzškŞñœ)*™„¯°×7É¾|Ub¡bTl†v#ı#®ß‘iUëè&‰°sëœà¶_u§	®$/;"	l
+d	test.s	/^d2'5â«bcÙI.Èm¯ği†ŞîÿDBI½r¡*êq¦«ò“B,<?5Ä"¯ö`†­²a¶P×y^ïkúê]Ç~*ÙQòïš’HGBĞ)À”eVØš`rô	^–´Ù½êÃÙŠø-”©S¸(&V_<4‹©›-¯ÔÌWG&Y¸¯ÿ«Ñ‡KÇı´g>‘Ï[Ê(Õ³Hö-·•İa…xíÜôôm=¨îYë#—\$/;"	l
+d	test.s	/^d )µÂñ÷/;"	l
+d	test.s	/^d$/;"	l
+dG	test.s	/^dG	½H63¦àüªÔ."’…Xª“VîF>×°OÂÂ£œ‚W´ÎÎz'Ì!·p†ç„‘¯¯o“¹•À‚j€B•*„`Ÿ[rÅnû²#‚8n¯Sùı·uõ/;"	l
+data	include/list.h	/^  char			*data;$/;"	m	struct:s_node
+e	test.s	/^e	7ü8D+¸úKQã&Íjí¡e¶²¹ËXARÔÍú;R¸c0#yJöä#D”µÜR	§ƒ•ö0ígµV[÷æŒd\\ì‘Ì*å³[ÜEOŠøœ;ÚS!j±äthu/;"	l
+e	test.s	/^e	}woşÊÛu(ñõ™uçÜÿÕZklÙ»ï­¤ÕW…/;"	l
+e	test.s	/^e $ÄYôæ =‚ÖûÎJ3ë:ufÜlCOdÁÊbŒÿzÜ¨çˆ“eÁ32VlèîGë=†›Fß²U¿2aCóôdî)5yOŒÈGß1	¬×&Z$/;"	l
+e	test.s	/^e JÅO"JßwÂ3^V(éÊçgåÒx½>O…%qR/;"	l
+e	test.s	/^e$/;"	l
+e	test.s	/^e/;"	l
+e9	test.s	/^e9	óŠÏ»KÜÊÏÕlXYI×Èæ“¥¯ò–('‡l\\^× ‚qlåóËùsÏŒÂÏ«‡ûtHô`»¼jã›/;"	l
+eDe	test.s	/^eDeaó(E´ZI"ÕıPäÚ}‘¥œ é´_C¡»UDàQ”Òk¤¾/;"	l
+eE	test.s	/^eE$/;"	l
+ecriture	mortel.s	/^ecriture: zjmp %:wait$/;"	l
+f	test.s	/^f$/;"	l
+fJn	test.s	/^fJnnæG÷Çe§ø°âı$/;"	l
+fW_	test.s	/^fW_$/;"	l
+first	include/list.h	/^  t_node		*first;$/;"	m	struct:s_list
+flag	src/check_param.c	/^  int		flag;$/;"	m	struct:s_type	file:
+fnc	src/check_param.c	/^  int		(*fnc)(t_node *);$/;"	m	struct:s_type	file:
+fork0	mortel.s	/^fork0:	live %66$/;"	l
+fork1	mortel.s	/^fork1:	live %66$/;"	l
+fork2	mortel.s	/^fork2:	live %66$/;"	l
+g	test.s	/^gJW¤áÎ‡Ê/;"	l
+g	test.s	/^g ¶íKt©E>öA1x€ÀØ?Ğ&ÒbÈÀ{)ª‰Åˆ“<…Âÿ>Dˆ`©ü$7÷ˆ”R)®„f¢‚·‹FKŒZñzşÕ4Åº,ÂW‘\\ÍÅ©ª	ıíx»+€.‰$/;"	l
+g5	test.s	/^g5zdã‚tŸ“KÌu¥—Në…B{{²ìÑ2!z-.^oKàİäÛø×´q©Thô¼îzˆïa{{%IÆwPáE‘wıañgk,a$/;"	l
+gEP	test.s	/^gEP$/;"	l
+gP	test.s	/^gP$/;"	l
+get_next_line	src/get_next_line.c	/^char			*get_next_line(const int fd)$/;"	f
+get_type	src/parser.c	/^const char	*get_type(int type)$/;"	f
+h	test.s	/^h ‚–c—òá $/;"	l
+h	test.s	/^h$/;"	l
+handle_define	src/parser_handlers.c	/^void		handle_define(t_handler *h, const char *str, int *off)$/;"	f
+head	include/asm.h	/^  t_header	*head;$/;"	m	struct:s_handler
+header_s	op.h	/^struct header_s$/;"	s
+header_t	op.h	/^typedef struct header_s header_t;$/;"	t	typeref:struct:header_s
+i	test.s	/^i	¥ÁõØõËï¶cô÷9»ŸnË^\/&¾Ğ´{¹Ù\/åYÃYˆ,RÌ6@@+”QÊª-ø€‚ş,$/;"	l
+i	test.s	/^i	Ö€(ñ-#/;"	l
+i	test.s	/^i<©ŠŠ³JÈXIÂ<|wI“Í‰\\'ËC/;"	l
+i	test.s	/^iS$ë„aJÏ£iW4\\ÓL²2±/;"	l
+i	test.s	/^iT€ÀWš.ˆ}º$ÁÂ›G½Wå“ÂêŸÑmiHŒ<¥§œ©İç¿pOÀ›©H$%M'U¶Í©sû6âMmU·ÒTÛˆeóû{«wS…’~;W@£2Ygfçî6òïì•”kÌv§´b@:«ÕåG£k9oİš¡°´5!SñìŠöó<ïÍş(¶˜K~Pm¥M<D3ÆÖ‡ö"ó}ÿè¯!æÏÃNœL8—°Ğ|1 ç±,,á2$KU[¢Ölìçsá–y]/;"	l
+i	test.s	/^iË-ËvºàaÕ¥š¾£²LUÎ Mı±™ß$ÑÈ$/;"	l
+i	test.s	/^i ¶º½#eO<Ú»)³±y¿äåi>Hgi"ÜÕ?Ö<B&Ô¯‰x»5‰ùcfÜ:›ûÆ:–yõ¡C †İ71=¿ÇÆHï_ûŸ¬âõZQg¼Õ²EÙçeƒŞo¨÷òĞ$/;"	l
+i	test.s	/^i îèb$/;"	l
+i	test.s	/^i$/;"	l
+i	test.s	/^i/;"	l
+il	test.s	/^ilzĞ”×/;"	l
+is_act	src/misc.c	/^int	is_act(const char *d)$/;"	f
+is_valid_format	src/check_list.c	/^t_node		*is_valid_format(t_node *node)$/;"	f
+is_valid_type	src/check_param.c	/^int		is_valid_type(t_node *act, t_node *node, int arg_pos)$/;"	f
+j	test.s	/^j1}'a£\\9oaí½2PŒc¾¤¥ê³è°zy|"&bé€dJ©ğU´6V³\/bågß¨T¾åeË ô£"—mz¦q\/É×¡5\/gšë+Ô­èöŠU½)Dj8fÖ›«V!¡øÇ\/ÂœC0Hëä—û¯wNıûâkn™#lZÁâtêoH³õw,ƒhuÓôrî°ÂˆyCêÈÕ¡kèU¯glb5ó$[*zF"ÃpD5ÅüŸ÷\/±Y³S#L²{N©n;YÌ¯~ñƒ×,NfØë´ÉœU}jÈ¶ûÂ~ÏõtY%$sËkàŞ¾µ·•{Ö4-Ï¯á*W\\â–8¶ì]¾€H»n…§ğı”Ğ~Ô(ƒ»ö8;½×5eŒÏ•İ;ƒ\/ŸÁìäÆ˜\/âKd7¢˜:û‘¦X‘^û2b¾YÌöõ|§€´òh}Õ{Š“yÀçÕÍ/;"	l
+j	test.s	/^j ¶2©4–grUƒ\\‡ØX¢†´¿$/;"	l
+j	test.s	/^j$/;"	l
+jp	test.s	/^jp/;"	l
+k	test.s	/^k	* ¡¡¶/;"	l
+k	test.s	/^k]P¹ób¿1a‰ô°ÕU–,aúd1¡¸¸ÿÂ«Ó¬b¡ª[C/;"	l
+k	test.s	/^k/;"	l
+k	test.s	/^k: +¯~œîÑäY\\$§tCÀ`½Å/;"	l
+kZ	test.s	/^kZ5ö'İ4¡ÃeÄ¾H˜o+9ôÏŠŒ+…ëØıáÄ6÷BYàµC2eœ/;"	l
+kwv	test.s	/^kwv	!Ñ!ì‘*@m›VÈ·r	ê2ô¬­fõ^¶îœ½Ã"}ƒı°(1L®÷Üáw”æßàeè‹$/;"	l
+l	test.s	/^/;"	l
+l	test.s	/^l	ZĞZuóuC'v,´Nbd1İÃıÛàĞ9BğğhÜq¸ÍùK#NôäßFåÇ±(^+´¬ÌVo¿WßEİ¾ rHAÛ;Ï²&<Ra‚É‡‚ˆ9Cµm4ŞiŞqH ^a>'âUÜÀ(6• 5Ã0/;"	l
+l	test.s	/^lÙ1'beŠÚš8#ƒå­à(İ|SÒ•!%Fˆ.Û0XS‹áÇµ³ƒ1|>†Ñ@÷:.S4!nn=V¿d$/;"	l
+l2	machin.s	/^l2:$/;"	l
+l7	test.s	/^l7 }‘u‹[Ö*a=qT|Ä\\jëZÌ)RãªÔ'¦Êê”ôöC#İïº¾Ş®v/;"	l
+lA	test.s	/^lAEmoEËAC‚úÁ•9²¾iT?»ÿ‘µ¯nº§ØaØL½/;"	l
+label	include/list.h	/^  char			*label;$/;"	m	struct:s_node
+label_ref	include/list.h	/^  char			*label_ref;$/;"	m	struct:s_node
+last	include/list.h	/^  t_node		*last;$/;"	m	struct:s_list
+lg	test.s	/^lg‹\/o~Ê«ƒÌZ>ƒ î¹•¥ˆÙãáì.êÿJi]á^óâºÄcAi+™íRÔÿ‰‘GT7ÖòıçÅªbÎ[O¼5¥ t¦®-É€ ÚÔÎ/;"	l
+list	include/asm.h	/^  t_list	*list;$/;"	m	struct:s_handler
+list_append	src/list.c	/^void	list_append(t_list *list, t_node *node)$/;"	f
+list_append	src/list_handlers.c	/^void	list_append(t_list *list, t_node *node)$/;"	f
+list_create	src/list.c	/^t_list		*list_create()$/;"	f
+list_create	src/list_init.c	/^t_list		*list_create()$/;"	f
+list_free	src/list.c	/^void		list_free(t_list *list)$/;"	f
+list_free	src/list_handlers.c	/^void		list_free(t_list *list)$/;"	f
+list_prepend	src/list.c	/^void	list_prepend(t_list *list, t_node *node)$/;"	f
+list_prepend	src/list_handlers.c	/^void	list_prepend(t_list *list, t_node *node)$/;"	f
+list_remove	src/list_handlers.c	/^void	list_remove(t_list *list, t_node *node)$/;"	f
+live	machin.s	/^live %1$/;"	l
+live	machin.s	/^live:$/;"	l
+live	mortel.s	/^live:	sti r1,r5,r5$/;"	l
+live1	mortel.s	/^live1:	live %66$/;"	l
+m	test.s	/^mQêõî/;"	l
+m	test.s	/^mR„¤$/;"	l
+m	test.s	/^mŸÅÍ($/;"	l
+m	test.s	/^mÜ„ÛÌ9"ÂüXMA~O¥ƒqgY†UZa3lÄc"çÕÏ¬#C1shxô+¤1™\/Bß)H»è¸é£	€Ù¡év§HTŸ¡Â(¼ÈÉEI=z~ü8	VÒ)!yVV»Ì‘0ÔŒÑ*‰2v ûNæLİ†ç÷»Ôî’ä!$/;"	l
+m	test.s	/^m GOËïÈ1*^[“şËE‰X]ÄõÏQ=JÈÌgN_7XÏi?Èr±bTÂºS4„Öº9›WkíİbÔz¥¼PMtb³ÚœX×tı·fy$¶¥§aàˆfk{ 7ÇO<cdF¤1à¬e‰y\\†#ó8®8jês>ş’Q’sÜeŠo¹Ói‡ŸëŞ|¤æjï™'ZÅ$$$§ÆÆ×ÍÁÛÁ*Ú9ÃIŒ7›–É"<­’f{˜-2ïÛ;uêá’LU(q†okÀac‡Üñ]ÏŸ‘/;"	l
+magic	op.h	/^   int  magic;$/;"	m	struct:header_s
+main	src/parser.c	/^int			main(int argc, char **argv)$/;"	f
+master	mortel.s	/^master:	live %66$/;"	l
+mnemonique	op.h	/^   char         *mnemonique;$/;"	m	struct:op_s
+my_is_letter	lib/misc/my_char_type.c	/^int	my_is_letter(char c)$/;"	f
+my_is_number	lib/misc/my_char_type.c	/^int	my_is_number(char c)$/;"	f
+my_is_space	lib/misc/my_char_type.c	/^int	my_is_space(char c)$/;"	f
+my_memcpy	lib/misc/my_memcpy.c	/^void    *my_memcpy(void *dst, void *src, int len)$/;"	f
+my_memset	lib/misc/my_memset.c	/^void    *my_memset(void *s, int c, int n)$/;"	f
+my_putchar	lib/misc/my_putchar.c	/^void	my_putchar(char c)$/;"	f
+my_puterr	lib/misc/my_putstr.c	/^void	my_puterr(const char *str)$/;"	f
+my_putnbr	lib/misc/my_putnbr.c	/^void	my_putnbr(int nb)$/;"	f
+my_putstr	lib/misc/my_putstr.c	/^void	my_putstr(const char *str)$/;"	f
+my_strcat	lib/misc/my_strcat.c	/^char	*my_strcat(char *dest, const char *src)$/;"	f
+my_strcmp	lib/misc/my_strcmp.c	/^int	my_strcmp(const char *s1, const char *s2)$/;"	f
+my_strcpy	lib/misc/my_strcpy.c	/^char	*my_strcpy(char *dest, const char *src)$/;"	f
+my_strdup	lib/misc/my_strdup.c	/^char	*my_strdup(const char *str)$/;"	f
+my_strlen	lib/misc/my_strlen.c	/^int	my_strlen(const char *str)$/;"	f
+my_strncpy	lib/misc/my_strcpy.c	/^char	*my_strncpy(char *dest, const char *src, int len)$/;"	f
+my_strndup	lib/misc/my_strdup.c	/^char	*my_strndup(const char *str, int len)$/;"	f
+n	test.s	/^n	781¦5`\/¹ÇîêCÃ²Ÿz÷8E+ÑÕ±ÈÚÂN Ñ÷¥.±œ(&÷y§±É­Ÿ‰W¬\\mÖà'ÚÉ«‰áMÙëÔ5¥=:®Ê ª‘p±üe$/;"	l
+n	test.s	/^n	ÕBNâúÈ™ƒ¿aû8¢¹ ÷üÏf€Éú‰r ı1ı±²œ–H½ÖoÁZ·cêk\/¦˜Hº|ºU9¡àŞ¹–·,ƒ]É¥ê«Øú}¸$/;"	l
+n	test.s	/^nt)I&††-Ä.·¸©gôóZgB%V·^¢å¼ÑA~ş¤şğ £ibfœÄ¹bĞ‡îbLMé˜²¸D(ŠU—xàH¦3éÆà$/;"	l
+nbr_args	op.h	/^   char         nbr_args;$/;"	m	struct:op_s
+nbr_cycles	op.h	/^   int          nbr_cycles;$/;"	m	struct:op_s
+next	include/list.h	/^  struct s_node	*next;$/;"	m	struct:s_node	typeref:struct:s_node::s_node
+node_create	src/list.c	/^t_node		*node_create()$/;"	f
+node_create	src/list_init.c	/^t_node		*node_create(int type, char *label, char *label_ref, char *data)$/;"	f
+numero1	mortel.s	/^numero1: live %66$/;"	l
+numero2	mortel.s	/^numero2: live %66$/;"	l
+o	test.s	/^o	ãà	Í¢Œ–w•¢Wõ\/ÜÌ¸;JŸŸ ³†­´x¸ŠÜÑßáP*,µOZë[3¹~gSGÄ‰rŒ¡ò¬RsY&Xˆ»A(ò»ƒMjg5öl¿n´l—è²$/;"	l
+o	test.s	/^o£`"Ó·Ëut«iÄUú¨©]ĞºŠGU]÷Ò.y'›¬J^Ç¶íÑÑ—%®35°>MSŞpQXl2€‹M|¨İo™hLÀh({}’º€ÿ\\c 2ÿÃ·›ù¢T¡>ÖAğ^Ö Ôµ„¿ó‚Q)^™ÿÇåLú‰˜¾ºDÔàµ|s”Kÿà–VõOì^kÓ©;•6ÁŸÈ'‘Äßgö4e•ô/;"	l
+o	test.s	/^o$/;"	l
+o	test.s	/^o/;"	l
+op_s	op.h	/^struct  op_s    $/;"	s
+op_t	op.h	/^typedef struct op_s     op_t;$/;"	t	typeref:struct:op_s
+op_tab	op.c	/^op_t    op_tab[] =$/;"	v
+p	test.s	/^pöÇÙ/;"	l
+p	test.s	/^p \\çŒ"À¬"ár]‹ÏUK å[t’›'<Ú±µ°ÅÂïÃç 5LŒoê¸CŒ„óî÷æ9ö)ôƒÒÔŸ£Q˜‡«÷`ôuÛFÊí¥æ9$/;"	l
+p	test.s	/^p$/;"	l
+pT	test.s	/^pT/;"	l
+pX	test.s	/^pX«Ìe\/Ñ‰éJiÛÏÎ\/Õœ‡¼©{Ä“NÎ]ëˆÑİLwm*îX*(Å4bœÛ'İÑ”êX ®u†5eí T–„’6‡å‰¸V2å¦´Çäë(HÙ@û[Y€Â§CùˆVhEŞsÈ6t¡8\\˜†K*˜ïz¹Ù‹-­cûL)e¶\\â¦reï‹J*ôÑ¤XÜi%«¢`øö„#¤sämC>šò›a)ti†&)4V9q/;"	l
+parse	src/parser.c	/^void	parse(t_handler *h, const char *path)$/;"	f
+pc	test.s	/^pc$/;"	l
+prev	include/list.h	/^  struct s_node	*prev;$/;"	m	struct:s_node	typeref:struct:s_node::s_node
+prog_name	op.h	/^   char prog_name[PROG_NAME_LENGTH+1];$/;"	m	struct:header_s
+prog_size	op.h	/^   int  prog_size;$/;"	m	struct:header_s
+q	test.s	/^q	ÿ¢'ü0¡nòf‰eßÀbx$‹¥òÂc•ôx¶œäIÏœœw“/;"	l
+q	test.s	/^q Ùìöá¾ªp²«ZÂœeÃ¾!*$´–¢Tö«Í¿5i¿œøvºW¨4DpæÑæS•šˆNÒÈñCpg8Ñ!.I'¬ãt×´¦˜—è%	T‹6IC®¸^lUÌŞ0¤\/5{lÄãd=’ë_ÖZõ0\\	Œíä’"‡Á>ØİD	Ÿ”P=’¥OõœPã*"«‡Q¢…¯RÛ!6—"Í+rLBiŞ¬ïáÔo	1ÿb)H¦ü$/;"	l
+qNnRF	test.s	/^qNnRF ´[¹¶‘Nü¦£HÌëCòGÊm‡]çxËš…©$/;"	l
+qi	test.s	/^qi?Şi~5ÙÓ‚ø´’~Éq‰Â£b+I:ı¯È¤N‰Û{Ú†:øœ<–M=$Œ”0¢$/;"	l
+quU	test.s	/^quUB1…ŞZbË$/;"	l
+r	test.s	/^r	Ü‚—©›Hâ‚JŠ†±–X5İòu²¸÷$/;"	l
+r	test.s	/^røÒWn©S_È¯À~æCİiG”ÖïŸ¸køYzoX÷QWüÉË3ç ‚§©ÊcˆDöWÏŸ!w9ƒ²'lAª®ÚQ\/ÈYnµLÎoíQP;·µÎ‡d€C—êÆêÑ«TZt¢ù•‹'„K¿-L]>/;"	l
+r	test.s	/^r$/;"	l
+r0	test.s	/^r0 ÛCC~ˆ._‘ ¼9æÇ ¥?i&Òõ¸ˆÇöG¥lpÖxs<£×/;"	l
+rU	test.s	/^rU/;"	l
+ready	mortel.s	/^ready:	sti r6,r3,%:ecriture$/;"	l
+s_handler	include/asm.h	/^typedef struct s_handler$/;"	s
+s_list	include/list.h	/^typedef struct s_list$/;"	s
+s_node	include/list.h	/^typedef struct s_node$/;"	s
+s_type	src/check_param.c	/^typedef struct s_type$/;"	s	file:
+set_labels	src/labels.c	/^void		set_labels(t_list *list)$/;"	f
+size	include/list.h	/^  int			size;$/;"	m	struct:s_list
+sti	machin.s	/^sti r1,%:live,%22222222222222222$/;"	l
+t	test.s	/^tu~T˜[õP\\®º/;"	l
+t	test.s	/^tÄĞ*¨T&’•¨0ÒËÜ¿Â+yş5yw\\ü3ü«A¿ø»\/ÖH:™æµô÷ÂVºÃÇ$TŞÇˆRË1ACÀp%#H¸É{ïÉÃÊ¥ÈW 3hn*ÇØüBÑ‘ˆÕ4:ƒOÅ$Ë6Ø\/5¹ëzh¯ózF®<íäş<¯™XE"?ãÍÕk3mb¯f_ãTüoüRÑœØâ7ĞMn„:àâ	LœãĞGå¨Î£Jâ÷#¹	­öz^»/;"	l
+t	test.s	/^t ]÷ŸQk¹GšÍA¾%®˜*ÆÏ$/;"	l
+t	test.s	/^t$/;"	l
+t	test.s	/^t:	ÿÛòE’ïM[HnY<5ƒzû1û¬@á‹ÒÌQqW®»öjëågª”ù{äï¼¹fv{¾<ƒB¾Jnïë»étvJÇXUíCÙÿÔÉì(y¦\/ád›óÁjÒlQeâğiï¤ğ×è½]…v“í¿¨8dQ“#ØIª4ø‚4â":0œÀ¶úÎé´ÁRàËïL·×äô Œ<Â•{yÑï–§Û‹z(\\ŒíÊ‘¸T¢UûsøéÓl€Óô]¾´ÙqÊ§T†¥HÿSÆP2q[™Ê ˆ‡è¦ñfÊH/;"	l
+t	test.s	/^t:9yÇNäS©t(¾?Åoä€®bN4j6»/;"	l
+tVL	test.s	/^tVL«\/ŠËAÆ®fg°ÂËóiÇ÷^Âm).5\/C¯æ½êÃ]YÑÄÓ_xû÷7o²Ó+!Gè.„ÉI‹§À¢iXœ ‹hÒ@a™üÄxhö†Âb¿VşçÀ0%Í*´F§|2d{ñ¼è82_ø7,èXêô—ŸÑğ1ì§®Yw0ï¥!Ú0Ö	ªO5_ôNw÷b½a$e$/;"	l
+t_handler	include/asm.h	/^} t_handler;$/;"	t	typeref:struct:s_handler
+t_header	include/asm.h	/^typedef header_t t_header;$/;"	t
+t_list	include/list.h	/^} t_list;$/;"	t	typeref:struct:s_list
+t_node	include/list.h	/^} t_node;$/;"	t	typeref:struct:s_node
+t_type	src/check_param.c	/^} t_type;$/;"	t	typeref:struct:s_type	file:
+tampon	mortel.s	/^tampon:	sti r6,r3,r5$/;"	l
+type	include/list.h	/^  int			type;$/;"	m	struct:s_node
+type	op.h	/^   args_type_t  type[MAX_ARGS_NUMBER];$/;"	m	struct:op_s
+type_handler	src/check_param.c	/^static const t_type	type_handler[MAX_FLAG] =$/;"	v	file:
+u	test.s	/^u	W3¶""Ÿ1 6‰3ä£ÛÉ¬x8IZe¤äG»A÷j“gZ¤P¢Õ–šªEô¶š÷Ú&‰H:àŞÊß%6û€³ZUX@ß+ôû<ıŞ/;"	l
+u	test.s	/^u€ª|†Oäš%à‹,ÿåêiİõFÎı>ŒJĞ^ˆèAºöïÇ—“–µ?m1«$¨"ü¯Z¸İ¡;ÆmM•6‹~yp£È|'),ª´¤Z'¤V—ú¼İ!¦©p05TİqSÁ ¹w>=||˜NP +t±–Ê –İ×pš›½±ä×CşËÌv_úƒ·İòN‘oÃq1nÇs|bªS+×ÚSTPĞR}ç÷ënş4áËÎà/;"	l
+u	test.s	/^uóBQ³²ÿ’G~j.ù'ÇÙ9‡XŒú)(Y4ó=·f¸¬ÿ&ğŒó@×§ïÍi’S@G*z[B¨ùò³“	ëtxr&†BÆ'àL\/T}c†¸ÀUq–eà ë¢Dtâ	–«X£-v‚z’ô€É1ñ6ÿ7On*è0úñC9379å›ŒóôæYM¾¶W&95ä—ÿÍÉˆÊ¡+ã÷ öT´#b’!ÅüÌ†ø%Rj¬>>î?h}˜¤‹MÅÃ$/;"	l
+u	test.s	/^u$/;"	l
+u	test.s	/^u/;"	l
+v	test.s	/^v	ë*N =”L4ô–N{Öí`üf±ø|hêö™Š†¼x3|˜«(>aí@c€d™<Íº%rŠ€‹4ñ£GÒ3æıœfA¤jTìò§äœVá×®ôÄ‚µÕÑúl¶NâÔùÄ#‰AÏ#&À—Bí3ÊÚ\\öÁ°lÇCXñ~°q€¶ƒÈŠS'ú“CQcLX)©şxÙë€ç†~ıZJàwàK®Ûƒ½µËè5geåìú'îÔœÃğ\/„ìÄ¦ÓŠ2ı²¼/;"	l
+v	test.s	/^v¹¹ıS_•§Ió–tLŠ¶nOíMÂ<”.âQvĞB†*_1J”Lñ´¦©/;"	l
+vF	test.s	/^vF$/;"	l
+vL	test.s	/^vL$/;"	l
+w	test.s	/^w	\\,Fş	öi/;"	l
+w	test.s	/^w	;œîDaÛşù©ğe™Qöñe2ü€ºei,€’_˜Ê}§Gû[+æIliìÒ~1ò-™¯Í³½G5YCz/;"	l
+w	test.s	/^w	ƒwÃ^YÙèùäRÔ[Y¬(‹W4_æÏ‡¼2„|¬K¨3ÀI³ŠÀÚŸÿ=Ò]è«šb/;"	l
+w	test.s	/^wÁàGn´È]ò3ú—ˆšH\\Ô°‰îÒ…TÑõUİFÌ„^ sÓ:£‡ŞRa¡ ³æ=qÊ´j&m#õ)çr%ÿ„b|ÏeŸe/;"	l
+w	test.s	/^wÛs¥exì¨– «cC±¾v43ˆ.1X&³˜¥­?¯ü'Ğ2™óIÃ2L_h¤37é/;"	l
+w	test.s	/^w ”¯<İî"=¸™³nÀ"E”\/hXCÂCjğVc‘«Ärª×(ÓQÇÓP¯ë¸¹Œ4Ø	eáÖìÆ@Ò%W–ÕIPHÓçì’,±ãjÃ/;"	l
+w	test.s	/^w$/;"	l
+w07	test.s	/^w07 XqõÔ!9±~Ù$/;"	l
+wait	mortel.s	/^wait:	live %66$/;"	l
+x	test.s	/^x	PÈfÔ¿g5y°è2:A·Ô/;"	l
+x	test.s	/^x	ÀzïIwün2@vİŸ&ğtğâƒ¶g!íœÙ—ƒ-PZ:N0«ØæQ¿HéÌ»…ìW^[“A7½6;–š°Ï2˜bvÿ ëÅ@iÎÄíÕ&İ“G)È•HXäèdEıYé~Er3ÒF‚ÀÚSÁ×¦Ì©ÎG§›ôúô‚À›MäŒNä1X´´g	¬æ5§Nl÷®¤¥°é„ÎÁ‡ãÀàH,ü ¨–Gªj:E++$!<¸°\/·:võ•‹_UÃ7á,?ƒMsŠK˜Š‡›63X%šY¨·1Ş®nfæbUÜªV8„0Şy‚ÕÿrÀn£7ÓûŞ#‹è:õ‚êÈ‹*@i*Îáª‰â~VzÊ’¼iıÍ;oULzÄj1;0\\ÙİİÍŸôok7Üò]•Æs$/;"	l
+x	test.s	/^x§.®a‹›ãøXæ\\¡mÆÛd¿vå ïÊøUµÏÜ£ö¼$/;"	l
+x	test.s	/^x$gŸàÈÑáj_%°ö$/;"	l
+x	test.s	/^xÓƒë°@şæ›êıë(œÙÓ÷­c‹¬/;"	l
+x	test.s	/^x hA”#ÃşğV|dÖ0/;"	l
+xO	test.s	/^xO ,ì©xÌµ¬!2•cgÉŠ›ØóÈ)O˜ÙD(t=]Â¦úT]Ur|/;"	l
+xclose	lib/xfnc/xclose.c	/^void	xclose(int fd)$/;"	f
+xmalloc	lib/xfnc/xmalloc.c	/^void	*xmalloc(size_t size)$/;"	f
+xopen	lib/xfnc/xopen.c	/^int	xopen(const char *path, int flags)$/;"	f
+xwrite	lib/xfnc/xwrite.c	/^void	xwrite(int fd, const char *str, int size)$/;"	f
+y	test.s	/^y	–ê<İ†}!pÈi/;"	l
+y	test.s	/^y %ÔcñaüqĞÜC> ¿œÔ”{à+H¡!™óÿsf‰š‘RPh›Á¬Öìš¦ôytŸºùo±Í$/;"	l
+y	test.s	/^y$/;"	l
+z	test.s	/^z	–d‚$/;"	l
+z	test.s	/^zFÕ¶ĞËØ¿¯_–œï¾…½ş!]H½æcÜİ,gp¿Á/;"	l
+z	test.s	/^z G¸ïH–0¿sC²Dêğ¿u‹?Oÿe®2%Uª(à¡o ß¶eşFNQ7íqãèúc~ëò<Üw2”áÇxAûÛ*ğ-K†”¡>+Ğ:L¬ÿ…:3	î$Ü¬‡wç˜Ğÿ .ÿKyºC«:JY:ğı§mnÃ!6ZÇi\\²éªì=£¿§mõò!øÌOGÚ,#©WÈp^$õ^R$g6ŒGC4&ÜÍq‡£ŒÅ!†ÎÛ†ÚR&¨è`cmÖ³Êú½ïø‹¥™ø\\äºH¹	l±óĞ¸ì+¹ç¨]j¶[‰ãïè»ŸŸ¸—ytªÇğKÿ>]áv Ó ÊPùj¥éXâ|V\\Ì÷“œÆ%JÂ×;ÓBX-*|Éöì$/;"	l
+zdh	test.s	/^zdh±FH:Q:Ç¢û»}Pn«É^÷ØNö2óe<Ó)¬c—CBÄF‰ê‹Ï´ÔlBÔÊA‘àŸ+ñB)Ñçef×­J—/;"	l
+zjmp	machin.s	/^zjmp %:live$/;"	l
+zpy	test.s	/^zpy¦‘[ŠpTîØU+Z'\\EdÌ/;"	l

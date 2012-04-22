@@ -5,7 +5,7 @@
 ## Login   <falck_m@epitech.net>
 ##
 ## Started on  Tue Mar 06 20:46:37 2012 mickael falck
-## Last update Tue Mar 06 21:29:54 2012 mickael falck
+## Last update Fri Apr 13 16:55:46 2012 lyoma guillou
 ##
 
 DEBUG=	no
@@ -14,9 +14,9 @@ CC:=	$(if $(filter yes, $(DEBUG)), clang, gcc)
 
 RM=	rm -f
 
-NAME=	42sh
+NAME=	H.I.sh
 
-SRC=	main.c
+SRC=	src/main.c
 
 CFLAGS:=$(if $(filter yes, $(DEBUG)), -ggdb3, -O2)
 CFLAGS+=-W -Wextra -Wall -ansi -pedantic

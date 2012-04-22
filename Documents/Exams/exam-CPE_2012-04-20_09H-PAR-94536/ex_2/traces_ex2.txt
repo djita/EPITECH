@@ -1,0 +1,112 @@
+#### TEST 1 ####
+
+=> Command: ./ulstr "BonjouR PeTiT USer!" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bONJOUr pEtIt usER!$
+
+<-------------->
+
+<---- correction ---->
+bONJOUr pEtIt usER!$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./ulstr " 0123456879 abcdefg HIJKLMNO $%@!#" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+ 0123456879 ABCDEFG hijklmno $%@!#$
+
+<-------------->
+
+<---- correction ---->
+ 0123456879 ABCDEFG hijklmno $%@!#$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./ulstr " juanito EST + GROS QUE CHUX " | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+ JUANITO est + gros que chux $
+
+<-------------->
+
+<---- correction ---->
+ JUANITO est + gros que chux $
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./ulstr "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+#### TEST 5 ####
+
+=> Command: ./ulstr | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 5 is ok]
+### END OF TEST 5 ###
+
+
+SUCCESS!!!
+prg is alive

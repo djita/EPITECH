@@ -1,0 +1,90 @@
+#### TEST 1 ####
+
+=> Command: ./fprime 21654 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+2*3*3*3*401$
+
+<-------------->
+
+<---- correction ---->
+2*3*3*3*401$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./fprime 1564984 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+2*2*2*53*3691$
+
+<-------------->
+
+<---- correction ---->
+2*2*2*53*3691$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./fprime | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./fprime 5 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+5$
+
+<-------------->
+
+<---- correction ---->
+5$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+SUCCESS!!!
+prg is alive

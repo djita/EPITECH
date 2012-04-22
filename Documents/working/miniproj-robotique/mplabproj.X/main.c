@@ -9,23 +9,12 @@
 #include	"picdem2.h"
 #include        "jobs.h"
 #include        "init.h"
-
-void    delay(void)
-{
-    int i;
-
-    i = 0;
-    while (i < 0x4000)
-        ++i;
-}
+#include        "liblcd.h"
 
 void main(void) {
     init_all();
-    PORTB = 0b00001111;
     while (1)
     {
         job();
-        delay();
     }
 }
-

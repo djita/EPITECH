@@ -1,18 +1,24 @@
 ##
-## Makefile for count_island in /home/guillo_e//Documents/working/test/count_island
+## Makefile for  in /exam//rendu/ex_3
 ## 
-## Made by lyoma guillou
+## Made by exam_user
 ## Login   <guillo_e@epitech.net>
 ## 
-## Started on  Sat Mar 10 22:10:59 2012 lyoma guillou
-## Last update Sat Mar 10 23:50:49 2012 lyoma guillou
+## Started on  Sat Mar 10 10:52:46 2012 exam_user
+## Last update Sat Mar 10 12:16:51 2012 exam_user
 ##
 
-CC	=	gcc -o
+CC	= gcc -o
 
-NAME	=	count_island
+NAME	= count_island
 
-SRC	=	lib/len_lib.c \
-		lib/put_lib.c \
-		src/count_island.c \
-		src/main.c
+SRC	= count_island.c
+
+RM	= rm -f
+
+
+all:
+	$(CC) $(NAME) $(SRC)
+
+clean:
+	$(RM) $(NAME)

@@ -1,0 +1,13 @@
+Index: main.c
+===================================================================
+--- main.c	(revision 860)
++++ main.c	(working copy)
+@@ -348,7 +356,7 @@
+   int			cmdId;
+
+   cmdId = getNumber(&packetPtr, &packetSize);
+-  if (cmdId > (int)HANDLER_LEN)
++  if (cmdId >= (((int)HANDLER_LEN) - 1) || cmdId < 0)
+     fprintf(stderr, "ID (%i) out of range.\n", cmdId);
+   else
+     handlerTab[cmdId](packetPtr, packetSize);
