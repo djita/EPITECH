@@ -1,0 +1,1 @@
+getNumber via getStr -> size_t = 65640~ pour str = "a"
