@@ -5,7 +5,7 @@ cp -ru /afs/epitech.net/users/all/guillo_e/epreuve/* ~/GitTimeMachine/EPITECH/Ex
 date >> date.log
 echo ' Commited by '>> date.log
 echo $USER >> date.log
-echo "\n" >> date.log
+echo '' >> date.log
 git add *
 git commit
 git push
