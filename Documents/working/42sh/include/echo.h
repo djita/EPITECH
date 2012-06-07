@@ -1,11 +1,11 @@
 /*
-** echo.h for e42sh in /home/guillo_e//Documents/working/test/unix
+** echo.h for include in /mnt/fedora_std/home/falck_m/Work/42sh/include
 ** 
 ** Made by lyoma guillou
 ** Login   <guillo_e@epitech.net>
 ** 
 ** Started on  Sat May 12 16:30:36 2012 lyoma guillou
-** Last update Sat May 12 17:08:12 2012 lyoma guillou
+** Last update Sun May 20 20:23:33 2012 mickael falck
 */
 
 #ifndef _ECHO_H_
@@ -23,6 +23,6 @@ typedef	struct	s_symbol
   char		sym;
 }		t_symbol;
 
-int		my_echo(char **arg);
+int		my_echo(char **arg, int fd[2]);
 
 #endif /* !_ECHO_H_ */

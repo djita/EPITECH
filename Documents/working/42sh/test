@@ -1,1 +1,1 @@
-user=root ; cat /etc/passwd | grep `echo "$user"` > /dev/null && echo "$user found" || echo "$user not found" ; echo '$user variable set at' "$user"
+$>

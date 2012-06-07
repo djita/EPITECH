@@ -1,0 +1,83 @@
+/*
+** main.c for 42sh in /home/falck_m/Work/42sh
+** 
+** Made by mickael falck
+** Login   <falck_m@epitech.net>
+** 
+** Started on  Tue Mar 06 21:29:28 2012 mickael falck
+** Last update Fri May 18 18:16:35 2012 lyoma guillou
+*/
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <signal.h>
+#include <string.h>
+#include <strings.h>
+
+#include "sighand.h"
+#include "my.h"
+#include "42sh.h"
+
+char	*check_varenv(char **env, char *var);
+
+static const t_sighand	g_sighand[]=
+  {
+    { SIGQUIT,	"Quit (core dumped) from HIsh" },
+    { SIGILL,	"Illegal instruction (core dumped) from HIsh" },
+    { SIGFPE,	"Floating Exception (core dumped) from HIsh" },
+    { SIGSEGV,	"Segmentation Fault (core dumped) from HIsh" },
+    { SIGPIPE,	"Broken Pipe from HIsh" },
+    { SIGTERM,	"Terminated from HIsh" },
+    { 0,	NULL }
+  };
+
+void		handle_signal(int signo)
+{
+  int		i;
+
+  i = 0;
+  if (signo)
+    {
+      while (g_sighand[i].signo == signo)
+	++i;
+      if (g_sighand[i].msg != NULL)
+	my_puterr(g_sighand[i].msg);
+      my_putstr("\n$>");
+    }
+}
+
+int		main(int argc, char *argv[], char **envp)
+{
+  int		len;
+  char		*buff;
+  t_token_list	*list;
+  t_token_list	*tmp;
+
+  (void) argc;
+  (void) argv;
+  (void) envp;
+  len = 1;
+  buff = malloc(1024 * sizeof(buff));
+  bzero(buff, 1024);
+  signal(SIGINT, handle_signal);
+  /*signal(SIGSEGV, handle_signal);*/
+  while (len != 0)
+    {
+      my_putstr("$>");
+      if ((len = read(0, buff, 1024)) > 0)
+	{
+	  buff[len] = '\0';
+	  list = tokenise(buff, len);
+	  tmp = list;
+	  while (tmp)
+	    {
+	      printf("%s\n", tmp->token);
+	      tmp = tmp->next;
+	    }
+	  free_l2c(list);
+	}
+      bzero(buff, 1024);
+    }
+  printf("\n");
+  return (0);
+}

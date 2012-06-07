@@ -1,11 +1,11 @@
 /*
-** termcaps.c for src in /home/falck_m/Work/42sh/src
+** termcaps.c for src in /mnt/fedora_std/home/falck_m/Work/42sh/src
 ** 
 ** Made by mickael falck
 ** Login   <falck_m@epitech.net>
 ** 
 ** Started on  Fri May 11 16:24:41 2012 mickael falck
-** Last update Sat May 12 16:25:24 2012 mickael falck
+** Last update Sun May 20 12:18:19 2012 mickael falck
 */
 
 #include <sys/types.h>
@@ -15,6 +15,7 @@
 #include <fcntl.h>
 #include <term.h>
 #include "termcaps.h"
+#include "env.h"
 #include "errors.h"
 
 int		get_tty(int new_fd)
@@ -40,6 +41,8 @@ void	tputstr(char *str)
 int	termcommand(char *cmd)
 {
   if (cmd == NULL
+      || get_tty(-1) == 0
+      || (!isatty(0))
       || (cmd = tgetstr(cmd, NULL)) == NULL
       || (cmd = tparm(cmd)) == NULL
       || (tputs(cmd, 1, tputc)) == -1)
@@ -50,25 +53,28 @@ int	termcommand(char *cmd)
 
 void		init_termcap(void)
 {
-  t_termios	termios;
-  t_termios	*ptr;
+  t_termios	tios;
   char		*termenv;
   int		a;
 
-  ptr = &termios;
-  if ((get_tty(open("/dev/tty", O_RDWR)) == 0)
-      || ((termenv = "xterm") == NULL) /*NEEDGETENV*/
-      /*|| ((termenv = getenv("TERM")) == NULL)*/
+  if ((get_tty(open("/dev/tty", O_RDWR)) == 0) || !isatty(0)
+      || ((termenv = my_getenv("TERM")) == NULL)
       || ((a = tgetent(NULL, termenv)) <= 0)
-      || ((tcgetattr(get_tty(-1), ptr)) == -1))
-    my_err("Init", ERR_TERMCAPS, CONTINUE);
+      || ((tcgetattr(get_tty(-1), &tios)) == -1))
+    {
+      my_err("Init", ERR_TERMCAPS, CONTINUE);
+      get_tty(0);
+    }
   else
     {
-      ptr->c_lflag &= ~(ECHO | ICANON);
-      ptr->c_cc[VMIN] = 1;
-      ptr->c_cc[VTIME] = 50;
-      if ((tcsetattr(get_tty(-1), TCSANOW, ptr)) == -1
+      tios.c_lflag &= ~(ECHO | ICANON);
+      tios.c_cc[VMIN] = 1;
+      tios.c_cc[VTIME] = 50;
+      if ((tcsetattr(get_tty(-1), TCSANOW, &tios)) == -1
 	  || termcommand("ks") == -1)
-	my_err("Init", ERR_TERMCAPS, CONTINUE);
+	{
+	  my_err("Init", ERR_TERMCAPS, CONTINUE);
+	  get_tty(0);
+	}
     }
 }

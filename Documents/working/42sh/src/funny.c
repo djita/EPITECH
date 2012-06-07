@@ -1,11 +1,11 @@
 /*
-** funny.c for src in /home/falck_m/Work/42sh/src
+** funny.c for src in /mnt/fedora_std/home/falck_m/Work/42sh/src
 ** 
 ** Made by mickael falck
 ** Login   <falck_m@epitech.net>
 ** 
 ** Started on  Sat May 12 16:30:17 2012 mickael falck
-** Last update Sat May 12 16:31:44 2012 mickael falck
+** Last update Fri May 18 19:17:57 2012 mickael falck
 */
 
 #include <stdio.h>
@@ -34,7 +34,7 @@ void		hashish(void)
   printf("          *PMMMMMMhn. *x > M  .MMMM**\"\"           \n");
   printf("             \"\"**MMMMhx/.h/ .=*\"                 \n");
   printf("                      .3P\"%%....\033[m             \n");
-  printf("         [hashish]  \033[32mnP\"     \"*MMnx\033[m  \n");
+  printf("         [hashi.SH] \033[32mnP\"     \"*MMnx\033[m  \n");
   printf("            See you soon !                          \n");
   printf("               [Pentadactyls]                       \n");
 }

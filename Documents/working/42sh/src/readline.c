@@ -1,123 +1,126 @@
 /*
-** readline.c for src in /home/falck_m/Work/42sh/src
+** readline.c for src in /mnt/fedora_std/home/falck_m/Work/42sh/src
 ** 
 ** Made by mickael falck
 ** Login   <falck_m@epitech.net>
 ** 
 ** Started on  Fri May 11 16:23:32 2012 mickael falck
-** Last update Sat May 12 17:27:58 2012 mickael falck
+** Last update Sun May 20 21:54:54 2012 mickael falck
 */
 
 #include <sys/types.h>
-#include <string.h>
-#include <unistd.h>
 #include <curses.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
 #include <term.h>
 #include "list.h"
-#include "termcaps.h"
 #include "history.h"
-#define BUFLEN 65535
-#define PROMPT "$>"
+#include "readline.h"
+#include "termcaps.h"
+#include "my_strndup.h"
+#include "parse_caps.h"
 
-int	capcmp(char *cap, const char *str)
+static char	*_return_rl(t_readline *rlbag)
 {
-  char	*capstr;
-
-  if ((capstr = tgetstr(cap, NULL)) == NULL)
-    return (0);
-  else
-    return (strcmp(capstr, str));
-}
-
-int		parse_caps(char *buf, char *input, size_t *offset, t_list **cmd)
-{
-  int		ret;
-  size_t	tmp;
-
-  ret = 0;
-  if (!ret && (ret = !capcmp("ku", input)) && *cmd)
-    {
-      tmp = strlen(buf);
-      while (tmp--)
-	{
-	  termcommand("le");
-	  termcommand("dc");
-	}
-      strcpy(buf, ((t_cmd *)(*cmd)->data)->cmd);
-      *offset = strlen(buf);
-      tputstr(buf);
-      if ((*cmd)->prev)
-	*cmd = (*cmd)->prev;
-    }
-  if (!ret && (ret = !capcmp("kd", input)) && *cmd)
-    {
-      tmp = strlen(buf);
-      while (tmp--)
-	{
-	  termcommand("le");
-	  termcommand("dc");
-	}
-      strcpy(buf, ((t_cmd *)(*cmd)->data)->cmd);
-      *offset = strlen(buf);
-      tputstr(buf);
-      if ((*cmd)->next)
-      *cmd = (*cmd)->next;
-    }
-  if (!ret && (ret = !capcmp("kl", input)) && *offset)
-    {
-      /*termcommand("le");
-       *offset -= 1;*/
-    }
-  if (!ret && (ret = !capcmp("kr", input)) && *offset < strlen(buf))
-    {
-      /*      termcommand("nd");
-       *offset += 1;*/
-    }
-  if (!ret && (ret = !capcmp("kb", input)) && *offset)
-    {
-      termcommand("le");
-      termcommand("dc");
-      --*offset;
-    }
-  return (ret);
-}
-
-static char	*_return_rl(char *buff, char c, size_t offset)
-{
-  if (offset == 0 && c == 4)
+  rlbag->cur_cmd = NULL;
+  if (rlbag->oldbuff)
+    free(rlbag->oldbuff);
+  if ((*(rlbag->input) == 4 && rlbag->offset == 0)
+      || (*(rlbag->input) == 0 && get_tty(-1) == 0))
     {
       tputstr("exit\n");
       return (strdup("exit"));
     }
+  if (get_tty(-1) == 0)
+    {
+      rlbag->input[strlen(rlbag->input) - 1] = 0;
+      return (strdup(rlbag->input));
+    }
   tputc('\n');
-  return (strdup(buff));
+  return (strdup(rlbag->buff));
+}
+
+static void	_init_rlbag(t_readline *rlbag)
+{
+  rlbag->offset = 0;
+  rlbag->buff[rlbag->offset] = '\0';
+  memset(rlbag->input, 0, sizeof(rlbag->input));
+  rlbag->oldbuff = strdup("");
+  rlbag->history = get_history();
+  rlbag->cur_cmd = rlbag->history->cmds;
+  while (rlbag->cur_cmd && rlbag->cur_cmd->next)
+    rlbag->cur_cmd = rlbag->cur_cmd->next;
+  if (isatty(0))
+    tputstr(PROMPT);
+}
+
+static void	_clearstr(t_readline *rlbag)
+{
+  size_t	buflen;
+  size_t	oldlen;
+  size_t	tmp;
+
+  oldlen = strlen(rlbag->oldbuff);
+  buflen = strlen(rlbag->buff);
+  tmp = oldlen - (oldlen && buflen < oldlen);
+  while (tmp--)
+    {
+      termcommand("le");
+      termcommand("dc");
+    }
+  if (oldlen == 1)
+    termcommand("dc");
+  if (isatty(0))
+    tputstr(rlbag->buff);
+  tmp = buflen - (buflen != 0 && oldlen < buflen);
+  while (tmp != rlbag->offset)
+    {
+      termcommand("le");
+      tmp += (tmp < rlbag->offset) ? 1 : -1;
+    }
+}
+
+static int	_inner_while(ssize_t rd, t_readline *rl)
+{
+  size_t	maxlen;
+  char		*tmp;
+  int		ret;
+
+  if (rl->oldbuff && (rl->input[rd] = 0) == 0)
+    free(rl->oldbuff);
+  rl->oldbuff = my_strndup(rl->buff, BLEN);
+  if (!(ret = parse_caps(rl)) && *rl->input != 4
+      && *rl->input != 27)
+    {
+      tmp = my_strndup(rl->buff, BLEN);
+      maxlen = sizeof(rl->input);
+      maxlen = (maxlen < BLEN - rl->offset) ? maxlen : BLEN - rl->offset;
+      strncpy(rl->buff + rl->offset, rl->input, maxlen);
+      maxlen = strlen(tmp + rl->offset);
+      maxlen = (maxlen < BLEN - rl->offset - rd)
+	? maxlen : BLEN - rl->offset - rd;
+      strncpy(rl->buff + rl->offset + rd, tmp + rl->offset, maxlen);
+      free(tmp);
+    }
+  return (ret);
 }
 
 char		*readline(void)
 {
-  char		buff[BUFLEN + 1];
-  char		input[10];
-  size_t	offset;
-  t_list	*curcmd;
+  t_readline	rlbag;
+  int		ret;
   ssize_t	rd;
 
-  offset = 0;
-  buff[offset] = '\0';
-  tputstr(PROMPT);
-  curcmd = get_history()->cmds;
-  while (curcmd && curcmd->next)
-    curcmd = curcmd->next;
-  while ((rd = read(get_tty(-1), input, sizeof(input))) > 0
-      && !(*input == '\n' || *input == 4)
-      && offset < BUFLEN)
+  _init_rlbag(&rlbag);
+  while (((rd = read(get_tty(-1), rlbag.input, sizeof(rlbag.input) - 1)) > 0
+	&& rlbag.input[rd - 1] != '\n' && *rlbag.input != 4
+	&& rlbag.offset + rd < BLEN) || (*rlbag.input == 4 && rlbag.offset))
     {
-      input[rd] = '\0';
-      if (!parse_caps(buff, input, &offset, &curcmd))
-	{
-	  tputstr(input);
-	  strncpy(buff + offset, input, BUFLEN - offset);
-	  offset += rd;
-	}
+      ret = _inner_while(rd, &rlbag);
+      _clearstr(&rlbag);
+      rlbag.offset += rd * (!ret && *rlbag.input != 4 && *rlbag.input != 27);
+      memset(rlbag.input, 0, sizeof(rlbag.input) - 1);
     }
-  return (_return_rl(buff, *input, offset));
+  return (_return_rl(&rlbag));
 }
