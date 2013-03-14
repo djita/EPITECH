@@ -1,0 +1,112 @@
+#### TEST 1 ####
+
+=> Command: ./do_op 21 + 12 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+33$
+
+<-------------->
+
+<---- correction ---->
+33$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./do_op 129 - 54 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+75$
+
+<-------------->
+
+<---- correction ---->
+75$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./do_op 14 '*' 17 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+238$
+
+<-------------->
+
+<---- correction ---->
+238$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./do_op 64 '/' 8 | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+8$
+
+<-------------->
+
+<---- correction ---->
+8$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+#### TEST 5 ####
+
+=> Command: ./do_op | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 5 is ok]
+### END OF TEST 5 ###
+
+
+SUCCESS!!!
+prg is alive

@@ -1,0 +1,90 @@
+#### TEST 1 ####
+
+=> Command: ./my_atoi_base "100111110010" "01" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+2546$
+
+<-------------->
+
+<---- correction ---->
+2546$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./my_atoi_base "101" "01" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+5$
+
+<-------------->
+
+<---- correction ---->
+5$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./my_atoi_base "1111001111" "01" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+975$
+
+<-------------->
+
+<---- correction ---->
+975$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./my_atoi_base "101010" "01" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+42$
+
+<-------------->
+
+<---- correction ---->
+42$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+SUCCESS!!!
+prg is alive

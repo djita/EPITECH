@@ -1,0 +1,65 @@
+/*
+** execute.c for src in /mnt/fedora_std/home/falck_m/Work/42sh/src
+** 
+** Made by mickael falck
+** Login   <falck_m@epitech.net>
+** 
+** Started on  Fri May 18 20:03:52 2012 mickael falck
+** Last update Sun May 20 19:15:47 2012 lyoma guillou
+*/
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+#include "history.h"
+#include "execute.h"
+#include "lltree.h"
+
+static const t_exec	g_e_hand[]=
+  {
+    {PIPE, exec_pipe},
+    {RDRC, exec_redir},
+    {OLOG, exec_logop},
+    {ENDL, exec_endl},
+    {NIL, NULL}
+  };
+
+int		exec_node(t_cmd *node, int fds[2], int *stop)
+{
+  int		i;
+
+  i = 0;
+  if (node)
+    {
+      while (g_e_hand[i].flag && !(g_e_hand[i].flag & node->flag))
+	++i;
+      if (g_e_hand[i].flag != 0)
+	return (g_e_hand[i].fnc(node, fds, stop));
+    }
+  return (EXIT_FAILURE);
+}
+
+int		exec_tree(t_cmd *tree, int *stop)
+{
+  int		fds[2];
+
+  fds[0] = 0;
+  fds[1] = 1;
+  if (tree)
+    if (exec_node(tree, fds, stop) == EXIT_SUCCESS)
+      return (EXIT_SUCCESS);
+  return (EXIT_FAILURE);
+}
+
+int		execute(char *buff, int *stop)
+{
+  printf("User input [%s]\n", buff);
+  if (buff[0])
+    append_hist(buff);
+  if (!strcmp(buff, "history"))
+    print_history();
+  if (!strcmp(buff, "exit"))
+    *stop = 1;
+  return (EXIT_SUCCESS);
+}

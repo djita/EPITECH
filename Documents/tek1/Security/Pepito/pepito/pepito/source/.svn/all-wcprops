@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/subversion/!svn/ver/883/pepito/source
+END
+network.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/subversion/!svn/ver/653/pepito/source/network.h
+END
+recipes.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/subversion/!svn/ver/653/pepito/source/recipes.h
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/subversion/!svn/ver/653/pepito/source/utils.c
+END
+daemon.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/subversion/!svn/ver/653/pepito/source/daemon.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/subversion/!svn/ver/883/pepito/source/main.c
+END
+pepito.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/subversion/!svn/ver/653/pepito/source/pepito.h
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/subversion/!svn/ver/861/pepito/source/start.sh
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/subversion/!svn/ver/653/pepito/source/utils.h
+END
+daemon.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/subversion/!svn/ver/653/pepito/source/daemon.h
+END
+network.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/subversion/!svn/ver/653/pepito/source/network.c
+END
+secret.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/subversion/!svn/ver/653/pepito/source/secret.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/subversion/!svn/ver/856/pepito/source/Makefile
+END

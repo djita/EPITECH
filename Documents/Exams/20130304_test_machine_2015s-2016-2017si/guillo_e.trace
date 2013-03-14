@@ -1,0 +1,168 @@
+EX: ex0
+Compiling *.cpp
+$ g++ -W -Wall -Werror *.cpp -o koala_ex0
+
+Compiling *.cpp
+$ g++ -W -Wall -Werror *.cpp -o user_ex0
+
+$ ./user_ex0
+Richard: This looks like another boring day.
+Richard: I am Richard, Mistress of Magma !
+Richard - Mistress of Magma
+Jack: This looks like another boring day.
+Jack: I am Jack, the Long !
+Jack: I am Jack, the Not-So-Long-After-All !
+Jack: Ahhh, I see it clearly. This is the plane of SUCK...
+Richard: Ahhh, I see it clearly. This is the plane of SUCK...
+
+$ ./koala_ex0
+Richard: This looks like another boring day.
+Richard: I am Richard, Mistress of Magma !
+Richard - Mistress of Magma
+Jack: This looks like another boring day.
+Jack: I am Jack, the Long !
+Jack: I am Jack, the Not-So-Long-After-All !
+Jack: Ahhh, I see it clearly. This is the plane of SUCK...
+Richard: Ahhh, I see it clearly. This is the plane of SUCK...
+
+$ diff --suppress-common-lines /tmp/tmpkXnW9nkoalinette-compare-output /tmp/tmp9U6KQckoalinette-compare-output | cat -e
+Good !
+Grade = 5
+
+EX: ex1
+Compiling *.cpp
+$ g++ -W -Wall -Werror *.cpp -o koala_ex1
+
+Compiling *.cpp
+$ g++ -W -Wall -Werror *.cpp -o user_ex1
+
+$ ./user_ex1
+Richard: This looks like another boring day.
+Richard: I am Richard, Chief Warlock of the Brothers of Darkness, Lord of the Thirteen Hells, Emperor of the Black, Lord of the Undead, Mistress of Magma ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Chief Warlock of the Brothers of Darkness, Lord of the Thirteen Hells, Emperor of the Black, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Lord of the Thirteen Hells, Emperor of the Black, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Emperor of the Black, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: You like what I do ?
+Richard: That orphanage attacked ME. It was self-defense !
+Richard: This day is fantastic ...
+Richard: You like what I do ?
+Richard: This day is fantastic ...
+Richard: You like what I do ?
+Richard: That orphanage attacked ME. It was self-defense !
+Richard: You've just been Dick-rolled !
+Richard: This day is fantastic ...
+Richard: Ahhh, I see it clearly. This is the plane of SUCK...
+
+$ ./koala_ex1
+Richard: This looks like another boring day.
+Richard: I am Richard, Chief Warlock of the Brothers of Darkness, Lord of the Thirteen Hells, Emperor of the Black, Lord of the Undead, Mistress of Magma ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Chief Warlock of the Brothers of Darkness, Lord of the Thirteen Hells, Emperor of the Black, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Lord of the Thirteen Hells, Emperor of the Black, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Emperor of the Black, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard, Lord of the Undead ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: I am Richard ! And the mayor of a little village on the coast. Very scenic during springtime, you should visit sometime !
+Richard: You like what I do ?
+Richard: That orphanage attacked ME. It was self-defense !
+Richard: This day is fantastic ...
+Richard: You like what I do ?
+Richard: This day is fantastic ...
+Richard: You like what I do ?
+Richard: That orphanage attacked ME. It was self-defense !
+Richard: You've just been Dick-rolled !
+Richard: This day is fantastic ...
+Richard: Ahhh, I see it clearly. This is the plane of SUCK...
+
+$ diff --suppress-common-lines /tmp/tmp6TKeHEkoalinette-compare-output /tmp/tmpsXWnR2koalinette-compare-output | cat -e
+Good !
+Grade = 5
+
+EX: ex2
+Compiling *.cpp
+$ g++ -W -Wall -Werror *.cpp -o koala_ex2
+
+Compiling *.cpp
+$ g++ -W -Wall -Werror *.cpp -o user_ex2
+In file included from ASpell.h:4:0,
+                 from ASpell.cpp:1:
+ATarget.h:17:22: error: 'ASpell' has not been declared
+In file included from ASpell.cpp:1:0:
+ASpell.h:21:29: error: cannot declare parameter 'target' to be of abstract type 'ATarget'
+ATarget.h:7:7: note:   because the following virtual functions are pure within 'ATarget':
+ATarget.h:19:21: note: 	virtual ATarget* ATarget::clone()
+ASpell.cpp:12:6: error: prototype for 'void ASpell::launch(const ATarget&)' does not match any in class 'ASpell'
+ASpell.h:21:8: error: candidate is: void ASpell::launch(ATarget)
+In file included from ASpell.h:4:0,
+                 from ATarget.cpp:1:
+ATarget.h:17:22: error: 'ASpell' has not been declared
+In file included from ATarget.cpp:1:0:
+ASpell.h:21:29: error: cannot declare parameter 'target' to be of abstract type 'ATarget'
+ATarget.h:7:7: note:   because the following virtual functions are pure within 'ATarget':
+ATarget.h:19:21: note: 	virtual ATarget* ATarget::clone()
+ATarget.cpp:12:6: error: prototype for 'void ATarget::getHitBySpell(const ASpell&)' does not match any in class 'ATarget'
+ATarget.h:17:8: error: candidate is: void ATarget::getHitBySpell(const int&)
+In file included from ASpell.h:4:0,
+                 from Fwoosh.cpp:1:
+ATarget.h:17:22: error: 'ASpell' has not been declared
+In file included from Fwoosh.cpp:1:0:
+ASpell.h:21:29: error: cannot declare parameter 'target' to be of abstract type 'ATarget'
+ATarget.h:7:7: note:   because the following virtual functions are pure within 'ATarget':
+ATarget.h:19:21: note: 	virtual ATarget* ATarget::clone()
+In file included from ATarget.h:4:0,
+                 from LittleKid.h:4,
+                 from LittleKid.cpp:1:
+ASpell.h:21:15: error: 'ATarget' has not been declared
+In file included from ASpell.h:4:0,
+                 from Sheep.h:5,
+                 from Sheep.cpp:2:
+ATarget.h:17:22: error: 'ASpell' has not been declared
+In file included from Sheep.h:5:0,
+                 from Sheep.cpp:2:
+ASpell.h:21:29: error: cannot declare parameter 'target' to be of abstract type 'ATarget'
+ATarget.h:7:7: note:   because the following virtual functions are pure within 'ATarget':
+ATarget.h:19:21: note: 	virtual ATarget* ATarget::clone()
+Sheep.cpp: In member function 'virtual ASpell* Sheep::clone() const':
+Sheep.cpp:21:19: error: cannot allocate an object of abstract type 'Sheep'
+Sheep.h:7:7: note:   because the following virtual functions are pure within 'Sheep':
+ASpell.h:23:20: note: 	virtual ASpell* ASpell::clone()
+Sheep.cpp:22:1: error: control reaches end of non-void function [-Werror=return-type]
+cc1plus: all warnings being treated as errors
+
+In file included from ASpell.h:4:0,
+                 from Warlock.h:4,
+                 from Warlock.cpp:1:
+ATarget.h:17:22: error: 'ASpell' has not been declared
+In file included from Warlock.h:4:0,
+                 from Warlock.cpp:1:
+ASpell.h:21:29: error: cannot declare parameter 'target' to be of abstract type 'ATarget'
+ATarget.h:7:7: note:   because the following virtual functions are pure within 'ATarget':
+ATarget.h:19:21: note: 	virtual ATarget* ATarget::clone()
+Warlock.cpp: In member function 'void Warlock::forgetSpell(std::string)':
+Warlock.cpp:83:13: error: request for member 'getName' in '((Warlock*)this)->Warlock::spell', which is of non-class type 'ASpell*'
+Warlock.cpp: In member function 'void Warlock::launchSpell(std::string, ATarget&)':
+Warlock.cpp:89:13: error: request for member 'getName' in '((Warlock*)this)->Warlock::spell', which is of non-class type 'ASpell*'
+Warlock.cpp:90:25: error: cannot allocate an object of abstract type 'ATarget'
+ATarget.h:7:7: note:   since type 'ATarget' has pure virtual functions
+In file included from ASpell.h:4:0,
+                 from Warlock.h:4,
+                 from main.cpp:3:
+ATarget.h:17:22: error: 'ASpell' has not been declared
+In file included from Warlock.h:4:0,
+                 from main.cpp:3:
+ASpell.h:21:29: error: cannot declare parameter 'target' to be of abstract type 'ATarget'
+ATarget.h:7:7: note:   because the following virtual functions are pure within 'ATarget':
+ATarget.h:19:21: note: 	virtual ATarget* ATarget::clone()
+main.cpp: In function 'int main()':
+main.cpp:54:27: error: cannot allocate an object of abstract type 'Sheep'
+Sheep.h:7:7: note:   because the following virtual functions are pure within 'Sheep':
+ASpell.h:23:20: note: 	virtual ASpell* ASpell::clone()
+
+Aborted: Cannot compile
+Grade = 0
+
+EX: ex3
+Nothing turned in.
+
+Final grade: 10
+Comment: ex0: OK (5 pts) / ex1: OK (5 pts) / ex2: Does not compile / ex3: Nothing turned in

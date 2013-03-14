@@ -1,0 +1,6 @@
+-- guillo_e --
+- rotone: success (grade: 5)
+- hidenp: failed (grade: 0)
+- my_atoi_base: failed (grade: 0)
+- infin_mult: not found (grade: 0)
+grade: 5

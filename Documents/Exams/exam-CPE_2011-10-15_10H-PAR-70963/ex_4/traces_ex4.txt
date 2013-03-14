@@ -1,0 +1,112 @@
+#### TEST 1 ####
+
+=> Command: ./hidenp "bonjour" "pouet" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+0$
+
+<-------------->
+
+<---- correction ---->
+0$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./hidenp "kinder surprise" "j'aime les kinder et les surprises" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+1$
+
+<-------------->
+
+<---- correction ---->
+1$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./hidenp "ecran 30 pouces" "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+0$
+
+<-------------->
+
+<---- correction ---->
+0$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./hidenp "" "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+1$
+
+<-------------->
+
+<---- correction ---->
+1$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+#### TEST 5 ####
+
+=> Command: ./hidenp | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 5 is ok]
+### END OF TEST 5 ###
+
+
+SUCCESS!!!
+prg is alive

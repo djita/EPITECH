@@ -1,0 +1,201 @@
+Details administratifs:
+
+- Aucune forme de communication n'est permise.
+
+	- Vous devez avoir votre carte d'etudiant. Vous devez la poser face visible
+	  sur votre table
+
+	- Ceci est un examen, il est interdit de discuter, ecouter de la musique,
+	  faire du bruit, ou de produire toute autres nuisances pouvant deranger les
+	  autres etudiants ou perturber le bon deroulement de l'examen
+
+	- Vos telephones portables doivent etre eteints.
+	
+	- Il faudra utiliser le sous-repertoire "rendu" a la racine du compte,
+	  il contiendra les repertoires aux noms demandes pour chaque
+	  exercice.
+
+	- Chaque exercice doit etre realise dans le repertoire correspondant au 
+	  nom indique dans l'en-tete de chaque exercice.
+
+	- Le repertoire "rendu", doit contenir un fichier nomme "auteur"
+	  comprenant :
+		le login (ex: jog) suivi d'un '\n'.
+	  ce qui doit donner:
+
+	  jog@neutron> cat -e ~/rendu/auteur
+	  jog$
+
+	- C'est un programme qui s'occupe du ramassage, respectez les noms,
+	  les chemins, les fichiers et les repertoires ...
+
+	- LES DROITS DE VOS FICHIERS N'ONT AUCUNE IMPORTANCE, VOUS N'AVEZ DONC
+	  PAS BESOIN DE LES CHANGER (SAUF SI ON VOUS LE DEMANDE DANS LE SUJET).
+	
+	- En cas de probleme technique avec le sujet, on ne doit s'adresser qu'au
+	  surveillant uniquement.
+
+	- Tout materiel non explicitement autorise est strictement interdit.
+
+	- LES EXERCICES DOIVENT ETRE REALISES DANS L'ORDRE, la correction 
+	  de l'examen s'arretera des qu'un exercice sera considere comme faux.
+
+	- Toute sortie est definitive.
+
+
+Le Code :
+
+	- Des fonctions utiles sont parfois donnees dans le repertoire
+	  ~/sujet/misc
+
+	- Le releve du code est automatise, un programme testera le bon
+	  fonctionnement des exercices.
+
+	- Les fonctions autorisees sont indiquees dans l'en-tete de chaque 
+	  exercice. Vous pouvez recoder toutes les fonctions a votre guise.
+
+	- Toute fonction non autorisee explicitement est interdite.
+
+	- Vous avez le droit a des feuilles blanches et un stylo.
+
+	- Les exercices dit "subsidiaires" sont des exercices qui donnent des
+	  points si vous avez fait les exercices qui les precedent.
+
+	- Les exercices dit "bonus" sont des exercices qui donnent des points 
+	  supplementaires meme si vous ne faites pas les exercices qui les 
+	  precedent.
+
+	- Pour toute question apres l'examen, creez un ticket sur l'intra-bocal
+	  (http://intra-bocal.epitech.net), ou envoyez un mail a
+	  contact@staff.epita.fr
+
+
+ ----------******------------*****------------******------------*****----------
+
+Exercice 1 : aff_z
+_______________________
+Nom de l'executable     :       aff_z
+Nom du repertoire       :       ex_1
+temps de realisation    :       30 minutes.
+Fonction autorisee      :       my_putchar
+
+        Ecrire un programme qui prend en parametre une chaine de caracteres
+        et qui affiche sur la sortie standard le premier caractere 'z'
+        rencontre suivi de '\n'. Si aucun 'z' n'est rencontre dans la chaine,
+        le programme affiche 'z' suivi '\n'. Si il n'y a pas de parametre
+        alors le programme affiche 'z' suivie '\n'.
+
+
+exemple 1:
+(jog@almarita)./aff_z "abc"
+z
+(jog@almarita)
+
+exemple 2:
+(jog@almarita) ./aff_z "  Chiche A POal " | cat -e
+z$
+(jog@almarita)
+
+exemple 3:
+(jog@almarita) ./aff_z " AkjhZ zLKIJz , 23y"
+z
+(jog@almarita)
+
+exemple 4:
+(jog@almarita) ./aff_z | cat -e
+z$
+(jog@almarita)
+
+
+
+
+Exercice 2 :  strlen.sh
+___________________________
+Nom de l'executable     :       strlen.sh
+Nom du repertoire       :       ex_2
+Temps de realisation    :       20 minutes.
+
+
+         - Il s'agit de faire un shell script qui affiche la longueur de la
+           chaine de caracteres, puis \n.
+
+         - Le Nombre ne doit etre preceder d'aucun 0.
+
+         - Si il n'y a pas d'argument le programme affiche '\n'.
+
+
+exemple 1:
+(jog@almarita) ./strlen.sh 'Les asteks ne sentent pas toujours bon.'
+39
+(jog@almarita)
+
+exemple 2:
+(jog@almarita) ./strlen.sh "Les bingalows du seminaire ne sont pas tres solides"
+51
+(jog@almarita)
+
+exemple 3:
+(jog@almarita) ./strlen.sh "jessica chante tres bien ;)"
+27
+(jog@almarita)
+
+exemple 4:
+(jog@almarita) ./strlen.sh ""
+0
+(jog@almarita)
+
+
+
+
+Exercice 3 : maff_alpha
+------------------------
+Nom du fichier C        :       maff_alpha.c
+Nom du repertoire       :       ex_3
+Temps de realisation    :       20 minutes.
+Fonctions autorisee     :       my_putchar
+Compilation		:	cc -o maff_alpha maff_alpha.c
+
+
+        Ecrire un programme qui affiche l'alphabet une lettre sur 2
+        en minuscule, une lettre sur 2 en majuscule. (voir exemple)
+        
+        Le fichier maff_alpha.c contiendra le main et tout ce qu'il faut
+        (notament la fonction my_putchar)
+
+	ATTENTION le programme sera compile comme :
+	cc -o maff_alpha maff_alpha.c
+
+
+exemple :
+(jog@almarita)./maff_alpha
+aBcDeFgHiJkLmNoPqRsTuVwXyZ
+(jog@almarita)./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$
+(jog@almarita)
+
+
+
+
+Exercice 4 : mult_42
+________________________
+Nom du fichier          :       mult_42
+Nom du repertoire       :       ex_4
+temps de realisation    :       15 minutes.
+
+
+
+        Mettre dans le fichier la liste des logins tries par ordre
+        alphabetique, dont l'uid est mutiple de 42.
+
+        Le fichier passwd est dans le repertoire ~/subject/misc
+
+        Lorsque l'on fait un cat du fichier on obtient:
+
+(jog@almarita)cat -e mult_42
+login_a$
+login_b$
+login_c$
+....
+login_z$
+(jog@almarita)
+

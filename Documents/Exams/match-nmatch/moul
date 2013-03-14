@@ -1,0 +1,15 @@
+Moulinette start at 'Mon Oct 18 11:49:24 CEST 2010'
+
+
+Start match
+
+cc /home/judge/share//ramasse//match-nmatch/main_match.c match.c -o match
+cc: match.c: No such file or directory
+Compile error
+match: FAIL
+Note: 0
+
+Note Total: 0
+
+
+Moulinette stop at 'Mon Oct 18 11:49:24 CEST 2010'

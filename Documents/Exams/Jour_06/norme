@@ -1,0 +1,23 @@
+Norme start at 'Tue Oct 12 23:52:57 CEST 2010'
+
+Check norme on ./my_strncpy.c...
+ 
+Note: -1
+Norme: ./my_strncpy.c:23:bad return format.
+
+Note: -1
+Norme: ./my_strncpy.c:25:bad return format.
+
+Note: -1
+Norme: ./my_strncpy.c:26:And the space ??
+Check norme done
+Check norme on ./my_strcpy.c...
+ 
+Note: -1
+Norme: ./my_strcpy.c:22:bad return format.
+Check norme done
+Check norme on ./my_revstr.c...
+ Check norme done
+Note Total: -4
+
+Norme end at 'Tue Oct 12 23:52:57 CEST 2010'

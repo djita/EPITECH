@@ -1,0 +1,80 @@
+EX: ex0
+Compiling /tmp/tmpN7UwUEkoalinette-work-directory/main.cpp /tmp/tmpN7UwUEkoalinette-work-directory/unit.cpp
+$ g++ -W -Wall -Werror /tmp/tmpN7UwUEkoalinette-work-directory/main.cpp /tmp/tmpN7UwUEkoalinette-work-directory/unit.cpp -o user_exe
+
+Compiling /tmp/tmpN7UwUEkoalinette-work-directory/main.cpp /tmp/tmpN7UwUEkoalinette-work-directory/unit.cpp
+$ g++ -W -Wall -Werror /tmp/tmpN7UwUEkoalinette-work-directory/main.cpp /tmp/tmpN7UwUEkoalinette-work-directory/unit.cpp -o koala_exe
+
+$ ./user_exe
+Joe, Marine
+Joe is a Marine in 12/21 with 40/40HP damaging at 6
+Joe is a Marine in 12/21 with 33/40HP damaging at 6
+
+$ ./koala_exe
+Joe, Marine
+Joe is a Marine in 12/21 with 40/40HP damaging at 6
+Joe is a Marine in 12/21 with 33/40HP damaging at 6
+
+$ diff --suppress-common-lines /tmp/tmpVg2Um7koalinette-compare-output /tmp/tmpEiy44Gkoalinette-compare-output | cat -e
+Good !
+Grade = 5
+
+EX: ex1
+Compiling /tmp/tmp8GjtDqkoalinette-work-directory/main.cpp /tmp/tmp8GjtDqkoalinette-work-directory/unit.cpp /tmp/tmp8GjtDqkoalinette-work-directory/marine.cpp
+$ g++ -W -Wall -Werror /tmp/tmp8GjtDqkoalinette-work-directory/main.cpp /tmp/tmp8GjtDqkoalinette-work-directory/unit.cpp /tmp/tmp8GjtDqkoalinette-work-directory/marine.cpp -o user_exe
+
+Compiling /tmp/tmp8GjtDqkoalinette-work-directory/main.cpp /tmp/tmp8GjtDqkoalinette-work-directory/unit.cpp /tmp/tmp8GjtDqkoalinette-work-directory/marine.cpp
+$ g++ -W -Wall -Werror /tmp/tmp8GjtDqkoalinette-work-directory/main.cpp /tmp/tmp8GjtDqkoalinette-work-directory/unit.cpp /tmp/tmp8GjtDqkoalinette-work-directory/marine.cpp -o koala_exe
+
+$ ./user_exe
+Do you want a piece of me, boy ?
+Do you want a piece of me, boy ?
+Jim is a Marine in 23/52 with 40/40HP damaging at 6
+Jim is a Marine in 23/52 with 31/40HP damaging at 6
+Jim is a Marine in 23/52 with 39/40HP damaging at 6
+Rock'n'roll !!!
+Jim is a Marine in 6/8 with 39/40HP damaging at 6
+Ho yeah...
+Jim is a Marine in 6/8 with 29/40HP damaging at 7
+Aaaargh...
+Aaaargh...
+
+$ ./koala_exe
+Do you want a piece of me, boy ?
+Do you want a piece of me, boy ?
+Jim is a Marine in 23/52 with 40/40HP damaging at 6
+Jim is a Marine in 23/52 with 31/40HP damaging at 6
+Jim is a Marine in 23/52 with 39/40HP damaging at 6
+Rock'n'roll !!!
+Jim is a Marine in 6/8 with 39/40HP damaging at 6
+Ho yeah...
+Jim is a Marine in 6/8 with 29/40HP damaging at 7
+Aaaargh...
+Aaaargh...
+
+$ diff --suppress-common-lines /tmp/tmpUDtSIBkoalinette-compare-output /tmp/tmpLZsUORkoalinette-compare-output | cat -e
+Good !
+Grade = 5
+
+EX: ex2
+Compiling /tmp/tmpUOgZ5Qkoalinette-work-directory/main.cpp /tmp/tmpUOgZ5Qkoalinette-work-directory/unit.cpp /tmp/tmpUOgZ5Qkoalinette-work-directory/scv.cpp
+$ g++ -W -Wall -Werror /tmp/tmpUOgZ5Qkoalinette-work-directory/main.cpp /tmp/tmpUOgZ5Qkoalinette-work-directory/unit.cpp /tmp/tmpUOgZ5Qkoalinette-work-directory/scv.cpp -o user_exe
+/tmp/tmpUOgZ5Qkoalinette-work-directory/IScv.h: In member function 'virtual void scv::createBuilding(int)':
+/tmp/tmpUOgZ5Qkoalinette-work-directory/IScv.h:7:16: error: 'virtual void IScv::buildCommandCenter()' is protected
+/tmp/tmpUOgZ5Qkoalinette-work-directory/scv.cpp:70:21: error: within this context
+/tmp/tmpUOgZ5Qkoalinette-work-directory/IScv.h:8:16: error: 'virtual void IScv::buildBarrack()' is protected
+/tmp/tmpUOgZ5Qkoalinette-work-directory/scv.cpp:71:21: error: within this context
+/tmp/tmpUOgZ5Qkoalinette-work-directory/IScv.h:9:16: error: 'virtual void IScv::buildSupplyDepot()' is protected
+/tmp/tmpUOgZ5Qkoalinette-work-directory/scv.cpp:72:21: error: within this context
+/tmp/tmpUOgZ5Qkoalinette-work-directory/IScv.h:10:16: error: 'virtual void IScv::buildBunker()' is protected
+/tmp/tmpUOgZ5Qkoalinette-work-directory/scv.cpp:73:21: error: within this context
+
+Aborted: Cannot compile
+Grade = 0
+
+EX: ex3
+Aborted: No such file or directory: 'covertOps.cpp'
+Grade = 0
+
+Final grade: 10
+Comment: ex0: OK (5 pts) / ex1: OK (5 pts) / ex2: Does not compile / ex3: Incomplete turn-in

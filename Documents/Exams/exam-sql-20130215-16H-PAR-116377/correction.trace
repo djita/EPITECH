@@ -1,0 +1,90 @@
+Working in: guillo_e, at: 15/02/2013 19:47:06
+
+You files:
+total 108
+drwxr-xr-x    2 leger_i  users  1024 Feb 15 19:47 .
+drwx------  275 leger_i  users  5632 Feb 15 19:45 ..
+-rw-r--r--    1 leger_i  users     9 Feb 15 17:46 auteur
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_01.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_02.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_03.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_04.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_05.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_06.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_07.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_08.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_09.sql.out
+-rw-r--r--    1 leger_i  users    79 Feb 15 17:46 ex_1.sql
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_10.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_11.sql.out
+-rw-r--r--    1 leger_i  users    94 Feb 15 17:46 ex_12.sql
+-rw-r--r--    1 leger_i  users    22 Feb 15 19:47 ex_12.sql.out
+-rw-r--r--    1 leger_i  users   106 Feb 15 17:46 ex_13.sql
+-rw-r--r--    1 leger_i  users    47 Feb 15 19:47 ex_13.sql.out
+-rw-r--r--    1 leger_i  users    65 Feb 15 17:46 ex_14.sql
+-rw-r--r--    1 leger_i  users    93 Feb 15 19:47 ex_14.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_15.sql.out
+-rw-r--r--    1 leger_i  users    49 Feb 15 17:46 ex_16.sql
+-rw-r--r--    1 leger_i  users    17 Feb 15 19:47 ex_16.sql.out
+-rw-r--r--    1 leger_i  users     0 Feb 15 19:47 ex_17.sql.out
+-rw-r--r--    1 leger_i  users     2 Feb 15 17:46 ex_18.sql
+-rw-r--r--    1 leger_i  users     1 Feb 15 19:47 ex_18.sql.out
+-rw-r--r--    1 leger_i  users     2 Feb 15 17:46 ex_19.sql
+-rw-r--r--    1 leger_i  users     1 Feb 15 19:47 ex_19.sql.out
+-rw-r--r--    1 leger_i  users    56 Feb 15 17:46 ex_2.sql
+-rw-r--r--    1 leger_i  users     2 Feb 15 17:46 ex_20.sql
+-rw-r--r--    1 leger_i  users     1 Feb 15 19:47 ex_20.sql.out
+-rw-r--r--    1 leger_i  users   100 Feb 15 17:46 ex_3.sql
+-rw-r--r--    1 leger_i  users    55 Feb 15 17:46 ex_4.sql
+-rw-r--r--    1 leger_i  users    73 Feb 15 17:46 ex_5.sql
+-rw-r--r--    1 leger_i  users    49 Feb 15 17:46 ex_6.sql
+-rw-r--r--    1 leger_i  users    73 Feb 15 17:46 ex_7.sql
+-rwxr-xr-x    1 leger_i  users    14 Feb 15 17:46 time
+
+
+- ex_01.sql: 0 (file not found or not a valid single SQL query)
+- ex_02.sql: 0 (file not found or not a valid single SQL query)
+- ex_03.sql: 0 (file not found or not a valid single SQL query)
+- ex_04.sql: 0 (file not found or not a valid single SQL query)
+- ex_05.sql: 0 (file not found or not a valid single SQL query)
+- ex_06.sql: 0 (file not found or not a valid single SQL query)
+- ex_07.sql: 0 (file not found or not a valid single SQL query)
+- ex_08.sql: 0 (file not found or not a valid single SQL query)
+- ex_09.sql: 0 (file not found or not a valid single SQL query)
+- ex_10.sql: 0 (file not found or not a valid single SQL query)
+- ex_11.sql: 0 (file not found or not a valid single SQL query)
+- ex_12.sql: 1
+- ex_13.sql: 1
+- ex_14.sql: 1
+- ex_15.sql: 0 (file not found or not a valid single SQL query)
+- ex_16.sql: 1
+- ex_17.sql: 0 (file not found or not a valid single SQL query)
+- ex_18.sql: Wrong answer, your file is on the left
+1c1
+< 1
+\ No newline at end of file
+---
+> 2
+\ No newline at end of file
+
+0
+- ex_19.sql: Wrong answer, your file is on the left
+1c1
+< 1
+\ No newline at end of file
+---
+> 2
+\ No newline at end of file
+
+0
+- ex_20.sql: Wrong answer, your file is on the left
+1c1
+< 2
+\ No newline at end of file
+---
+> 1
+\ No newline at end of file
+
+0
+=> 4 en 106 minute(s) soit, 27 mn/pt
+

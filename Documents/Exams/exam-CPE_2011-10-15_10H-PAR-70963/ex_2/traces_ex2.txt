@@ -1,0 +1,46 @@
+#### TEST 1 ####
+
+=> Command: ./paramsum | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+0$
+
+<-------------->
+
+<---- correction ---->
+0$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./paramsum  votez bureau du vice | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+4$
+
+<-------------->
+
+<---- correction ---->
+4$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+SUCCESS!!!
+prg is alive

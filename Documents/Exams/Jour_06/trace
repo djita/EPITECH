@@ -1,0 +1,42 @@
+Ramassage start at 'Tue Oct 12 23:42:35 CEST 2010'
+
+Access to: /u/epitech_2015/guillo_e/rendu/piscine//Jour_06
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine/
+total 12
+drwxr-xr-x 4 75666 32015 2048 Oct  5 22:58 Jour_01
+drwxr-xr-x 2 75666 32015 2048 Oct  7 11:52 Jour_02
+drwxr-xr-x 2 75666 32015 2048 Oct  8 08:48 Jour_03
+drwxr-xr-x 2 75666 32015 2048 Oct  8 08:48 Jour_04
+drwxr-xr-x 2 75666 32015 2048 Oct 11 20:42 Jour_05
+drwxr-xr-x 2 75666 32015 2048 Oct 12 16:07 Jour_06
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine/
+Access list for /u/epitech_2015/guillo_e/rendu/piscine/ is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine//Jour_06
+total 11
+-rwxr-xr-x 1 75666 32015 4915 Oct 12 14:58 a.out
+-rw-r--r-- 1 75666 32015    9 Oct 11 20:30 auteur
+-rw-r--r-- 1 75666 32015  498 Oct 12 16:07 my_revstr.c
+-rw-r--r-- 1 75666 32015  422 Oct 12 12:28 my_strcpy.c
+-rw-r--r-- 1 75666 32015  404 Oct 12 12:04 my_strcpy.c~
+-rw-r--r-- 1 75666 32015  481 Oct 12 14:59 my_strncpy.c
+-rw-r--r-- 1 75666 32015  651 Oct 12 14:58 my_strncpy.c~
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine//Jour_06
+Access list for /u/epitech_2015/guillo_e/rendu/piscine//Jour_06 is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+Copying files
+Done
+
+Ramassage end at Tue Oct 12 23:42:35 CEST 2010

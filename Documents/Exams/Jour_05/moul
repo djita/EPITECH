@@ -1,0 +1,21 @@
+Moulinette start at 'Mon Oct 11 23:48:43 CEST 2010'
+
+
+Start exo_01
+
+cc /home/judge/share//ramasse//Jour_05/test_my_factorielle_it.c my_factorielle_it.c -o my_factorielle_it
+/home/judge/share//ramasse//Jour_05/test_my_factorielle_it.c: In function 'main':
+/home/judge/share//ramasse//Jour_05/test_my_factorielle_it.c:8: warning: incompatible implicit declaration of built-in function 'printf'
+/tmp/ccyM0gcu.o: In function `my_factorielle_it':
+my_factorielle_it.c:(.text+0x16): undefined reference to `my_putchar'
+my_factorielle_it.c:(.text+0x2e): undefined reference to `my_putchar'
+my_factorielle_it.c:(.text+0x56): undefined reference to `my_putchar'
+collect2: ld returned 1 exit status
+Compile error
+exo_01: FAIL
+Note: 0
+
+Note Total: -3
+
+
+Moulinette stop at 'Mon Oct 11 23:48:43 CEST 2010'

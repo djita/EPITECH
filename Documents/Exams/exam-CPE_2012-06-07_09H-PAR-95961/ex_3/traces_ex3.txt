@@ -1,0 +1,86 @@
+#### TEST 1 ####
+
+=> Command: ./rev_str "le bocal c'est bien" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+
+<-------------->
+
+<---- correction ---->
+neib tse'c lacob el$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 1 failed]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./rev_str  | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 2 failed]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./rev_str "le prochain test risque de vous faire SegFault ^^ "| cat -e
+
+===== WAY 1 =====
+<---- user ---->
+
+<-------------->
+
+<---- correction ---->
+ ^^ tluaFgeS eriaf suov ed euqsir tset niahcorp el$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 3 failed]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./rev_str "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 4 failed]
+### END OF TEST 4 ###
+
+
+FAIL...
+prg is alive

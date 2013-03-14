@@ -1,0 +1,6 @@
+-- guillo_e --
+- maff_alpha: success (grade: 5)
+- rotone: success (grade: 5)
+- ulstr: success (grade: 5)
+- infin_mult: failed (grade: 0)
+grade: 15

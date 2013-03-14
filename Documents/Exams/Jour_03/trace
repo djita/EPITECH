@@ -1,0 +1,38 @@
+Ramassage start at 'Thu Oct 7 23:50:28 CEST 2010'
+
+Access to: /u/epitech_2015/guillo_e/rendu/piscine//Jour_03
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine/
+total 6
+drwxr-xr-x 4 75666 32015 2048 Oct  5 22:58 Jour_01
+drwxr-xr-x 2 75666 32015 2048 Oct  7 11:52 Jour_02
+drwxr-xr-x 2 75666 32015 2048 Oct  7 15:58 Jour_03
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine/
+Access list for /u/epitech_2015/guillo_e/rendu/piscine/ is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine//Jour_03
+total 6
+-rw-r--r-- 1 75666 32015 388 Oct  7 15:56 my_aff_alpha.c
+-rw-r--r-- 1 75666 32015 450 Oct  7 15:56 my_aff_chiffre.c
+-rw-r--r-- 1 75666 32015 517 Oct  7 15:58 my_aff_comb.c
+-rw-r--r-- 1 75666 32015 558 Oct  7 15:56 my_aff_comb.c~
+-rw-r--r-- 1 75666 32015 401 Oct  7 15:56 my_aff_revalpha.c
+-rw-r--r-- 1 75666 32015 396 Oct  7 15:57 my_isneg.c
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine//Jour_03
+Access list for /u/epitech_2015/guillo_e/rendu/piscine//Jour_03 is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+Copying files
+Done
+
+Ramassage end at Thu Oct 7 23:50:28 CEST 2010

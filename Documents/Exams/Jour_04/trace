@@ -1,0 +1,34 @@
+Ramassage start at 'Fri Oct 8 23:42:29 CEST 2010'
+
+Access to: /u/epitech_2015/guillo_e/rendu/piscine//Jour_04
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine/
+total 8
+drwxr-xr-x 4 75666 32015 2048 Oct  5 22:58 Jour_01
+drwxr-xr-x 2 75666 32015 2048 Oct  7 11:52 Jour_02
+drwxr-xr-x 2 75666 32015 2048 Oct  8 08:48 Jour_03
+drwxr-xr-x 2 75666 32015 2048 Oct  8 08:48 Jour_04
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine/
+Access list for /u/epitech_2015/guillo_e/rendu/piscine/ is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+$> ls -l /u/epitech_2015/guillo_e/rendu/piscine//Jour_04
+total 0
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine//Jour_04
+Access list for /u/epitech_2015/guillo_e/rendu/piscine//Jour_04 is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+Copying files
+cp: cannot stat `*': No such file or directory
+Done
+
+Ramassage end at Fri Oct 8 23:42:29 CEST 2010

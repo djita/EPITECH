@@ -1,0 +1,40 @@
+Ramassage start at 'Sat Feb 12 00:04:37 CET 2011'
+
+Access to: /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2//Jour_05
+$> ls -la /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2/
+total 14
+drwxr-xr-x  7 75666 32015 2048 Feb 11 09:01 .
+drwxrwxrwx 10 bin   root  2048 Feb  7 09:08 ..
+drwxr-xr-x  2 75666 32015 2048 Feb  8 16:39 Jour_01
+drwxr-xr-x  2 75666 32015 2048 Feb  8 19:25 Jour_02
+drwxr-xr-x  2 75666 32015 2048 Feb  9 14:03 Jour_03
+drwxr-xr-x  2 75666 32015 2048 Feb 10 16:38 Jour_04
+drwxr-xr-x  2 75666 32015 2048 Feb 11 14:04 Jour_05
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2/
+Access list for /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2/ is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+$> ls -la /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2//Jour_05
+total 11
+drwxr-xr-x 2 75666 32015 2048 Feb 11 14:04 .
+drwxr-xr-x 7 75666 32015 2048 Feb 11 09:01 ..
+-rwxr-xr-x 1 75666 32015 5182 Feb 11 14:04 a.out
+-rw-r--r-- 1 75666 32015  755 Feb 11 12:20 my_strcapitalize.c
+
+$> fs la /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2//Jour_05
+Access list for /u/epitech_2015/guillo_e/rendu/piscine_rattrapage2//Jour_05 is
+Normal rights:
+  rendu rl
+  system:administrators rlidwka
+  intra rl
+  guillo_e rlidwk
+
+Copying files
+Done
+
+Ramassage end at Sat Feb 12 00:04:37 CET 2011

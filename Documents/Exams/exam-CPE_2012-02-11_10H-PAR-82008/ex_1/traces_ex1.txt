@@ -1,0 +1,94 @@
+#### TEST 1 ####
+
+=> Command: ./half_str "bdodn2jdo5u6r" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+bonjour$
+
+<-------------->
+
+<---- correction ---->
+bonjour$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 1 is ok]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./half_str "c7oeucc8oauS" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+coucou$
+
+<-------------->
+
+<---- correction ---->
+coucou$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 2 is ok]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./half_str "p lui fa" "pel arf" "poleo unf" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+plif$
+plaf$
+plouf$
+
+<-------------->
+
+<---- correction ---->
+plif$
+plaf$
+plouf$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 3 is ok]
+### END OF TEST 3 ###
+
+
+#### TEST 4 ####
+
+=> Command: ./half_str "" | cat -e
+
+===== WAY 1 =====
+<---- user ---->
+$
+
+<-------------->
+
+<---- correction ---->
+$
+
+<--------------------->
+===>> OK
+===== END OF WAY 1 =====
+
+
+[Test 4 is ok]
+### END OF TEST 4 ###
+
+
+SUCCESS!!!
+prg is alive
