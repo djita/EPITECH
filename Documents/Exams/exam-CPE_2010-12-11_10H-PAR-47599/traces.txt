@@ -1,3 +1,0 @@
--- guillo_e --
-Absent
-grade: 0

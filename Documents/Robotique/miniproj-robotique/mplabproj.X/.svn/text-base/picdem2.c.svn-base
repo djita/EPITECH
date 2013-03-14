@@ -1,3 +1,0 @@
-void    plop(void)
-{
-}
