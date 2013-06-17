@@ -1,0 +1,4 @@
+"Rule: ocaml: cmo* -> byte (%=tp )": "D\188z`E\234x\173\007\229\192\154'g\158\197"
+"Rule: ocaml: ml -> cmo & cmi (%=tp )": "+\181\240%\188=\217$4\191\219\024,m\019#"
+"Resource: /home/guillo_e/Documents/workspace/ocaml/tp/tp3/tp.ml": "\014$\238K\011\199\197\254M[hn\209\189;\128"
+"Rule: ocaml dependencies ml (%=tp )": "\171p\127a\187\191\203NT\173\1307SE\178q"

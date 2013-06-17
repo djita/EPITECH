@@ -1,0 +1,179 @@
+Working in: guillo_e, at: 11/04/2013 22:00:07
+
+You files:
+total 2024
+drwxr-xr-x    2 leger_i  users    1024 Apr 11 22:00 .
+drwx------  153 leger_i  users    3072 Apr 11 21:45 ..
+-rw-r--r--    1 leger_i  users       9 Apr 11 19:46 auteur
+-rw-r--r--    1 leger_i  users      56 Apr 11 19:46 ex_01.sql
+-rw-r--r--    1 leger_i  users  858852 Apr 11 22:00 ex_01.sql.out
+-rw-r--r--    1 leger_i  users      55 Apr 11 19:46 ex_02.sql
+-rw-r--r--    1 leger_i  users   62348 Apr 11 22:00 ex_02.sql.out
+-rw-r--r--    1 leger_i  users      49 Apr 11 19:46 ex_03.sql
+-rw-r--r--    1 leger_i  users      17 Apr 11 22:00 ex_03.sql.out
+-rw-r--r--    1 leger_i  users      73 Apr 11 19:46 ex_04.sql
+-rw-r--r--    1 leger_i  users      91 Apr 11 22:00 ex_04.sql.out
+-rw-r--r--    1 leger_i  users      66 Apr 11 19:46 ex_05.sql
+-rw-r--r--    1 leger_i  users      18 Apr 11 22:00 ex_05.sql.out
+-rw-r--r--    1 leger_i  users      59 Apr 11 19:46 ex_06.sql
+-rw-r--r--    1 leger_i  users      47 Apr 11 22:00 ex_06.sql.out
+-rw-r--r--    1 leger_i  users     170 Apr 11 19:46 ex_07.sql
+-rw-r--r--    1 leger_i  users      68 Apr 11 22:00 ex_07.sql.out
+-rw-r--r--    1 leger_i  users     134 Apr 11 19:46 ex_08.sql
+-rw-r--r--    1 leger_i  users     246 Apr 11 22:00 ex_08.sql.out
+-rw-r--r--    1 leger_i  users     127 Apr 11 19:46 ex_09.sql
+-rw-r--r--    1 leger_i  users      19 Apr 11 22:00 ex_09.sql.out
+-rw-r--r--    1 leger_i  users      87 Apr 11 19:46 ex_10.sql
+-rw-r--r--    1 leger_i  users      11 Apr 11 22:00 ex_10.sql.out
+-rw-r--r--    1 leger_i  users      86 Apr 11 19:46 ex_11.sql
+-rw-r--r--    1 leger_i  users      14 Apr 11 22:00 ex_11.sql.out
+-rw-r--r--    1 leger_i  users      96 Apr 11 19:46 ex_12.sql
+-rw-r--r--    1 leger_i  users      22 Apr 11 22:00 ex_12.sql.out
+-rw-r--r--    1 leger_i  users     102 Apr 11 19:46 ex_13.sql
+-rw-r--r--    1 leger_i  users      77 Apr 11 22:00 ex_13.sql.out
+-rw-r--r--    1 leger_i  users     210 Apr 11 19:46 ex_14.sql
+-rw-r--r--    1 leger_i  users     201 Apr 11 22:00 ex_14.sql.out
+-rw-r--r--    1 leger_i  users     111 Apr 11 19:46 ex_15.sql
+-rw-r--r--    1 leger_i  users     316 Apr 11 22:00 ex_15.sql.out
+-rw-r--r--    1 leger_i  users      83 Apr 11 19:46 ex_16.sql
+-rw-r--r--    1 leger_i  users     794 Apr 11 22:00 ex_16.sql.out
+-rw-r--r--    1 leger_i  users     247 Apr 11 19:46 ex_17.sql
+-rw-r--r--    1 leger_i  users    1719 Apr 11 22:00 ex_17.sql.out
+-rw-r--r--    1 leger_i  users       2 Apr 11 19:46 ex_18.sql
+-rw-r--r--    1 leger_i  users       1 Apr 11 22:00 ex_18.sql.out
+-rw-r--r--    1 leger_i  users       2 Apr 11 19:46 ex_19.sql
+-rw-r--r--    1 leger_i  users       1 Apr 11 22:00 ex_19.sql.out
+-rw-r--r--    1 leger_i  users       2 Apr 11 19:46 ex_20.sql
+-rw-r--r--    1 leger_i  users       1 Apr 11 22:00 ex_20.sql.out
+-rwxr-xr-x    1 leger_i  users      14 Apr 11 19:46 time
+
+
+- auteur: 1
+- ex_01.sql: 1
+- ex_02.sql: 1
+- ex_03.sql: 1
+- ex_04.sql: 1
+- ex_05.sql: Wrong answer, your file is on the left
+2c2,4
+< anishley	
+---
+> achille	
+> kamel	
+> pierrick	
+
+0
+- ex_06.sql: 1
+- ex_07.sql: Wrong answer, your file is on the left
+5d4
+< 0	3	520	
+
+0
+- ex_08.sql: Wrong answer, your file is on the left
+33c33
+< total	6769360	
+---
+> 	3680	
+
+0
+- ex_09.sql: 1
+- ex_10.sql: 1
+- ex_11.sql: 1
+- ex_12.sql: 1
+- ex_13.sql: Wrong answer, your file is on the left
+1,5c1,5
+< nom	pourcentage_reduc	
+< jeune	30	
+< tres vieux	40	
+< fete a neuneu	35	
+< groupe	35	
+---
+> nom	
+> jeune	
+> tres vieux	
+> fete a neuneu	
+> groupe	
+
+0
+- ex_14.sql: Wrong answer, your file is on the left
+1,2c1,6
+< titre	date debut	id_distrib	nom_distrib	
+< Death at a Funeral	2007-11-02	29	verve pictures	
+---
+> titre	date_debut	id_distrib	nom_distrib	
+> Love and Death on Long Island	1998-07-03			
+> Mr. Death: The Rise and Fall of Fred A. Leuchter Jr.	2000-09-05			
+> The Life and Death of Peter Sellers	2004-10-01			
+> Pusher 3: I Am The Angel of Death	2006-06-09			
+> The Death of Mr. Lazarescu	2006-07-14			
+4a9
+> Death at a Funeral	2007-11-02	29	verve pictures	
+
+0
+- ex_15.sql: 1
+- ex_16.sql: 1
+- ex_17.sql: Wrong answer, your file is on the left
+1c1
+< titre	date_debut_affiche	id_film	nb_vues	
+---
+> film	date_debut_affiche	id_film	nb_vues	
+3,4d2
+< The Feast of Love	2007-10-05	3601	11	
+< Control	2007-10-05	3602	11	
+6,7d3
+< Stray Dogs	2005-07-01	2510	11	
+< Cash	2007-08-03	3507	11	
+8a5,6
+> Cash	2007-08-03	3507	11	
+> The Feast of Love	2007-10-05	3601	11	
+10,11d7
+< Blue Blood	2007-05-11	3407	10	
+< Slither	2006-04-28	2911	10	
+13c9,10
+< Election	2006-06-09	2967	10	
+---
+> Slither	2006-04-28	2911	10	
+> Blue Blood	2007-05-11	3407	10	
+15,16c12
+< 37 Uses For A Dead Sheep	2006-11-17	3178	9	
+< Pulse	2006-09-08	3068	9	
+---
+> Three Kings	2000-03-03	662	9	
+18c14
+< Catch and Release	2007-03-23	3334	9	
+---
+> 37 Uses For A Dead Sheep	2006-11-17	3178	9	
+20c16
+< The Golden Door	2007-06-29	3469	9	
+---
+> Into Great Silence	2006-12-29	3228	9	
+22c18
+< Brothers	2000-06-23	755	9	
+---
+> Catch and Release	2007-03-23	3334	9	
+24,25d19
+< Into Great Silence	2006-12-29	3228	9	
+< Three Kings	2000-03-03	662	9	
+27,29c21,25
+< Who Killed Bambi?	2005-07-01	2508	8	
+< The Legend of Zorro	2005-10-28	2679	8	
+< The Number 23	2007-02-23	3296	8	
+---
+> The Golden Door	2007-06-29	3469	9	
+> Hey! Ram	2000-02-18	657	8	
+> The Claim	2001-02-02	933	8	
+> The Phantom of the Opera	2004-12-10	2259	8	
+
+0
+- ex_18.sql: 1
+- ex_19.sql: Wrong answer, your file is on the left
+1c1
+< 1
+\ No newline at end of file
+---
+> 2
+\ No newline at end of file
+
+0
+- ex_20.sql: 1
+=> 13 en 105 minute(s) soit, 8 mn/pt
+

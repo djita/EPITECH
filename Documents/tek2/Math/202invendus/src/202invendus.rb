@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 ##
 ## Author : lyoma guillou
 ## Project : 202invendus
@@ -6,8 +8,6 @@
 ## Please DO NOT take this as any type of implementation
 ## Personal use ONLY
 ##
-
-#!/usr/bin/env ruby
 
 ##
 ## Somme des elements d'un tableau 1 dimension

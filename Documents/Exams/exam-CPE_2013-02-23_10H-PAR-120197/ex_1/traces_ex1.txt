@@ -1,17 +1,21 @@
 make: *** No rule to make target `fclean'.  Stop.
+rm: cannot remove `out': No such file or directory
 ls: cannot access */: No such file or directory
+grep: M: No such file or directory
+grep: M: No such file or directory
+rm: cannot remove `M': No such file or directory
 #### TEST 1 ####
 
-=> Command: ./half_str "bdodn2jdo5u6r" | cat -e
+=> Command: ./half_str "c8o3u3cso1u" | cat -e
 
 ===== WAY 1 =====
 <---- user ---->
-bonjour$
+coucou$
 
 <-------------->
 
 <---- correction ---->
-bonjour$
+coucou$
 
 <--------------------->
 ===>> OK
@@ -24,16 +28,16 @@ bonjour$
 
 #### TEST 2 ####
 
-=> Command: ./half_str "c7oeucc8oauS" | cat -e
+=> Command: ./half_str "bdodn2jdo5u6rZ" | cat -e
 
 ===== WAY 1 =====
 <---- user ---->
-coucou$
+bonjour$
 
 <-------------->
 
 <---- correction ---->
-coucou$
+bonjour$
 
 <--------------------->
 ===>> OK

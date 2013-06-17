@@ -1,6 +1,8 @@
-sh ~/Documents/pull_exams.sh
+##sh ~/Documents/pull_exams.sh
 cp -ru ~/Documents/* ~/GitTimeMachine/EPITECH/Documents/
 cp -ru ~/Pictures/* ~/GitTimeMachine/EPITECH/Pictures/
+cp -ru ~/Git/* ~/GitTimeMachine/EPITECH/Git
+cp -ru ~/.*
 date >> date.log
 echo ' Commited by '>> date.log
 echo $USER >> date.log

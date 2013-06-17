@@ -3,30 +3,45 @@
 require 'gnuplot'
 require 'mathn'
 
-def plot(function)
+def simpson(f, a, b, n)
+  h = (b - a) / n
+  s = f[a] + f[b]
+  
+  for i in (1..n).step(2)
+      s += 4 * f[a + i * h]
+  end
+  for i in (2..n-1).step(2)
+      s += 2 * f[a + i * h]
+  end
+  return s * h / 3
+end
 
+if ARGV
+  
+  a = if (ARGV.size == 1) then ARGV.first.to_f else 1.0 end
   Gnuplot.open do |gp|
     Gnuplot::Plot.new( gp ) do |plot|
-
-      plot.xrange "[-10:10]"
-      plot.yrange "[-10:10]"
-      plot.title  "108 courbe"
+      
+      plot.xrange "[0:200]"
+      plot.yrange "[0:120]"
+      plot.title  "test"
       plot.ylabel "x"
-      plot.xlabel function
-    
-      plot.data << Gnuplot::DataSet.new( function ) do |ds|
+      plot.xlabel "function"
+      
+      x = 0
+      
+      ##func = lambda { |x| ((-4 + (2 * a)) / Math::exp(4 * x) + (4 - (3 * a)) / Math::exp(2 * x) + (a/Math::exp(x))) }
+      
+      plot.data << Gnuplot::DataSet.new("") do |ds|
         ds.with = "lines"
         ds.linewidth = 4
       end
-    
     end
-  
   end
-
 end
 
 def random_plot(option)
-
+  
   if (option == 1)
     plot( "log(x)" )
   end
@@ -62,51 +77,5 @@ def random_plot(option)
   if (option == 9)
     plot( "tanh(x)" )
   end
-
-end
-
-if ARGV
-
-  av = ARGV
-
-  if (av[0] == '1')
-    plot( "log(x)" )
-  end
-
-  if (av[0] == '2')
-    plot( "exp(x)" )
-  end
-
-  if (av[0] == '3')
-    plot( "0.5 ** x" )
-  end
-
-  if (av[0] == '4')
-    plot( "cos(x)" )
-  end
-
-  if (av[0] == '5')
-    plot( "sin(x)" )
-  end
-
-  if (av[0] == '6')
-    plot( "tan(x)" )
-  end
-
-  if (av[0] == '7')
-    plot( "cosh(x)" )
-  end
-
-  if (av[0] == '8')
-    plot( "sinh(x)" )
-  end
-
-  if (av[0] == '9')
-    plot( "tanh(x)" )
-  end
-
-  if (av[0] == '10')
-    random_plot(rand(10))
-  end
-
+  
 end

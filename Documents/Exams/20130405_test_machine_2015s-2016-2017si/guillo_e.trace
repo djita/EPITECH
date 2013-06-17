@@ -1,0 +1,29 @@
+EX: ex0
+Compiling main.cpp Humanoid.cpp
+$ g++ -W -Wall -Werror main.cpp Humanoid.cpp -o user_exe
+main.cpp: In function ‘void showInformation(const IHumanoid&)’:
+main.cpp:18:11: error: passing ‘const IHumanoid’ as ‘this’ argument of ‘virtual void IHumanoid::walk()’ discards qualifiers [-fpermissive]
+main.cpp:19:10: error: passing ‘const IHumanoid’ as ‘this’ argument of ‘virtual void IHumanoid::run()’ discards qualifiers [-fpermissive]
+
+Aborted: Cannot compile
+Grade = 0
+
+EX: ex1
+Compiling main.cpp Changeling.cpp
+$ g++ -W -Wall -Werror main.cpp Changeling.cpp -o user_exe
+main.cpp: In function ‘void showInformation(const IHumanoid&)’:
+main.cpp:18:11: error: passing ‘const IHumanoid’ as ‘this’ argument of ‘virtual void IHumanoid::walk()’ discards qualifiers [-fpermissive]
+main.cpp:19:10: error: passing ‘const IHumanoid’ as ‘this’ argument of ‘virtual void IHumanoid::run()’ discards qualifiers [-fpermissive]
+
+Aborted: Cannot compile
+Grade = 0
+
+EX: ex2
+Aborted: No such file or directory: 'Clonable.h'
+Grade = 0
+
+EX: ex3
+Nothing turned in.
+
+Final grade: 0
+Comment: ex0: Does not compile / ex1: Does not compile / ex2: Incomplete turn-in / ex3: Nothing turned in

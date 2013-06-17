@@ -1,7 +1,7 @@
 make: *** No rule to make target `fclean'.  Stop.
 #### TEST 1 ####
 
-=> Command: ./common_str "^" "^" | cat -e
+=> Command: ./common_str "a" "a" | cat -e
 
 ===== WAY 1 =====
 <---- user ---->

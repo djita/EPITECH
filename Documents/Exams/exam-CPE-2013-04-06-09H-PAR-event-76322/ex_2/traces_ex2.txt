@@ -1,0 +1,69 @@
+make: *** No rule to make target `my_id.o', needed by `my_id'.  Stop.
+#### TEST 1 ####
+
+=> Command: ./my_id uucp | cat -e
+
+- /home/exam/sujets/all-new/my_id/tests//test_1/out_1.1
+===== WAY 1 =====
+<---- user ---->
+my_id not found!<-------------->
+
+<---- correction ---->
+Use of uninitialized value $ret_user in string eq at /home/exam/sujets/all-new/my_id/cor.pl line 119.
+uid=10(uucp) gid=14(uucp) groups=14(uucp)$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 1 failed]
+### END OF TEST 1 ###
+
+
+#### TEST 2 ####
+
+=> Command: ./my_id games | cat -e
+
+- /home/exam/sujets/all-new/my_id/tests//test_2/out_1.1
+===== WAY 1 =====
+<---- user ---->
+my_id not found!<-------------->
+
+<---- correction ---->
+Use of uninitialized value $ret_user in string eq at /home/exam/sujets/all-new/my_id/cor.pl line 119.
+uid=12(games) gid=100(users) groups=100(users)$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 2 failed]
+### END OF TEST 2 ###
+
+
+#### TEST 3 ####
+
+=> Command: ./my_id executor | cat -e
+
+- /home/exam/sujets/all-new/my_id/tests//test_3/out_1.1
+===== WAY 1 =====
+<---- user ---->
+my_id not found!<-------------->
+
+<---- correction ---->
+Use of uninitialized value $ret_user in string eq at /home/exam/sujets/all-new/my_id/cor.pl line 119.
+uid=1001(executor) gid=1001(executor) groups=1001(executor),33(video)$
+
+<--------------------->
+===>> Not OK
+===== END OF WAY 1 =====
+
+
+[Test 3 failed]
+### END OF TEST 3 ###
+
+
+FAIL...
+prg is alive
