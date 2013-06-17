@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<purple version='1.0'>
+	<blist>
+		<group name='Buddies'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>5t4rrk@jpdeplaix.dyndns.org</name>
+					<alias>5t4rrk@jpdeplaix.dyndns.org</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>jpdeplaix@jpdeplaix.dyndns.org</name>
+					<alias>jpdeplaix@jpdeplaix.dyndns.org</alias>
+					<setting name='last_seen' type='int'>1371467808</setting>
+					<setting name='buddy_icon' type='string'>86ce7705ae79ee33d476a5cc6327c1361b499fd5.png</setting>
+					<setting name='icon_checksum' type='string'>86ce7705ae79ee33d476a5cc6327c1361b499fd5</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>kailokyra</name>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>lastmikoi@jpdeplaix.dyndns.org</name>
+					<alias>lastmikoi@jpdeplaix.dyndns.org</alias>
+					<setting name='last_seen' type='int'>1371122659</setting>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>glabs@jpdeplaix.dyndns.org</name>
+					<alias>glabs@jpdeplaix.dyndns.org</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>engil@jpdeplaix.dyndns.org</name>
+					<alias>engil@jpdeplaix.dyndns.org</alias>
+				</buddy>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>lastmikoi@gmail.com</name>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>lastmikoi@lastmikoi.net</name>
+					<setting name='last_seen' type='int'>1364150017</setting>
+				</buddy>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+			</contact>
+			<contact>
+				<buddy account='SeiZa@jpdeplaix.dyndns.org/' proto='prpl-jabber'>
+					<name>glabs</name>
+					<alias>gaby</alias>
+				</buddy>
+			</contact>
+		</group>
+		<group name='Chats'>
+			<setting name='collapsed' type='bool'>0</setting>
+			<chat proto='prpl-irc' account='SeiZa@irc.freenode.net'>
+				<alias>##esl</alias>
+				<component name='channel'>##esl</component>
+				<setting name='gtk-mute-sound' type='bool'>1</setting>
+				<setting name='gtk-autojoin' type='bool'>1</setting>
+			</chat>
+			<chat proto='prpl-irc' account='SeiZa@irc.freenode.net'>
+				<component name='channel'>##sm21</component>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+				<setting name='gtk-autojoin' type='bool'>1</setting>
+			</chat>
+			<chat proto='prpl-irc' account='SeiZa@irc.freenode.net'>
+				<alias>##sm2b</alias>
+				<component name='channel'>##sm2b</component>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+				<setting name='gtk-autojoin' type='bool'>1</setting>
+			</chat>
+			<chat proto='prpl-jabber' account='SeiZa@jpdeplaix.dyndns.org/'>
+				<alias>poneysec</alias>
+				<component name='server'>jpdeplaix.no-ip.org</component>
+				<component name='password'>coucou</component>
+				<component name='room'>poneysec</component>
+				<component name='handle'>SeiZa</component>
+				<setting name='gtk-mute-sound' type='bool'>0</setting>
+				<setting name='gtk-autojoin' type='bool'>1</setting>
+			</chat>
+		</group>
+	</blist>
+	<privacy>
+		<account proto='prpl-jabber' name='SeiZa@jpdeplaix.dyndns.org/' mode='1'/>
+		<account proto='prpl-irc' name='SeiZa@irc.freenode.net' mode='1'/>
+		<account proto='prpl-jabber' name='SeiZa@lastmikoi.net' mode='1'/>
+	</privacy>
+</purple>

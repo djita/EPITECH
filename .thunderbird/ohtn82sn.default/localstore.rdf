@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"
+                   screenX="907"
+                   screenY="229" />
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#messagepaneboxwrapper"
+                   height="516" />
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#header-view-toolbox"
+                   mode="full"
+                   iconsize="small"
+                   labelalign="end" />
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul">
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#messengerWindow"/>
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#messagepaneboxwrapper"/>
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#header-view-toolbox"/>
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#header-view-toolbar"/>
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#attachment-view-toolbox"/>
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#attachment-view-toolbar"/>
+    <NC:persist RDF:resource="chrome://messenger/content/messenger.xul#displayDeck"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://messenger/content/AccountManager.xul">
+    <NC:persist RDF:resource="chrome://messenger/content/AccountManager.xul#accountManager"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://editor/content/EdInsertTable.xul">
+    <NC:persist RDF:resource="chrome://editor/content/EdInsertTable.xul#location"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://messenger/content/messengercompose/messengercompose.xul">
+    <NC:persist RDF:resource="chrome://messenger/content/messengercompose/messengercompose.xul#msgcomposeWindow"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#attachment-view-toolbar"
+                   iconsize="small" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#header-view-toolbar"
+                   iconsize="small" />
+  <RDF:Description RDF:about="chrome://editor/content/EdInsertTable.xul#location"
+                   offsetX="0" />
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#displayDeck"
+                   height="410" />
+  <RDF:Description RDF:about="chrome://messenger/content/AccountManager.xul#accountManager"
+                   screenX="539"
+                   screenY="150" />
+  <RDF:Description RDF:about="chrome://messenger/content/messengercompose/messengercompose.xul#msgcomposeWindow"
+                   width="709"
+                   height="665"
+                   sizemode="normal"
+                   screenX="724"
+                   screenY="0" />
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#messengerWindow"
+                   width="1024"
+                   height="1056"
+                   screenX="724"
+                   screenY="-22"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://messenger/content/messenger.xul#attachment-view-toolbox"
+                   mode="full"
+                   iconsize="small"
+                   labelalign="end" />
+</RDF:RDF>

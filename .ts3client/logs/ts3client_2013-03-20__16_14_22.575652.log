@@ -1,0 +1,240 @@
+2013-03-20 16:14:22.583888|INFO    |              |   | TeamSpeak 3 Client 3.0.10 (2013-02-27 15:08:47)
+2013-03-20 16:14:22.637028|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-20 16:14:22.709982|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-20 16:14:26.117262|INFO    |              |   | *** Time [MAINWINDOW]: 220
+2013-03-20 16:14:26.117566|INFO    |              |   | *** Time [INIT]: 220
+2013-03-20 16:14:26.150400|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-20 16:14:26.167141|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-03-20 16:14:26.167245|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-20 16:14:26.617507|INFO    |ClientUI      |   | Last update check was: Tue Mar 19 17:55:43 2013
+2013-03-20 16:14:26.810801|INFO    |              |   | Checking for updates...
+2013-03-20 16:14:26.903010|INFO    |              |   | DNS resolve successful, "update.teamspeak.com"=176.9.148.78
+2013-03-20 16:14:27.161515|INFO    |              |   | Update check, my version: 1361977727, latest version: 1361977727
+2013-03-20 16:14:34.267292|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:14:34.268198|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:14:34.268264|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:14:34.413526|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:14:34.650005|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-20 16:14:34.650502|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-20 16:14:34.671640|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:14:35.430844|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-20 16:14:35.607959|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-20 16:14:35.623311|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-20 16:14:35.637070|INFO    |PermManager   |   | Loading permissions from cache
+2013-03-20 16:14:36.071626|INFO    |ClientUI      |   | Request already running, aborting avatar request
+2013-03-20 16:40:02.827441|WARNING |SCHandler     |  1| Got command data while disconnected, dropping
+2013-03-20 16:40:02.828339|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:02.830563|INFO    |ClientUI      |  1| Connection lost, want autoreconnect = 1
+2013-03-20 16:40:02.977718|INFO    |Bookmarks     |   | Disconnect, total time: 1527 - 17804
+2013-03-20 16:40:03.977945|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:03.978169|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:03.979751|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:03.979895|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:04.062045|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:04.217241|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:09.217197|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:09.834421|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:09.836380|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:10.838398|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:10.838606|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:10.840363|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:10.840533|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:10.840664|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:11.076444|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:16.075466|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:16.740796|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:16.742178|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:17.742709|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:17.742965|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:17.744806|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:17.744952|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:17.745107|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:17.978860|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:22.978785|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:23.647216|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:23.648610|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:24.649299|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:24.649529|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:24.650726|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:24.650868|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:24.651057|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:24.874444|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:29.874346|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:30.553162|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:30.555363|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:31.556157|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:31.556346|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:31.557669|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:31.557793|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:31.557980|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:31.781877|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:36.781811|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:37.459330|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:37.460827|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:38.461593|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:38.461776|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:38.462995|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:38.463130|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:38.463302|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:38.698159|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:43.698100|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:44.365694|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:44.367680|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:45.369369|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:45.369580|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:45.370746|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:45.370888|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:45.371125|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:45.610480|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:50.610421|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:51.272203|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:51.273603|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:52.274295|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:52.274444|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:52.275399|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:52.275501|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:52.275668|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:52.530636|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:40:57.530579|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:40:58.178924|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:40:58.181128|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:40:59.182100|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:40:59.182312|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:40:59.184080|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:40:59.184214|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:40:59.184803|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:40:59.438696|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:04.438645|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:05.085574|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:05.087121|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:06.087952|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:06.088190|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:06.089953|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:06.090085|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:06.090304|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:06.338054|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:11.337996|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:11.992239|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:11.994353|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:12.996031|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:12.996213|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:12.997458|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:12.997589|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:12.997963|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:13.245935|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:18.245854|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:18.898393|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:18.901007|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:19.902000|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:19.902144|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:19.903413|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:19.903511|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:19.903685|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:20.145624|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:25.145539|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:25.804919|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:25.806382|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:26.807072|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:26.807274|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:26.809033|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:26.809163|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:26.809376|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:27.028289|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:32.028230|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:32.711080|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:32.712667|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:33.713224|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:33.713343|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:33.714002|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:33.714061|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:33.714194|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:33.936309|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:38.936251|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:39.617479|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:39.619132|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:40.620084|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:40.620276|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:40.621443|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:40.621595|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:40.621778|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:40.856931|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:45.856861|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:46.523800|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:46.524986|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:47.525700|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:47.525923|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:47.527662|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:47.527800|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:47.527976|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:47.760315|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:52.760241|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:41:53.430351|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:41:53.431997|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:41:54.432560|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:41:54.432783|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:41:54.436336|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:41:54.436465|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:41:54.436513|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:41:54.689377|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:41:59.689321|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:42:00.336937|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:42:00.339048|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:42:01.340662|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:42:01.340853|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:42:01.342009|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:42:01.342072|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:42:01.342213|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:42:01.572454|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:42:06.572373|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:42:07.243240|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:42:07.245375|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:42:08.246339|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:42:08.246520|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:42:08.248242|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:42:08.248392|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:42:08.248537|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:42:08.475848|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:42:13.475759|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:42:14.149547|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:42:14.151428|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:42:15.152385|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:42:15.152567|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:42:15.153819|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:42:15.153958|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:42:15.154209|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:42:15.416915|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:42:20.416864|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:42:21.056294|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:42:21.059231|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:42:22.060471|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:42:22.060672|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:42:22.061430|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:42:22.061539|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:42:22.061714|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:42:22.308147|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:42:27.308068|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:42:27.962805|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:42:27.964440|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:42:28.965273|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:42:28.965475|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:42:28.967295|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:42:28.967438|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:42:28.967546|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:42:29.216012|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:42:34.215954|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 16:42:34.869492|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 16:42:34.871205|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-20 16:42:35.871952|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-20 16:42:35.872130|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-20 16:42:35.873419|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-20 16:42:35.873550|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-20 16:42:35.873753|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-20 16:42:36.089953|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-20 16:42:36.775133|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-20 16:42:36.843797|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-20 16:42:36.847092|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-20 16:42:36.847683|INFO    |PermManager   |   | Loading permissions from cache
+2013-03-20 16:42:41.089923|INFO    |ClientUI      |   | Blacklist check timeout
+2013-03-20 17:04:57.724579|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-20 17:04:57.726777|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-03-20 17:04:57.848119|INFO    |Bookmarks     |   | Disconnect, total time: 1340 - 19144

@@ -1,0 +1,20 @@
+2013-03-31 17:12:55.860664|INFO    |              |   | TeamSpeak 3 Client 3.0.10 (2013-02-27 15:08:47)
+2013-03-31 17:12:56.190635|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-31 17:12:56.255639|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-31 17:12:56.975394|INFO    |              |   | *** Time [MAINWINDOW]: 170
+2013-03-31 17:12:56.975661|INFO    |              |   | *** Time [INIT]: 170
+2013-03-31 17:12:57.001426|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-31 17:12:57.010840|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-03-31 17:12:57.010977|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-31 17:12:57.475868|INFO    |ClientUI      |   | Last update check was: Sun Mar 31 16:22:31 2013
+2013-03-31 17:12:59.611308|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-31 17:12:59.637705|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-31 17:12:59.637811|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-31 17:12:59.676550|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-31 17:13:00.002311|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-31 17:13:00.024163|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-31 17:13:00.129489|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-31 17:13:00.378301|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-31 17:13:00.401329|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-31 17:13:00.414308|INFO    |PermManager   |   | Loading permissions from cache
+2013-03-31 17:19:11.126054|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault

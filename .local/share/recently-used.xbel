@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/guillo_e/Downloads/bomberman.pdf" added="2013-05-06T09:10:19Z" modified="2013-05-23T13:40:29Z" visited="2013-05-06T09:10:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-05-23T13:40:29Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/bomberman.pdf" added="2013-05-23T13:41:54Z" modified="2013-05-23T13:41:54Z" visited="2013-05-23T13:41:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-05-23T13:41:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/Introduction.pdf" added="2013-05-28T11:53:24Z" modified="2013-05-28T12:06:55Z" visited="2013-05-28T11:53:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-05-28T12:06:55Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/Teck2_TP1_FR.pdf" added="2013-05-28T11:54:14Z" modified="2013-05-28T12:31:43Z" visited="2013-05-28T11:54:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-05-28T12:31:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/Adressage-IPv4.pdf" added="2013-05-28T11:54:50Z" modified="2013-05-28T11:54:50Z" visited="2013-05-28T11:54:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-05-28T11:54:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/Teck2_TP2.pdf" added="2013-05-28T12:07:21Z" modified="2013-05-28T12:07:28Z" visited="2013-05-28T12:07:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-05-28T12:07:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/guillo_e/Downloads/zappy-en.pdf" added="2013-06-12T12:52:13Z" modified="2013-06-12T12:52:13Z" visited="2013-06-12T12:52:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-06-12T12:52:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/guillo_e/Downloads/protocole-client-graphique.pdf" added="2013-06-12T13:09:08Z" modified="2013-06-12T13:09:08Z" visited="2013-06-12T13:09:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-06-12T13:09:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/guillo_e/Downloads" added="2013-06-12T14:05:25Z" modified="2013-06-12T14:05:25Z" visited="2013-06-12T14:05:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller %u&apos;" modified="2013-06-12T14:05:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/guillo_e/Downloads/RUSH%201%20TECK2.docx" added="2013-06-17T12:08:08Z" modified="2013-06-17T14:49:01Z" visited="2013-06-17T12:08:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 3.4" exec="&apos;soffice %u&apos;" modified="2013-06-17T14:49:01Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/guillo_e/Downloads/Teck2_TP2.pdf" added="2013-06-17T12:32:00Z" modified="2013-06-17T12:32:00Z" visited="2013-06-17T12:32:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2013-06-17T12:32:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/guillo_e/Downloads/ubuntu-12.04.2-desktop-amd64.iso" added="2013-06-17T16:23:13Z" modified="2013-06-17T16:33:34Z" visited="2013-06-17T16:23:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:groups>
+          <bookmark:group>brasero</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="brasero" exec="&apos;brasero -p %u&apos;" modified="2013-06-17T16:33:34Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;brasero %U&apos;" modified="2013-06-17T16:33:25Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

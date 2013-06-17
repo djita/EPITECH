@@ -1,0 +1,2000 @@
+#+1359725693
+cat my_malloc.h
+#+1359725713
+cat chunk_list.h
+#+1359726011
+ls
+#+1359726014
+ne malloc.c
+#+1359726044
+ne malloc.c chunk_list.*
+#+1359727671
+git pull
+#+1359727676
+ls
+#+1359727678
+make
+#+1359727688
+ls
+#+1359727689
+ne malloc.c
+#+1359727712
+make fclean
+#+1359727719
+ls
+#+1359727752
+cp -r * ~/Documents/working/tek2/unix/malloc/
+#+1359728903
+git pull
+#+1359728906
+ll
+#+1359728907
+pwd
+#+1359728909
+ls
+#+1359733943
+git pull
+#+1359735707
+reboot
+#+1359966862
+fbsetbg -c -r Pictures/
+#+1359968826
+ifconfig
+#+1359968827
+ls
+#+1359973007
+netstat
+#+1359973013
+net
+#+1359978879
+pkill thunderbird
+#+1359980448
+afk
+#+1359981595
+ls
+#+1359994747
+kinit
+#+1359994789
+netconfig update -f
+#+1359994793
+sudo netconfig update -f
+#+1359994800
+iternet
+#+1359994803
+ifconfig
+#+1359994815
+cat history
+#+1359994817
+ls
+#+1359994819
+cat .history
+#+1359994832
+ls
+#+1359994841
+netstat
+#+1359994877
+sudo netconfig update -f
+#+1359994951
+kinit
+#+1359994954
+aklog
+#+1359995046
+kinit
+#+1359995049
+aklog
+#+1359997194
+alsamixer
+#+1360002048
+cat .history | grep ssh
+#+1360002171
+ssh thot2013@88.191.132.200
+#+1360154826
+ls
+#+1360156294
+man dlopen
+#+1360158727
+cd ~/afs/
+#+1360158727
+ls
+#+1360158730
+cd public/
+#+1360158731
+ls
+#+1360158741
+cd ../../frere_m/
+#+1360158741
+ls
+#+1360158742
+cd public/
+#+1360158743
+ls
+#+1360158746
+cat .plan
+#+1360420873
+fbsetbg -c -r Pictures/
+#+1360420880
+ls
+#+1360422296
+pkill thunderbird
+#+1360423094
+net addr
+#+1360423107
+cd /etc
+#+1360423109
+ls
+#+1360423111
+sudo su
+#+1360423131
+ls
+#+1360423134
+cd /etc/
+#+1360423142
+sudo vim resolv.conf
+#+1360423168
+man netconf
+#+1360423174
+getconf -h
+#+1360423176
+ls
+#+1360423177
+cd /etc/
+#+1360423178
+ls
+#+1360423187
+cat resolv.conf
+#+1360423193
+ne resolv.conf
+#+1360423205
+sudo ne resolv.conf
+#+1360423254
+sudo emacs resolv.conf
+#+1360423266
+clean
+#+1360423266
+ls
+#+1360423271
+ip route
+#+1360423291
+ls
+#+1360423313
+ifconfig
+#+1360423317
+ifconfig route
+#+1360423320
+route
+#+1360423324
+ls
+#+1360423326
+cat resolv.conf
+#+1360423398
+ls
+#+1360423405
+cat /etc/resolv.conf
+#+1360423671
+fbsetbg -c -r Pictures/
+#+1360423691
+ping google.fr
+#+1360423697
+ip route
+#+1360423703
+cat /etc/resolv.conf
+#+1360423706
+ls
+#+1360423904
+ping 8.8.8.8
+#+1360425032
+yum
+#+1360425037
+yum flasm
+#+1360425046
+yum --help
+#+1360425051
+yum search flasm
+#+1360425056
+sudo yum search flasm
+#+1360425099
+yast -help
+#+1360425102
+yast --help
+#+1360425117
+yast -i flasm
+#+1360425135
+ls
+#+1360426378
+zlock
+#+1360429258
+curl -X POST -d login='admin' -d password='\' OR SELECT password FROM auth WHERE login='admin'' http://59902f6.2.sec-l.org/admin.php
+#+1360429308
+curl -X POST -d login="admin" -d password="' OR 1 OR '" http://59902f6.2.sec-l.org/admin.php
+#+1360429359
+curl -X POST -d login="admin" -d password="' OR 1'" http://59902f6.2.sec-l.org/admin.php
+#+1360429369
+curl -X POST -d login="admin" -d password="' OR 1 OR" http://59902f6.2.sec-l.org/admin.php
+#+1360429416
+curl -X POST -d login="admin" -d password="' OR WHERE login='admin';" http://59902f6.2.sec-l.org/admin.php
+#+1360429420
+curl -X POST -d login="admin" -d password="' OR WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360429424
+curl -X POST -d login="admin" -d password="' OR WHERE login=" http://59902f6.2.sec-l.org/admin.php
+#+1360429433
+curl -X POST -d login="admin" -d password="' OR WHERE" http://59902f6.2.sec-l.org/admin.php
+#+1360429438
+curl -X POST -d login="admin" -d password="' OR 1" http://59902f6.2.sec-l.org/admin.php
+#+1360429441
+curl -X POST -d login="admin" -d password="' OR 1'" http://59902f6.2.sec-l.org/admin.php
+#+1360429512
+curl -X POST -d "login=admin" -d "password=' OR 1'" http://59902f6.2.sec-l.org/admin.php
+#+1360429539
+curl -X POST -d "login=admin" -d "password=' OR SELECT password FROM auth WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360429575
+curl -X POST -d "login=admin" -d "password= OR SELECT password FROM auth WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360429593
+curl -X POST -d "login=admin" -d "password=\" OR SELECT password FROM auth WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360429598
+curl -X POST -d "login=admin" -d "password=\" OR SELECT password FROM auth WHERE login='admin'\"" http://59902f6.2.sec-l.org/admin.php
+#+1360429611
+curl -X POST -d "login=admin" -d "password=' \"OR SELECT password FROM auth WHERE login='admin''" http://59902f6.2.sec-l.org/admin.php
+#+1360429620
+curl -X POST -d "login=admin" -d "password=' \"OR SELECT password FROM auth WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360429626
+curl -X POST -d "login=admin" -d "password='OR SELECT password FROM auth WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360429632
+env
+#+1360429640
+curl -X POST -d "login=admin" -d "password='OR SELECT password FROM auth WHERE login='admin'" http://59902f6.2.sec-l.org/admin.php
+#+1360431163
+curl -X POST -d "login=admin" -d "password='OR SELECT password FROM auth WHERE login='admin'" -d "submit=' OR SELECT login,password FROM auth WHERE login=admind''" http://59902f6.2.sec-l.org/admin.php
+#+1360438247
+ls
+#+1360438248
+cd Git
+#+1360438248
+ls
+#+1360438257
+git clone https://SaiZa@bitbucket.org/SaiZa/abstract_vm.git
+#+1360438262
+ls
+#+1360438265
+cd abstract_vm/
+#+1360438265
+ls
+#+1360438341
+git clone https://SaiZa@bitbucket.org/zhou_f/abstract_vm.git
+#+1360438532
+ls
+#+1360438534
+cd Git
+#+1360438534
+ls
+#+1360438536
+cd abstract_vm/
+#+1360438537
+ls
+#+1360438539
+git remote add origin https://SaiZa@bitbucket.org/SaiZa/abstract_vm.git
+#+1360438542
+ls
+#+1360438542
+cd ..
+#+1360438543
+ls
+#+1360438546
+rm -r abstract_vm/
+#+1360438547
+git remote add origin https://SaiZa@bitbucket.org/SaiZa/abstract_vm.git
+#+1360438549
+ls
+#+1360438554
+cd abstract_vm
+#+1360438555
+ls
+#+1360438559
+mkdir abstract_vm
+#+1360438560
+cd abstract_vm/
+#+1360438561
+git remote add origin https://SaiZa@bitbucket.org/SaiZa/abstract_vm.git
+#+1360438565
+ls
+#+1360438566
+cd ..
+#+1360438566
+ls
+#+1360438571
+rmdir abstract_vm/
+#+1360438572
+ls
+#+1360438585
+mkdir abstract_vm
+#+1360438588
+cd abstract_vm
+#+1360438588
+ls
+#+1360438589
+pwd
+#+1360438590
+git init
+#+1360438600
+git remote add origin https://SaiZa@bitbucket.org/SaiZa/abstract_vm.git
+#+1360438601
+ls
+#+1360438602
+pwd
+#+1360438603
+git
+#+1360438605
+git status
+#+1360438609
+git add
+#+1360438613
+git add .
+#+1360438616
+git status
+#+1360438662
+echo "# This a README for AbstractVM\nby SeiZa" >> README.md
+#+1360438666
+cat README.md
+#+1360438672
+ne README.md
+#+1360438679
+clean
+#+1360438681
+cat README.md
+#+1360438682
+ls
+#+1360438688
+git add README.md
+#+1360438713
+git commit -m "Ajout de README"
+#+1360438716
+git status
+#+1360438723
+git push origin master
+#+1360438733
+git status
+#+1360438736
+ls
+#+1360438750
+mkdir src
+#+1360438750
+ls
+#+1360438848
+ne README.md
+#+1360438901
+clean
+#+1360438901
+ls
+#+1360438903
+git status
+#+1360438904
+git add src
+#+1360438926
+git commit -m "Todo list + src dir"
+#+1360438931
+git status
+#+1360438936
+git add src
+#+1360438937
+git status
+#+1360438945
+git push origin master
+#+1360438950
+ls
+#+1360438953
+git diff
+#+1360438960
+git add *
+#+1360438971
+git commit -m "Todo List and src dir"
+#+1360438976
+git push origin master
+#+1360605526
+ls
+#+1360605527
+cd Git
+#+1360605528
+ls
+#+1360605530
+cd malloc/
+#+1360605530
+ls
+#+1360605531
+git pull
+#+1360605537
+ls
+#+1360605539
+cd tests/
+#+1360605540
+ls
+#+1360605541
+make re
+#+1360605544
+cd ..
+#+1360605545
+ls
+#+1360605546
+make re
+#+1360605547
+ls
+#+1360605550
+make re
+#+1360605558
+git pull
+#+1360605564
+make re
+#+1360605586
+git reset --hard Head
+#+1360605592
+git reset --hard HEQD
+#+1360605595
+git reset --hard HEAD
+#+1360605601
+git pull
+#+1360605604
+ls
+#+1360605605
+make re
+#+1360605611
+ls
+#+1360605612
+make re
+#+1360605614
+cd tests/
+#+1360605614
+ls
+#+1360605615
+make re
+#+1360605616
+cd ..
+#+1360605617
+ls
+#+1360605633
+./run.sh
+#+1360605634
+ls
+#+1360605640
+./run.sh
+#+1360605643
+ls
+#+1360605648
+./test
+#+1360605651
+./test_malloc
+#+1360605659
+ls
+#+1360605661
+cd tests/
+#+1360605661
+ls
+#+1360605664
+./test m
+#+1360606055
+afk
+#+1360606421
+dc
+#+1360672665
+ne main.cpp
+#+1360673597
+ls
+#+1360673599
+ne main.cpp
+#+1360673704
+g++ main.cpp
+#+1360673707
+ls
+#+1360673713
+ne main.cpp
+#+1360673737
+fg
+#+1360673745
+g++ main.cpp
+#+1360673765
+fg
+#+1360673769
+g++ main.cpp
+#+1360673770
+fg
+#+1360673779
+g++ main.cpp
+#+1360673786
+fg
+#+1360673800
+g++ main.cpp
+#+1360673801
+./a
+#+1360673814
+./a.out "here is a set of 42 words"
+#+1360673816
+fg
+#+1360673830
+g++ main.cpp
+#+1360673833
+./a.out "here is a set of 42 words"
+#+1360673834
+ls
+#+1360673835
+fg
+#+1360673839
+rm a.out
+#+1360673840
+rm main.cpp
+#+1360673840
+clean
+#+1360673841
+ls
+#+1360674311
+ne main.cpp
+#+1360674448
+g++ main.cpp
+#+1360674450
+./a.out
+#+1360674457
+./a.out "allo(32)"
+#+1360674462
+./a.out "val allo(32)"
+#+1360674466
+./a.out "val() allo(32)"
+#+1360674468
+./a.out "val()allo(32)"
+#+1360674470
+./a.out "val( )allo(32)"
+#+1360674471
+./a.out "val( )allo( 32)"
+#+1360674498
+./a.out "push int32(42)"
+#+1360674513
+fg
+#+1360674703
+./a.out "try(this"
+#+1360674706
+./a.out "try()this"
+#+1360674858
+fg
+#+1360674863
+g++ main.cpp
+#+1360674865
+fg
+#+1360674889
+g++ main.cpp
+#+1360674894
+fg
+#+1360674948
+g++ main.cpp
+#+1360674957
+./a.out "push int32(42)"
+#+1360674960
+fg
+#+1360675018
+g++ main.cpp
+#+1360675023
+./a.out "push int32(42)
+#+1360675026
+./a.out "push int32(42):
+#+1360675028
+./a.out "push int32(42)"
+#+1360675054
+fg
+#+1360675078
+g++ main.cpp
+#+1360675082
+./a.out "push int32(42)"
+#+1360675083
+fg
+#+1360675156
+g++ main.cpp
+#+1360675158
+./a.out "push int32(42)"
+#+1360675162
+fg
+#+1360675168
+g++ main.cpp
+#+1360675169
+./a.out "push int32(42)"
+#+1360675170
+fg
+#+1360675176
+g++ main.cpp
+#+1360675178
+./a.out "push int32(42)"
+#+1360675179
+fg
+#+1360675245
+g++ main.cpp
+#+1360675246
+./a.out "push int32(42)"
+#+1360675247
+fg
+#+1360675252
+g++ main.cpp
+#+1360675253
+./a.out "push int32(42)"
+#+1360675254
+fg
+#+1360675262
+g++ main.cpp
+#+1360675305
+fg
+#+1360675376
+g++ main.cpp
+#+1360675378
+./a.out "push int32(42)"
+#+1360675392
+fg
+#+1360675412
+g++ main.cpp
+#+1360675413
+./a.out "push int32(42)"
+#+1360675414
+fg
+#+1360675423
+g++ main.cpp
+#+1360675424
+./a.out "push int32(42)"
+#+1360675425
+fg
+#+1360675428
+g++ main.cpp
+#+1360675429
+./a.out "push int32(42)"
+#+1360675454
+fg
+#+1360675497
+g++ main.cpp
+#+1360675499
+./a.out "push int32(42)"
+#+1360675500
+fg
+#+1360675522
+g++ main.cpp
+#+1360675523
+./a.out "push int32(42)"
+#+1360675528
+fg
+#+1360675552
+g++ main.cpp
+#+1360675553
+./a.out "push int32(42)"
+#+1360675563
+fg
+#+1360675576
+g++ main.cpp
+#+1360675577
+./a.out "push int32(42)"
+#+1360675583
+fg
+#+1360675601
+g++ main.cpp
+#+1360675602
+./a.out "push int32(42)"
+#+1360675603
+fg
+#+1360675709
+g++ main.cpp
+#+1360675711
+./a.out "push int32(42)"
+#+1360675721
+fg
+#+1360675732
+g++ main.cpp
+#+1360675737
+fg
+#+1360675740
+g++ main.cpp
+#+1360675742
+./a.out "push int32(42)"
+#+1360675748
+fg
+#+1360675757
+g++ main.cpp
+#+1360675758
+./a.out "push int32(42)"
+#+1360675759
+fg
+#+1360675792
+g++ main.cpp
+#+1360675793
+./a.out "push int32(42)"
+#+1360675796
+fg
+#+1360675799
+g++ main.cpp
+#+1360675800
+./a.out "push int32(42)"
+#+1360675802
+fg
+#+1360675819
+g++ main.cpp
+#+1360675820
+./a.out "push int32(42)"
+#+1360675821
+fg
+#+1360675824
+g++ main.cpp
+#+1360675825
+./a.out "push int32(42)"
+#+1360675826
+fg
+#+1360675841
+g++ main.cpp
+#+1360675842
+./a.out "push int32(42)"
+#+1360675843
+fg
+#+1360675875
+g++ main.cpp
+#+1360675876
+./a.out "push int32(42)"
+#+1360678160
+fg
+#+1360678161
+ls
+#+1360678162
+clean
+#+1360678301
+LS
+#+1360678302
+ls
+#+1360678306
+cd Documents/Math/
+#+1360678307
+ls
+#+1360678311
+cd 106suite/
+#+1360678311
+ls
+#+1360678314
+cat 106suite.rb
+#+1360678316
+ls
+#+1360678319
+cd ..
+#+1360678320
+ls
+#+1360678323
+cd 108courbe/
+#+1360678323
+ls
+#+1360678325
+cat 108courbe
+#+1360678992
+ls
+#+1360678994
+cd Documents/
+#+1360678994
+ls
+#+1360678996
+cd Math/
+#+1360678996
+ls
+#+1360679000
+cd 103homogene/
+#+1360679001
+ls
+#+1360679003
+cat 103homogene
+#+1360679336
+ls
+#+1360679337
+cd
+#+1360679343
+ls
+#+1360679346
+cd Git
+#+1360679346
+ls
+#+1360679353
+cd abstract_vm/
+#+1360679354
+ls
+#+1360679356
+cd tmp/
+#+1360679356
+ls
+#+1360679361
+cat Chipset.cpp
+#+1360679366
+ne *
+#+1360679376
+cd
+#+1360679376
+ls
+#+1360679378
+ne main.cpp
+#+1360679433
+afk
+#+1360763734
+ls
+#+1360764016
+./a.out
+#+1360764024
+./a.out "hello this is a parsing test"
+#+1360764066
+man script
+#+1360764129
+tty
+#+1360764134
+man script
+#+1360768963
+ls
+#+1360768964
+cd Git
+#+1360768964
+ls
+#+1360768966
+cd malloc/
+#+1360768966
+ls
+#+1360769051
+kinit
+#+1360769054
+aklog
+#+1360769435
+htop
+#+1360845801
+ls
+#+1360845802
+ne main.cpp
+#+1360845992
+clean
+#+1360845994
+g++ main.cpp
+#+1360845999
+./a.out
+#+1360846001
+ne main.cpp
+#+1360846008
+clean
+#+1360846010
+g++ main.cpp
+#+1360846011
+./a.out
+#+1360846014
+./a.out m
+#+1360846017
+ne main.cpp
+#+1360846040
+clean
+#+1360846043
+g++ main.cpp
+#+1360846046
+./a.out
+#+1360846047
+ne main.cpp
+#+1360846067
+clean
+#+1360846070
+g++ main.cpp
+#+1360846072
+./a.out
+#+1360846083
+ne main.cpp
+#+1360846091
+clean
+#+1360846093
+g++ main.cpp
+#+1360846100
+./a.out
+#+1360846117
+ne main.cpp
+#+1360846155
+clean
+#+1360846157
+g++ main.cpp
+#+1360846159
+./a.out
+#+1360846166
+ne main.cpp
+#+1360846181
+clean
+#+1360846184
+g++ main.cpp
+#+1360846185
+./a.out
+#+1360846192
+ne main.cpp
+#+1360846225
+clean
+#+1360846227
+g++ main.cpp
+#+1360846230
+./a.out
+#+1360846240
+ne main.cpp
+#+1360846255
+clean
+#+1360846257
+g++ main.cpp
+#+1360846259
+./a.out
+#+1360846268
+ne main.cpp
+#+1360846390
+g++ main.cpp
+#+1360846391
+./a.out
+#+1360846393
+ne main.cpp
+#+1360846435
+clean
+#+1360846436
+g++ main.cpp
+#+1360846438
+./a.out
+#+1360846443
+ne main.cpp
+#+1360846478
+g++ main.cpp
+#+1360846479
+ne main.cpp
+#+1360846484
+fg
+#+1360846489
+clean
+#+1360846491
+g++ main.cpp
+#+1360846492
+./a.out
+#+1360846499
+ne main.cpp
+#+1360846591
+g++ main.cpp
+#+1360846592
+./a.out
+#+1360846602
+ne main.cpp
+#+1360846632
+clean
+#+1360846634
+g++ main.cpp
+#+1360846635
+./a.out
+#+1360846640
+ne main.cpp
+#+1360846659
+clean
+#+1360846660
+g++ main.cpp
+#+1360846662
+./a.out
+#+1360846669
+ls
+#+1360846677
+ne main.cpp
+#+1360846711
+clean
+#+1360846714
+g++ main.cpp
+#+1360846716
+./a.out
+#+1360846722
+ne main.cpp
+#+1360846735
+clean
+#+1360846737
+ne main.cpp
+#+1360846742
+clean
+#+1360846747
+g++ main.cpp
+#+1360846750
+./a.out
+#+1360846754
+ne main.cpp
+#+1360846779
+g++ main.cpp
+#+1360846785
+./a.out
+#+1360846789
+ne main.cpp
+#+1360846862
+g++ main.cpp
+#+1360846864
+fg
+#+1360846910
+clean
+#+1360846911
+g++ main.cpp
+#+1360846913
+ne main.cpp
+#+1360846916
+fg
+#+1360846921
+clean
+#+1360846923
+g++ main.cpp
+#+1360846924
+./a.out
+#+1360846932
+ne main.cpp
+#+1360846940
+clean
+#+1360846941
+g++ main.cpp
+#+1360846942
+./a.out
+#+1360846967
+ne main.cpp
+#+1360847004
+clean
+#+1360847005
+g++ main.cpp
+#+1360847007
+ne main.cpp
+#+1360847015
+clean
+#+1360847016
+g++ main.cpp
+#+1360847029
+ne main.cpp
+#+1360847033
+clean
+#+1360847034
+g++ main.cpp
+#+1360847035
+./a.out
+#+1360847047
+ne main.cpp
+#+1360847060
+clean
+#+1360847061
+ne main.cpp
+#+1360847074
+clean
+#+1360847076
+g++ main.cpp
+#+1360847078
+./a.out
+#+1360847086
+ne main.cpp
+#+1360847092
+g++ main.cpp
+#+1360847093
+./a.out
+#+1360847100
+ne main.cpp
+#+1360847142
+clean
+#+1360847143
+g++ main.cpp
+#+1360847145
+./a.out
+#+1360847154
+ne main.cpp
+#+1360847301
+clean
+#+1360847303
+g++ main.cpp
+#+1360847308
+./a.out
+#+1360847317
+ne main.cpp
+#+1360847323
+clean
+#+1360847325
+g++ main.cpp
+#+1360847326
+./a.out
+#+1360847334
+ne main.cpp
+#+1360847415
+clean
+#+1360847416
+g++ main.cpp
+#+1360847418
+ne main.cpp
+#+1360847421
+fg
+#+1360847426
+g++ main.cpp
+#+1360847427
+ne main.cpp
+#+1360847435
+g++ main.cpp
+#+1360847439
+ne main.cpp
+#+1360847450
+g++ main.cpp
+#+1360847452
+./a.out
+#+1360847461
+ne main.cpp
+#+1360847479
+g++ main.cpp
+#+1360847480
+./a.out
+#+1360847503
+ne main.cpp
+#+1360847602
+clean
+#+1360847604
+./a.out
+#+1360847617
+ne main.cpp
+#+1360847627
+fg
+#+1360847696
+g++ main.cpp
+#+1360847697
+./a.out
+#+1360847701
+g++ main.cpp
+#+1360847702
+./a.out
+#+1360847713
+ne main.cpp
+#+1360847734
+clean
+#+1360847735
+g++ main.cpp
+#+1360847738
+./a.out
+#+1360847748
+ne main.cpp
+#+1360847796
+clean
+#+1360847799
+g++ main.cpp
+#+1360847802
+ne main.cpp
+#+1360847809
+fg
+#+1360847816
+g++ main.cpp
+#+1360847818
+fg
+#+1360847820
+clean
+#+1360847823
+g++ main.cpp
+#+1360847824
+./a.out
+#+1360847833
+ne main.cpp
+#+1360847842
+fg
+#+1360847894
+g++ main.cpp
+#+1360847895
+./a.out
+#+1360847906
+ne main.cpp
+#+1360847933
+fg
+#+1360847935
+ne main.cpp
+#+1360847937
+ls
+#+1360847938
+j
+#+1360847940
+clean
+#+1360847944
+g++ main.cpp
+#+1360847945
+./a.out
+#+1360847954
+fg
+#+1360847959
+./a.out
+#+1360848118
+fg
+#+1360848123
+g++ main.cpp
+#+1360848132
+./a.out
+#+1360848140
+fg
+#+1360848157
+g++ main.cpp
+#+1360848177
+./a.out
+#+1360848206
+fg
+#+1360849471
+j
+#+1360849473
+g++ main.cpp
+#+1360849488
+./a.out
+#+1360849496
+fg
+#+1360849801
+g++ main.cpp
+#+1360849802
+./a.out
+#+1360849810
+fg
+#+1360849817
+g++ main.cpp
+#+1360849818
+./a.out
+#+1360849824
+fg
+#+1360849845
+g++ main.cpp
+#+1360849857
+./a.out
+#+1360849869
+fg
+#+1360849875
+g++ main.cpp
+#+1360849876
+./a.out
+#+1360849902
+fg
+#+1360849917
+g++ main.cpp
+#+1360849918
+./a.out
+#+1360849924
+fg
+#+1360849942
+./a.out
+#+1360849945
+fg
+#+1360850021
+g++ main.cpp
+#+1360850023
+./a.out
+#+1360850045
+fg
+#+1360850187
+g++ main.cpp
+#+1360850188
+./a.out
+#+1360850202
+fg
+#+1360949449
+ls
+#+1360949454
+clean
+#+1360949454
+ls
+#+1360952681
+fbsetbg -c Pictures/abstract_green.jpg
+#+1361019503
+ls
+#+1361019508
+cd Git
+#+1361019508
+ls
+#+1361019518
+cd abstract_vm/
+#+1361019518
+ls
+#+1361019520
+cd tmp/
+#+1361019520
+ls
+#+1361019524
+ne Chipset.*
+#+1361019668
+clean
+#+1361019669
+ls
+#+1361019681
+ne Chipset.*
+#+1361019711
+ls
+#+1361019712
+clean
+#+1361031929
+ne main.cpp
+#+1361031935
+ne test.cpp
+#+1361032057
+g++ test.cpp
+#+1361032058
+ne main.cpp
+#+1361032061
+ne test.cpp
+#+1361032068
+g++ test.cpp
+#+1361032076
+ne test.cpp
+#+1361032107
+g++ test.cpp
+#+1361032113
+ne test.cpp
+#+1361032124
+g++ test.cpp
+#+1361032135
+ne test.cpp
+#+1361032146
+g++ test.cpp
+#+1361032148
+ne test.cpp
+#+1361032155
+g++ test.cpp
+#+1361032157
+./a.out
+#+1361032160
+ne main.cpp
+#+1361032165
+ne test.cpp
+#+1361032177
+g++ test.cpp
+#+1361032178
+./a.out
+#+1361032183
+ne main.cpp
+#+1361032186
+ne test.cpp
+#+1361032228
+g++ test.cpp
+#+1361032229
+./a.out
+#+1361032231
+ne main.cpp
+#+1361032233
+g++ test.cpp
+#+1361032236
+ne test.cpp
+#+1361032256
+g++ test.cpp
+#+1361032260
+ne test.cpp
+#+1361032269
+g++ test.cpp
+#+1361032279
+ne test.cpp
+#+1361032282
+g++ test.cpp
+#+1361032284
+ne test.cpp
+#+1361032402
+g++ test.cpp
+#+1361032403
+./a.out
+#+1361032407
+ne test.cpp
+#+1361032413
+g++ test.cpp
+#+1361032414
+./a.out
+#+1361032421
+ne main.cpp
+#+1361032425
+ne test.cpp
+#+1361032486
+g++ test.cpp
+#+1361032487
+./a.out
+#+1361032490
+ne test.cpp
+#+1361032496
+g++ test.cpp
+#+1361032497
+./a.out
+#+1361032503
+ne test.cpp
+#+1361032506
+ls
+#+1361032508
+clean
+#+1361032551
+ls
+#+1361032553
+fg
+#+1361035601
+ls
+#+1361035603
+ne test.cpp
+#+1361035628
+clean
+#+1361035629
+ls
+#+1361035631
+g++ test.cpp
+#+1361035633
+./a.out
+#+1361036073
+ne main.cpp
+#+1361036112
+g++ main.cpp
+#+1361036113
+./a.out
+#+1361036121
+ne main.cpp
+#+1361036138
+g++ main.cpp
+#+1361036139
+./a.out
+#+1361036147
+fg
+#+1361036158
+g++ main.cpp
+#+1361036161
+fg
+#+1361036173
+g++ main.cpp
+#+1361036175
+./a.out
+#+1361036182
+fg
+#+1361149486
+s
+#+1361149494
+ls
+#+1361149496
+cd Git
+#+1361149496
+ls
+#+1361149499
+cd abstract_vm/
+#+1361149499
+ls
+#+1361149502
+cd src/
+#+1361149502
+ls
+#+1361149505
+ne Makefile
+#+1361149511
+git pull origin master
+#+1361149888
+ll
+#+1361149892
+git status
+#+1361149893
+cd ..
+#+1361149894
+ls
+#+1361149897
+cd src/
+#+1361149897
+ls
+#+1361149898
+make
+#+1361149923
+./avm
+#+1361149946
+ne Chipset.*
+#+1361149949
+make clean
+#+1361149951
+ne Chipset.*
+#+1361150013
+fg
+#+1361150127
+make
+#+1361150130
+make clean
+#+1361150131
+./avm
+#+1361150137
+fg
+#+1361150142
+make clean
+#+1361150144
+make
+#+1361150146
+make clean
+#+1361150148
+./avm
+#+1361150160
+fg
+#+1361150174
+make
+#+1361150177
+./avm
+#+1361150182
+fg
+#+1361150212
+make
+#+1361150214
+./avm
+#+1361150228
+fg
+#+1361150262
+make
+#+1361150275
+./avm
+#+1361150423
+ne res.txt
+#+1361150427
+ls
+#+1361150428
+clean
+#+1361150486
+ls
+#+1361150489
+make clean
+#+1361150489
+ls
+#+1361150492
+make fclean
+#+1361150492
+ls
+#+1361150498
+mv res.txt ..
+#+1361150499
+ls
+#+1361150501
+cd ..
+#+1361150502
+ls
+#+1361150503
+mv res.txt ..
+#+1361150504
+ls
+#+1361150505
+cd src/
+#+1361150505
+ls
+#+1361150507
+git status
+#+1361150521
+git commit -am "optimisation de gestion d'erreur"
+#+1361150523
+ne Chipset.*
+#+1361150527
+ls
+#+1361150533
+git push origin master
+#+1361150544
+cd
+#+1361150569
+ls
+#+1361150571
+cd Git
+#+1361150572
+ls
+#+1361150582
+mv Chipset.* tmp/
+#+1361150585
+mv Makefile tmp/
+#+1361150587
+mv res.txt tmp/
+#+1361150588
+ls
+#+1361150591
+ls tmp/
+#+1361150591
+ls
+#+1361150594
+cd abstract_vm/
+#+1361150594
+ls
+#+1361156362
+fg
+#+1361156363
+ls
+#+1361156365
+git status
+#+1361296771
+ls
+#+1361296773
+cd Documents/
+#+1361296773
+ls
+#+1361297961
+cd Gi
+#+1361297961
+ls
+#+1361297967
+cd ../Git/abstract_vm/
+#+1361297967
+ls
+#+1361297969
+cd src/
+#+1361297969
+ls
+#+1361297972
+ne Chipset.*
+#+1361298162
+ls
+#+1361298164
+ne Cpu.*
+#+1361298186
+git pull origin master
+#+1361298192
+ne Cpu.*
+#+1361298279
+ls
+#+1361298282
+ne Operand.*
+#+1361298300
+kls
+#+1361298301
+s
+#+1361298301
+ls
+#+1361298304
+ne exception.*
+#+1361298352
+ne Chipset.*
+#+1361298460
+ls
+#+1361298461
+clean
+#+1361298506
+ls
+#+1361298507
+cd ..
+#+1361298507
+ls
+#+1361298511
+ne README.md
+#+1361298564
+clean
+#+1361298570
+git commit -am "readme update"
+#+1361298572
+git status
+#+1361298577
+git push origin master
+#+1361298652
+ls
+#+1361367501
+ll
+#+1361367502
+l
+#+1361367506
+cd /dev
+#+1361367506
+ls
+#+1361367510
+ll
+#+1361367511
+ls
+#+1361367515
+ll
+#+1361367579
+ls
+#+1361367581
+cd ..
+#+1361367581
+ls
+#+1361367582
+cd /
+#+1361367584
+cd /proc/
+#+1361367584
+ls
+#+1361367591
+cat kcore
+#+1361367592
+ls
+#+1361367596
+sudo cat core
+#+1361367603
+ls
+#+1361367607
+sudo cat kcore
+#+1361367644
+ls
+#+1361367648
+alsamixer
+#+1361367701
+ls
+#+1361367710
+man gpg
+#+1361370217
+zsh
+#+1361370237
+ls
+#+1361370242
+ls -la
+#+1361370253
+wsh
+#+1361370259
+zsh
+#+1361370424
+ne
+#+1361370447
+ne .emacs .emacs.bak
+#+1361370852
+zsh
+#+1361370870
+ne .tcshrc
+#+1361370892
+clean
+#+1361371252
+man chsh
+#+1361371569
+ne
+#+1361371595
+env | grep TERM
+#+1361371665
+ls
+#+1361371670
+cat .tcshrc
+#+1361371679
+cat .zshrc
+#+1361371710
+ls
+#+1361371716
+cat .tcshrc
+#+1361371728
+ne .*tcshrc
+#+1361372024
+ls
+#+1361372106
+ne .emacs.d/std.el
+#+1361372165
+ls
+#+1361372173
+ne .emacs.d/std_comment.el
+#+1361372199
+ls
+#+1361372205
+ne .emacs.d/std.el
+#+1361372212
+clean
+#+1361372216
+clean .emacs.d/
+#+1361372217
+ls
+#+1361372223
+cd .emacs.d/
+#+1361372224
+ls
+#+1361372228
+ne std.el
+#+1361372246
+ne tuareg.el
+#+1361372267
+ls
+#+1361372269
+cd ..
+#+1361372269
+ls
+#+1361372272
+cd -
+#+1361372272
+ls
+#+1361372276
+cd naquadah-theme/
+#+1361372277
+ls
+#+1361372279
+ne naquadah-theme.el
+#+1361372345
+ls
+#+1361372358
+afk
+#+1361372889
+alsamixer
+#+1361372892
+ls
+#+1361372896
+vim
+#+1361372903
+ls
+#+1361372904
+cd
+#+1361372904
+ls
+#+1361372906
+vim
+#+1361372919
+ls
+#+1361372922
+vim tuto
+#+1361372925
+ls
+#+1361372928
+vimtutor
+#+1361373340
+ls
+#+1361373349
+cat /etc/passwd.old
+#+1361373355
+cat /etc/passwd.old | grep guillo_e
+#+1361373366
+cat /etc/passwd | grep guillo_e
+#+1361373372
+cat /etc/passwd.base\  | grep guillo_e
+#+1361373375
+cat /etc/passwd.base | grep guillo_e
+#+1361373378
+cat /etc/passwd.old | grep guillo_e
+#+1361373458
+ls -l passwd.old
+#+1361373462
+ls
+#+1361373466
+ls -l /etc/passwd.old
+#+1361373475
+ls -l /etc/passwd
+#+1361373557
+ls
+#+1361373560
+cd /etc/
+#+1361373561
+ls
+#+1361373568
+sudo su
+#+1361373749
+ls
+#+1361373752
+cd /etc/
+#+1361373752
+ls
+#+1361373759
+cat passwd.old | grep guillo_e
+#+1361373763
+cat passwd | grep guillo_e
+#+1361373770
+os
+#+1361373770
+s
+#+1361373796
+ls
+#+1361373807
+clea
+#+1361373809
+clean
+#+1361373815
+ls rc.d/
+#+1361373833
+cat rcc.xml
+#+1361373847
+ls
+#+1361373858
+cat initscript
+#+1361373866
+cat initscript | grep xterm
+#+1361373869
+cat initscript | grep term
+#+1361373872
+cat initscript
+#+1361373932
+ls init.d
+#+1361373944
+cat init.d/rc
+#+1361374019
+ls
+#+1361374025
+ls -R | grep 2012
+#+1361374029
+ls -r | grep 2012
+#+1361374034
+ls -R | grep 2012
+#+1361374037
+ls -lR | grep 2012
+#+1361374144
+ls
+#+1361374145
+lws
+#+1361374150
+ls
+#+1361374163
+cat ns_secret
+#+1361374170
+sudo ns_secret
+#+1361374181
+sudo cat ns_secret
+#+1361374183
+ls
+#+1361374215
+clean
+#+1361374216
+ls
+#+1361374218
+sudo clean
+#+1361374220
+las
+#+1361374223
+ls
+#+1361374275
+ls init.d
+#+1361374283
+ls init.d/boot.d
+#+1361374291
+ls
+#+1361374299
+ls scripts/
+#+1361374306
+ls scripts/afs.sh
+#+1361374311
+cat scripts/afs.sh
+#+1361374321
+cat scripts/logging.sh
+#+1361374366
+cd scripts/
+#+1361374366
+ls
+#+1361374368
+cd ..
+#+1361374368
+ls
+#+1361374371
+ls -lt
+#+1361374373
+ls -lT
+#+1361374375
+ls -lt
+#+1361374412
+cat sudoers
+#+1361374417
+sudo cat sudoers
+#+1361374424
+ls
+#+1361374427
+ls -lt
+#+1361374512
+cd scripts/
+#+1361374514
+ls
+#+1361374516
+ls maps/
+#+1361374577
+sudo ls maps/
+#+1361374580
+ls
+#+1361374582
+cd maps/
+#+1361374586
+sudo maps/
+#+1361374588
+sudo cd maps/
+#+1361374589
+ls
+#+1361374592
+ls maps
+#+1361374595
+sudo su
+#+1361374661
+ls
+#+1361374662
+reboot
+#+1361374793
+ls
+#+1361374794
+cd /etc/
+#+1361374806
+ls
+#+1361374810
+env | shell
+#+1361374813
+env | SHELL
+#+1361374814
+env | SH
+#+1361374818
+env | grep SHELL
+#+1361374823
+ls
+#+1361374829
+cat initscript
+#+1361374833
+ls
+#+1361374836
+cd scripts/
+#+1361374837
+ls
+#+1361374839
+cd maps/
+#+1361374840
+sudo su
+#+1361375107
+cat /etc/passwd | grep guillo_e
+#+1361375114
+cat /etc/passwd.old | grep guillo_e
+#+1361375115
+; s
+#+1361375116
+ls
+#+1361375121
+reboot
+#+1361627569
+man ascii
+#+1362166789
+ls
+#+1362166790
+env
+#+1362166795
+env | grep FLUXBOX
+#+1362166798
+env | grep FB
+#+1362166889
+env | grep fluxbox
+#+1362591283
+bash
+#+1362591290
+tcsh
+#+1362591311
+cat .tcshrc
+#+1362591321
+bash

@@ -1,0 +1,159 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=sortColumns)(B9=columnStates)(BA=numDeletedHeaders)
+  (BB=charSetOverride)(BC=charSet)(BD=dateReceived)(BE=storeToken)
+  (BF=ProtoThreadFlags)(C0=gloda-id)(C1=ns:msg:db:row:scope:pending:all)
+  (C2=ns:msg:db:table:kind:pending)(C3=ns:msg:db:row:scope:ops:all)
+  (C4=ns:msg:db:table:kind:ops)(C5=folderName)(C6=junkscore)
+  (C7=gloda-dirty)(C8=keywords)(C9=op)(CA=msgKey)(CB=opFlags)
+  (CC=newFlags)(CD=moveDest)(CE=pseudoHdr)(CF=customSortCol)
+  (D0=imageSize)(D1=recipient_names)(D2=account)(D3=notAPhishMessage)
+  (D4=msgSize)(D5=inPlayback)(80=ns:msg:db:row:scope:msgs:all)
+  (81=subject)(82=sender)(83=message-id)(84=references)(85=recipients)
+  (86=date)(87=size)(88=flags)(89=priority)(8A=label)(8B=statusOfset)
+  (8C=numLines)(8D=ccList)(8E=bccList)(8F=msgThreadId)(90=threadId)
+  (91=threadFlags)(92=threadNewestMsgDate)(93=children)
+  (94=unreadChildren)(95=threadSubject)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=useServerRetention)
+  (B0=highestModSeq)(B1=imapFlags)(B2=highestRecordedUID)(B3=MRUTime)
+  (B4=sortType)(B5=sortOrder)(B6=viewFlags)(B7=viewType)>
+<(23B=82)(247=51beecce)(83=0)(80=1)>
+[14:m(^9C=82)(^90=82)(^92^247)(^91=0)(^93=1)]
+<(1B1=7c)(208=51ad7331)(8B=2)>[10:m(^9C=7c)(^90=7c)(^92^208)(^91=0)
+    (^93=2)]
+<(213=7f)(210=51b7794c)>[11:m(^9C=7f)(^90=7f)(^92^210)(^91=0)(^93=1)]
+<(D1=80)(217=51b77982)>[12:m(^9C=80)(^90=80)(^92^217)(^91=0)(^93=1)]
+<(BA=81)(231=51bbec1f)>[13:m(^9C=81)(^90=81)(^92^231)(^91=0)(^93=1)]
+
+<(203=83)(91=Lyoma Guillou <lyoma.guillou@epitech.eu>)(1B7
+    =Axel Delcros <axel.delcros@gmail.com>, Hugo Dussert <hugodussert@gmail.co\
+m>, Phedrik Benjabria <phedrik1@gmail.com>, Marc Deletang <marc.deletang@gmail\
+.com>, vbomega@gmail.com)(1B8=Morning Mercredi 15/05)(1B9
+    =51921F82.8000603@epitech.eu)(1BA=51921f82)(A5=ISO-8859-1)(1BD=2d9)
+  (1B5=3669e74)(1B6=57056884)(1CF=7ee)(9B=ffffffff)(1D0
+    =26|Axel Delcros,Hugo Dussert,Phedrik Benjabria,Marc Deletang,vbomega@gmai\
+l.com)(202=16f4)(204
+    =Axel Delcros <axel.delcros@gmail.com>, Hugo Dussert <hugodussert@gmail.co\
+m>, Phedrik Benjabria <phedrik1@gmail.com>, "Marc Deletang" <marc.deletang@gma\
+il.com>, vbomega@gmail.com)(205=Absence Mardi 04/06)(206
+    =51AD7331.2000809@epitech.eu)(207=<51921F82.8000603@epitech.eu>)
+  (21A=2fe)(21B=366a14d)(21C=57057613)(21D=33c)(21E=15)(229=1778)(90=91)
+  (20B=dossan_v <vincent.dossantos@epitech.eu>)(20D=Reseau)(20E
+    =51B7794C.2060302@epitech.eu)(20F
+    =<1763A0662489A84DAB5F1355C8460C932466D238@DBXPRD0112MB623.eurprd01.prod.e\
+xchangelabs.com>)(21F=326)(220=366a489)(221=57058441)(222=363)(223=16)
+  (22A=177a)(215=51B77982.10309@epitech.eu)(216
+    =<1763A0662489A84DAB5F1355C8460C932466D24E@DBXPRD0112MB623.eurprd01.prod.e\
+xchangelabs.com>)(224=422)(225=366a7ec)(226=57059308)(227=45c)(228=19)
+  (22B=177c)(22C=donas_c <cyril.donas@epitech.eu>)(22E=Groupe de rush)
+  (22F=51BBEC1F.7020405@epitech.eu)(230
+    =<1763A0662489A84DAB5F1355C8460C932467206B@DBXPRD0112MB623.eurprd01.prod.e\
+xchangelabs.com>)(235=3d6)(236=366ac48)(237=57060424)(238=40f)(239=1a)
+  (23A=17e4)(23F=366b057)(240=57061463)(241
+    =Elisabeth Lefranc <elisabeth.lefranc@gmail.com>)(242
+    =vincent.dossantos@epitech.eu, guillo_e@epitech.eu)(244
+    =Fwd: Rush =?windows-1252?Q?R=E9seau_2e_ann=E9e?=)(245
+    =51BEECCE.70806@epitech.eu)(246
+    =<!&!AAAAAAAAAAAYAAAAAAAAAIFfsPFsi9xBrOkt1Gs2plDCgAAAEAAAAFdJXChLhi9DhB7y+\
+diqK6cBAAAAAA==@epitech.eu> <CAJCj_uuTRVh4XvXX9E6FiOFijZ2ZCHWz7D-AtzsA8YOYU2yw\
+pg@mail.gmail.com> <CD3B0F52C1654501A7391C0FEB70A2CB@ElisabethTOSH>)
+  (248=1bf0)(249=a9)(24A=1bf7)>
+{1:^80 {(k^97:c)(s=9)} 
+  [7C(^88=83)(^8B=0)(^82^91)(^85^1B7)(^81^1B8)(^83^1B9)(^86^1BA)(^BD^1BA)
+    (^96^A5)(^9E=2d9)(^9D^1B5)(^BE^1B6)(^89=1)(^87=7ee)(^9B^9B)(^8F=7c)
+    (^BF=0)(^D1^1D0)(^C0^202)(^C7=0)]
+  [7E(^88=81)(^8B=0)(^82^91)(^85^204)(^81^205)(^83^206)(^84^207)(^86^208)
+    (^BD^208)(^89=1)(^96^A5)(^87=2fe)(^9B=7c)(^8F=7c)(^BF=0)(^9D^21B)
+    (^BE^21C)(^9E=33c)(^8C=15)(^C0^229)]
+  [7F(^88=91)(^8B=0)(^82^91)(^85^20B)(^81^20D)(^83^20E)(^84^20F)(^86^210)
+    (^BD^210)(^89=1)(^96^A5)(^87=326)(^9B^9B)(^8F=7f)(^BF=0)(^9D^220)
+    (^BE^221)(^9E=363)(^8C=16)(^C0^22A)]
+  [80(^88=91)(^8B=0)(^82^91)(^85^20B)(^81^20D)(^83^215)(^84^216)(^86^217)
+    (^BD^217)(^89=1)(^96^A5)(^87=422)(^9B^9B)(^8F=80)(^BF=0)(^9D^225)
+    (^BE^226)(^9E=45c)(^8C=19)(^C0^22B)]
+  [81(^88=91)(^8B=0)(^82^91)(^85^20B)(^8D^22C)(^81^22E)(^83^22F)(^84^230)
+    (^86^231)(^BD^231)(^89=1)(^96^A5)(^87=3d6)(^9B^9B)(^8F=81)(^BF=0)
+    (^9D^236)(^BE^237)(^9E=40f)(^8C=1a)(^C0^23A)]
+  [82(^9D^23F)(^BE^240)(^88=91)(^8B=0)(^82^91)(^85^241)(^8D^242)(^81^244)
+    (^83^245)(^84^246)(^86^247)(^BD^247)(^89=1)(^87^248)(^8C=a9)(^9E^24A)
+    (^CE=1)(^9B^9B)(^8F=82)(^BF=0)]}
+{7C:^80 {(k^98:c)(s=9)10:m } 7C 7E }
+{7F:^80 {(k^98:c)(s=9)11:m } 7F }
+{80:^80 {(k^98:c)(s=9)12:m } 80 }
+{81:^80 {(k^98:c)(s=9)13:m } 81 }
+{82:^80 {(k^98:c)(s=9)14:m } 82 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [7F(^95^20D)]
+  [80(^95^20D)]
+  [81(^95^22E)]
+  [82(^95^244)]}
+
+<(81=Sent)(23C=18082214)(84=2000)(8F=1cc326)(24B=6)(1F0=399be7e)(1C1
+    =1368530834)(8A=12)(8C=)(8D
+    ={"threadCol":{"visible":true},"attachmentCol":{"visible":true},"flaggedCo\
+l":{"visible":true},"subjectCol":{"visible":true},"unreadButtonColHeader":{"vi\
+sible":true},"senderCol":{"visible":false},"recipientCol":{"visible":true},"ju\
+nkStatusCol":{"visible":true},"dateCol":{"visible":true},"locationCol":{"visib\
+le":false}})(201=3e)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^AD=1)(^AE^81)(^88^23C)(^A7^81)(^AF=1)(^B0=0)(^B1^84)(^A8^8F)
+    (^B2=81)(^A1=6)(^A6=82)(^A9=1)(^A4^1F0)(^B3^1C1)(^B4=12)(^B5=2)
+    (^B6=0)(^B7=0)(^B8=)(^B9^8D)(^BA=3e)]}
+{1:^C1 {(k^C2:c)(s=9)} 
+  [1(^83^245)(^82^91)(^85^241)(^8D^242)(^81^244)(^84^246)(^86^247)(^BD^247)
+    (^9E^24A)(^9D^23F)(^88=80)(^BE^240)(^89=1)]}
+
+<(23D=8)(23E=imap://lyoma.guillou%40epitech.eu@pod51002.outlook.com/Sent)>
+{1:^C3 {(k^C4:c)(s=9)} 
+  [82(^CA=82)(^C9=8)(^CD^23E)]}
+
+@$${8E{@
+<(24C=17f2)>[82:^80(^C0^24C)]
+@$$}8E}@
+
+@$${8F{@
+@$$}8F}@
+
+@$${90{@
+[-14:m(^9C=82)(^90=82)(^92=0)(^91=0)(^93=0)]
+{1:^80 {(k^97:c)(s=9)} -
+  [-82]}
+{-82:^80 {(k^98:c)(s=9)14:m } }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} -82 }
+<(123=8082214)(234=5)(24E=399da75)>[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^123)
+    (^A7^81)(^AF=1)(^B0=0)(^B1^84)(^A8^8F)(^B2=81)(^A1=5)(^A6=82)(^A9=2)
+    (^A4^24E)(^B3^1C1)(^B4=12)(^B5=2)(^B6=0)(^B7=0)(^B8=)(^B9^8D)(^BA=3e)]
+{-1:^C3 {(k^C4:c)(s=9)} }
+[-82:^C3]
+@$$}90}@
+
+@$${91{@
+[-14:m(^9C=82)(^90=82)(^92^247)(^91=0)(^93=1)]
+
+<(250=1696)>
+{1:^80 {(k^97:c)(s=9)} 
+  [-82(^88=91)(^8B=0)(^82^91)(^85^241)(^8D^242)(^81^244)(^83^245)(^84^246)
+    (^86^247)(^BD^247)(^9E^24A)(^9D^23F)(^BE^240)(^89=1)(^87^250)(^9B^9B)
+    (^8F=82)(^BF=0)]}
+{-82:^80 {(k^98:c)(s=9)14:m } 82 }[-82:^9A(^95^244)]
+[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^123)(^A7^81)(^AF=1)(^B0=0)(^B1^84)
+    (^A8^8F)(^B2=82)(^A1=6)(^A6=82)(^A9=0)(^A4^24E)(^B3^1C1)(^B4=12)
+    (^B5=2)(^B6=0)(^B7=0)(^B8=)(^B9^8D)(^BA=3e)]
+{-1:^C1 {(k^C2:c)(s=9)} }
+[-1:^C1]
+@$$}91}@
+
+@$${92{@
+@$$}92}@
+
+@$${96{@
+[82:^80(^C0^24C)]
+@$$}96}@

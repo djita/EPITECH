@@ -1,0 +1,245 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=highestRecordedUID)(B9=numDeletedHeaders)(BA=useServerRetention)
+  (BB=MRMTime)(BC=charSetOverride)(BD=charSet)(BE=dateReceived)
+  (BF=ProtoThreadFlags)(C0=sender_name)(C1=storeToken)(C2=junkscore)
+  (C3=junkscoreorigin)(C4=junkpercent)(C5=gloda-id)(C6=gloda-dirty)
+  (C7=ns:msg:db:row:scope:pending:all)(C8=ns:msg:db:table:kind:pending)
+  (C9=customSortCol)(CA=keywords)(CB=imageSize)(CC=folderName)
+  (CD=account)(CE=notAPhishMessage)(CF=ns:msg:db:row:scope:ops:all)
+  (D0=ns:msg:db:table:kind:ops)(D1=op)(D2=msgKey)(D3=opFlags)
+  (D4=newFlags)(D5=moveDest)(D6=msgSize)(D7=inPlayback)(D8=preview)
+  (D9=remoteContentPolicy)(80=ns:msg:db:row:scope:msgs:all)(81=subject)
+  (82=sender)(83=message-id)(84=references)(85=recipients)(86=date)
+  (87=size)(88=flags)(89=priority)(8A=label)(8B=statusOfset)(8C=numLines)
+  (8D=ccList)(8E=bccList)(8F=msgThreadId)(90=threadId)(91=threadFlags)
+  (92=threadNewestMsgDate)(93=children)(94=unreadChildren)
+  (95=threadSubject)(96=msgCharSet)(97=ns:msg:db:table:kind:msgs)
+  (98=ns:msg:db:table:kind:thread)(99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=MRUTime)(B0=sortType)
+  (B1=sortOrder)(B2=viewFlags)(B3=viewType)(B4=sortColumns)
+  (B5=columnStates)(B6=highestModSeq)(B7=imapFlags)>
+<(979=98c)(86=0)>[6D:m(^9C=98c)(^90=98c)(^92=0)(^91=0)(^93=0)]
+<(97E=990)(97C=51adf7ea)(80=1)>[6E:m(^9C=990)(^90=990)(^92^97C)(^91=0)
+    (^93=1)]
+<(7FD=96d)(7FA=5199d9af)>[5B:m(^9C=96d)(^90=96d)(^92^7FA)(^91=0)(^93=1)
+    (^94=0)]
+<(99C=99c)(99A=51b7069d)>[73:m(^9C=99c)(^90=99c)(^92^99A)(^91=0)(^93=1)]
+<(9A2=99d)>[74:m(^9C=99d)(^90=99d)(^92=0)(^91=0)(^93=0)]
+<(9A7=99e)(9A5=51b71839)>[75:m(^9C=99e)(^90=99e)(^92^9A5)(^91=0)(^93=1)]
+<(9AE=9a3)(9AC=51b854c9)>[76:m(^9C=9a3)(^90=9a3)(^92^9AC)(^91=0)(^93=1)
+    (^94=0)]
+<(A5F=9a8)(A5D=51b9d71d)>[79:m(^9C=9a8)(^90=9a8)(^92^A5D)(^91=0)(^93=1)]
+<(A65=9a9)(A63=51badec9)>[7A:m(^9C=9a9)(^90=9a9)(^92^A63)(^91=0)(^93=1)]
+<(A6A=9aa)>[7B:m(^9C=9aa)(^90=9aa)(^92=0)(^91=0)(^93=0)]
+<(A71=9ab)>[7C:m(^9C=9ab)(^90=9ab)(^92=0)(^91=0)(^93=0)]
+<(A7A=9ae)>[7D:m(^9C=9ae)(^90=9ae)(^92=0)(^91=0)(^93=0)(^94=0)]
+<(A81=9af)>[7E:m(^9C=9af)(^90=9af)(^92=0)(^91=0)(^93=0)]
+<(A88=9b1)>[7F:m(^9C=9b1)(^90=9b1)(^92=0)(^91=0)(^93=0)]
+<(AED=9b5)(AEB=51bf2fa1)>[80:m(^9C=9b5)(^90=9b5)(^92^AEB)(^91=0)(^93=1)
+    (^94=0)]
+<(AF2=9b6)(AF1=51bf2fbf)>[81:m(^9C=9b6)(^90=9b6)(^92^AF1)(^91=0)(^93=1)
+    (^94=0)]
+
+<(7E3=81)(A5A=Thomas Solignac <solign_t@epitech.eu>)(AE9
+    ==?UTF-8?B?Q29uZj9yZW5jZSBQRkE=?=)(AF0
+    =E1UobfD-0004M7-Cv@epicron.prod.epitech.bigint.fr)(829=utf-8)(AF9=102d)
+  (99=ffffffff)(AFA=b4d10f4)(AFB=189599988)(AFC=103c)(AFD=44)(A0=plugin)
+  (AFE
+    =Bonjour $C3$A0 tous, Apr$C3$A8s la conf$C3$A9rence $E2$80$9CPFA / Labos$E2\
+$80$9D du 13 Mai, centr$C3$A9e sur les laboratoires, nous vous proposons un at\
+elier ax$C3$A9 sur les Projets de Fin d$E2$80$99Ann$C3$A9e (PFA\). Cet atelier\
+ aura lieu le vendredi 21 juin, de 14h $C3$A0 18h en amphi 1. Vous)
+  (B00=17f5)(AD2=29|Thomas Solignac)>
+{9B6:^80 {(k^98:c)(s=9)81:m } [9B6(^88=81)(^8B=0)(^82^A5A)(^81^AE9)(^83^AF0)
+    (^86^AF1)(^BE^AF1)(^89=1)(^96^829)(^87^AF9)(^9B^99)(^8F=9b6)(^BF=0)
+    (^9D^AFA)(^C1^AFB)(^9E^AFC)(^8C=44)(^C2=0)(^C3^A0)(^C4=0)(^D8^AFE)
+    (^C5^B00)(^C0^AD2)(^C6=1)]}
+
+<(7F7=EPITECH Reinscription <reinscription@epitech.eu>)(7F0
+    =guillo_e@epitech.eu)(7F8
+    ==?UTF-8?B?W1LDqWluc2NyaXB0aW9uIEVwaXRlY2hdIENyw6lhdGlvbiBkZSB2b3RyZSBk?= \
+=?UTF-8?B?b3NzaWVyIGRlIHLDqWluc2NyaXB0aW9u?=)(7F9
+    =5199d9afd0684d15b71a443e0a515067@reinscription.epitech.eu)(7FB=UTF-8)
+  (7DB=16f5)(AD4=29|EPITECH Reinscription)(815=b499a3a)(816=189372986)
+  (817=16de)(818=6a)(821=1707)(7FF=<no-reply@epitech.net>)(800
+    =guillo_e@epitech.net)(97A
+    =[koala-rendus] Nouveau depot svn : zappy-2016-croize_m)(97B
+    =20130604142130.D8EBE180915@koala-rendus-2.epitech.eu)(804=us-ascii)
+  (9B5=d46)(9B6=b4b4ce6)(9B7=189484262)(9B8=d5d)(81D=3c)(AD0
+    =29|<no-reply@epitech.net>)(9E8=174e)(9CF=83)(996
+    =dossan_v <vincent.dossantos@epitech.eu>)(997
+    =guillo_e <lyoma.guillou@epitech.eu>)(998=Reseau)(999
+    =1763A0662489A84DAB5F1355C8460C932466D238@DBXPRD0112MB623.eurprd01.prod.ex\
+changelabs.com)(9CC=4e2)(9CD=b4ba237)(9CE=189506103)(9D0=514)(9D1=21)
+  (ACF=29|dossan_v)(9ED=1753)(855=Elisabeth Lefranc <lefran_e@epitech.eu>)
+  (9A3==?UTF-8?B?SW5zY3JpcHRpb24gcnVzaA==?=)(9A4
+    =E1UmNhp-0006ER-4o@epicron.prod.epitech.bigint.fr)(9D7=caa)(9D8
+    =b4badad)(9D9=189509037)(9DA=cc2)(9BD=3b)(ACC=29|Elisabeth Lefranc)
+  (9EF=1755)(9A8=CROIZER Maxime <notifications-noreply@bitbucket.org>)
+  (9A9=lyoma.guillou@epitech.eu)(9AA
+    =[Bitbucket] You have been given admin access to KailoKyra/zappy)
+  (9AB=20130612110025.22420.10309@bitbucket01.managed.contegix.com)
+  (9DB=2182)(9DC=b4bba6f)(9DD=189512303)(9DE=2112)(9DF=c3)(9E0=45)(9E1
+    =You may now access the repository source of KailoKyra/zappy on: https://b\
+itbucket.org/KailoKyra/zappy -- Disable notifications from your account settin\
+gs: https://bitbucket.org/account/user/SaiZa/)(AD3=29|CROIZER Maxime)
+  (85=2)(9F0=1757)(A5B==?UTF-8?B?VG91cm5vaSBaYXBweQ==?=)(A5C
+    =E1Un8W5-0004v8-Cf@epicron.prod.epitech.bigint.fr)(A95=bf8)(A96
+    =b4c481e)(A97=189548574)(A98=c15)(A99=36)(ABE=17d1)(A60
+    =Victor Granger <grange_a@epitech.eu>)(A61
+    ==?UTF-8?B?W0ItQURTLTM1MCAtIEFkbWluaXN0cmF0aW9uIFN5c3Q/bWVdW01vZGlmaWNhdGl\
+vbiBkdSBwbGFubmluZ10=?=)(A62
+    =E1UnQ4n-0006Hi-Cu@epicron.prod.epitech.bigint.fr)(A9A=c92)(A9B
+    =b4c5433)(A9C=189551667)(A9D=cac)(A9E=39)(ABF=17d2)(AD1
+    =29|Victor Granger)(AEA
+    =E1Uobej-0004Lr-D3@epicron.prod.epitech.bigint.fr)(AF3=feb)(AF4
+    =b4d00f9)(AF5=189595897)(AF7=ffb)(AF8=43)(AFF=17f4)>
+{1:^80 {(k^97:c)(s=9)} 
+  [96D(^88=81)(^8B=0)(^82^7F7)(^85^7F0)(^81^7F8)(^83^7F9)(^86^7FA)(^BE^7FA)
+    (^89=1)(^96^7FB)(^87^7DB)(^9B^99)(^8F=96d)(^BF=0)(^C0^AD4)(^9D^815)
+    (^C1^816)(^9E^817)(^8C=6a)(^C2=0)(^C3^A0)(^C4=0)(^C5^821)(^C6=0)]
+  [990(^88=81)(^8B=0)(^82^7FF)(^85^800)(^81^97A)(^83^97B)(^86^97C)(^BE^97C)
+    (^89=1)(^96^804)(^87=d46)(^9B^99)(^8F=990)(^BF=0)(^9D^9B6)(^C1^9B7)
+    (^9E=d5d)(^8C=3c)(^C0^AD0)(^C5^9E8)]
+  [99C(^88=83)(^8B=0)(^82^996)(^85^997)(^81^998)(^83^999)(^86^99A)(^BE^99A)
+    (^89=1)(^96^804)(^87=4e2)(^9B^99)(^8F=99c)(^BF=0)(^9D^9CD)(^C1^9CE)
+    (^9E=514)(^8C=21)(^C0^ACF)(^C5^9ED)]
+  [99E(^88=81)(^8B=0)(^82^855)(^81^9A3)(^83^9A4)(^86^9A5)(^BE^9A5)(^89=1)
+    (^96^829)(^87=caa)(^9B^99)(^8F=99e)(^BF=0)(^9D^9D8)(^C1^9D9)(^9E=cc2)
+    (^8C=3b)(^C0^ACC)(^C5^9EF)]
+  [9A3(^88=81)(^8B=0)(^82^9A8)(^85^9A9)(^81^9AA)(^83^9AB)(^86^9AC)(^BE^9AC)
+    (^89=1)(^87^9DB)(^9B^99)(^8F=9a3)(^BF=0)(^9D^9DC)(^C1^9DD)(^9E^9DE)
+    (^8C=c3)(^C2=0)(^C3^A0)(^C4=45)(^D8^9E1)(^C0^AD3)(^C6=0)(^D9=2)
+    (^C5^9F0)]
+  [9A8(^88=81)(^8B=0)(^82^A5A)(^81^A5B)(^83^A5C)(^86^A5D)(^BE^A5D)(^89=1)
+    (^96^829)(^87=bf8)(^9B^99)(^8F=9a8)(^BF=0)(^9D^A96)(^C1^A97)(^9E=c15)
+    (^8C=36)(^C5^ABE)(^C0^AD2)]
+  [9A9(^88=81)(^8B=0)(^82^A60)(^81^A61)(^83^A62)(^86^A63)(^BE^A63)(^89=1)
+    (^96^829)(^87=c92)(^9B^99)(^8F=9a9)(^BF=0)(^9D^A9B)(^C1^A9C)(^9E=cac)
+    (^8C=39)(^C5^ABF)(^C0^AD1)]
+  [9B5(^88=81)(^8B=0)(^82^A5A)(^81^AE9)(^83^AEA)(^86^AEB)(^BE^AEB)(^89=1)
+    (^96^829)(^87=feb)(^9B^99)(^8F=9b5)(^BF=0)(^9D^AF4)(^C1^AF5)(^9E=ffb)
+    (^8C=43)(^C2=0)(^C3^A0)(^C4=0)(^D8^AFE)(^C5^AFF)(^C0^AD2)(^C6=1)]
+  9B6 }
+{9A3:^80 {(k^98:c)(s=9)76:m } 9A3 }
+{990:^80 {(k^98:c)(s=9)6E:m } 990 }
+{9A8:^80 {(k^98:c)(s=9)79:m } 9A8 }
+{9A9:^80 {(k^98:c)(s=9)7A:m } 9A9 }
+{96D:^80 {(k^98:c)(s=9)5B:m } 96D }
+{99C:^80 {(k^98:c)(s=9)73:m } 99C }
+{99E:^80 {(k^98:c)(s=9)75:m } 99E }
+{9B5:^80 {(k^98:c)(s=9)80:m } 9B5 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [96D(^95^7F8)]
+  [990(^95^97A)]
+  [99C(^95^998)]
+  [99E(^95^9A3)]
+  [9A3(^95^9AA)]
+  [9A8(^95^A5B)]
+  [9A9(^95^A61)]
+  [9B5(^95^AE9)]
+  [9B6(^95^AE9)]}
+
+<(81=INBOX)(B02=18083014)(B01=1371486013)(84=12)(87=$122)(88
+    ={"threadCol":{"visible":true},"attachmentCol":{"visible":true},"flaggedCo\
+l":{"visible":true},"subjectCol":{"visible":true},"unreadButtonColHeader":{"vi\
+sible":true},"senderCol":{"visible":true},"recipientCol":{"visible":false},"ju\
+nkStatusCol":{"visible":true},"dateCol":{"visible":true},"locationCol":{"visib\
+le":false}})(89=2000)(8F=1cc26a)(B1F=9)(B20=b341545)(B21=1d2)(8E
+    =1363205939)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^AD=1)(^AE^81)(^88^B02)(^A7^81)(^AF^B01)(^B0=12)(^B1=2)
+    (^B2=0)(^B3=0)(^B4^87)(^B5^88)(^B6=0)(^B7^89)(^A8^8F)(^B8=9b6)(^A1=9)
+    (^A6=9b6)(^A2=0)(^A4^B20)(^B9=1d2)(^BA=1)(^BB^8E)(^A9=0)(^AA=0)
+    (^A2=0)]}
+{1:^CF {(k^D0:c)(s=9)} }
+[99D:^CF]
+
+@$${4AC{@
+<(6DD=8083014)>[1:^9F(^88^6DD)]
+@$$}4AC}@
+
+@$${4AD{@
+[1:^9F(^88^B02)]
+{-1:^CF {(k^D0:c)(s=9)} 
+  [-99C(^D2=99c)(^D4=83)]}
+@$$}4AD}@
+
+@$${4AE{@
+[-FFFFFFE6:^80(^88=83)(^8B=0)(^82^996)(^85^997)(^81^998)(^83^999)(^86^99A)
+    (^BE^99A)(^89=1)(^96^804)(^87=4e2)(^9B^99)(^8F=99c)(^BF=0)(^9D^9CD)
+    (^C1^9CE)(^9E=514)(^8C=21)(^C0^ACF)(^C5^9ED)]
+<(ADC=3)(B03
+    =imap://lyoma.guillou%40epitech.eu@pod51002.outlook.com/Archives/2013)>
+[-99C:^CF(^D2=99c)(^D4=3)(^D5^B03)(^D1=2)(^D6=4e2)]
+@$$}4AE}@
+
+@$${4AF{@
+[-73:m(^9C=99c)(^90=99c)(^92=0)(^91=0)(^93=0)]
+{1:^80 {(k^97:c)(s=9)} -
+  [-99C]}
+{-99C:^80 {(k^98:c)(s=9)73:m } }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} -99C }
+<(B22=8)(B23=b341a59)>[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^B02)(^A7^81)
+    (^AF^B01)(^B0=12)(^B1=2)(^B2=0)(^B3=0)(^B4^87)(^B5^88)(^B6=0)(^B7^89)
+    (^A8^8F)(^B8=9b6)(^A1=8)(^A6=9b6)(^A2=0)(^A4^B23)(^B9=1d2)(^BA=1)
+    (^BB^8E)(^A9=0)(^AA=0)(^A2=0)]
+@$$}4AF}@
+
+@$${4B0{@
+<(B24=1d3)>[1:^9F(^B9=1d3)]
+{-1:^CF {(k^D0:c)(s=9)} }
+[-99C:^CF]
+@$$}4B0}@
+
+@$${4B1{@
+[1:^9F(^88^6DD)]
+@$$}4B1}@
+
+@$${4B2{@
+[1:^9F(^88^B02)]
+{-1:^CF {(k^D0:c)(s=9)} 
+  [-99E(^D2=99e)(^D4=81)]}
+@$$}4B2}@
+
+@$${4B3{@
+[-FFFFFFE5:^80(^88=81)(^8B=0)(^82^855)(^81^9A3)(^83^9A4)(^86^9A5)(^BE^9A5)
+    (^89=1)(^96^829)(^87=caa)(^9B^99)(^8F=99e)(^BF=0)(^9D^9D8)(^C1^9D9)
+    (^9E=cc2)(^8C=3b)(^C0^ACC)(^C5^9EF)]
+[-99E:^CF(^D2=99e)(^D4=1)(^D5^B03)(^D1=2)(^D6=caa)]
+@$$}4B3}@
+
+@$${4B4{@
+[-75:m(^9C=99e)(^90=99e)(^92=0)(^91=0)(^93=0)]
+{1:^80 {(k^97:c)(s=9)} -
+  [-99E]}
+{-99E:^80 {(k^98:c)(s=9)75:m } }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} -99E }
+<(B25=7)(B26=b34271b)>[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^B02)(^A7^81)
+    (^AF^B01)(^B0=12)(^B1=2)(^B2=0)(^B3=0)(^B4^87)(^B5^88)(^B6=0)(^B7^89)
+    (^A8^8F)(^B8=9b6)(^A1=7)(^A6=9b6)(^A2=0)(^A4^B26)(^B9=1d3)(^BA=1)
+    (^BB^8E)(^A9=0)(^AA=0)(^A2=0)]
+@$$}4B4}@
+
+@$${4B5{@
+<(B27=1d4)>[1:^9F(^B9=1d4)]
+{-1:^CF {(k^D0:c)(s=9)} }
+[-99E:^CF]
+@$$}4B5}@
+
+@$${4B6{@
+[1:^9F(^88^6DD)]
+@$$}4B6}@
+
+@$${4B7{@
+@$$}4B7}@
+
+@$${4B8{@
+@$$}4B8}@

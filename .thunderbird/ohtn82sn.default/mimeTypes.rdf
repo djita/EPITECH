@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mimetypes">
+    <NC:MIME-types RDF:resource="urn:mimetypes:root"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="urn:mimetypes:root">
+    <RDF:li RDF:resource="urn:mimetype:application/x-pkcs12"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="urn:mimetype:application/x-pkcs12"
+                   NC:value="application/x-pkcs12"
+                   NC:editable="true"
+                   NC:description="PKCS#12 Personal Key and Certificates">
+    <NC:fileExtensions>p12</NC:fileExtensions>
+    <NC:fileExtensions>pfx</NC:fileExtensions>
+    <NC:handlerProp RDF:resource="urn:mimetype:handler:application/x-pkcs12"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:root"
+                   NC:en-US_defaultHandlersVersion="-1" />
+  <RDF:Description RDF:about="urn:mimetype:handler:application/x-pkcs12"
+                   NC:alwaysAsk="true"
+                   NC:saveToDisk="true">
+    <NC:externalApplication RDF:resource="urn:mimetype:externalApplication:application/x-pkcs12"/>
+  </RDF:Description>
+</RDF:RDF>

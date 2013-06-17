@@ -1,0 +1,51 @@
+2013-05-23 13:17:56.383473|INFO    |              |   | TeamSpeak 3 Client 3.0.10.1 (2013-04-04 08:33:04)
+2013-05-23 13:17:57.141546|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-05-23 13:17:57.204900|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-05-23 13:17:57.858463|INFO    |              |   | *** Time [MAINWINDOW]: 170
+2013-05-23 13:17:57.858737|INFO    |              |   | *** Time [INIT]: 170
+2013-05-23 13:17:57.877968|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-05-23 13:17:57.891479|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-05-23 13:17:57.891601|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-05-23 13:17:58.358896|INFO    |ClientUI      |   | Last update check was: Tue May 14 11:24:22 2013
+2013-05-23 13:17:58.447527|INFO    |              |   | Checking for updates...
+2013-05-23 13:17:58.563506|INFO    |              |   | DNS resolve successful, "update.teamspeak.com"=176.9.148.78
+2013-05-23 13:17:58.739642|INFO    |              |   | Update check, my version: 1365064384, latest version: 1365064384
+2013-05-23 13:18:17.396463|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-05-23 13:18:17.397161|INFO    |ClientUI      |  1| Blacklist check ok
+2013-05-23 13:18:17.397195|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-05-23 13:18:17.458900|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-05-23 13:18:17.789428|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-05-23 13:18:17.790145|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-05-23 13:18:17.804438|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-05-23 13:18:17.891987|INFO    |ClientUI      |  1| Connect status: Connected
+2013-05-23 13:18:18.017779|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-05-23 13:18:18.039330|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-05-23 13:18:18.050294|INFO    |PermManager   |   | Loading permissions from cache
+2013-05-23 13:18:19.266661|INFO    |ClientUI      |   | Request already running, aborting avatar request
+2013-05-23 13:25:55.281997|WARNING |SCHandler     |  1| Got command data while disconnected, dropping
+2013-05-23 13:25:55.282874|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-05-23 13:25:55.284325|INFO    |ClientUI      |  1| Connection lost, want autoreconnect = 1
+2013-05-23 13:25:55.465623|INFO    |Bookmarks     |   | Disconnect, total time: 457 - 315569
+2013-05-23 13:25:56.465843|INFO    |ClientUI      |  1| Autoreconnecting
+2013-05-23 13:25:56.465980|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-05-23 13:25:56.467060|INFO    |ClientUI      |  1| Blacklist check ok
+2013-05-23 13:25:56.467105|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-05-23 13:25:56.467302|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-05-23 13:25:56.701258|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-05-23 13:26:01.701226|INFO    |ClientUI      |   | Blacklist check timeout
+2013-05-23 13:26:02.388941|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-05-23 13:26:02.390572|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-05-23 13:26:03.391627|INFO    |ClientUI      |  1| Autoreconnecting
+2013-05-23 13:26:03.391831|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-05-23 13:26:03.393276|INFO    |ClientUI      |  1| Blacklist check ok
+2013-05-23 13:26:03.393326|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-05-23 13:26:03.393495|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-05-23 13:26:03.650820|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-05-23 13:26:04.266667|INFO    |ClientUI      |  1| Connect status: Connected
+2013-05-23 13:26:04.417161|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-05-23 13:26:04.420422|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-05-23 13:26:04.420991|INFO    |PermManager   |   | Loading permissions from cache
+2013-05-23 13:26:08.650777|INFO    |ClientUI      |   | Blacklist check timeout
+2013-05-23 17:07:14.028235|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-05-23 17:07:14.030185|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-05-23 17:07:14.198562|INFO    |Bookmarks     |   | Disconnect, total time: 13269 - 328838

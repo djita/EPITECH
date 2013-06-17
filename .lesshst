@@ -1,0 +1,21 @@
+.less-history-file:
+.search
+"allocate
+"stat
+"-l
+"resolv
+"-x
+"stack control
+"TCSANOW
+"TIOCGWNSZ
+"WNSZ
+"FD_ZERO
+"bindkey
+"-s
+"nonl
+"curs_set
+"newwin
+"waddch
+"KEY_ESC
+"ESC
+.shell

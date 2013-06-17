@@ -1,0 +1,152 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=LastModifiedDate)(B9=RecordKey)(BA=AddrCharSet)(BB=LastRecordKey)
+  (BC=ns:addrbk:db:table:kind:pab)(BD=ListName)(BE=ListNickName)
+  (BF=ListDescription)(C0=ListTotalAddresses)(C1=LowercaseListName)
+  (C2=ns:addrbk:db:table:kind:deleted)(C3=DbRowID)(C4=PreferDisplayName)
+  (80=ns:addrbk:db:row:scope:card:all)
+  (81=ns:addrbk:db:row:scope:list:all)
+  (82=ns:addrbk:db:row:scope:data:all)(83=FirstName)(84=LastName)
+  (85=PhoneticFirstName)(86=PhoneticLastName)(87=DisplayName)
+  (88=NickName)(89=PrimaryEmail)(8A=LowercasePrimaryEmail)
+  (8B=SecondEmail)(8C=PreferMailFormat)(8D=PopularityIndex)
+  (8E=AllowRemoteContent)(8F=WorkPhone)(90=HomePhone)(91=FaxNumber)
+  (92=PagerNumber)(93=CellularNumber)(94=WorkPhoneType)(95=HomePhoneType)
+  (96=FaxNumberType)(97=PagerNumberType)(98=CellularNumberType)
+  (99=HomeAddress)(9A=HomeAddress2)(9B=HomeCity)(9C=HomeState)
+  (9D=HomeZipCode)(9E=HomeCountry)(9F=WorkAddress)(A0=WorkAddress2)
+  (A1=WorkCity)(A2=WorkState)(A3=WorkZipCode)(A4=WorkCountry)
+  (A5=JobTitle)(A6=Department)(A7=Company)(A8=_AimScreenName)
+  (A9=AnniversaryYear)(AA=AnniversaryMonth)(AB=AnniversaryDay)
+  (AC=SpouseName)(AD=FamilyName)(AE=WebPage1)(AF=WebPage2)(B0=BirthYear)
+  (B1=BirthMonth)(B2=BirthDay)(B3=Custom1)(B4=Custom2)(B5=Custom3)
+  (B6=Custom4)(B7=Notes)>
+
+<(D3=17)(81=1)(82=)(80=0)(83=vincent.dossantos@epitech.eu)(84=2)(85
+    =duverd_l)(86=louis.duverdier@epitech.eu)(87=1358433450)(88=3)(89
+    =soufiane.boubakour@epitech.eu)(8A=4)(8B=maxence.frere@epitech.eu)
+  (9E=1360159094)(8C=5)(8D=melanie.morga@epitech.eu)(8E=6)(97
+    =Melanie MORGAN)(8F=melanie.morgan@epitech.eu)(D0=1363964745)(96
+    =MORGAN)(98=Melanie)(90=Marandon)(91=7)(92=Antoine Marandon)(93
+    =ntnmrndn@gmail.com)(94=Antoine)(9C=8)(9D=lyoma.guillou@me.com)
+  (9F=9)(A2=zhou_f)(A0=fong.zhou@epitech.eu)(D7=1366645894)(A6=10)(A7
+    =gaby.czegany@epitech.eu)(A9=1362149107)(AA=11)(AB
+    =astek_resp@epitech.eu)(AD=1362340743)(AE=Hoarau)(AF=12)(B0
+    =Benjamin Hoarau)(B1=benjamin1.hoarau@epitech.eu)(B2=Benjamin)(B3=c)
+  (B4=13)(B5=rush_bmail@gmx.com)(B9=1362952038)(B8=19)(BB=Dussert)(BC=14)
+  (BD=Hugo Dussert)(BE=hugodussert@gmail.com)(BF=Hugo)(ED=1367245851)
+  (EE=128)(C1=15)(C2=matthieu.cholley@epitech.eu)(C3=f)(CA=CHOLLEY)
+  (CB=16)(CC=Matthieu CHOLLEY)(CD=matthieu1.cholley@epitech.eu)(CE
+    =Matthieu)(D4=thomas.nogueira@epitech.eu)(D5=18)(D6=umi.guillou@me.com)
+  (DA=bonmar_v)(DB=vincent.bonmarchand@epitech.eu)(DC=Benjabria)(DD=20)
+  (DE=Phedrik Benjabria)(DF=phedrik1@gmail.com)(E0=Phedrik)(E1=21)(E2
+    =hugo.dussert@gmail.com)(E3=Deletang)(E4=22)(E5=Marc Deletang)(E6
+    =marc.deletang@gmail.com)(E7=Marc)(E8=Delcros)(E9=23)(EA=Axel Delcros)
+  (EB=axel.delcros@gmail.com)(EC=Axel)>
+{1:^80 {(k^BC:c)(s=9)} 
+  [1:^82(^BB=17)]
+  [1(^C3=1)(^87=)(^8E=0)(^89^83)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^83)
+    (^B9=1)]
+  [2(^C3=2)(^87^85)(^8E=0)(^89^86)(^8D=1)(^8C=0)(^C4=0)(^B8^87)(^8A^86)
+    (^B9=2)]
+  [3(^C3=3)(^87=)(^8E=0)(^89^89)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^89)
+    (^B9=3)]
+  [4(^C3=4)(^87=)(^8E=0)(^89^8B)(^8D=1)(^8C=0)(^C4=0)(^B8^9E)(^8A^8B)
+    (^B9=4)]
+  [5(^C3=5)(^87=)(^8E=0)(^89^8D)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^8D)
+    (^B9=5)]
+  [6(^C3=6)(^87^97)(^8E=0)(^89^8F)(^8D=5)(^8C=0)(^C4=0)(^B8^D0)(^8A^8F)
+    (^B9=6)(^84^96)(^83^98)]
+  [7(^84^90)(^C3=7)(^87^92)(^8E=0)(^89^93)(^8D=0)(^83^94)(^8C=0)(^C4=0)
+    (^B8=0)(^8A^93)(^B9=7)]
+  [8(^C3=8)(^87=)(^8E=0)(^89^9D)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^9D)
+    (^B9=8)]
+  [9(^C3=9)(^87^A2)(^8E=0)(^89^A0)(^8D=7)(^8C=0)(^C4=0)(^B8^D7)(^8A^A0)
+    (^B9=9)]
+  [A(^C3=10)(^87=)(^8E=0)(^89^A7)(^8D=1)(^8C=0)(^C4=0)(^B8^A9)(^8A^A7)
+    (^B9=10)]
+  [B(^C3=11)(^87=)(^8E=0)(^89^AB)(^8D=1)(^8C=0)(^C4=0)(^B8^AD)(^8A^AB)
+    (^B9=11)]
+  [C(^84^AE)(^C3=12)(^87^B0)(^8E=0)(^89^B1)(^8D=0)(^83^B2)(^8C=0)(^C4=0)
+    (^B8=0)(^8A^B1)(^B9=c)]
+  [D(^C3=13)(^87=)(^8E=0)(^89^B5)(^8D=2)(^8C=0)(^C4=0)(^B8^B9)(^8A^B5)
+    (^B9=19)]
+  [E(^84^BB)(^C3=14)(^87^BD)(^8E=0)(^89^BE)(^8D=6)(^83^BF)(^8C=0)(^C4=0)
+    (^B8^ED)(^8A^BE)(^B9^EE)]
+  [F(^C3=15)(^87=)(^8E=0)(^89^C2)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^C2)
+    (^B9=f)]
+  [10(^84^CA)(^C3=16)(^87^CC)(^8E=0)(^89^CD)(^8D=0)(^83^CE)(^8C=0)(^C4=0)
+    (^B8=0)(^8A^CD)(^B9=10)]
+  [11(^C3=17)(^87=)(^8E=0)(^89^D4)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^D4)
+    (^B9=11)]
+  [12(^C3=18)(^87=)(^8E=0)(^89^D6)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^D6)
+    (^B9=12)]
+  [13(^C3=19)(^87^DA)(^8E=0)(^89^DB)(^8D=1)(^8C=0)(^C4=0)(^B8^ED)(^8A^DB)
+    (^B9=19)]
+  [14(^84^DC)(^C3=20)(^87^DE)(^8E=0)(^89^DF)(^8D=1)(^83^E0)(^8C=0)(^C4=0)
+    (^B8^ED)(^8A^DF)(^B9=20)]
+  [15(^84^BB)(^C3=21)(^87^BD)(^8E=0)(^89^E2)(^8D=1)(^83^BF)(^8C=0)(^C4=0)
+    (^B8^ED)(^8A^E2)(^B9=21)]
+  [16(^84^E3)(^C3=22)(^87^E5)(^8E=0)(^89^E6)(^8D=0)(^83^E7)(^8C=0)(^C4=0)
+    (^B8=0)(^8A^E6)(^B9=16)]
+  [17(^84^E8)(^C3=23)(^87^EA)(^8E=0)(^89^EB)(^8D=0)(^83^EC)(^8C=0)(^C4=0)
+    (^B8=0)(^8A^EB)(^B9=17)]}
+
+@$${D{@
+[-16:^80(^84^E3)(^C3=22)(^87^E5)(^8E=0)(^89^E6)(^8D=1)(^83^E7)(^8C=0)
+    (^C4=0)(^B8^ED)(^8A^E6)(^B9=22)]
+@$$}D}@
+
+@$${E{@
+[-17:^80(^84^E8)(^C3=23)(^87^EA)(^8E=0)(^89^EB)(^8D=1)(^83^EC)(^8C=0)
+    (^C4=0)(^B8^ED)(^8A^EB)(^B9=23)]
+@$$}E}@
+
+@$${F{@
+<(F0=1367246151)(EF=32)>[-14:^80(^84^DC)(^C3=20)(^87^DE)(^8E=0)(^89^DF)
+    (^8D=2)(^83^E0)(^8C=0)(^C4=0)(^B8^F0)(^8A^DF)(^B9=32)]
+@$$}F}@
+
+@$${11{@
+<(F2=1368530818)(F1=35)>[-17:^80(^84^E8)(^C3=23)(^87^EA)(^8E=0)(^89^EB)
+    (^8D=2)(^83^EC)(^8C=0)(^C4=0)(^B8^F2)(^8A^EB)(^B9=35)]
+@$$}11}@
+
+@$${12{@
+<(F3=296)>[-E:^80(^84^BB)(^C3=14)(^87^BD)(^8E=0)(^89^BE)(^8D=7)(^83^BF)
+    (^8C=0)(^C4=0)(^B8^F2)(^8A^BE)(^B9^F3)]
+@$$}12}@
+
+@$${13{@
+<(F4=50)>[-14:^80(^84^DC)(^C3=20)(^87^DE)(^8E=0)(^89^DF)(^8D=3)(^83^E0)
+    (^8C=0)(^C4=0)(^B8^F2)(^8A^DF)(^B9=50)]
+@$$}13}@
+
+@$${14{@
+<(F5=34)>[-16:^80(^84^E3)(^C3=22)(^87^E5)(^8E=0)(^89^E6)(^8D=2)(^83^E7)
+    (^8C=0)(^C4=0)(^B8^F2)(^8A^E6)(^B9=34)]
+@$$}14}@
+
+@$${16{@
+<(F6=1371466958)>[-1:^80(^C3=1)(^87=)(^8E=0)(^89^83)(^8D=1)(^8C=0)
+    (^C4=0)(^B8^F6)(^8A^83)(^B9=1)]
+@$$}16}@
+
+@$${17{@
+
+<(F7=Lefranc)(F8=24)(F9=Elisabeth Lefranc)(FA=elisabeth.lefranc@gmail.com)
+  (FB=Elisabeth)>
+{1:^80 {(k^BC:c)(s=9)} 
+  [-18(^84^F7)(^C3=24)(^87^F9)(^8E=0)(^89^FA)(^8D=0)(^83^FB)(^8C=0)
+    (^C4=0)(^B8=0)(^8A^FA)(^B9=18)]}
+[1:^82(^BB=18)]
+@$$}17}@
+
+@$${18{@
+
+<(FC=25)(FD=guillo_e@epitech.eu)>
+{1:^80 {(k^BC:c)(s=9)} 
+  [-19(^C3=25)(^87=)(^8E=0)(^89^FD)(^8D=0)(^8C=0)(^C4=0)(^B8=0)(^8A^FD)
+    (^B9=19)]}
+[1:^82(^BB=19)]
+@$$}18}@

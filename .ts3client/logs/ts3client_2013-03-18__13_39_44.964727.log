@@ -1,0 +1,9 @@
+2013-03-18 13:39:44.964912|INFO    |              |   | TeamSpeak 3 Client 3.0.9.2 (2012-10-29 10:00:43)
+2013-03-18 13:39:44.973650|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-18 13:39:44.995072|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-18 13:39:45.342057|INFO    |              |   | *** Time [MAINWINDOW]: 140
+2013-03-18 13:39:45.342261|INFO    |              |   | *** Time [INIT]: 140
+2013-03-18 13:39:45.347730|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-18 13:39:45.347868|INFO    |ClientUI      |   | Qt version: 4.7.2
+2013-03-18 13:39:45.347906|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-18 13:39:45.842411|INFO    |ClientUI      |   | Last update check was: Mon Mar 18 10:42:16 2013

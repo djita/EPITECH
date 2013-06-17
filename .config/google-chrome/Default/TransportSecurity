@@ -1,0 +1,18 @@
+{
+   "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
+      "created": 1363940411.576101,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1366532411.576095,
+      "include_subdomains": true,
+      "mode": "force-https",
+      "static_spki_hashes": [  ]
+   },
+   "qWG7UDkgp8k2fiSng3RvivlUtEIuyqW9lplZ3LXe9QE=": {
+      "created": 1363133383.176924,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1394669383.17692,
+      "include_subdomains": false,
+      "mode": "force-https",
+      "static_spki_hashes": [  ]
+   }
+}

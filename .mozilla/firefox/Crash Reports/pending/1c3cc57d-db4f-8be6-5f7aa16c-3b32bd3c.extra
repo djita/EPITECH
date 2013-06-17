@@ -1,0 +1,13 @@
+Theme=classic/1.0
+ProductName=Firefox
+ServerURL=https://crash-reports.mozilla.com/submit?id={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&version=12.0&buildid=2012042100
+Add-ons=langpack-nb-NO@firefox.mozilla.org:12.0,langpack-zh-TW@firefox.mozilla.org:12.0,langpack-de@firefox.mozilla.org:12.0,langpack-cs@firefox.mozilla.org:12.0,langpack-pt-BR@firefox.mozilla.org:12.0,langpack-fi@firefox.mozilla.org:12.0,langpack-es-CL@firefox.mozilla.org:12.0,langpack-es-ES@firefox.mozilla.org:12.0,langpack-pt-PT@firefox.mozilla.org:12.0,langpack-pl@firefox.mozilla.org:12.0,langpack-it@firefox.mozilla.org:12.0,langpack-zh-CN@firefox.mozilla.org:12.0,langpack-sv-SE@firefox.mozilla.org:12.0,langpack-fr@firefox.mozilla.org:12.0,langpack-da@firefox.mozilla.org:12.0,langpack-nl@firefox.mozilla.org:12.0,langpack-ru@firefox.mozilla.org:12.0,langpack-ja@firefox.mozilla.org:12.0,langpack-ar@firefox.mozilla.org:12.0,langpack-es-AR@firefox.mozilla.org:12.0,langpack-ca@firefox.mozilla.org:12.0,langpack-en-GB@firefox.mozilla.org:12.0,langpack-hu@firefox.mozilla.org:12.0,langpack-ko@firefox.mozilla.org:12.0,susefox@opensuse.org:1.0.2,{e4a8a97b-f2ed-450b-b12d-ee082ba24781}:0.9.22,{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}:11.0.1,{bb6bc1bb-f824-4702-90cd-35e2fb24f25d}:1.5.1.1,{972ce4c6-7e08-4474-a285-3208198ce6fd}:12.0,{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}:2.2.3
+EMCheckCompatibility=true
+BuildID=2012042100
+Vendor=Mozilla
+Version=12.0
+InstallTime=1357320684
+ProductID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+ReleaseChannel=release
+Notes=OpenGL: nouveau -- Gallium 0.4 on NVA5 -- 2.1 Mesa 7.11 -- texture_from_pixmap\n
+CrashTime=1369484023

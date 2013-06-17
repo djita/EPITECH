@@ -1,0 +1,24 @@
+2013-03-29 14:45:36.702436|INFO    |              |   | TeamSpeak 3 Client 3.0.10 (2013-02-27 15:08:47)
+2013-03-29 14:45:36.760100|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-29 14:45:36.824405|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-29 14:45:37.506970|INFO    |              |   | *** Time [MAINWINDOW]: 180
+2013-03-29 14:45:37.507208|INFO    |              |   | *** Time [INIT]: 180
+2013-03-29 14:45:37.538251|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-29 14:45:37.547854|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-03-29 14:45:37.547971|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-29 14:45:38.007309|INFO    |ClientUI      |   | Last update check was: Tue Mar 26 09:12:44 2013
+2013-03-29 14:45:38.083315|INFO    |              |   | Checking for updates...
+2013-03-29 14:45:38.089307|INFO    |              |   | DNS resolve successful, "update.teamspeak.com"=176.9.148.78
+2013-03-29 14:45:38.192081|INFO    |              |   | Update check, my version: 1361977727, latest version: 1361977727
+2013-03-29 14:45:43.631433|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-29 14:45:43.632396|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-29 14:45:43.632446|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-29 14:45:43.636136|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-29 14:45:43.997628|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-29 14:45:43.998409|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-29 14:45:44.019165|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-29 14:45:44.071726|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-29 14:45:44.270794|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-29 14:45:44.289023|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-29 14:45:44.301408|INFO    |PermManager   |   | Loading permissions from cache
+2013-03-29 14:45:44.802443|INFO    |ClientUI      |   | Request already running, aborting avatar request

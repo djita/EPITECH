@@ -1,0 +1,5 @@
+<UserScriptConfig>
+	<Script basedir="thot_hier" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="thot_hier.user.js" installTime="1359980212099" lastUpdateCheck="1359980302000" modified="1359980302000" name="user-script" namespace="" runAt="document-end" updateAvailable="false" version="">
+		<Include>*</Include>
+	</Script>
+</UserScriptConfig>

@@ -1,0 +1,45 @@
+2013-03-16 17:55:47.616793|INFO    |              |   | TeamSpeak 3 Client 3.0.9.2 (2012-10-29 10:00:43)
+2013-03-16 17:55:47.623405|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-16 17:55:47.642849|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-16 17:55:47.981526|INFO    |              |   | *** Time [MAINWINDOW]: 130
+2013-03-16 17:55:47.981767|INFO    |              |   | *** Time [INIT]: 140
+2013-03-16 17:55:47.986470|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-16 17:55:47.986632|INFO    |ClientUI      |   | Qt version: 4.7.2
+2013-03-16 17:55:47.986701|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-16 17:55:48.481931|INFO    |ClientUI      |   | Last update check was: Sat Mar 16 17:55:31 2013
+2013-03-16 17:56:23.153738|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-16 17:56:23.155135|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-16 17:56:23.155193|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-16 17:56:23.194145|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-16 17:56:23.419330|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-16 17:56:23.423032|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-16 17:56:23.528917|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-16 17:56:23.643199|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-16 17:56:23.647156|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-16 17:58:48.787058|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-16 17:58:48.821264|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-16 17:58:48.823013|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-03-16 17:58:48.921189|INFO    |Bookmarks     |   | Disconnect, total time: 145 - 145
+2013-03-16 17:58:48.921371|INFO    |ClientUI      |  1| Connecting to next server...
+2013-03-16 17:58:48.921493|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-16 17:58:48.923590|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-16 17:58:48.923719|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-16 17:58:48.923947|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-16 17:58:49.135112|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-16 17:58:49.232525|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-16 17:58:49.253179|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-16 17:58:49.298200|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-16 17:59:01.369378|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-16 17:59:01.371135|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-03-16 17:59:01.494723|INFO    |Bookmarks     |   | Disconnect, total time: 12 - 157
+2013-03-16 17:59:10.371341|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-16 17:59:10.372482|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-16 17:59:10.372559|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-16 17:59:10.372698|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-16 17:59:10.605028|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-16 17:59:10.710465|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-16 17:59:10.730204|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-16 17:59:10.776866|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-16 17:59:49.734970|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-16 18:00:06.116762|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-16 18:00:10.278829|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault

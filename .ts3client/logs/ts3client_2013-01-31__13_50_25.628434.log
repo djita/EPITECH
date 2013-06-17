@@ -1,0 +1,52 @@
+2013-01-31 13:50:25.628626|INFO    |              |   | TeamSpeak 3 Client 3.0.9.2 (2012-10-29 10:00:43)
+2013-01-31 13:50:25.638455|ERROR   |PulseAudio    |   | pa_context_connect failed
+2013-01-31 13:50:25.639023|ERROR   |SoundBckndIntf|   | /home/guillo_e/Downloads/TeamSpeak3-Client-linux_amd64/soundbackends/libpulseaudio_linux_amd64.so error: INIT_PA_IMPL
+2013-01-31 13:50:25.647655|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-01-31 13:50:25.990323|INFO    |              |   | *** Time [MAINWINDOW]: 120
+2013-01-31 13:50:25.990537|INFO    |              |   | *** Time [INIT]: 120
+2013-01-31 13:50:25.995319|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-01-31 13:50:25.995453|INFO    |ClientUI      |   | Qt version: 4.7.2
+2013-01-31 13:50:25.995492|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-01-31 13:50:26.490671|INFO    |ClientUI      |   | Last update check was: Thu Jan 31 13:46:22 2013
+2013-01-31 13:51:27.098232|INFO    |ClientUI      |  1| Connect to server: lastmikoi.net/
+2013-01-31 13:51:27.099693|INFO    |ClientUI      |  1| Trying to resolve lastmikoi.net/
+2013-01-31 13:51:27.103432|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-01-31 13:51:27.104961|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-01-31 13:51:27.105018|INFO    |              |   | DNS resolve unsuccessful for "lastmikoi.net/"
+2013-01-31 13:51:27.105782|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-01-31 13:51:27.105845|INFO    |              |   | No TSDNS found at "lastmikoi.net/"
+2013-01-31 13:51:27.318351|INFO    |              |   | No SRV TSDNS found at "_tsdns._tcp.lastmikoi.net/"
+2013-01-31 13:51:27.357299|INFO    |              |   | SRV DNS resolve unsuccessful for "_ts3._udp.lastmikoi.net/"
+2013-01-31 13:51:27.470714|INFO    |              |   | No SRV TSDNS found at "_tsdns._tcp.net/"
+2013-01-31 13:51:27.553948|INFO    |ClientUI      |  1| Lookup finished:  0  1 2
+2013-01-31 13:51:27.555481|INFO    |ClientUI      |  1| Failed to resolve lastmikoi.net/
+2013-01-31 13:52:29.992118|INFO    |PreProSpeex   |  2| Speex version: 1.2rc1
+2013-01-31 13:57:57.573303|INFO    |ClientUI      |  1| Connect to server: lastmikoi.net/
+2013-01-31 13:57:57.576452|INFO    |ClientUI      |  1| Trying to resolve lastmikoi.net/
+2013-01-31 13:57:57.580757|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-01-31 13:57:57.580757|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-01-31 13:57:57.580880|INFO    |              |   | DNS resolve unsuccessful for "lastmikoi.net/"
+2013-01-31 13:57:57.580924|INFO    |              |   | No TSDNS found at "lastmikoi.net/"
+2013-01-31 13:57:57.581217|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-01-31 13:57:57.581290|INFO    |              |   | No TSDNS found at "net/"
+2013-01-31 13:57:57.704338|INFO    |              |   | No SRV TSDNS found at "_tsdns._tcp.net/"
+2013-01-31 13:57:57.706822|INFO    |              |   | No SRV TSDNS found at "_tsdns._tcp.lastmikoi.net/"
+2013-01-31 13:57:57.752997|INFO    |              |   | SRV DNS resolve unsuccessful for "_ts3._udp.lastmikoi.net/"
+2013-01-31 13:57:57.881299|INFO    |ClientUI      |  1| Lookup finished:  9987  0 2
+2013-01-31 13:57:57.883693|INFO    |ClientUI      |  1| Failed to resolve lastmikoi.net/
+2013-01-31 13:58:20.948077|INFO    |ClientUI      |  1| Connect to server: lastmikoi.net
+2013-01-31 13:58:20.949808|INFO    |ClientUI      |  1| Trying to resolve lastmikoi.net
+2013-01-31 13:58:20.953502|INFO    |              |   | DNS resolve successful, "lastmikoi.net"=88.191.233.151
+2013-01-31 13:58:21.305890|INFO    |              |   | SRV DNS resolve unsuccessful for "_ts3._udp.lastmikoi.net"
+2013-01-31 13:58:21.306195|INFO    |ClientUI      |  1| Lookup finished: 88.191.233.151 9987 lastmikoi.net 0 0
+2013-01-31 13:58:21.306308|INFO    |ClientUI      |  1| Resolve successful: 88.191.233.151:9987
+2013-01-31 13:58:21.306799|INFO    |ClientUI      |  1| Blacklist check ok
+2013-01-31 13:58:21.306868|INFO    |ClientUI      |  1| Initiating connection: 88.191.233.151:9987 lastmikoi.net
+2013-01-31 13:58:21.370059|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-01-31 13:58:21.566758|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-01-31 13:58:21.861158|INFO    |ClientUI      |  1| Connect status: Connected
+2013-01-31 13:58:21.949608|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-01-31 13:58:22.010324|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-01-31 14:12:20.838033|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-01-31 14:12:20.838796|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-01-31 14:12:21.221127|INFO    |Bookmarks     |   | Disconnect, total time: 838 - 838

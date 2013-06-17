@@ -1,0 +1,6 @@
+
+17 Jun 2013, 20:30:11: Tracker-Critical **: D-Bus service name:'org.freedesktop.Tracker1' is already taken, perhaps the daemon is already running?
+
+17 Jun 2013, 20:30:19: Tracker-Critical **: tracker_writeback_shutdown: assertion `private != NULL' failed
+
+17 Jun 2013, 20:30:19: Tracker-Warning **: tracker_events already shutdown

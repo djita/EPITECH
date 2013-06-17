@@ -1,0 +1,363 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with poneysec@jpdeplaix.no-ip.org at Sun 24 Mar 2013 08:04:29 PM CET on SeiZa@jpdeplaix.dyndns.org/ (jabber)</title></head><body><h3>Conversation with poneysec@jpdeplaix.no-ip.org at Sun 24 Mar 2013 08:04:29 PM CET on SeiZa@jpdeplaix.dyndns.org/ (jabber)</h3>
+<font color="#A82F2F"><font size="2">(03/24/2013 06:46:53 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: le SnakeEngine[], et le Map[]<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 06:47:08 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: ah et map[0] != t_line, mais t_map ! :D:D:D<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 06:47:11 PM)</font> <b>lastmikoi:</b></font> SUPER TROLOLO<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 06:59:31 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: bon j'ai corrigé et ça marche, mais y'a toujours l'artéfact graphique, regarde le lien imgur<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 07:00:52 PM)</font> <b>lastmikoi:</b></font> pushé.<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 07:01:12 PM)</font> <b>lastmikoi:</b></font>         m_map.push_back(std::vector&lt;SnakeEngine::t_e_cell&gt;());<br/> WHAT?!<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 07:15:38 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: bon, tu corriger les artefacts et tu sors de ta routine de thread au quit.<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 07:15:44 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: t'as deux heures.<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 07:42:51 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: j'ai pas compris<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 07:42:58 PM)</font> <b>jpdeplaix:</b></font> alors où je get la taille ?<br/>
+<font color="#A82F2F"><font size="2">(07:45:27 PM)</font> <b>lastmikoi:</b></font> Au meme endroit<br/>
+<font color="#A82F2F"><font size="2">(07:45:40 PM)</font> <b>lastmikoi:</b></font> Je suis sur le chemin du retour.<br/>
+<font color="#A82F2F"><font size="2">(07:46:24 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: fixed pour la map<br/>
+<font color="#A82F2F"><font size="2">(07:46:43 PM)</font> <b>lastmikoi:</b></font> Le débordement de couleurs?<br/>
+<font color="#A82F2F"><font size="2">(07:46:46 PM)</font> <b>jpdeplaix:</b></font> oui<br/>
+<font color="#A82F2F"><font size="2">(07:46:59 PM)</font> <b>jpdeplaix:</b></font> par contre je vois pas pour le quit<br/>
+<font color="#A82F2F"><font size="2">(07:47:10 PM)</font> <b>jpdeplaix:</b></font> ça c'est de ton coté qu'il faut gérer ça…<br/>
+<font color="#A82F2F"><font size="2">(07:47:19 PM)</font> <b>jpdeplaix:</b></font> enfin je vois pas ce que j'ai à faire de plus<br/>
+<font color="#A82F2F"><font size="2">(07:47:28 PM)</font> <b>jpdeplaix:</b></font> il est bindé, il fonctionne<br/>
+<font color="#A82F2F"><font size="2">(07:49:50 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: ^ ?<br/>
+<font color="#16569E"><font size="2">(08:04:50 PM)</font> <b>SeiZa:</b></font> jpdeplaix: il est sur la route pour rentrer chez lui<br/>
+<font color="#A82F2F"><font size="2">(08:08:30 PM)</font> <b>jpdeplaix:</b></font> je sais<br/>
+<font color="#A82F2F"><font size="2">(08:09:00 PM)</font> <b>jpdeplaix:</b></font> SeiZa: on te demande sur ##sm21<br/>
+<font color="#A82F2F"><font size="2">(08:10:24 PM)</font> <b>lastmikoi:</b></font> Jpdeplaix : fais s'arrêter ta boucle d'événement gtkmm sur le quitter, avant de m'apeller.<br/>
+<font color="#A82F2F"><font size="2">(08:11:33 PM)</font> <b>lastmikoi:</b></font> La je quitte de mon côté et ça bloque sur le join de __ton__ thread<br/>
+<font color="#A82F2F"><font size="2">(08:11:47 PM)</font> <b>lastmikoi:</b></font> Jpdeplaix ^<br/>
+<font color="#A82F2F"><font size="2">(08:16:23 PM)</font> <b>jpdeplaix:</b></font> je vais manger, je fais ça après<br/>
+<font color="#16569E"><font size="2">(08:25:42 PM)</font> <b>SeiZa:</b></font> lastmikoi: J'affiche la map!!!! :D<br/>
+<font color="#16569E"><font size="2">(08:25:44 PM)</font> <b>SeiZa:</b></font> WAAY!<br/>
+<font color="#16569E"><font size="2">(08:27:47 PM)</font> <b>SeiZa:</b></font> lastmikoi, jpdeplaix: par contre... le nibbler quitte sur left/right... mais jamais sur echap...<br/>
+<font color="#16569E"><font size="2">(08:28:34 PM)</font> <b>SeiZa:</b></font> jpdeplaix: qui me demandait sur ##sm21?<br/>
+<font color="#A82F2F"><font size="2">(08:59:50 PM)</font> <b>jpdeplaix:</b></font> la sfml c'est de la merde…<br/>
+<font color="#A82F2F"><font size="2">(09:00:05 PM)</font> <b>jpdeplaix:</b></font> ça gère pas le multi-threading…<br/>
+<font color="#A82F2F"><font size="2">(09:00:14 PM)</font> <b>jpdeplaix:</b></font> bref je segfault<br/>
+<font color="#16569E"><font size="2">(09:00:22 PM)</font> <b>SeiZa:</b></font> <html xmlns='http://jabber.org/protocol/xhtml-im'><body xmlns='http://www.w3.org/1999/xhtml'><p>lastmikoi: <a href="http://pastebin.com/yErfsk7U">http://pastebin.com/yErfsk7U</a></p></body></html><br/>
+<font color="#16569E"><font size="2">(09:00:31 PM)</font> <b>SeiZa:</b></font> ca occur quand je fais left/right<br/>
+<font color="#16569E"><font size="2">(09:01:30 PM)</font> <b>SeiZa:</b></font> jpdeplaix: j'ai plus ou moins fini :p<br/>
+<font color="#A82F2F"><font size="2">(09:01:55 PM)</font> <b>lastmikoi:</b></font> Normal. Je t'envoie deux pointeurs nuls<br/>
+<font color="#A82F2F"><font size="2">(09:01:55 PM)</font> <b>lastmikoi:</b></font> Au moins tu call ma fonction :-D<br/>
+<font color="#16569E"><font size="2">(09:02:09 PM)</font> <b>SeiZa:</b></font> yep<br/>
+<font color="#16569E"><font size="2">(09:02:16 PM)</font> <b>SeiZa:</b></font> donc c'est normal que ca quitte?<br/>
+<font color="#16569E"><font size="2">(09:02:34 PM)</font> <b>SeiZa:</b></font> lastmikoi: dernier truc... c'est normal que y'a pas de serpent, ni de fruit?<br/>
+<font color="#16569E"><font size="2">(09:04:24 PM)</font> <b>SeiZa:</b></font> bon je retire les print de debug<br/>
+<font color="#16569E"><font size="2">(09:05:15 PM)</font> <b>SeiZa:</b></font> et puis sinon la map en ncurses... c'est pas carre<br/>
+<font color="#16569E"><font size="2">(09:05:16 PM)</font> <b>SeiZa:</b></font> mais bon<br/>
+<font color="#16569E"><font size="2">(09:05:41 PM)</font> <b>SeiZa:</b></font> ==4166==   total heap usage: 2,390,669 allocs, 24 frees, 236,114,166 bytes allocated<br/><br/>
+<font color="#A82F2F"><font size="2">(09:07:02 PM)</font> <b>lastmikoi:</b></font> SeiZa: oui, je le fais maintenant le serpent/fruit<br/>
+<font color="#16569E"><font size="2">(09:07:10 PM)</font> <b>SeiZa:</b></font> okay<br/>
+<font color="#A82F2F"><font size="2">(09:07:15 PM)</font> <b>lastmikoi:</b></font> j'ai un tout petit peu passé un peu de temps à trouver des bugs dans les parties des autres, si tu vois ce que je veux dire.<br/>
+<font color="#16569E"><font size="2">(09:07:31 PM)</font> <b>SeiZa:</b></font> t'auras qu'a test avec mon ncurses alors :D<br/>
+<font color="#16569E"><font size="2">(09:07:34 PM)</font> <b>SeiZa:</b></font> je crois qu'il marche<br/>
+<font color="#16569E"><font size="2">(09:07:36 PM)</font> <b>SeiZa:</b></font> attend<br/>
+<font color="#16569E"><font size="2">(09:07:54 PM)</font> <b>SeiZa:</b></font> ah bah...<br/>
+<font color="#16569E"><font size="2">(09:07:57 PM)</font> <b>SeiZa:</b></font> ca reste a voir xD<br/>
+<font color="#A82F2F"><font size="2">(09:08:11 PM)</font> <b>lastmikoi:</b></font> xd.<br/>
+<font color="#16569E"><font size="2">(09:08:59 PM)</font> <b>SeiZa:</b></font> j'arrive juste pas reset les ncurses<br/>
+<font color="#A82F2F"><font size="2">(09:09:10 PM)</font> <b>jpdeplaix:</b></font> fixed<br/>
+<font color="#16569E"><font size="2">(09:09:23 PM)</font> <b>SeiZa:</b></font> ah bah oui c'est normal!<br/>
+<font color="#16569E"><font size="2">(09:09:28 PM)</font> <b>SeiZa:</b></font> tu delete pas les instances :D<br/>
+<font color="#16569E"><font size="2">(09:10:57 PM)</font> <b>SeiZa:</b></font> lastmikoi: ncurses push'd<br/>
+<font color="#16569E"><font size="2">(09:12:58 PM)</font> <b>SeiZa:</b></font> Ncurses: map border: '|' '-' '+'; fruit: 'Q'; snake: '@'; wall: '#';<br/>
+<font color="#A82F2F"><font size="2">(09:13:08 PM)</font> <b>lastmikoi:</b></font> ok.<br/>
+<font color="#A82F2F"><font size="2">(09:13:10 PM)</font> <b>lastmikoi:</b></font> euh<br/>
+<font color="#A82F2F"><font size="2">(09:13:11 PM)</font> <b>lastmikoi:</b></font> border ?<br/>
+<font color="#A82F2F"><font size="2">(09:13:13 PM)</font> <b>lastmikoi:</b></font> ah ui<br/>
+<font color="#16569E"><font size="2">(09:13:16 PM)</font> <b>SeiZa:</b></font> bah oui :D<br/>
+<font color="#A82F2F"><font size="2">(09:13:17 PM)</font> <b>lastmikoi:</b></font> mouais je vois<br/>
+<font color="#A82F2F"><font size="2">(09:13:36 PM)</font> <b>lastmikoi:</b></font> SeiZa: t'a un warning.<br/>
+<font color="#A82F2F"><font size="2">(09:13:39 PM)</font> <b>lastmikoi:</b></font> NCurses.cpp:47:44: warning: unused parameter 'self' [-Wunused-parameter]<br/>NCurses&amp; NCurses::operator=(const NCurses&amp; self)<br/><br/>
+<font color="#16569E"><font size="2">(09:13:39 PM)</font> <b>SeiZa:</b></font> je sais<br/>
+<font color="#A82F2F"><font size="2">(09:13:43 PM)</font> <b>lastmikoi:</b></font> ben removes le !<br/>
+<font color="#16569E"><font size="2">(09:14:24 PM)</font> <b>SeiZa:</b></font> j'ai meme un #include &lt;iostream&gt; qui trainais ;D<br/>
+<font color="#16569E"><font size="2">(09:15:26 PM)</font> <b>SeiZa:</b></font> lastmikoi: tu veux que je fasses des getters plutot que de mettre tout en pub?<br/>
+<font color="#A82F2F"><font size="2">(09:15:46 PM)</font> <b>lastmikoi:</b></font> si t'a le temps<br/>
+<font color="#16569E"><font size="2">(09:15:50 PM)</font> <b>SeiZa:</b></font> k<br/>
+<font color="#A82F2F"><font size="2">(09:15:54 PM)</font> <b>lastmikoi:</b></font> mais avant<br/>
+<font color="#A82F2F"><font size="2">(09:15:57 PM)</font> <b>lastmikoi:</b></font> je merge dans masteer<br/>
+<font color="#A82F2F"><font size="2">(09:15:59 PM)</font> <b>lastmikoi:</b></font> donc push tout<br/>
+<font color="#16569E"><font size="2">(09:17:53 PM)</font> <b>SeiZa:</b></font> la partie que j'ai push est fonctionelle<br/>
+<font color="#16569E"><font size="2">(09:18:01 PM)</font> <b>SeiZa:</b></font> lastmikoi:  ^<br/>
+<font color="#A82F2F"><font size="2">(09:18:17 PM)</font> <b>jpdeplaix:</b></font> moi c'est bon, il reste la sfml qui segpute<br/>
+<font color="#A82F2F"><font size="2">(09:18:27 PM)</font> <b>jpdeplaix:</b></font> mais c'est pushé…<br/>
+<font color="#A82F2F"><font size="2">(09:18:46 PM)</font> <b>lastmikoi:</b></font> ok SeiZa, `git checkout master`, et tu attend mon signal.<br/>
+<font color="#A82F2F"><font size="2">(09:19:25 PM)</font> <b>lastmikoi:</b></font> origin/ncurses mergée dans origin/master<br/>
+<font color="#16569E"><font size="2">(09:19:26 PM)</font> <b>SeiZa:</b></font> alright sir!<br/>
+<font color="#A82F2F"><font size="2">(09:19:37 PM)</font> <b>lastmikoi:</b></font> SeiZa: tu bosses dans master mnt<br/>
+<font color="#A82F2F"><font size="2">(09:19:44 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: enléve moi ces putains de warning qui trainent<br/>
+<font color="#A82F2F"><font size="2">(09:19:48 PM)</font> <b>jpdeplaix:</b></font> ok<br/>
+<font color="#A82F2F"><font size="2">(09:20:23 PM)</font> <b>lastmikoi:</b></font> SeiZa: je crois pas que tu refreshes la map<br/>
+<font color="#A82F2F"><font size="2">(09:20:32 PM)</font> <b>lastmikoi:</b></font> SeiZa: normalement y'a un truc qui s'affiche, compare avec le .so de la gtkmm<br/>
+<font color="#A82F2F"><font size="2">(09:21:05 PM)</font> <b>jpdeplaix:</b></font> done<br/>
+<font color="#16569E"><font size="2">(09:21:18 PM)</font> <b>SeiZa:</b></font> lastmikoi: # Your branch is ahead of 'origin/master' by 40 commits.<br/><br/>
+<font color="#A82F2F"><font size="2">(09:21:33 PM)</font> <b>lastmikoi:</b></font> ...<br/>
+<font color="#16569E"><font size="2">(09:21:33 PM)</font> <b>SeiZa:</b></font> je regarde ca desuite<br/>
+<font color="#A82F2F"><font size="2">(09:21:38 PM)</font> <b>lastmikoi:</b></font> fais un pull<br/>
+<font color="#A82F2F"><font size="2">(09:21:47 PM)</font> <b>lastmikoi:</b></font> tu sais vraiment pas utiliser git ._.<br/>
+<font color="#16569E"><font size="2">(09:22:23 PM)</font> <b>SeiZa:</b></font> j'avais juste pull le master<br/>
+<font color="#16569E"><font size="2">(09:22:25 PM)</font> <b>SeiZa:</b></font> ca explique<br/>
+<font color="#A82F2F"><font size="2">(09:23:57 PM)</font> <b>lastmikoi:</b></font> ...<br/>
+<font color="#A82F2F"><font size="2">(09:24:06 PM)</font> <b>jpdeplaix:</b></font> oups, je viens d'essayer le resize dans gtkmm<br/>
+<font color="#A82F2F"><font size="2">(09:24:09 PM)</font> <b>jpdeplaix:</b></font> ça segpute<br/>
+<font color="#A82F2F"><font size="2">(09:24:43 PM)</font> <b>lastmikoi:</b></font> SeiZa: sinon ça compile bien sur ton dump ?<br/>
+<font color="#16569E"><font size="2">(09:26:38 PM)</font> <b>SeiZa:</b></font> lastmikoi: j'ai pas test gtkmm encore<br/>
+<font color="#16569E"><font size="2">(09:26:52 PM)</font> <b>SeiZa:</b></font> lastmikoi: d'ailleurs je te conseille de mettre g++ par defaut<br/>
+<font color="#16569E"><font size="2">(09:27:07 PM)</font> <b>SeiZa:</b></font> oublie pas que gtk fais la gueule avec clang pour struct/class merde<br/>
+<font color="#A82F2F"><font size="2">(09:27:45 PM)</font> <b>lastmikoi:</b></font> SeiZa: removes ton warning.<br/>
+<font color="#16569E"><font size="2">(09:28:01 PM)</font> <b>SeiZa:</b></font> j'y travaille la<br/>
+<font color="#16569E"><font size="2">(09:30:18 PM)</font> <b>SeiZa:</b></font> lastmikoi: warning off<br/>
+<font color="#16569E"><font size="2">(09:30:19 PM)</font> <b>SeiZa:</b></font> :D<br/>
+<font color="#A82F2F"><font size="2">(09:30:33 PM)</font> <b>lastmikoi:</b></font> ok<br/>
+<font color="#A82F2F"><font size="2">(09:30:41 PM)</font> <b>lastmikoi:</b></font> maintenant le refresh map<br/>
+<font color="#16569E"><font size="2">(09:31:51 PM)</font> <b>SeiZa:</b></font> hmmm... bah bizarrement... il n'y a rien<br/>
+<font color="#16569E"><font size="2">(09:32:15 PM)</font> <b>SeiZa:</b></font> je suis cense trouver des fruits?<br/>
+<font color="#A82F2F"><font size="2">(09:32:18 PM)</font> <b>lastmikoi:</b></font> oui<br/>
+<font color="#A82F2F"><font size="2">(09:32:25 PM)</font> <b>lastmikoi:</b></font> tout pareil qu'avec le .so du gtkmm<br/>
+<font color="#16569E"><font size="2">(09:32:32 PM)</font> <b>SeiZa:</b></font> ok<br/>
+<font color="#A82F2F"><font size="2">(09:33:38 PM)</font> <b>jpdeplaix:</b></font> bon, je comprend pas<br/>
+<font color="#A82F2F"><font size="2">(09:33:46 PM)</font> <b>jpdeplaix:</b></font> j'arrive pas à repreduir le segfault<br/>
+<font color="#A82F2F"><font size="2">(09:34:54 PM)</font> <b>jpdeplaix:</b></font> bon, j'ai pushé un truc qui fait des check suplémentaire<br/>
+<font color="#A82F2F"><font size="2">(09:34:56 PM)</font> <b>jpdeplaix:</b></font> bref<br/>
+<font color="#A82F2F"><font size="2">(09:35:03 PM)</font> <b>jpdeplaix:</b></font> si quelqu'un vois un segfault<br/>
+<font color="#A82F2F"><font size="2">(09:35:07 PM)</font> <b>jpdeplaix:</b></font> qui me ping<br/>
+<font color="#A82F2F"><font size="2">(09:35:29 PM)</font> <b>jpdeplaix:</b></font> oh<br/>
+<font color="#A82F2F"><font size="2">(09:35:30 PM)</font> <b>jpdeplaix:</b></font> ah<br/>
+<font color="#A82F2F"><font size="2">(09:35:38 PM)</font> <b>jpdeplaix:</b></font> je crois savoir d'où ça viens<br/>
+<font color="#16569E"><font size="2">(09:37:33 PM)</font> <b>SeiZa:</b></font> ah bah oui!<br/>
+<font color="#16569E"><font size="2">(09:37:34 PM)</font> <b>SeiZa:</b></font> j'suis con!<br/>
+<font color="#16569E"><font size="2">(09:40:20 PM)</font> <b>SeiZa:</b></font> beuh<br/>
+<font color="#16569E"><font size="2">(09:40:22 PM)</font> <b>SeiZa:</b></font> ca marche pas<br/>
+<font color="#A82F2F"><font size="2">(09:44:14 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: t'as mutexé le tout ?<br/>
+<font color="#A82F2F"><font size="2">(09:45:54 PM)</font> <b>lastmikoi:</b></font> pas encore.<br/>
+<font color="#A82F2F"><font size="2">(09:46:01 PM)</font> <b>lastmikoi:</b></font> mais vu que tu copies tout<br/>
+<font color="#A82F2F"><font size="2">(09:46:04 PM)</font> <b>lastmikoi:</b></font> y'a rien à craindre<br/>
+<font color="#A82F2F"><font size="2">(09:46:24 PM)</font> <b>lastmikoi:</b></font> le seul truc qui est partagé c'est le is_running<br/>
+<font color="#A82F2F"><font size="2">(09:46:32 PM)</font> <b>lastmikoi:</b></font> et y'a un thread qui lis et un autre qui écris, tout le temps les même<br/>
+<font color="#A82F2F"><font size="2">(09:46:39 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: non, je viens de voir<br/>
+<font color="#A82F2F"><font size="2">(09:46:41 PM)</font> <b>lastmikoi:</b></font> donc au pire ça fait un tour de plus.<br/>
+<font color="#A82F2F"><font size="2">(09:46:47 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: pourquoi t'as changé mon code<br/>
+<font color="#A82F2F"><font size="2">(09:46:51 PM)</font> <b>jpdeplaix:</b></font> ?<br/>
+<font color="#A82F2F"><font size="2">(09:46:54 PM)</font> <b>jpdeplaix:</b></font> le new <br/>
+<font color="#A82F2F"><font size="2">(09:47:02 PM)</font> <b>lastmikoi:</b></font> car le type de la map a changé<br/>
+<font color="#A82F2F"><font size="2">(09:47:13 PM)</font> <b>lastmikoi:</b></font> c'est un vector de pointeurs sur vector<br/>
+<font color="#A82F2F"><font size="2">(09:47:16 PM)</font> <b>jpdeplaix:</b></font> oui, mais en interne pour moi ça change rien<br/>
+<font color="#A82F2F"><font size="2">(09:47:17 PM)</font> <b>lastmikoi:</b></font> car le c++ c'est de la merde<br/>
+<font color="#A82F2F"><font size="2">(09:47:21 PM)</font> <b>lastmikoi:</b></font> ben si<br/>
+<font color="#A82F2F"><font size="2">(09:47:28 PM)</font> <b>lastmikoi:</b></font> map[x][y] ça marche plus<br/>
+<font color="#A82F2F"><font size="2">(09:47:33 PM)</font> <b>jpdeplaix:</b></font> non, mais pourquoi tu l'as fais pour moi<br/>
+<font color="#A82F2F"><font size="2">(09:47:37 PM)</font> <b>lastmikoi:</b></font> maintenant c'est (*map[x])[y]<br/>
+<font color="#A82F2F"><font size="2">(09:47:42 PM)</font> <b>jpdeplaix:</b></font> oui je sais<br/>
+<font color="#A82F2F"><font size="2">(09:47:50 PM)</font> <b>jpdeplaix:</b></font> , mais de mon coté<br/>
+<font color="#A82F2F"><font size="2">(09:47:53 PM)</font> <b>lastmikoi:</b></font> pour pouvoir avancer un minimum et avoir de quoi le visualiser<br/>
+<font color="#A82F2F"><font size="2">(09:47:56 PM)</font> <b>jpdeplaix:</b></font> pourquoi t'as changé le type<br/>
+<font color="#A82F2F"><font size="2">(09:48:11 PM)</font> <b>jpdeplaix:</b></font> hein ?<br/>
+<font color="#16569E"><font size="2">(09:48:13 PM)</font> <b>SeiZa:</b></font> parce que les lignes dans les map ont pris du grade :D<br/>
+<font color="#16569E"><font size="2">(09:48:18 PM)</font> <b>SeiZa:</b></font> ils ont 1 etoile en plus :D<br/>
+<font color="#A82F2F"><font size="2">(09:48:22 PM)</font> <b>jpdeplaix:</b></font> :(<br/>
+<font color="#A82F2F"><font size="2">(09:48:23 PM)</font> <b>jpdeplaix:</b></font> SeiZa--<br/>
+<font color="#16569E"><font size="2">(09:48:33 PM)</font> <b>SeiZa:</b></font> osef on est pas la pour se chamailler sur ca<br/>
+<font color="#16569E"><font size="2">(09:48:40 PM)</font> <b>SeiZa:</b></font> on a moins de 2 h<br/>
+<font color="#16569E"><font size="2">(09:48:57 PM)</font> <b>SeiZa:</b></font> et perso moi je galere a afficher un truc<br/>
+<font color="#16569E"><font size="2">(09:49:05 PM)</font> <b>SeiZa:</b></font> un putin de fruit<br/>
+<font color="#16569E"><font size="2">(09:58:54 PM)</font> <b>SeiZa:</b></font> lastmikoi: je le trouve ou size_type?<br/>
+<font color="#16569E"><font size="2">(09:59:08 PM)</font> <b>SeiZa:</b></font> NCursesTile.cpp:53:23: warning: comparison of integers of different signs: 'int'<br/>      and 'size_type' (aka 'unsigned long') [-Wsign-compare]<br/>
+<font color="#A82F2F"><font size="2">(09:59:22 PM)</font> <b>lastmikoi:</b></font> c'est un membre de la classe<br/>
+<font color="#A82F2F"><font size="2">(09:59:26 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: bon, là j'ai tout checké<br/>
+<font color="#A82F2F"><font size="2">(09:59:26 PM)</font> <b>lastmikoi:</b></font> genre t_map::size_type<br/>
+<font color="#A82F2F"><font size="2">(09:59:29 PM)</font> <b>lastmikoi:</b></font> t_line::size_type<br/>
+<font color="#A82F2F"><font size="2">(09:59:34 PM)</font> <b>lastmikoi:</b></font> t_momma::size_type<br/>
+<font color="#16569E"><font size="2">(09:59:46 PM)</font> <b>SeiZa:</b></font> ah je vois<br/>
+<font color="#A82F2F"><font size="2">(09:59:56 PM)</font> <b>jpdeplaix:</b></font> à tout les coups tu delete une case ou je sais pas quoi<br/>
+<font color="#A82F2F"><font size="2">(10:00:34 PM)</font> <b>jpdeplaix:</b></font> tu utilise pas delete<br/>
+<font color="#A82F2F"><font size="2">(10:00:39 PM)</font> <b>jpdeplaix:</b></font> bon, bah je sais pas :(<br/>
+<font color="#A82F2F"><font size="2">(10:00:42 PM)</font> <b>jpdeplaix:</b></font> je comprend pas<br/>
+<font color="#A82F2F"><font size="2">(10:01:11 PM)</font> <b>jpdeplaix:</b></font> normalement ça se vera pas en soutenance à part si le mec teste le resize à font<br/>
+<font color="#A82F2F"><font size="2">(10:01:54 PM)</font> <b>lastmikoi:</b></font> ¬¬<br/>
+<font color="#A82F2F"><font size="2">(10:02:11 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: sinon, me faudrait un moyen de te tuer.<br/>
+<font color="#A82F2F"><font size="2">(10:02:18 PM)</font> <b>lastmikoi:</b></font> car en cas de game over...<br/>
+<font color="#A82F2F"><font size="2">(10:02:58 PM)</font> <b>lastmikoi:</b></font> pareil pour SeiZa<br/>
+<font color="#A82F2F"><font size="2">(10:03:26 PM)</font> <b>lastmikoi:</b></font> je push sur master une nouvelle fonction poure<br/>
+<font color="#A82F2F"><font size="2">(10:03:27 PM)</font> <b>lastmikoi:</b></font> pure<br/>
+<font color="#A82F2F"><font size="2">(10:03:29 PM)</font> <b>lastmikoi:</b></font> stop()<br/>
+<font color="#A82F2F"><font size="2">(10:03:39 PM)</font> <b>lastmikoi:</b></font> implémentez la (de toute ça compilera pas dans le cas contraire MWAHAHA)<br/>
+<font color="#A82F2F"><font size="2">(10:03:52 PM)</font> <b>lastmikoi:</b></font> le stop() devra permettre de dire à votre boucle interne de s'arrêter<br/>
+<font color="#16569E"><font size="2">(10:04:38 PM)</font> <b>SeiZa:</b></font> lol<br/>
+<font color="#A82F2F"><font size="2">(10:04:45 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: c'est pas moi<br/>
+<font color="#A82F2F"><font size="2">(10:04:51 PM)</font> <b>jpdeplaix:</b></font> j'ai tout vérifé 3 fois<br/>
+<font color="#16569E"><font size="2">(10:05:13 PM)</font> <b>SeiZa:</b></font> j'ai tue mon terminal<br/>
+<font color="#A82F2F"><font size="2">(10:05:13 PM)</font> <b>jpdeplaix:</b></font> hein ?<br/>
+<font color="#A82F2F"><font size="2">(10:05:19 PM)</font> <b>jpdeplaix:</b></font> what ?<br/>
+<font color="#A82F2F"><font size="2">(10:05:26 PM)</font> <b>jpdeplaix:</b></font> ça sert à quoi ?<br/>
+<font color="#A82F2F"><font size="2">(10:05:45 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: ?<br/>
+<font color="#A82F2F"><font size="2">(10:06:18 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: précises ^<br/>
+<font color="#A82F2F"><font size="2">(10:06:19 PM)</font> <b>jpdeplaix:</b></font> stop() <br/>
+<font color="#A82F2F"><font size="2">(10:06:23 PM)</font> <b>jpdeplaix:</b></font> ça sert à quoi<br/>
+<font color="#A82F2F"><font size="2">(10:06:31 PM)</font> <b>jpdeplaix:</b></font> on a déjà un handler pour ça<br/>
+<font color="#A82F2F"><font size="2">(10:06:44 PM)</font> <b>lastmikoi:</b></font> non<br/>
+<font color="#A82F2F"><font size="2">(10:06:51 PM)</font> <b>lastmikoi:</b></font> quand le mec appuie sur quitter<br/>
+<font color="#A82F2F"><font size="2">(10:06:54 PM)</font> <b>lastmikoi:</b></font> ça apelle le handler<br/>
+<font color="#A82F2F"><font size="2">(10:07:03 PM)</font> <b>jpdeplaix:</b></font> oui, là tu veux faire l'inverse<br/>
+<font color="#A82F2F"><font size="2">(10:07:03 PM)</font> <b>lastmikoi:</b></font> en supposant que vous avez vous même terminé votre boucle d'événement<br/>
+<font color="#A82F2F"><font size="2">(10:07:06 PM)</font> <b>lastmikoi:</b></font> wala<br/>
+<font color="#A82F2F"><font size="2">(10:07:08 PM)</font> <b>jpdeplaix:</b></font> mais ça sert à quoi ?<br/>
+<font color="#A82F2F"><font size="2">(10:07:09 PM)</font> <b>lastmikoi:</b></font> ben<br/>
+<font color="#A82F2F"><font size="2">(10:07:12 PM)</font> <b>lastmikoi:</b></font> le serpent rentre dans le mur<br/>
+<font color="#A82F2F"><font size="2">(10:07:17 PM)</font> <b>lastmikoi:</b></font> game over, on sors du programme<br/>
+<font color="#A82F2F"><font size="2">(10:07:22 PM)</font> <b>lastmikoi:</b></font> mais là, je pthread_join<br/>
+<font color="#A82F2F"><font size="2">(10:07:35 PM)</font> <b>lastmikoi:</b></font> dans le vide<br/>
+<font color="#A82F2F"><font size="2">(10:07:41 PM)</font> <b>lastmikoi:</b></font> vu que vous vous attendez que j'appuie sur le croix<br/>
+<font color="#A82F2F"><font size="2">(10:07:46 PM)</font> <b>jpdeplaix:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(10:08:01 PM)</font> <b>SeiZa:</b></font> hey<br/>
+<font color="#16569E"><font size="2">(10:08:02 PM)</font> <b>SeiZa:</b></font> doucement<br/>
+<font color="#16569E"><font size="2">(10:08:09 PM)</font> <b>SeiZa:</b></font> j'ai meme pas reussi a afficher une pomme<br/>
+<font color="#A82F2F"><font size="2">(10:09:38 PM)</font> <b>lastmikoi:</b></font> doucement<br/>
+<font color="#A82F2F"><font size="2">(10:09:41 PM)</font> <b>lastmikoi:</b></font> il reste 1h42<br/>
+<font color="#A82F2F"><font size="2">(10:09:46 PM)</font> <b>lastmikoi:</b></font> soit 1h de code et 42min de merge.<br/>
+<font color="#A82F2F"><font size="2">(10:13:31 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: done<br/>
+<font color="#A82F2F"><font size="2">(10:13:55 PM)</font> <b>jpdeplaix:</b></font> tu me dis quand on pourra voir un serpant<br/>
+<font color="#A82F2F"><font size="2">(10:15:38 PM)</font> <b>lastmikoi:</b></font> j'ai mon serpent<br/>
+<font color="#A82F2F"><font size="2">(10:15:41 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: mais tu gere pas les touches<br/>
+<font color="#16569E"><font size="2">(10:16:21 PM)</font> <b>SeiZa:</b></font> PUTE PUTE PUTE!<br/>
+<font color="#A82F2F"><font size="2">(10:16:50 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: j'ai push<br/>
+<font color="#A82F2F"><font size="2">(10:16:54 PM)</font> <b>lastmikoi:</b></font> à toi d'apeller mes handlers<br/>
+<font color="#A82F2F"><font size="2">(10:17:00 PM)</font> <b>jpdeplaix:</b></font> sisi je gère les touches<br/>
+<font color="#A82F2F"><font size="2">(10:17:10 PM)</font> <b>jpdeplaix:</b></font> ah!<br/>
+<font color="#A82F2F"><font size="2">(10:17:11 PM)</font> <b>lastmikoi:</b></font> non, handler_left et handler_right sont jamais apellés<br/>
+<font color="#A82F2F"><font size="2">(10:17:15 PM)</font> <b>jpdeplaix:</b></font> j'ai oublié de dire<br/>
+<font color="#A82F2F"><font size="2">(10:17:17 PM)</font> <b>lastmikoi:</b></font> sinon ça aurait segfault depuis looooongtemps<br/>
+<font color="#A82F2F"><font size="2">(10:17:27 PM)</font> <b>jpdeplaix:</b></font> j'ai bindé sur q et d<br/>
+<font color="#A82F2F"><font size="2">(10:17:36 PM)</font> <b>lastmikoi:</b></font> ...<br/>
+<font color="#A82F2F"><font size="2">(10:17:36 PM)</font> <b>jpdeplaix:</b></font> et je check si c'est NULL de toute façon<br/>
+<font color="#A82F2F"><font size="2">(10:17:45 PM)</font> <b>jpdeplaix:</b></font> les arrow marche pas<br/>
+<font color="#16569E"><font size="2">(10:18:04 PM)</font> <b>SeiZa:</b></font> super j'ai broke ma lib<br/>
+<font color="#16569E"><font size="2">(10:18:08 PM)</font> <b>SeiZa:</b></font> bon... ou est-ce que j'ai merde<br/>
+<font color="#A82F2F"><font size="2">(10:19:00 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: fais marcher les arrows...<br/>
+<font color="#16569E"><font size="2">(10:21:06 PM)</font> <b>SeiZa:</b></font> ...<br/>
+<font color="#16569E"><font size="2">(10:21:13 PM)</font> <b>SeiZa:</b></font> bon j'arrive toujours pas a afficher tes pommes<br/>
+<font color="#16569E"><font size="2">(10:21:24 PM)</font> <b>SeiZa:</b></font> et j'en ai aucune idee de pourquoi<br/>
+<font color="#A82F2F"><font size="2">(10:21:49 PM)</font> <b>lastmikoi:</b></font> donc on a une lib sfml qui marche pas, une lib gtkmm qui gere pas les fleches et une lib ncurses qui affiche pas la map ?<br/>
+<font color="#16569E"><font size="2">(10:22:33 PM)</font> <b>SeiZa:</b></font> oh wait!<br/>
+<font color="#16569E"><font size="2">(10:22:41 PM)</font> <b>SeiZa:</b></font> attend<br/>
+<font color="#16569E"><font size="2">(10:22:42 PM)</font> <b>SeiZa:</b></font> attend<br/>
+<font color="#16569E"><font size="2">(10:22:43 PM)</font> <b>SeiZa:</b></font> attend<br/>
+<font color="#16569E"><font size="2">(10:22:44 PM)</font> <b>SeiZa:</b></font> !<br/>
+<font color="#16569E"><font size="2">(10:23:03 PM)</font> <b>SeiZa:</b></font>   #QQ###QQ |<br/>QQQ #  Q   |<br/> Q#QQ #QQQ#|<br/>#Q QQ#QQ## |<br/>  #Q Q#Q Q#|<br/> ## ## # QQ|<br/>Q Q Q Q Q##|<br/># # ##Q # #|<br/>#  #Q #Q Q#|<br/>QQQ # Q#Q Q|<br/>+----------+<br/>
+<font color="#16569E"><font size="2">(10:23:06 PM)</font> <b>SeiZa:</b></font> ca ressemble a ca? :D<br/>
+<font color="#A82F2F"><font size="2">(10:23:26 PM)</font> <b>lastmikoi:</b></font> euh<br/>
+<font color="#16569E"><font size="2">(10:23:31 PM)</font> <b>SeiZa:</b></font> ah oui<br/>
+<font color="#A82F2F"><font size="2">(10:23:33 PM)</font> <b>lastmikoi:</b></font> euuuuuuuuuuh<br/>
+<font color="#16569E"><font size="2">(10:23:38 PM)</font> <b>SeiZa:</b></font> ca y ressemble<br/>
+<font color="#A82F2F"><font size="2">(10:23:45 PM)</font> <b>lastmikoi:</b></font> ça bouge ?<br/>
+<font color="#16569E"><font size="2">(10:23:48 PM)</font> <b>SeiZa:</b></font> ca bouge<br/>
+<font color="#A82F2F"><font size="2">(10:23:50 PM)</font> <b>lastmikoi:</b></font> pull master<br/>
+<font color="#A82F2F"><font size="2">(10:23:54 PM)</font> <b>lastmikoi:</b></font> t'aura un serpent<br/>
+<font color="#16569E"><font size="2">(10:23:54 PM)</font> <b>SeiZa:</b></font> attend<br/>
+<font color="#16569E"><font size="2">(10:23:58 PM)</font> <b>SeiZa:</b></font> j'dois fix <br/>
+<font color="#16569E"><font size="2">(10:24:02 PM)</font> <b>SeiZa:</b></font> pas mal de choses<br/>
+<font color="#16569E"><font size="2">(10:24:04 PM)</font> <b>SeiZa:</b></font> deja ca bouge<br/>
+<font color="#16569E"><font size="2">(10:24:06 PM)</font> <b>SeiZa:</b></font> et ca affiche<br/>
+<font color="#A82F2F"><font size="2">(10:24:44 PM)</font> <b>lastmikoi:</b></font> et moi je peux pas changer le heading du serpent...<br/>
+<font color="#16569E"><font size="2">(10:26:15 PM)</font> <b>SeiZa:</b></font> ON Y EST PRESQUE! :D<br/>
+<font color="#16569E"><font size="2">(10:26:19 PM)</font> <b>SeiZa:</b></font> enfin...<br/>
+<font color="#16569E"><font size="2">(10:26:24 PM)</font> <b>SeiZa:</b></font> j'y suis presque*<br/>
+<font color="#16569E"><font size="2">(10:26:47 PM)</font> <b>SeiZa:</b></font> fuck<br/>
+<font color="#16569E"><font size="2">(10:29:35 PM)</font> <b>SeiZa:</b></font> bon...<br/>
+<font color="#16569E"><font size="2">(10:29:40 PM)</font> <b>SeiZa:</b></font> je vais commit un truc qui compile<br/>
+<font color="#16569E"><font size="2">(10:29:43 PM)</font> <b>SeiZa:</b></font> mais c'est archi moche...<br/>
+<font color="#16569E"><font size="2">(10:29:46 PM)</font> <b>SeiZa:</b></font> j'ai pas trouve mieux<br/>
+<font color="#16569E"><font size="2">(10:31:05 PM)</font> <b>SeiZa:</b></font> pushed<br/>
+<font color="#16569E"><font size="2">(10:31:10 PM)</font> <b>SeiZa:</b></font> ncurses with fruits<br/>
+<font color="#16569E"><font size="2">(10:39:08 PM)</font> <b>SeiZa:</b></font> fais chier<br/>
+<font color="#16569E"><font size="2">(10:39:11 PM)</font> <b>SeiZa:</b></font> j'affiche pas le serpent!<br/>
+<font color="#16569E"><font size="2">(10:39:20 PM)</font> <b>SeiZa:</b></font> enfin...<br/>
+<font color="#16569E"><font size="2">(10:39:22 PM)</font> <b>SeiZa:</b></font> y'a rien meme<br/>
+<font color="#16569E"><font size="2">(10:39:29 PM)</font> <b>SeiZa:</b></font> y'a plus rien depuis que j'ai implemente stop<br/>
+<font color="#A82F2F"><font size="2">(10:40:25 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: ça marche<br/>
+<font color="#16569E"><font size="2">(10:40:59 PM)</font> <b>SeiZa:</b></font> aaaargh<br/>
+<font color="#16569E"><font size="2">(10:41:02 PM)</font> <b>SeiZa:</b></font> FUCK<br/>
+<font color="#16569E"><font size="2">(10:41:07 PM)</font> <b>SeiZa:</b></font> ahead of 2 commits<br/>
+<font color="#16569E"><font size="2">(10:41:11 PM)</font> <b>SeiZa:</b></font> -____-&quot;<br/>
+<font color="#A82F2F"><font size="2">(10:41:19 PM)</font> <b>jpdeplaix:</b></font> enfin j'appel le handler<br/>
+<font color="#A82F2F"><font size="2">(10:42:19 PM)</font> <b>lastmikoi:</b></font> ok on a un core fonctionnel.<br/>
+<font color="#16569E"><font size="2">(10:42:45 PM)</font> <b>SeiZa:</b></font> mais putin pourquoi j'arrive toujours a etre 3 commit plus loin?<br/>
+<font color="#16569E"><font size="2">(10:42:51 PM)</font> <b>SeiZa:</b></font> J'EN AI MARRE!<br/>
+<font color="#A82F2F"><font size="2">(10:43:09 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: (nibbler:9496): Gtk-CRITICAL **: gtk_main_quit: assertion `main_loops != NULL' failed<br/><br/>
+<font color="#A82F2F"><font size="2">(10:43:17 PM)</font> <b>lastmikoi:</b></font> SeiZa: car tu merge pas<br/>
+<font color="#A82F2F"><font size="2">(10:43:19 PM)</font> <b>lastmikoi:</b></font> SeiZa: mais c'est pas grave<br/>
+<font color="#A82F2F"><font size="2">(10:43:23 PM)</font> <b>lastmikoi:</b></font> t'as juste à push<br/>
+<font color="#A82F2F"><font size="2">(10:43:29 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: j'ai vu<br/>
+<font color="#A82F2F"><font size="2">(10:43:42 PM)</font> <b>lastmikoi:</b></font> je push<br/>
+<font color="#A82F2F"><font size="2">(10:43:44 PM)</font> <b>lastmikoi:</b></font> le serpent fonctionne<br/>
+<font color="#A82F2F"><font size="2">(10:43:47 PM)</font> <b>lastmikoi:</b></font> et se déplace<br/>
+<font color="#A82F2F"><font size="2">(10:43:51 PM)</font> <b>lastmikoi:</b></font> et mange des FRUITS<br/>
+<font color="#A82F2F"><font size="2">(10:43:54 PM)</font> <b>lastmikoi:</b></font> omnomnomn<br/>
+<font color="#A82F2F"><font size="2">(10:44:25 PM)</font> <b>lastmikoi:</b></font> SeiZa: push donc<br/>
+<font color="#A82F2F"><font size="2">(10:44:30 PM)</font> <b>lastmikoi:</b></font> SeiZa: on attend ton implé de stop()<br/>
+<font color="#A82F2F"><font size="2">(10:44:42 PM)</font> <b>lastmikoi:</b></font> elle empeche de compiler<br/>
+<font color="#16569E"><font size="2">(10:45:06 PM)</font> <b>SeiZa:</b></font> rejected<br/>
+<font color="#A82F2F"><font size="2">(10:45:10 PM)</font> <b>lastmikoi:</b></font> pull<br/>
+<font color="#A82F2F"><font size="2">(10:45:12 PM)</font> <b>lastmikoi:</b></font> puis push<br/>
+<font color="#16569E"><font size="2">(10:45:26 PM)</font> <b>SeiZa:</b></font> pushed<br/>
+<font color="#A82F2F"><font size="2">(10:46:00 PM)</font> <b>lastmikoi:</b></font> ok, je passe à g++ dans les sous libs<br/>
+<font color="#A82F2F"><font size="2">(10:46:15 PM)</font> <b>lastmikoi:</b></font> pushed.<br/>
+<font color="#A82F2F"><font size="2">(10:47:06 PM)</font> <b>lastmikoi:</b></font> rendu de sécurité effectué<br/>
+<font color="#A82F2F"><font size="2">(10:47:33 PM)</font> <b>lastmikoi:</b></font> SeiZa: elle fait du gros caca ton interface :D<br/>
+<font color="#16569E"><font size="2">(10:47:42 PM)</font> <b>SeiZa:</b></font> merci j'ai vu<br/>
+<font color="#A82F2F"><font size="2">(10:47:49 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: rapport sur la SFML ?<br/>
+<font color="#16569E"><font size="2">(10:51:26 PM)</font> <b>SeiZa:</b></font> bon...<br/>
+<font color="#16569E"><font size="2">(10:51:31 PM)</font> <b>SeiZa:</b></font> moi je suis perdu<br/>
+<font color="#16569E"><font size="2">(10:52:20 PM)</font> <b>SeiZa:</b></font> j'ai l'impression d'afficher sur la mauvaise fenetre<br/>
+<font color="#A82F2F"><font size="2">(10:52:41 PM)</font> <b>lastmikoi:</b></font> lulz;<br/>
+<font color="#A82F2F"><font size="2">(10:52:44 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: rapport sur la SFML ?<br/>
+<font color="#A82F2F"><font size="2">(10:52:50 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: segfault<br/>
+<font color="#A82F2F"><font size="2">(10:52:59 PM)</font> <b>jpdeplaix:</b></font> *fin du rapport*<br/>
+<font color="#A82F2F"><font size="2">(10:53:00 PM)</font> <b>jpdeplaix:</b></font> :D<br/>
+<font color="#16569E"><font size="2">(10:53:29 PM)</font> <b>SeiZa:</b></font> FUCK C++ ET LES LIB GRAPHIQUES!<br/>
+<font color="#A82F2F"><font size="2">(10:53:44 PM)</font> <b>lastmikoi:</b></font> c'est sympa le projet où on doit rendre 3 libs et qu'on en a que 0.5<br/>
+<font color="#A82F2F"><font size="2">(10:54:01 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: gtkmm est fonctionnel<br/>
+<font color="#A82F2F"><font size="2">(10:54:07 PM)</font> <b>lastmikoi:</b></font> segfault si resize<br/>
+<font color="#A82F2F"><font size="2">(10:54:09 PM)</font> <b>jpdeplaix:</b></font> non<br/>
+<font color="#A82F2F"><font size="2">(10:54:14 PM)</font> <b>lastmikoi:</b></font> bon ben 1.0<br/>
+<font color="#16569E"><font size="2">(10:54:41 PM)</font> <b>SeiZa:</b></font> le mien marche... mais il est dans le fond on dirait<br/>
+<font color="#16569E"><font size="2">(10:54:44 PM)</font> <b>SeiZa:</b></font> donc... non<br/>
+<font color="#16569E"><font size="2">(10:55:16 PM)</font> <b>SeiZa:</b></font> pour l'apprentissage... perso j'ai pas appris grand chose<br/>
+<font color="#16569E"><font size="2">(10:55:30 PM)</font> <b>SeiZa:</b></font> si ce n'est que j'ai juste voulu torcher les ncurses en 3-4 jours<br/>
+<font color="#A82F2F"><font size="2">(10:55:41 PM)</font> <b>lastmikoi:</b></font> en même temps c'est soit on rush le weekend de fin soit on apprend quelquechose<br/>
+<font color="#A82F2F"><font size="2">(10:55:58 PM)</font> <b>lastmikoi:</b></font> tout était prêt mercredi, donc bon<br/>
+<font color="#16569E"><font size="2">(10:55:59 PM)</font> <b>SeiZa:</b></font> perso... j'ai pas tout etale sur le week-end<br/>
+<font color="#16569E"><font size="2">(10:56:04 PM)</font> <b>SeiZa:</b></font> j'ai commence jeudi<br/>
+<font color="#A82F2F"><font size="2">(10:56:08 PM)</font> <b>jpdeplaix:</b></font> [xcb] Unknown request in queue while dequeuing<br/>[xcb] Most likely this is a multi-threaded client and XInitThreads has not been called<br/>[xcb] Aborting, sorry about that.<br/>nibbler: /var/tmp/portage/x11-libs/libX11-1.5.0/work/libX11-1.5.0/src/xcb_io.c:178: dequeue_pending_request: Assertion `!xcb_xlib_unknown_req_in_deq' failed.<br/>zsh: abort      ./nibbler 5 5 sfml/lib_nibbler_sfml.so<br/><br/>
+<font color="#A82F2F"><font size="2">(10:56:11 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: ^<br/>
+<font color="#A82F2F"><font size="2">(10:56:35 PM)</font> <b>lastmikoi:</b></font> cool.<br/>
+<font color="#A82F2F"><font size="2">(10:56:47 PM)</font> <b>lastmikoi:</b></font> SeiZa: t'a testé de lancer gtkmm ?<br/>
+<font color="#16569E"><font size="2">(10:57:09 PM)</font> <b>SeiZa:</b></font> attend je lance tout<br/>
+<font color="#16569E"><font size="2">(10:57:27 PM)</font> <b>SeiZa:</b></font> il marce<br/>
+<font color="#16569E"><font size="2">(10:57:29 PM)</font> <b>SeiZa:</b></font> il marche<br/>
+<font color="#16569E"><font size="2">(10:57:30 PM)</font> <b>SeiZa:</b></font> perso<br/>
+<font color="#16569E"><font size="2">(10:57:55 PM)</font> <b>SeiZa:</b></font> (nibbler:11689): Gtk-CRITICAL **: gtk_main_quit: assertion `main_loops != NULL' failed<br/>Game over<br/><br/>
+<font color="#16569E"><font size="2">(10:58:03 PM)</font> <b>SeiZa:</b></font> en cliquant sur la croix de fenetre<br/>
+<font color="#A82F2F"><font size="2">(10:58:13 PM)</font> <b>jpdeplaix:</b></font> c'est normal<br/>
+<font color="#A82F2F"><font size="2">(10:58:15 PM)</font> <b>jpdeplaix:</b></font> c'est gtk<br/>
+<font color="#A82F2F"><font size="2">(10:58:18 PM)</font> <b>jpdeplaix:</b></font> :D<br/>
+<font color="#16569E"><font size="2">(10:58:28 PM)</font> <b>SeiZa:</b></font> j'dis pas le contraire ;D<br/>
+<font color="#16569E"><font size="2">(10:58:30 PM)</font> <b>SeiZa:</b></font> je constate juste<br/>
+<font color="#A82F2F"><font size="2">(10:59:17 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: tu appel pas stop dans ton handler quit par hazarre ?<br/>
+<font color="#A82F2F"><font size="2">(10:59:24 PM)</font> <b>jpdeplaix:</b></font> (on sais jamais)<br/>
+<font color="#A82F2F"><font size="2">(10:59:32 PM)</font> <b>lastmikoi:</b></font> je l'apelle à la sortie de ma boucle personelle<br/>
+<font color="#A82F2F"><font size="2">(10:59:44 PM)</font> <b>lastmikoi:</b></font> donc tout le temps<br/>
+<font color="#A82F2F"><font size="2">(10:59:55 PM)</font> <b>jpdeplaix:</b></font> ça doit être ça qu'il n'aime pas<br/>
+<font color="#A82F2F"><font size="2">(10:59:56 PM)</font> <b>lastmikoi:</b></font> que ce soit en quit par game over ou en quit par croix rouge<br/>
+<font color="#16569E"><font size="2">(11:00:09 PM)</font> <b>SeiZa:</b></font> cela dit... j'ai beau resize...<br/>
+<font color="#A82F2F"><font size="2">(11:00:10 PM)</font> <b>jpdeplaix:</b></font> oui, donc c'est normal<br/>
+<font color="#16569E"><font size="2">(11:00:10 PM)</font> <b>SeiZa:</b></font> il plante pas<br/>
+<font color="#A82F2F"><font size="2">(11:00:18 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: tu pourrais fixer ça<br/>
+<font color="#A82F2F"><font size="2">(11:00:20 PM)</font> <b>jpdeplaix:</b></font> ?<br/>
+<font color="#A82F2F"><font size="2">(11:00:23 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: euh ?<br/>
+<font color="#16569E"><font size="2">(11:00:42 PM)</font> <b>SeiZa:</b></font> bon moi je plie<br/>
+<font color="#16569E"><font size="2">(11:00:44 PM)</font> <b>SeiZa:</b></font> j'suis KO<br/>
+<font color="#A82F2F"><font size="2">(11:01:01 PM)</font> <b>jpdeplaix:</b></font> ne pas appeler stop si j'appel le handler<br/>
+<font color="#A82F2F"><font size="2">(11:01:03 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: ^<br/>
+<font color="#16569E"><font size="2">(11:01:15 PM)</font> <b>SeiZa:</b></font> bonne soiree et a demain<br/>
+<font color="#A82F2F"><font size="2">(11:01:41 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: ok fixé...<br/>
+<font size="2">(11:01:42 PM)</font><b> The account has disconnected and you are no longer in this chat. You will be automatically rejoined in the chat when the account reconnects.</b><br/>

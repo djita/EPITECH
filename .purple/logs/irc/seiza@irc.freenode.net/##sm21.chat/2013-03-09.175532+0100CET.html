@@ -1,0 +1,46 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with ##sm21 at Sat 09 Mar 2013 05:55:32 PM CET on SeiZa@irc.freenode.net (irc)</title></head><body><h3>Conversation with ##sm21 at Sat 09 Mar 2013 05:55:32 PM CET on SeiZa@irc.freenode.net (irc)</h3>
+<font size="2">(05:55:32 PM)</font><b> The topic for ##sm21 is: L&apos;école des gens qui inventent le numérique |  <a href="http://cdn.memegenerator.net/instances/400x/34841322.jpg">http://cdn.memegenerator.net/instances/400x/34841322.jpg</a></b><br/>
+<font color="#A82F2F"><font size="2">(05:55:32 PM)</font> <b>kornbluth.freenode.net:</b></font> (notice) [freenode-info] if you&apos;re at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp<br/>
+<font color="#A82F2F"><font size="2">(05:55:36 PM)</font> <b>cledat_g:</b></font> BAM<br/>
+<font color="#A82F2F"><font size="2">(05:55:38 PM)</font> <b>cledat_g:</b></font> BAM<br/>
+<font color="#A82F2F"><font size="2">(05:55:40 PM)</font> <b>cledat_g:</b></font> BAM<br/>
+<font color="#A82F2F"><font size="2">(05:55:54 PM)</font> <b>jpdeplaix:</b></font> jean_: ouais ?<br/>
+<font color="#A82F2F"><font size="2">(05:56:10 PM)</font> <b>jean_:</b></font> En gros j&apos;ai des onglets<br/>
+<font color="#A82F2F"><font size="2">(05:56:23 PM)</font> <b>cledat_g:</b></font> C&apos;est bon l&apos;onglet<br/>
+<font color="#A82F2F"><font size="2">(05:56:30 PM)</font> <b>jean_:</b></font> Et quand je clique sur un onglet ca affiche un tableau<br/>
+<font color="#A82F2F"><font size="2">(05:56:34 PM)</font> <b>jean_:</b></font> Gtk::Table<br/>
+<font color="#A82F2F"><font size="2">(05:56:47 PM)</font> <b>jean_:</b></font> Le probl?me c&apos;est que le tableau ne g?re pas le resize<br/>
+<font color="#A82F2F"><font size="2">(05:56:54 PM)</font> <b>jean_:</b></font> Tu aurais une id?e de comment le g?rer ?<br/>
+<font color="#A82F2F"><font size="2">(05:58:06 PM)</font> <b>jpdeplaix:</b></font> jean_: tu le met dans une HBox<br/>
+<font color="#A82F2F"><font size="2">(05:58:11 PM)</font> <b>jpdeplaix:</b></font> ou une VBox<br/>
+<font color="#A82F2F"><font size="2">(05:58:40 PM)</font> <b>jpdeplaix:</b></font> ou une Grid<br/>
+<font color="#A82F2F"><font size="2">(05:58:43 PM)</font> <b>jpdeplaix:</b></font> au choix<br/>
+<font color="#A82F2F"><font size="2">(05:59:14 PM)</font> <b>jean_:</b></font> Le tableau dans une HBox ou les colonnes de mon tableau dans des HBox ?<br/>
+<font color="#A82F2F"><font size="2">(05:59:42 PM)</font> <b>jpdeplaix:</b></font> jean_: lequel est pas resize ?<br/>
+<font color="#A82F2F"><font size="2">(05:59:48 PM)</font> <b>jpdeplaix:</b></font> les deux je dirais<br/>
+<font color="#A82F2F"><font size="2">(06:01:01 PM)</font> <b>jean_:</b></font> Ok<br/>
+<font color="#A82F2F"><font size="2">(06:01:12 PM)</font> <b>jean_:</b></font> Enfaite si je te dis ca<br/>
+<font color="#A82F2F"><font size="2">(06:01:20 PM)</font> <b>jean_:</b></font> C&apos;est que pour donner une taille ? mes colonnes<br/>
+<font color="#A82F2F"><font size="2">(06:02:03 PM)</font> <b>jean_:</b></font> Mon tableau est compos? d&apos;un bouton et 3 labels<br/>
+<font color="#A82F2F"><font size="2">(06:02:08 PM)</font> <b>jean_:</b></font> Et je voudrais donner une taille a mes labels<br/>
+<font color="#A82F2F"><font size="2">(06:02:17 PM)</font> <b>jean_:</b></font> Pour l&apos;instant j&apos;utilise set_width_chars<br/>
+<font color="#A82F2F"><font size="2">(06:02:30 PM)</font> <b>jean_:</b></font> Sur la colonne du milieu et ca me permet d&apos;espacer les colonnes<br/>
+<font color="#A82F2F"><font size="2">(06:02:41 PM)</font> <b>jean_:</b></font> Mais en cas de resize, vu que la valeur est fixe... Bon ca ne bouge pas :/<br/>
+<font color="#A82F2F"><font size="2">(06:02:52 PM)</font> <b>jean_:</b></font> Je pense pas que j&apos;utilise la bonne m?thode mais j&apos;ai aucune id?e de comment faire<br/>
+<font size="2">(06:03:51 PM)</font><b> Cama [<em>~Cama@163.5.220.215</em>] entered the room.</b><br/>
+<font color="#A82F2F"><font size="2">(06:05:33 PM)</font> <b>jean_:</b></font> Tu vois ce que je veux dire ?<br/>
+<font color="#A82F2F"><font size="2">(06:05:46 PM)</font> <b>jpdeplaix:</b></font> ouais<br/>
+<font color="#A82F2F"><font size="2">(06:06:03 PM)</font> <b>jpdeplaix:</b></font> je regarde ça<br/>
+<font color="#A82F2F"><font size="2">(06:06:05 PM)</font> <b>jean_:</b></font> Ok merci :)<br/>
+<font color="#A82F2F"><font size="2">(06:09:17 PM)</font> <b>jpdeplaix:</b></font> jean_: dans tes pack_start que tu veux réduir, tu utilise le paramêtre optionnel avec Gtk::PACK_SHRINK<br/>
+<font color="#A82F2F"><font size="2">(06:09:44 PM)</font> <b>jpdeplaix:</b></font> sinon essai de jouer avec Grid<br/>
+<font color="#A82F2F"><font size="2">(06:10:03 PM)</font> <b>jpdeplaix:</b></font> (si le premier marche pas comme tu veux)<br/>
+<font color="#A82F2F"><font size="2">(06:11:31 PM)</font> <b>jean_:</b></font> J&apos;utilise d?j? PACK_SHRINK<br/>
+<font color="#A82F2F"><font size="2">(06:11:36 PM)</font> <b>jean_:</b></font> je vais me renseign? sur Grid<br/>
+<font size="2">(06:17:03 PM)</font><b> cledat_g left the room (quit: Ping timeout: 276 seconds).</b><br/>
+<font color="#A82F2F"><font size="2">(06:21:37 PM)</font> <b>jean_:</b></font> Merci ;)<br/>
+<font color="#A82F2F"><font size="2">(06:21:49 PM)</font> <b>jpdeplaix:</b></font> ça marche ?<br/>
+<font size="2">(06:29:37 PM)</font><b> cledat_g [<em>~cledat_g@163.5.221.85</em>] entered the room.</b><br/>
+<font size="2">(06:31:13 PM)</font><b> st4rrk left the room (quit: Ping timeout: 256 seconds).</b><br/>
+<font size="2">(06:31:54 PM)</font><b> The account has disconnected and you are no longer in this chat. You will be automatically rejoined in the chat when the account reconnects.</b><br/>
+</body></html>

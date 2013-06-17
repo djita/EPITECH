@@ -1,0 +1,473 @@
+2013-04-07 14:29:55	Void_Shark	jdoit aller manger vite fait
+2013-04-07 14:29:57	Void_Shark	mais en gros
+2013-04-07 14:30:00	Void_Shark	javai 2 soucil
+2013-04-07 14:30:11	Void_Shark	La lecture des fichiers
+2013-04-07 14:30:24	Void_Shark	./bistro [-obase (2|8|10|16)] [inputfile]
+2013-04-07 14:31:18	Void_Shark	et le soucil des appels a convert dans les fonctions
+2013-04-07 14:31:24	Void_Shark	cest les premiere choses a faire
+2013-04-07 14:31:29	Void_Shark	jdoi aller manger vite fait
+2013-04-07 14:31:31	Void_Shark	jrevien
+2013-04-07 14:31:37	SeiZa	ok
+2013-04-07 14:31:48	Void_Shark	jreste joignable sur le tel
+2013-04-07 14:31:59	Void_Shark	tu peu bosser sur ops.ml
+2013-04-07 14:32:03	Void_Shark	et le readme est up
+2013-04-07 14:32:20	SeiZa	yep tkt
+2013-04-07 14:32:21	SeiZa	j'ai vu
+2013-04-07 16:05:31	Void_Shark	hey
+2013-04-07 16:22:56	SeiZa	hey
+2013-04-07 16:23:05	SeiZa	j'ai fix quelques bugs
+2013-04-07 16:23:21	SeiZa	sur le bigint.ml
+2013-04-07 16:23:29	Void_Shark	jai vu
+2013-04-07 16:23:34	Void_Shark	le truc du power et tout
+2013-04-07 16:23:38	SeiZa	entre autre
+2013-04-07 16:23:51	SeiZa	la y'a juste le bigint_of_string qui me chie a la gueule
+2013-04-07 16:23:55	SeiZa	je sais pas trop pourquoi
+2013-04-07 16:23:59	Void_Shark	??
+2013-04-07 16:24:29	Void_Shark	cest a dire
+2013-04-07 16:24:33	Void_Shark	quel genre derreur il y a ?
+2013-04-07 16:24:40	SeiZa	index out of bounds
+2013-04-07 16:24:46	SeiZa	surement une erreur de string
+2013-04-07 16:24:49	Void_Shark	ah
+2013-04-07 16:24:50	Void_Shark	oui
+2013-04-07 16:24:53	SeiZa	je suis encore en train de chercher d'ou ca vient
+2013-04-07 16:25:14	Void_Shark	sur la ligne
+2013-04-07 16:25:24	Void_Shark	and len = String.length str
+2013-04-07 16:25:25	Void_Shark	met
+2013-04-07 16:25:33	Void_Shark	len = (String.length str) - 1
+2013-04-07 16:25:59	SeiZa	ok
+2013-04-07 16:26:39	SeiZa	c'est pas ca
+2013-04-07 16:26:40	SeiZa	mais tkt
+2013-04-07 16:26:42	SeiZa	je vais trouver
+2013-04-07 16:28:00	Void_Shark	| len -> convert signin (String.sub number first (len - first)) base Decimal
+2013-04-07 16:28:02	Void_Shark	tu le change en
+2013-04-07 16:28:14	Void_Shark	| len -> convert signin (String.sub number first ((len - first) - 1)) base Decimal
+2013-04-07 16:28:15	Void_Shark	ptet
+2013-04-07 16:29:23	SeiZa	nope
+2013-04-07 16:29:30	SeiZa	j'vais trouver j'te dis
+2013-04-07 16:29:30	SeiZa	tkt
+2013-04-07 16:30:15	Void_Shark	oko
+2013-04-07 16:30:25	Void_Shark	desole
+2013-04-07 16:30:31	Void_Shark	si sa marche pas
+2013-04-07 16:31:31	SeiZa	tkt
+2013-04-07 16:31:36	SeiZa	t'as essaye
+2013-04-07 16:31:39	SeiZa	je t'en veux pas
+2013-04-07 16:38:52	Void_Shark	tu travaille sur Ops ?
+2013-04-07 16:47:00	SeiZa	nan
+2013-04-07 16:47:03	SeiZa	j'debug bigint la
+2013-04-07 16:47:14	Void_Shark	kk jvai faire un up sur ops
+2013-04-07 16:47:33	SeiZa	ok
+2013-04-07 17:07:40	SeiZa	t'es au courant que ops.ml doit s'appeller arithExpr.ml
+2013-04-07 17:07:48	Void_Shark	Ah
+2013-04-07 17:07:51	Void_Shark	shiatze
+2013-04-07 17:07:57	Void_Shark	renome le
+2013-04-07 17:07:59	Void_Shark	jai fait mon commit
+2013-04-07 17:08:05	Void_Shark	si tu a un truc a faire dessu
+2013-04-07 17:08:06	Void_Shark	sinon
+2013-04-07 17:08:09	Void_Shark	jle fait moi
+2013-04-07 17:08:16	SeiZa	fais le
+2013-04-07 17:08:20	SeiZa	j'suis encore sur le bigint
+2013-04-07 17:08:26	Void_Shark	Okay :D
+2013-04-07 17:35:22	Void_Shark	tu en est ou
+2013-04-07 17:35:29	SeiZa	j'crois que j'viens de finir le bigint_of_string
+2013-04-07 17:35:32	SeiZa	et il marche bien ;D
+2013-04-07 17:35:35	SeiZa	je crois
+2013-04-07 17:35:48	Void_Shark	Awesome
+2013-04-07 17:35:57	Void_Shark	moi jsui sur la bonne voie pour la mutliplication
+2013-04-07 17:36:09	Void_Shark	jessaie de ne pas faire des addition successive
+2013-04-07 17:36:12	SeiZa	ok
+2013-04-07 17:36:14	Void_Shark	au moin pour la mutliplication
+2013-04-07 17:36:20	Void_Shark	pour la division tampi
+2013-04-07 17:36:20	Void_Shark	mais
+2013-04-07 17:36:22	Void_Shark	voila quoi
+2013-04-07 17:36:32	Void_Shark	une foie que ta fini le big int
+2013-04-07 17:36:52	Void_Shark	essaie de voir comment on gere la lecture du fichier
+2013-04-07 17:38:09	Void_Shark	si sa te derange pas
+2013-04-07 17:38:12	Void_Shark	stp
+2013-04-07 17:38:13	Void_Shark	:D
+2013-04-07 17:38:17	Void_Shark	please
+2013-04-07 17:40:41	SeiZa	k
+2013-04-07 17:46:49	Void_Shark	tien moi au courant de ton avancee sil te plai :D
+2013-04-07 17:47:02	Void_Shark	jaime bien savoir ce qui se passe, cest rassurant
+2013-04-07 17:54:55	Void_Shark	je pense que jai fini la multiplication
+2013-04-07 17:54:55	Void_Shark	:D
+2013-04-07 17:58:24	SeiZa	j'ai reussi le bigint_of_string... mais il arrive a prendre des nombres comme: DX9F comme decimal
+2013-04-07 17:58:32	SeiZa	donc faut que je corrige ca
+2013-04-07 18:00:48	Void_Shark	sa cest surement
+2013-04-07 18:00:49	Void_Shark	dans
+2013-04-07 18:00:50	Void_Shark	setbase
+2013-04-07 18:00:58	Void_Shark	parseur du prefixe
+2013-04-07 18:04:23	SeiZa	je l'ai vire
+2013-04-07 18:04:27	SeiZa	j'ai recode autre chose
+2013-04-07 18:04:37	Void_Shark	okay
+2013-04-07 18:17:05	SeiZa	ca y est
+2013-04-07 18:17:09	SeiZa	j'commit bigint.ml
+2013-04-07 18:19:16	SeiZa	c'est pushed
+2013-04-07 18:21:26	SeiZa	il nous faut aussi le .mli je suis sur le parsing de fichier
+2013-04-07 18:22:02	Void_Shark	okay
+2013-04-07 18:22:18	Void_Shark	jfini un fix sur la multiplication
+2013-04-07 18:22:20	Void_Shark	et jarrive
+2013-04-07 18:22:24	Void_Shark	faire le mli
+2013-04-07 18:22:37	Void_Shark	jmoccuperai des problemes de signes apres
+2013-04-07 18:22:47	Void_Shark	(soit dit en passant)
+2013-04-07 18:26:44	Void_Shark	jafk quelques minutes
+2013-04-07 18:27:47	SeiZa	kk
+2013-04-07 19:20:49	Void_Shark	tu travaille sur quoi la
+2013-04-07 19:20:52	Void_Shark	quel fichier
+2013-04-07 19:21:08	Void_Shark	jvai essayer de mix mul.ml et arithmachin.ml
+2013-04-07 19:29:35	Void_Shark	Seiza ?
+2013-04-07 19:29:42	Void_Shark	ta oublie le decimal
+2013-04-07 19:29:46	Void_Shark	dans ton ton setbase et tout
+2013-04-07 19:30:31	Void_Shark	ah non
+2013-04-07 19:30:32	Void_Shark	pardon
+2013-04-07 19:32:41	Void_Shark	jai besoin de modif bigInt.ml dans le but de faire une interface pour les arithExpr.ml, es ce que tu est dessu ?
+2013-04-07 19:35:18	SeiZa	nope
+2013-04-07 19:35:25	Void_Shark	okay
+2013-04-07 19:35:34	Void_Shark	jvai essayer de faire les interfaces
+2013-04-07 19:35:36	SeiZa	okay
+2013-04-07 19:35:44	SeiZa	j'crois pas avoir oublie un truc dans le bigInt en tout cas
+2013-04-07 19:35:51	Void_Shark	ouai non c bon
+2013-04-07 19:35:53	SeiZa	mais previens moi si tu penses avoir trouver un truc
+2013-04-07 19:35:54	Void_Shark	jme suis tro;pe
+2013-04-07 19:36:06	Void_Shark	nan cest bon ta assure
+2013-04-07 19:36:28	SeiZa	:D
+2013-04-07 19:36:34	SeiZa	bitch please quoi :D
+2013-04-07 19:37:32	Void_Shark	tu fait quoi
+2013-04-07 19:37:49	SeiZa	je regarde comment on peut gerer le lexer/parser
+2013-04-07 19:38:10	Void_Shark	oO
+2013-04-07 19:38:17	SeiZa	pour ouvrir un fichier
+2013-04-07 19:38:19	Void_Shark	pour les fichiers ?
+2013-04-07 19:38:22	SeiZa	ouais
+2013-04-07 19:38:34	SeiZa	t'as ajoute les convert dans ton arithExpr?
+2013-04-07 19:39:00	SeiZa	parce que je sais pas en quelle base tu veux passer pour faire tes operations
+2013-04-07 19:41:23	Void_Shark	en base de big_b
+2013-04-07 19:41:34	Void_Shark	jvai marranger
+2013-04-07 19:41:36	Void_Shark	tkt
+2013-04-07 19:42:35	SeiZa	ok
+2013-04-07 20:28:40	Void_Shark	Hey hey
+2013-04-07 20:28:45	Void_Shark	t'es la ?
+2013-04-07 20:34:03	SeiZa	yep
+2013-04-07 20:34:19	Void_Shark	ya un blem avec les interfaces
+2013-04-07 20:34:24	Void_Shark	jai commit un truc
+2013-04-07 20:34:31	Void_Shark	check out les interfaces pour le moment
+2013-04-07 20:34:39	Void_Shark	le truc c'est que le lien a du mal a se faire
+2013-04-07 20:34:44	Void_Shark	que se soit en interpreteur
+2013-04-07 20:34:44	Void_Shark	ou
+2013-04-07 20:34:46	Void_Shark	makefile
+2013-04-07 20:35:44	SeiZa	c'est normal si tu les mets pas dans les sources
+2013-04-07 20:35:47	SeiZa	je regle ca
+2013-04-07 20:35:48	SeiZa	bouge pas
+2013-04-07 20:35:49	Void_Shark	si si
+2013-04-07 20:35:53	Void_Shark	jai mis sa dans le makefile
+2013-04-07 20:35:56	Void_Shark	mai ja pa commit
+2013-04-07 20:35:57	Void_Shark	att
+2013-04-07 20:36:13	Void_Shark	voila
+2013-04-07 20:36:14	Void_Shark	commited
+2013-04-07 20:36:43	SeiZa	tu dois mettre les .mli aussi dans les sources
+2013-04-07 20:36:48	Void_Shark	auhh
+2013-04-07 20:36:52	Void_Shark	sa marche pa
+2013-04-07 20:37:47	Void_Shark	voila jai recommit avec les .mli
+2013-04-07 20:39:02	SeiZa	ah moi j'ai des syntax errors personnellement
+2013-04-07 20:39:22	Void_Shark	huh
+2013-04-07 20:39:35	Void_Shark	mes fonctions sont toutes operationelle
+2013-04-07 20:39:39	Void_Shark	elles compilent toutent
+2013-04-07 20:39:55	Void_Shark	ou sont tes syntax error
+2013-04-07 20:39:57	Void_Shark	jvai voir
+2013-04-07 20:40:08	SeiZa	File "ArithExpr.mli", line 1, characters 0-1:
+2013-04-07 20:40:13	SeiZa	File "Bigint.mli", line 1, characters 0-1:
+2013-04-07 20:40:35	Void_Shark	ah
+2013-04-07 20:40:36	Void_Shark	sa
+2013-04-07 20:40:38	Void_Shark	ouai
+2013-04-07 20:41:59	SeiZa	j'peux modif le ArithExpr.ml ?
+2013-04-07 20:42:05	Void_Shark	oui vasy
+2013-04-07 20:42:06	Void_Shark	fg
+2013-04-07 20:42:09	Void_Shark	woops
+2013-04-07 20:42:12	Void_Shark	vasy
+2013-04-07 20:42:15	Void_Shark	je ferai svn up
+2013-04-07 20:42:44	SeiZa	en fait j'ai besoin de modif aussi le mli
+2013-04-07 20:42:48	SeiZa	remarque... fait le
+2013-04-07 20:42:54	SeiZa	t'as juste a renomer les noms des fonctions
+2013-04-07 20:42:57	SeiZa	addition => add
+2013-04-07 20:43:03	SeiZa	sub
+2013-04-07 20:43:04	SeiZa	mul
+2013-04-07 20:43:05	SeiZa	div
+2013-04-07 20:43:07	SeiZa	modulo
+2013-04-07 20:43:13	Void_Shark	ahm
+2013-04-07 20:43:15	Void_Shark	fock
+2013-04-07 20:43:23	Void_Shark	ok
+2013-04-07 20:43:30	Void_Shark	mais
+2013-04-07 20:48:50	Void_Shark	c'est bon
+2013-04-07 20:48:52	Void_Shark	jai commit la modif de nom
+2013-04-07 20:49:04	SeiZa	ok
+2013-04-07 20:52:17	Void_Shark	il est 21h
+2013-04-07 20:52:22	Void_Shark	jvai essayer de faire la division
+2013-04-07 20:52:30	Void_Shark	si tu veu bien
+2013-04-07 20:52:36	SeiZa	j'vais juste rajouter une fonction dans le bigint.ml
+2013-04-07 20:52:42	SeiZa	j'en ai besoin pour le parser
+2013-04-07 20:52:43	Void_Shark	okay
+2013-04-07 20:52:50	Void_Shark	ajoute la dans la mli apres
+2013-04-07 20:52:54	SeiZa	yep
+2013-04-07 20:53:07	Void_Shark	mais jarrive pa a compiler :(
+2013-04-07 20:54:13	Void_Shark	je pense
+2013-04-07 20:54:18	Void_Shark	quil faut ajouter la regle
+2013-04-07 20:54:21	Void_Shark	qui gere les .cmi
+2013-04-07 20:54:24	Void_Shark	de nos interface
+2013-04-07 20:54:39	Void_Shark	mais le makefile est deja bien construit
+2013-04-07 20:54:44	SeiZa	elle y est deja
+2013-04-07 20:54:48	SeiZa	cette regle
+2013-04-07 20:54:48	SeiZa	fg
+2013-04-07 20:54:49	Void_Shark	nan
+2013-04-07 20:54:52	Void_Shark	elle y est pour le
+2013-04-07 20:54:57	Void_Shark	le
+2013-04-07 20:54:59	Void_Shark	parser
+2013-04-07 20:55:08	Void_Shark	elle y est pour le parser et lexer
+2013-04-07 20:55:19	Void_Shark	mais pas pour les mli tierses
+2013-04-07 20:55:22	SeiZa	ligne 40: .mli.cmi
+2013-04-07 20:55:55	Void_Shark	meh alors c'est quoi cette erreur de compil cheloux
+2013-04-07 20:56:53	SeiZa	tu peux up
+2013-04-07 20:57:17	Void_Shark	wut
+2013-04-07 20:57:18	Void_Shark	.depend
+2013-04-07 20:57:23	SeiZa	bah oui
+2013-04-07 20:57:27	SeiZa	faut rajouter les dependances
+2013-04-07 20:57:29	SeiZa	type les cmi
+2013-04-07 20:57:33	SeiZa	.mli*
+2013-04-07 21:02:09	Void_Shark	okayyy
+2013-04-07 21:03:47	SeiZa	putin...
+2013-04-07 21:03:49	SeiZa	ca fait chier
+2013-04-07 21:03:50	SeiZa	bon
+2013-04-07 21:03:53	SeiZa	ocamlbuild
+2013-04-07 21:04:03	Void_Shark	tkt jsui en train de bosser dessu
+2013-04-07 21:04:11	Void_Shark	les truc des interface je parle
+2013-04-07 21:04:16	Void_Shark	jtouche pa a ocamlbuild
+2013-04-07 21:09:29	SeiZa	ah mais
+2013-04-07 21:09:30	SeiZa	j'ai trouve
+2013-04-07 21:09:34	SeiZa	lol
+2013-04-07 21:09:37	Void_Shark	Wut ?
+2013-04-07 21:09:37	SeiZa	touche a rien
+2013-04-07 21:09:40	Void_Shark	okay
+2013-04-07 21:12:02	SeiZa	ah nan
+2013-04-07 21:12:04	SeiZa	bon c'etait pas ca
+2013-04-07 21:12:07	SeiZa	j'ai rien dis
+2013-04-07 21:15:41	Void_Shark	cest bon
+2013-04-07 21:15:42	Void_Shark	attention
+2013-04-07 21:15:43	Void_Shark	commit
+2013-04-07 21:17:09	Void_Shark	Wonderfull
+2013-04-07 21:17:11	Void_Shark	Okay
+2013-04-07 21:17:12	Void_Shark	Alors
+2013-04-07 21:17:13	Void_Shark	Bilan
+2013-04-07 21:17:18	Void_Shark	Il faut que on fasse
+2013-04-07 21:17:20	Void_Shark	la division
+2013-04-07 21:17:21	Void_Shark	le modulo
+2013-04-07 21:17:25	Void_Shark	le reading de fichier
+2013-04-07 21:17:34	Void_Shark	jpropose que jaille faire la div
+2013-04-07 21:17:41	Void_Shark	que tu fasse le reading the fichier
+2013-04-07 21:17:50	SeiZa	ah...
+2013-04-07 21:17:53	SeiZa	t'as retire module
+2013-04-07 21:17:53	SeiZa	lol
+2013-04-07 21:17:54	Void_Shark	et apres on combine nos efforts
+2013-04-07 21:17:54	SeiZa	xD
+2013-04-07 21:17:57	Void_Shark	Woah
+2013-04-07 21:17:58	Void_Shark	wot
+2013-04-07 21:17:59	Void_Shark	?\
+2013-04-07 21:18:02	Void_Shark	ah
+2013-04-07 21:18:03	Void_Shark	yesh
+2013-04-07 21:18:05	Void_Shark	mais
+2013-04-07 21:18:08	Void_Shark	sa marche
+2013-04-07 21:18:08	SeiZa	bah c'est ce qui petait la compile
+2013-04-07 21:18:11	SeiZa	:P
+2013-04-07 21:18:13	Void_Shark	ouai
+2013-04-07 21:18:15	Void_Shark	mais
+2013-04-07 21:18:17	Void_Shark	maintenawnt
+2013-04-07 21:18:23	Void_Shark	jpropose que tu go parsing fichier
+2013-04-07 21:18:26	Void_Shark	je go division
+2013-04-07 21:18:33	SeiZa	s'tu veux
+2013-04-07 21:18:36	Void_Shark	et apres on combine nos efforts sur le reste
+2013-04-07 21:18:39	SeiZa	ok
+2013-04-07 21:18:50	Void_Shark	jai cru comprendre que tu avai deja commence le parsing fichier
+2013-04-07 21:18:53	Void_Shark	tu en est ou ?
+2013-04-07 21:19:10	SeiZa	je t'avoue... j'ai pas encore fait la gestion du fichier
+2013-04-07 21:19:23	Void_Shark	hm
+2013-04-07 21:19:23	Void_Shark	ok
+2013-04-07 21:19:27	Void_Shark	bah vasy
+2013-04-07 21:19:31	Void_Shark	ta encore un peu de temps
+2013-04-07 21:19:40	Void_Shark	et jai vraiment envie de me fight jusquau bout
+2013-04-07 21:19:57	Void_Shark	jpense commiter jusqua 23h
+2013-04-07 21:20:01	Void_Shark	si je sais que jai un espoir
+2013-04-07 21:21:02	Void_Shark	ok ?
+2013-04-07 21:21:39	Void_Shark	--Requesting Acknowledgement--
+2013-04-07 21:22:14	SeiZa	mouais
+2013-04-07 21:22:21	SeiZa	j'vais tenter un truc ou deux
+2013-04-07 21:22:22	Void_Shark	okay
+2013-04-07 21:22:25	Void_Shark	stp
+2013-04-07 21:22:27	SeiZa	et a 22h j'abandonne
+2013-04-07 21:22:31	Void_Shark	essaie de faire en sorte que
+2013-04-07 21:22:39	Void_Shark	on puisse au moin ouvrir un fichier
+2013-04-07 21:22:44	Void_Shark	et que sa execute son contenu
+2013-04-07 21:22:53	Void_Shark	sil te plai :(
+2013-04-07 21:23:23	SeiZa	le module Arg me fait mal a la gueule perso
+2013-04-07 21:23:27	SeiZa	mais je te promets rien
+2013-04-07 21:23:30	Void_Shark	wuut
+2013-04-07 21:23:30	Void_Shark	att
+2013-04-07 21:24:08	Void_Shark	let base = ref Decimal
+2013-04-07 21:24:08	Void_Shark	let get_base = function
+2013-04-07 21:24:08	Void_Shark	  | "2"		-> base := Binary
+2013-04-07 21:24:08	Void_Shark	  | "8"		-> base := Octal
+2013-04-07 21:24:08	Void_Shark	  | "10"	-> base := Decimal
+2013-04-07 21:24:09	Void_Shark	  | "16"	-> base := Hexadecimal
+2013-04-07 21:24:11	Void_Shark	  | wrong	-> raise (Invalid_argument(wrong))
+2013-04-07 21:24:13	Void_Shark	let eval_expr str =
+2013-04-07 21:24:15	Void_Shark	  (* creation de larbre *)
+2013-04-07 21:24:17	Void_Shark	  print_endline "EVAL EXPRESSION"
+2013-04-07 21:24:19	Void_Shark	let main = function
+2013-04-07 21:24:21	Void_Shark	  | 4 when (Sys.argv.(1) = "-obase") ->
+2013-04-07 21:24:23	Void_Shark	    begin
+2013-04-07 21:24:25	Void_Shark	      get_base Sys.argv.(2);
+2013-04-07 21:24:27	Void_Shark	      eval_expr Sys.argv.(3);
+2013-04-07 21:24:29	Void_Shark	    end
+2013-04-07 21:24:33	Void_Shark	  | 2 -> eval_expr Sys.argv.(1)
+2013-04-07 21:24:35	Void_Shark	  | _ -> raise (Invalid_argument("Invalid command"))
+2013-04-07 21:24:37	Void_Shark	let _ = main (Array.length Sys.argv)
+2013-04-07 21:24:39	Void_Shark	voila comment prendre les arguments
+2013-04-07 21:25:28	Void_Shark	Vasy mec
+2013-04-07 21:25:32	Void_Shark	fait sa pour toi et moi
+2013-04-07 21:25:36	Void_Shark	fait sa pour un pure success
+2013-04-07 21:25:39	Void_Shark	Jte ferai des Kiss
+2013-04-07 21:25:43	Void_Shark	de la pub sur warframe
+2013-04-07 21:25:50	SeiZa	mec t'as craque... tu connais Arg.parse?
+2013-04-07 21:26:02	Void_Shark	ouai mais jai trebuche dessu
+2013-04-07 21:26:13	Void_Shark	et pui je doute quon en aie besoin pour si peu d'arg
+2013-04-07 21:26:24	SeiZa	ca evite qu'on aie a le faire a la main
+2013-04-07 21:26:33	Void_Shark	franchement ya pa grand chose
+2013-04-07 21:26:38	Void_Shark	comme le montre jtai copie la haut
+2013-04-07 21:26:51	SeiZa	tu peux me l'envoyer par un fichier sur le svn?
+2013-04-07 21:26:56	Void_Shark	Kay
+2013-04-07 21:27:39	Void_Shark	woops
+2013-04-07 21:27:46	Void_Shark	jai commit une version pa fini de arith expr
+2013-04-07 21:27:47	Void_Shark	att
+2013-04-07 21:28:22	Void_Shark	Voila
+2013-04-07 21:28:24	Void_Shark	jai recommit
+2013-04-07 21:32:03	SeiZa	mec... j'crois que je vais plutot utiliser le module Arg
+2013-04-07 21:32:14	Void_Shark	Comme tu le souhaite
+2013-04-07 21:32:15	Void_Shark	mais stp
+2013-04-07 21:32:25	Void_Shark	fait au moin en sorte quon puisse mettre un fichier
+2013-04-07 21:32:32	Void_Shark	enfin en gros
+2013-04-07 21:32:35	Void_Shark	jaimerai arriver en soutenance
+2013-04-07 21:32:36	Void_Shark	avec
+2013-04-07 21:32:36	SeiZa	bah faut bien que je parse le Arg avant
+2013-04-07 21:32:39	Void_Shark	un lancement binaire
+2013-04-07 21:32:40	Void_Shark	et que
+2013-04-07 21:32:47	Void_Shark	on puisse montrer
+2013-04-07 21:32:52	Void_Shark	quon peu faire des operations
+2013-04-07 21:32:55	Void_Shark	pas toutes
+2013-04-07 21:32:58	Void_Shark	mais pamal
+2013-04-07 21:33:19	Void_Shark	jai commit encore
+2013-04-07 21:34:36	SeiZa	fait toi un .depend en local... j'vais svn rm .depend
+2013-04-07 21:34:49	Void_Shark	jpeu savoir pourquoi ?
+2013-04-07 21:35:04	SeiZa	la flemme de me taper des conflits a chaque up
+2013-04-07 21:35:04	Void_Shark	jconnai pa le role
+2013-04-07 21:35:09	Void_Shark	ah
+2013-04-07 21:35:10	Void_Shark	mauis
+2013-04-07 21:35:11	Void_Shark	mai
+2013-04-07 21:35:13	Void_Shark	jy toucherai pa
+2013-04-07 21:35:20	Void_Shark	la jy ai touche sans faire expres
+2013-04-07 21:35:24	Void_Shark	sur le .depend
+2013-04-07 21:35:27	SeiZa	quand tu fais un make t'y tape dedans
+2013-04-07 21:35:35	Void_Shark	AH
+2013-04-07 21:35:36	Void_Shark	shiot
+2013-04-07 21:35:39	SeiZa	aye j'ai svn rm .depend
+2013-04-07 21:35:42	SeiZa	tu peux up
+2013-04-07 21:35:46	SeiZa	et tu "touch .depend"
+2013-04-07 21:36:37	Void_Shark	kk
+2013-04-07 21:43:11	SeiZa	ah merde
+2013-04-07 21:43:14	SeiZa	pardon Void_Shark 
+2013-04-07 21:43:17	Void_Shark	??
+2013-04-07 21:43:21	SeiZa	les operations c'est pas dans ArithExpr
+2013-04-07 21:43:39	Void_Shark	cest dans quoi
+2013-04-07 21:44:24	SeiZa	dans le meme fichier que Bigint
+2013-04-07 21:44:28	SeiZa	faut croire
+2013-04-07 21:44:37	Void_Shark	bah jvai tou mettre dessu tkt
+2013-04-07 21:45:29	SeiZa	kk
+2013-04-07 21:45:41	SeiZa	et ensuite... on a pas la partie 2...
+2013-04-07 21:45:51	SeiZa	donc le parsing de fichier avec ton binaire...
+2013-04-07 21:45:57	SeiZa	j'suis pas sur qu'on aura les points dessus
+2013-04-07 21:46:30	Void_Shark	??
+2013-04-07 21:46:32	Void_Shark	partie 2 ?
+2013-04-07 21:46:38	Void_Shark	c'est le parseur lexer non
+2013-04-07 21:46:39	Void_Shark	?
+2013-04-07 21:46:45	SeiZa	non
+2013-04-07 21:47:19	SeiZa	Vous devez implanter un moyen de représenter une expression arithmétique sous forme
+2013-04-07 21:47:19	SeiZa	d’arbre. Votre arbre sera modélisé sous la forme d’une valeur de type arith_expr. Vous
+2013-04-07 21:47:19	SeiZa	êtes libre de définir arith_expr comme bon vous semble, tant qu’il respecte les consignes
+2013-04-07 21:47:19	SeiZa	suivantes :
+2013-04-07 21:47:30	SeiZa	• arith_expr doit utiliser votre type bigint pour représenter les valeurs numériques,
+2013-04-07 21:47:30	SeiZa	et uniquement celui-ci car il est cense etre suffisant.
+2013-04-07 21:47:30	SeiZa	• Vous devez rendre une fonction string_of_arith_expr convertissant une expres-
+2013-04-07 21:47:30	SeiZa	sion arithmétique en chaîne de caractères. La représentation est libre, mais doit être
+2013-04-07 21:47:30	SeiZa	lisible par un humain.
+2013-04-07 21:47:30	SeiZa	• Vous devez rendre une fonction solve_arith_expr résolvant une expression arith-
+2013-04-07 21:47:30	SeiZa	métique et retournant le résultat sous forme de bigint. L’appellant de solve_arith_expr
+2013-04-07 21:47:30	SeiZa	pourra alors afficher le resultat sur la sortie adequate dans le format voulu.
+2013-04-07 21:47:37	Void_Shark	bah
+2013-04-07 21:47:39	Void_Shark	cest la meme
+2013-04-07 21:47:43	SeiZa	pas vraiment non
+2013-04-07 21:48:02	SeiZa	enfin bon
+2013-04-07 21:48:05	SeiZa	j'vais m'y mettre
+2013-04-07 21:48:13	Void_Shark	kk
+2013-04-07 21:50:02	Void_Shark	vasy je deplace tout de arithexpr
+2013-04-07 21:50:10	Void_Shark	vers bigint.ml
+2013-04-07 21:50:10	SeiZa	ok
+2013-04-07 21:50:18	Void_Shark	comme sa tu aura champ libre
+2013-04-07 21:50:23	SeiZa	garde le .mli
+2013-04-07 21:50:32	SeiZa	pour le mettre dans Bigint.mli
+2013-04-07 21:50:40	SeiZa	enfin tu m'as compris
+2013-04-07 21:50:49	Void_Shark	ye tkt
+2013-04-07 21:53:31	SeiZa	j'ai commit un truc
+2013-04-07 21:53:40	SeiZa	mais c'est pour montrer que je taff
+2013-04-07 21:53:41	SeiZa	xD
+2013-04-07 21:54:20	Void_Shark	get `test.cmx', needed by `bistro.opt'.  Stop.
+2013-04-07 21:54:21	Void_Shark	wut
+2013-04-07 21:55:25	Void_Shark	??
+2013-04-07 21:55:26	Void_Shark	meh
+2013-04-07 21:55:52	SeiZa	t'as up correctement?
+2013-04-07 21:55:55	Void_Shark	si
+2013-04-07 21:55:55	Void_Shark	si
+2013-04-07 21:55:57	Void_Shark	c bon
+2013-04-07 21:55:58	Void_Shark	mais
+2013-04-07 21:56:04	Void_Shark	la il vont nous rire dessu la
+2013-04-07 21:57:11	SeiZa	j'ai fais ce que j'ai pu
+2013-04-07 21:57:12	SeiZa	perso
+2013-04-07 21:57:22	SeiZa	j'm'en contre fiche qu'ils se marre de notre gueule
+2013-04-07 21:57:48	Void_Shark	noes
+2013-04-07 21:57:48	Void_Shark	 :(
+2013-04-07 22:02:50	Void_Shark	essaie commeme
+2013-04-07 22:02:52	Void_Shark	please
+2013-04-07 22:05:53	SeiZa	PUTIN IL RECONNAIT PAS LE BIGINT
+2013-04-07 22:05:59	Void_Shark	wut
+2013-04-07 22:05:59	SeiZa	LE PARSER C DE LA MERDE
+2013-04-07 22:06:00	Void_Shark	ou sa
+2013-04-07 22:06:04	Void_Shark	ou sa
+2013-04-07 22:06:07	Void_Shark	dans quel fichier
+2013-04-07 22:06:28	SeiZa	commited
+2013-04-07 22:06:34	SeiZa	ah attend
+2013-04-07 22:06:38	SeiZa	aye
+2013-04-07 22:12:49	SeiZa	bon..
+2013-04-07 22:12:50	SeiZa	voila
+2013-04-07 22:12:56	SeiZa	perso moi j'en ai ma claque
+2013-04-07 22:14:58	Void_Shark	:(
+2013-04-07 22:17:33	SeiZa	bon aller... bonne soiree et merci d'avoir essaye quand meme
+2013-04-07 22:17:46	SeiZa	a demain
+2013-04-07 22:17:54	Void_Shark	meh
+2013-04-07 22:17:55	Void_Shark	mec
+2013-04-07 22:18:01	Void_Shark	:(
+2013-04-07 22:18:19	SeiZa	ah ouais nan... la j'peux pas corriger tout ca
+2013-04-07 22:18:28	Void_Shark	??
+2013-04-07 22:18:29	SeiZa	c'est pas que je veux pas... 
+2013-04-07 22:18:30	Void_Shark	corriger quoi
+2013-04-07 22:18:32	SeiZa	mais la j'peux pas
+2013-04-20 16:58:11	Void_Shark	Je suis devenu un dieu vivant sur warframe
+2013-04-20 16:58:36	Void_Shark	Nimportequel mob en dessou du niveau 35 se fait oneshot par mon fusil
+2013-04-20 16:59:11	Void_Shark	faut que les mob soient 45 voir 50+ pour quils meurent en plus de 2 balles
+2013-04-20 17:10:44	<--	Void_Shark (~Void_Shar@163.5.219.171) has quit (Ping timeout: 252 seconds)
+2013-04-20 17:24:26	-->	Void_Shark (~Void_Shar@163.5.230.19) is back on server
+2013-04-20 18:39:49	<--	Void_Shark (~Void_Shar@163.5.230.19) has quit (Ping timeout: 252 seconds)
+2013-04-20 18:52:39	-->	Void_Shark (~Void_Shar@163.5.218.9) is back on server
+2013-04-20 19:05:59	<--	Void_Shark (~Void_Shar@163.5.218.9) has quit (Ping timeout: 264 seconds)

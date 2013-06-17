@@ -1,0 +1,23 @@
+2013-04-08 16:54:56.232533|INFO    |              |   | TeamSpeak 3 Client 3.0.10.1 (2013-04-04 08:33:04)
+2013-04-08 16:54:56.239880|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-04-08 16:54:56.256942|ERROR   |Query         |   | bind failed on 127.0.0.1:25639
+2013-04-08 16:54:56.700134|INFO    |              |   | *** Time [MAINWINDOW]: 120
+2013-04-08 16:54:56.700347|INFO    |              |   | *** Time [INIT]: 120
+2013-04-08 16:54:56.707884|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-04-08 16:54:56.708025|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-04-08 16:54:56.708064|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-04-08 16:54:57.200454|INFO    |ClientUI      |   | Last update check was: Mon Apr 8 16:51:19 2013
+2013-04-08 16:55:03.586667|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-04-08 16:55:03.588801|INFO    |ClientUI      |  1| Blacklist check ok
+2013-04-08 16:55:03.588912|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-04-08 16:55:03.650572|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-04-08 16:55:03.864574|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-04-08 16:55:03.866601|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-04-08 16:55:04.262320|INFO    |ClientUI      |  1| Connect status: Connected
+2013-04-08 16:55:04.354998|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-04-08 16:55:04.359263|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-04-08 16:55:04.375427|INFO    |PermManager   |   | Loading permissions from cache
+2013-04-08 17:03:09.986479|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-04-08 20:16:51.049559|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-04-08 20:16:51.051127|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-04-08 20:16:51.193502|INFO    |Bookmarks     |   | Disconnect, total time: 12106 - 218947

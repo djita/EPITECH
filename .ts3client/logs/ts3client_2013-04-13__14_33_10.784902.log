@@ -1,0 +1,27 @@
+2013-04-13 14:33:10.793083|INFO    |              |   | TeamSpeak 3 Client 3.0.10.1 (2013-04-04 08:33:04)
+2013-04-13 14:33:11.820237|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-04-13 14:33:11.886332|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-04-13 14:33:12.583200|INFO    |              |   | *** Time [MAINWINDOW]: 170
+2013-04-13 14:33:12.583428|INFO    |              |   | *** Time [INIT]: 170
+2013-04-13 14:33:12.616770|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-04-13 14:33:12.630925|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-04-13 14:33:12.631063|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-04-13 14:33:13.083558|INFO    |ClientUI      |   | Last update check was: Tue Apr 9 16:02:08 2013
+2013-04-13 14:33:13.211965|INFO    |              |   | Checking for updates...
+2013-04-13 14:33:13.284231|INFO    |              |   | DNS resolve successful, "update.teamspeak.com"=176.9.148.78
+2013-04-13 14:33:13.395680|INFO    |              |   | Update check, my version: 1365064384, latest version: 1365064384
+2013-04-13 14:33:15.924989|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-04-13 14:33:15.926117|INFO    |ClientUI      |  1| Blacklist check ok
+2013-04-13 14:33:15.926205|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-04-13 14:33:15.984661|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-04-13 14:33:16.321579|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-04-13 14:33:16.322054|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-04-13 14:33:16.352952|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-04-13 14:33:16.409348|INFO    |ClientUI      |  1| Connect status: Connected
+2013-04-13 14:33:16.625928|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-04-13 14:33:16.642563|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-04-13 14:33:16.657062|INFO    |PermManager   |   | Loading permissions from cache
+2013-04-13 14:40:19.780582|WARNING |Copy&Paste    |   | HTML parsing error: Start tag expected.
+2013-04-13 21:40:19.834256|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-04-13 21:40:19.835582|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-04-13 21:40:20.081991|INFO    |Bookmarks     |   | Disconnect, total time: 25623 - 244570

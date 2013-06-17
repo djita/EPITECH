@@ -1,0 +1,25 @@
+2013-03-25 09:16:53.936842|INFO    |              |   | TeamSpeak 3 Client 3.0.10 (2013-02-27 15:08:47)
+2013-03-25 09:16:54.297333|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-25 09:16:54.374137|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-25 09:16:55.740844|INFO    |              |   | *** Time [MAINWINDOW]: 190
+2013-03-25 09:16:55.741282|INFO    |              |   | *** Time [INIT]: 190
+2013-03-25 09:16:55.770512|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-25 09:16:55.786993|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-03-25 09:16:55.787160|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-25 09:16:56.241236|INFO    |ClientUI      |   | Last update check was: Sat Mar 23 14:54:52 2013
+2013-03-25 09:16:56.322545|INFO    |              |   | Checking for updates...
+2013-03-25 09:16:56.383234|INFO    |              |   | DNS resolve successful, "update.teamspeak.com"=176.9.148.78
+2013-03-25 09:16:56.464606|INFO    |              |   | Update check, my version: 1361977727, latest version: 1361977727
+2013-03-25 09:17:16.185792|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-25 09:17:16.186439|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-25 09:17:16.186481|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-25 09:17:16.522905|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-25 09:17:16.527628|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-25 09:17:16.549561|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-25 09:17:16.818724|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-25 09:17:16.834077|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-25 09:17:16.847577|INFO    |PermManager   |   | Loading permissions from cache
+2013-03-25 09:17:17.036486|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-25 09:17:21.780483|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-25 09:17:21.781435|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0
+2013-03-25 09:17:21.911655|INFO    |Bookmarks     |   | Disconnect, total time: 5 - 92221

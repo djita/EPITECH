@@ -1,0 +1,52 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with poneysec@jpdeplaix.no-ip.org at Sun 24 Mar 2013 04:09:32 PM CET on SeiZa@jpdeplaix.dyndns.org/ (jabber)</title></head><body><h3>Conversation with poneysec@jpdeplaix.no-ip.org at Sun 24 Mar 2013 04:09:32 PM CET on SeiZa@jpdeplaix.dyndns.org/ (jabber)</h3>
+<font color="#A82F2F"><font size="2">(03/24/2013 03:35:38 PM)</font> <b>lastmikoi:</b></font> ben ça marche pas =/<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 03:35:50 PM)</font> <b>lastmikoi:</b></font> ah sinon<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 03:36:02 PM)</font> <b>lastmikoi:</b></font> on ne peux binder une fonction membre (donc unaire) avant c++11<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 03:36:09 PM)</font> <b>lastmikoi:</b></font> donc je doit ajouter un argument inutile aux handlers de touche<br/>
+<font color="#A82F2F"><font size="2">(03/24/2013 03:47:32 PM)</font> <b>jpdeplaix:</b></font> je comprend pas<br/>
+<font color="#A82F2F"><font size="2">(03:57:18 PM)</font> <b>lastmikoi:</b></font> pour avoir de jolis pointeurs sur fonction pour le bind_key, je dois fais un mem_fun, et faire une application partielle avec bind1st pour hydrater avec le premier argument<br/>
+<font color="#A82F2F"><font size="2">(03:57:28 PM)</font> <b>lastmikoi:</b></font> premier argument qui est l'argument implicite this<br/>
+<font color="#A82F2F"><font size="2">(03:57:38 PM)</font> <b>lastmikoi:</b></font>       no type named 'first_argument_type' in 'std::mem_fun_t&lt;void,<br/>      SnakeEngine&gt;'<br/><br/>
+<font color="#A82F2F"><font size="2">(03:57:39 PM)</font> <b>lastmikoi:</b></font> saloperie<br/>
+<font color="#A82F2F"><font size="2">(03:59:09 PM)</font> <b>jpdeplaix:</b></font> non, mais euh je l'ai déjà bindé<br/>
+<font color="#A82F2F"><font size="2">(03:59:26 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: et j'enlève le while(true) et ça march<br/>
+<font color="#A82F2F"><font size="2">(03:59:27 PM)</font> <b>jpdeplaix:</b></font> e<br/>
+<font color="#A82F2F"><font size="2">(03:59:28 PM)</font> <b>jpdeplaix:</b></font> *<br/>
+<font color="#A82F2F"><font size="2">(04:04:25 PM)</font> <b>lastmikoi:</b></font> oui mais je peux pas te refiler les pointeurs sur fonction<br/>
+<font color="#A82F2F"><font size="2">(04:04:33 PM)</font> <b>lastmikoi:</b></font> j'essaie mais ça chie<br/>
+<font color="#A82F2F"><font size="2">(04:08:41 PM)</font> <b>jpdeplaix:</b></font> pourquoi ?<br/>
+<font color="#A82F2F"><font size="2">(04:08:49 PM)</font> <b>jpdeplaix:</b></font> tu fait une global<br/>
+<font color="#A82F2F"><font size="2">(04:09:00 PM)</font> <b>jpdeplaix:</b></font> et une fonction qui modifie la grobal<br/>
+<font color="#A82F2F"><font size="2">(04:09:08 PM)</font> <b>jpdeplaix:</b></font> lastmikoi: ^<br/>
+<font color="#A82F2F"><font size="2">(04:09:17 PM)</font> <b>lastmikoi:</b></font> c'est dégueux<br/>
+<font color="#A82F2F"><font size="2">(04:09:37 PM)</font> <b>lastmikoi:</b></font> t'inquiete normalement tout va bien se mettre bien<br/>
+<font color="#A82F2F"><font size="2">(04:09:38 PM)</font> <b>jpdeplaix:</b></font> oui, mais si tu a pas moyen de t'en sortir autrement…<br/>
+<font color="#A82F2F"><font size="2">(04:09:43 PM)</font> <b>jpdeplaix:</b></font> ok alors<br/>
+<font color="#A82F2F"><font size="2">(04:28:54 PM)</font> <b>lastmikoi:</b></font> mh, gt(nibbler:7531): glibmm-ERROR **: <br/>unhandled exception (type std::exception) in signal handler:<br/>what: vector::reserve<br/><br/>
+<font color="#A82F2F"><font size="2">(04:30:33 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: ^<br/>
+<font color="#A82F2F"><font size="2">(04:30:38 PM)</font> <b>lastmikoi:</b></font> you segfaults :(<br/>
+<font color="#A82F2F"><font size="2">(04:31:34 PM)</font> <b>lastmikoi:</b></font> ah non<br/>
+<font color="#A82F2F"><font size="2">(04:34:32 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: quand je te balance SnakeEngineSingleton::handler_quit, j'ai une unhandled exception (type std::exception) in signal handler: what: vector::reserve<br/><br/>
+<font color="#A82F2F"><font size="2">(04:34:49 PM)</font> <b>lastmikoi:</b></font> et quand je te balance juste un &amp;lol avec lol une fonction globale, ça passe niquel comme mamanseiza dans seiza<br/>
+<font color="#16569E"><font size="2">(04:37:13 PM)</font> <b>SeiZa:</b></font> ta race<br/>
+<font color="#A82F2F"><font size="2">(04:39:26 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: !<br/>
+<font color="#A82F2F"><font size="2">(04:41:17 PM)</font> <b>lastmikoi:</b></font> ok c'est bon j'ai corrigé<br/>
+<font color="#A82F2F"><font size="2">(04:46:07 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: j'ai la preuve par A + B que le passage par référence n'est qu'un contrat<br/>
+<font color="#A82F2F"><font size="2">(04:46:16 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: singleton qui ne retourne pas un pointeur =&gt; copie.<br/>
+<font color="#A82F2F"><font size="2">(04:46:25 PM)</font> <b>lastmikoi:</b></font> du coup j'avais deux joyeux objets<br/>
+<font color="#A82F2F"><font size="2">(04:51:13 PM)</font> <b>jpdeplaix:</b></font> :D<br/>
+<font color="#A82F2F"><font size="2">(04:56:25 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: ça quitte toujours pas...<br/>
+<font color="#A82F2F"><font size="2">(05:01:13 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: t'es sûr de mettre à jour la map à chaque render() ?<br/>
+<font color="#A82F2F"><font size="2">(05:01:35 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: rhaaa putain tu mets à jours qu'au resize<br/>
+<font color="#A82F2F"><font size="2">(05:01:42 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: *URGENT*<br/>
+<font color="#A82F2F"><font size="2">(05:06:22 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT*vv<br/>
+<font color="#A82F2F"><font size="2">(05:13:04 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT*vv<br/>
+<font color="#A82F2F"><font size="2">(05:13:04 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT*vv<br/>
+<font color="#A82F2F"><font size="2">(05:13:05 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT*vv<br/>
+<font color="#A82F2F"><font size="2">(05:13:05 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT* *URGENT*vv<br/>
+<font color="#A82F2F"><font size="2">(05:14:22 PM)</font> <b>jpdeplaix:</b></font> ah<br/>
+<font color="#A82F2F"><font size="2">(05:14:26 PM)</font> <b>jpdeplaix:</b></font> je corrige<br/>
+<font color="#A82F2F"><font size="2">(05:23:46 PM)</font> <b>lastmikoi:</b></font> jpdeplaix: ah et quand y'a un truc à une extremité ça fait un très joli glitch visuel<br/>
+<font color="#A82F2F"><font size="2">(05:24:37 PM)</font> <b>lastmikoi:</b></font> <html xmlns='http://jabber.org/protocol/xhtml-im'><body xmlns='http://www.w3.org/1999/xhtml'><p>jpdeplaix: <a href="http://i.imgur.com/un8tP7D.jpg">http://i.imgur.com/un8tP7D.jpg</a></p></body></html><br/>
+<font size="2">(05:28:32 PM)</font><b> The account has disconnected and you are no longer in this chat. You will be automatically rejoined in the chat when the account reconnects.</b><br/>
+</body></html>

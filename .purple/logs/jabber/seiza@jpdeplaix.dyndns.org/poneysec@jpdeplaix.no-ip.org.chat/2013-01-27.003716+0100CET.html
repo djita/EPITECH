@@ -1,0 +1,350 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with poneysec@jpdeplaix.no-ip.org at Sun 27 Jan 2013 12:37:16 AM CET on SeiZa@jpdeplaix.dyndns.org/ (jabber)</title></head><body><h3>Conversation with poneysec@jpdeplaix.no-ip.org at Sun 27 Jan 2013 12:37:16 AM CET on SeiZa@jpdeplaix.dyndns.org/ (jabber)</h3>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:52:13 PM)</font> <b>jpdeplaix:</b></font> doit être un pointenr<br/>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:52:15 PM)</font> <b>jpdeplaix:</b></font> -n<br/>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:52:26 PM)</font> <b>jpdeplaix:</b></font> sinon ça segfault :D<br/>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:53:27 PM)</font> <b>lastmikoi:</b></font> oui c'est bien un pointeur<br/>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:53:50 PM)</font> <b>lastmikoi:</b></font> j'utilise plus pair pour Qt (pas besoin du heartbeat stocké localement)<br/>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:53:53 PM)</font> <b>lastmikoi:</b></font> et ça segfault...<br/>
+<font color="#A82F2F"><font size="2">(01/26/2013 11:53:55 PM)</font> <b>lastmikoi:</b></font> TOUJOURS<br/>
+<font color="#16569E"><font size="2">(01/26/2013 11:55:05 PM)</font> <b>SeiZa:</b></font> lastmikoi: autre question... ABSOLUTE est un texte ou un nombre? la meme pour DERIVE et GAUGE... parce que je crois que le % d'activite du cpu est une DERIVE<br/>
+<font color="#A82F2F"><font size="2">(01/27/2013 12:03:35 AM)</font> <b>lastmikoi:</b></font> bon, ça segfault plus<br/>
+<font color="#A82F2F"><font size="2">(01/27/2013 12:03:49 AM)</font> <b>lastmikoi:</b></font> je display la fenetre dans le constructeur de mon application.<br/>
+<font color="#A82F2F"><font size="2">(01/27/2013 12:03:51 AM)</font> <b>lastmikoi:</b></font> et ça marche.<br/>
+<font color="#A82F2F"><font size="2">(01/27/2013 12:03:55 AM)</font> <b>lastmikoi:</b></font> c'est de la magie noire.<br/>
+<font color="#A82F2F"><font size="2">(01/27/2013 12:08:12 AM)</font> <b>jpdeplaix:</b></font> :D<br/>
+<font color="#16569E"><font size="2">(12:18:12 AM)</font> <b>SeiZa:</b></font> bon le cpuinfo va etre compose de : model name / cpuMHz <br/>
+<font color="#16569E"><font size="2">(12:18:36 AM)</font> <b>SeiZa:</b></font> faudra appeler un core particulier avec un std::string const &amp;... <br/>
+<font color="#16569E"><font size="2">(12:19:28 AM)</font> <b>SeiZa:</b></font> quoique... je pourrai aussi faire les 4 en 1...<br/>
+<font color="#A82F2F"><font size="2">(12:19:35 AM)</font> <b>lastmikoi:</b></font> non<br/>
+<font color="#16569E"><font size="2">(12:19:42 AM)</font> <b>SeiZa:</b></font> non?<br/>
+<font color="#16569E"><font size="2">(12:26:14 AM)</font> <b>SeiZa:</b></font> bon en tout cas les cpu non existants devraient renvoyer un &quot;ERROR&quot;<br/>
+<font color="#A82F2F"><font size="2">(12:26:52 AM)</font> <b>lastmikoi:</b></font> oui<br/>
+<font color="#A82F2F"><font size="2">(01:14:43 AM)</font> <b>lastmikoi:</b></font> SeiZa: ton UserModule segfault<br/>
+<font color="#A82F2F"><font size="2">(01:14:55 AM)</font> <b>lastmikoi:</b></font> #0  0x00007ffff6067bdf in __strlen_sse42 () from /lib64/libc.so.6<br/>#1  0x00007ffff67f275c in std::string::append(char const*) ()<br/>   from /usr/lib64/libstdc++.so.6<br/>#2  0x00000000004097a9 in std::operator+&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; (__lhs=..., __rhs=<br/>    0x2c &lt;Address 0x2c out of bounds&gt;)<br/>    at /usr/include/c++/4.6/bits/basic_string.h:2347<br/>#3  0x000000000040a0ef in UserMonitor::getDataSample (this=0x659e50)<br/>    at UserMonitor.cpp:67<br/><br/>
+<font color="#A82F2F"><font size="2">(01:15:45 AM)</font> <b>lastmikoi:</b></font> à &quot;DV:1359245595:&quot; + 0x2c<br/>
+<font color="#A82F2F"><font size="2">(01:15:51 AM)</font> <b>lastmikoi:</b></font> utent est probalement à NULL<br/>
+<font color="#A82F2F"><font size="2">(01:17:21 AM)</font> <b>lastmikoi:</b></font> SeiZa: par contre tu pete un cable sur tes durées d'update<br/>
+<font color="#16569E"><font size="2">(01:17:31 AM)</font> <b>SeiZa:</b></font> ah ptet<br/>
+<font color="#A82F2F"><font size="2">(01:17:33 AM)</font> <b>lastmikoi:</b></font> date, toute les secondes c'est large<br/>
+<font color="#A82F2F"><font size="2">(01:17:40 AM)</font> <b>lastmikoi:</b></font> pareil pour time finalement<br/>
+<font color="#16569E"><font size="2">(01:17:53 AM)</font> <b>SeiZa:</b></font> bah t'as qu'a les set mais pour User tu peux me donner le main qui segfault?<br/>
+<font color="#16569E"><font size="2">(01:18:05 AM)</font> <b>SeiZa:</b></font> parce que jp il segfault pas<br/>
+<font color="#A82F2F"><font size="2">(01:18:49 AM)</font> <b>lastmikoi:</b></font> le main c'est j'ajoute le module UserMonitor à mon iface graphique<br/>
+<font color="#A82F2F"><font size="2">(01:19:11 AM)</font> <b>lastmikoi:</b></font> l'important étant que le utent est pas vérifié et tu le déréférence malgrés totu<br/>
+<font color="#A82F2F"><font size="2">(01:20:41 AM)</font> <b>lastmikoi:</b></font> ça doit planter dans mon chroot<br/>
+<font color="#A82F2F"><font size="2">(01:20:50 AM)</font> <b>lastmikoi:</b></font> mais c'est censé ERROR dans ce cas<br/>
+<font color="#16569E"><font size="2">(01:21:27 AM)</font> <b>SeiZa:</b></font> je vois<br/>
+<font color="#A82F2F"><font size="2">(01:21:27 AM)</font> <b>lastmikoi:</b></font> jpdeplaix: j'ai tout mes widgets qui se superposent, je fais commnet ?<br/>
+<font color="#16569E"><font size="2">(01:22:02 AM)</font> <b>SeiZa:</b></font> je corrige user<br/>
+<font color="#A82F2F"><font size="2">(01:23:01 AM)</font> <b>lastmikoi:</b></font> et les durées de refresh aussi<br/>
+<font color="#16569E"><font size="2">(01:23:23 AM)</font> <b>SeiZa:</b></font> lastmikoi: User commited<br/>
+<font color="#A82F2F"><font size="2">(01:23:27 AM)</font> <b>jpdeplaix:</b></font> lastmikoi: tu utilise les layout<br/>
+<font color="#A82F2F"><font size="2">(01:24:07 AM)</font> <b>lastmikoi:</b></font> jpdeplaix: ça me dit que j'en ai déjà un dans ma mainwindow quand j'essaye d'en setLayout un<br/>
+<font color="#A82F2F"><font size="2">(01:24:21 AM)</font> <b>lastmikoi:</b></font> UserMonitor.cpp: In member function ‘virtual const string UserMonitor::getDataSample()’:<br/>UserMonitor.cpp:67:92: error: expected ‘;’ before ‘y’<br/><br/>
+<font color="#A82F2F"><font size="2">(01:24:25 AM)</font> <b>lastmikoi:</b></font> SeiZa: tu déconnes sec là.<br/>
+<font color="#16569E"><font size="2">(01:24:47 AM)</font> <b>SeiZa:</b></font> oh fuck<br/>
+<font color="#16569E"><font size="2">(01:24:48 AM)</font> <b>SeiZa:</b></font> FUCk<br/>
+<font color="#16569E"><font size="2">(01:24:49 AM)</font> <b>SeiZa:</b></font> FUCK<br/>
+<font color="#16569E"><font size="2">(01:24:50 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#16569E"><font size="2">(01:24:50 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#16569E"><font size="2">(01:24:51 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#A82F2F"><font size="2">(01:25:11 AM)</font> <b>lastmikoi:</b></font> c'est pas comme si tu devais appuyer sur 'i' pour éditer, toi.<br/>
+<font color="#A82F2F"><font size="2">(01:25:16 AM)</font> <b>lastmikoi:</b></font> :p<br/>
+<font color="#16569E"><font size="2">(01:25:22 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#16569E"><font size="2">(01:25:23 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#16569E"><font size="2">(01:25:24 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#16569E"><font size="2">(01:29:04 AM)</font> <b>SeiZa:</b></font> bon je break si utent == NULL<br/>
+<font color="#A82F2F"><font size="2">(01:29:50 AM)</font> <b>lastmikoi:</b></font> tu sors déjà de la boucle sir utent est null<br/>
+<font color="#16569E"><font size="2">(01:31:04 AM)</font> <b>SeiZa:</b></font> oui<br/>
+<font color="#16569E"><font size="2">(01:31:09 AM)</font> <b>SeiZa:</b></font> raah<br/>
+<font color="#16569E"><font size="2">(01:31:12 AM)</font> <b>SeiZa:</b></font> putin gdb pas clair<br/>
+<font color="#16569E"><font size="2">(01:31:13 AM)</font> <b>SeiZa:</b></font> si si<br/>
+<font color="#16569E"><font size="2">(01:31:38 AM)</font> <b>SeiZa:</b></font> bon je te poke des que c'est corrige<br/>
+<font color="#A82F2F"><font size="2">(01:31:42 AM)</font> <b>lastmikoi:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(01:35:23 AM)</font> <b>SeiZa:</b></font> lastmikoi: c'est pas mon User qui segfault... je viens de le test dans tous les sens... il segfault autre part<br/>
+<font color="#16569E"><font size="2">(01:35:40 AM)</font> <b>SeiZa:</b></font> t'es sur qu'il ne segfault pas dans le display directement?<br/>
+<font color="#A82F2F"><font size="2">(01:35:42 AM)</font> <b>lastmikoi:</b></font> <html xmlns='http://jabber.org/protocol/xhtml-im'><body xmlns='http://www.w3.org/1999/xhtml'><p><span style='font-size: small;'><span style='color: #204a87;'>(01:14:52) </span></span><span style='color: #204a87;'><span style='font-weight: bold;'><span style='font-size: medium;'>lastmikoi: </span></span></span><span style='font-size: medium;'/><span style='font-size: medium;'>#0  0x00007ffff6067bdf in __strlen_sse42 () from /lib64/libc.so.6<br/>#1  0x00007ffff67f275c in std::string::append(char const*) ()<br/>   from /usr/lib64/libstdc++.so.6<br/>#2  0x00000000004097a9 in std::operator+&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; (__lhs=..., __rhs=<br/>    0x2c &lt;Address 0x2c out of bounds&gt;)<br/>    at /usr/include/c++/4.6/bits/basic_string.h:2347<br/>#3  0x000000000040a0ef in UserMonitor::getDataSample (this=0x659e50)<br/>    at UserMonitor.cpp:67<br/><span style='font-weight: bold;'><span style='color: #888888;'><br/>01:15</span></span><br/></span><span style='font-size: small;'><span style='color: #204a87;'>(01:15:43) </span></span><span style='color: #204a87;'><span style='font-weight: bold;'><span style='font-size: medium;'>lastmikoi: </span></span></span><span style='font-size: medium;'/><span style='font-size: medium;'>à &quot;DV:1359245595:&quot; + 0x2c</span></p></body></html><br/>
+<font color="#A82F2F"><font size="2">(01:35:53 AM)</font> <b>lastmikoi:</b></font> c'est juste utent qui était à NULL.<br/>
+<font color="#A82F2F"><font size="2">(01:36:00 AM)</font> <b>lastmikoi:</b></font> c'est tout.<br/>
+<font color="#16569E"><font size="2">(01:36:08 AM)</font> <b>SeiZa:</b></font> bon attend<br/>
+<font color="#16569E"><font size="2">(01:36:09 AM)</font> <b>SeiZa:</b></font> je commit ca<br/>
+<font color="#16569E"><font size="2">(01:36:27 AM)</font> <b>SeiZa:</b></font> lastmikoi: commited<br/>
+<font color="#A82F2F"><font size="2">(01:36:32 AM)</font> <b>lastmikoi:</b></font> username : DV:1359246983:ERROR<br/><br/>
+<font color="#A82F2F"><font size="2">(01:36:36 AM)</font> <b>lastmikoi:</b></font> donc c'est bon.<br/>
+<font color="#16569E"><font size="2">(01:36:50 AM)</font> <b>SeiZa:</b></font> just up<br/>
+<font color="#16569E"><font size="2">(01:36:51 AM)</font> <b>SeiZa:</b></font> dude<br/>
+<font color="#A82F2F"><font size="2">(01:36:59 AM)</font> <b>lastmikoi:</b></font> j'ai enlevé ton 'y'<br/>
+<font color="#A82F2F"><font size="2">(01:37:13 AM)</font> <b>lastmikoi:</b></font> avec ton dernier commit c'est pareil<br/>
+<font color="#A82F2F"><font size="2">(01:37:16 AM)</font> <b>lastmikoi:</b></font> &quot;username : DV:1359247023:ERROR<br/>&quot;<br/>
+<font color="#16569E"><font size="2">(01:37:21 AM)</font> <b>SeiZa:</b></font> cool<br/>
+<font color="#A82F2F"><font size="2">(01:37:22 AM)</font> <b>lastmikoi:</b></font> mais c'est bon c'est le chroot<br/>
+<font color="#A82F2F"><font size="2">(01:37:30 AM)</font> <b>lastmikoi:</b></font> l'important c'est que ça segfault pas<br/>
+<font color="#16569E"><font size="2">(01:40:21 AM)</font> <b>SeiZa:</b></font> PUTE<br/>
+<font color="#A82F2F"><font size="2">(01:40:25 AM)</font> <b>lastmikoi:</b></font> koi<br/>
+<font color="#16569E"><font size="2">(01:40:26 AM)</font> <b>SeiZa:</b></font> fs.open(&quot;/proc/cpuinfo&quot;);<br/>
+<font color="#16569E"><font size="2">(01:40:28 AM)</font> <b>SeiZa:</b></font> ne marche pas<br/>
+<font color="#A82F2F"><font size="2">(01:40:35 AM)</font> <b>lastmikoi:</b></font> cékon<br/>
+<font color="#16569E"><font size="2">(01:40:44 AM)</font> <b>SeiZa:</b></font> je vois pas pourquoi en plus<br/>
+<font color="#A82F2F"><font size="2">(01:52:36 AM)</font> <b>lastmikoi:</b></font> jpdeplaix: t'en est ou<br/>
+<font color="#A82F2F"><font size="2">(01:52:56 AM)</font> <b>jpdeplaix:</b></font> lastmikoi: interface opérationnel<br/>
+<font color="#A82F2F"><font size="2">(01:52:58 AM)</font> <b>lastmikoi:</b></font> k<br/>
+<font color="#A82F2F"><font size="2">(01:53:02 AM)</font> <b>jpdeplaix:</b></font> je l'améliore<br/>
+<font color="#A82F2F"><font size="2">(01:53:06 AM)</font> <b>lastmikoi:</b></font> c'est un cauchemard Qt<br/>
+<font color="#A82F2F"><font size="2">(01:53:09 AM)</font> <b>lastmikoi:</b></font> le code est dégeux<br/>
+<font color="#A82F2F"><font size="2">(01:53:11 AM)</font> <b>lastmikoi:</b></font> j'ai du public partout<br/>
+<font color="#A82F2F"><font size="2">(01:54:01 AM)</font> <b>jpdeplaix:</b></font> :D<br/>
+<font color="#16569E"><font size="2">(01:55:21 AM)</font> <b>SeiZa:</b></font> CpuInfoMonitor operationnel lastmikoi<br/>
+<font color="#A82F2F"><font size="2">(01:56:10 AM)</font> <b>lastmikoi:</b></font> ajoutes le au wscript<br/>
+<font color="#16569E"><font size="2">(01:56:17 AM)</font> <b>SeiZa:</b></font> deja fait<br/>
+<font color="#16569E"><font size="2">(01:56:20 AM)</font> <b>SeiZa:</b></font> normalement<br/>
+<font color="#16569E"><font size="2">(02:00:58 AM)</font> <b>SeiZa:</b></font> ca marche lastmikoi? j'attaque la RAM la<br/>
+<font color="#16569E"><font size="2">(02:01:59 AM)</font> <b>SeiZa:</b></font> lastmikoi: faut qu'on voie aussi pour les operator=<br/>
+<font color="#A82F2F"><font size="2">(02:02:06 AM)</font> <b>lastmikoi:</b></font> mais je comprend pas<br/>
+<font color="#A82F2F"><font size="2">(02:02:11 AM)</font> <b>lastmikoi:</b></font> t'a pas l'activité du cpu la?<br/>
+<font color="#A82F2F"><font size="2">(02:04:01 AM)</font> <b>lastmikoi:</b></font> euh ça marche pas non<br/>
+<font color="#A82F2F"><font size="2">(02:04:10 AM)</font> <b>lastmikoi:</b></font> j'arrive pas à l'ajouter normalement<br/>
+<font color="#A82F2F"><font size="2">(02:04:16 AM)</font> <b>lastmikoi:</b></font> main.cpp:49:25: error: expected type-specifier before ‘CPUInfoMonitor’<br/>main.cpp:49:25: error: expected ‘)’ before ‘CPUInfoMonitor’<br/>main.cpp:49:44: error: no matching function for call to ‘QtMonitorDisplay::addModule(int*)’<br/>main.cpp:49:44: note: candidate is:<br/>QtMonitorDisplay.hh:80:16: note: virtual void QtMonitorDisplay::addModule(IMonitorModule*)<br/>QtMonitorDisplay.hh:80:16: note:   no known conversion for argument 1 from ‘int*’ to ‘IMonitorModule*’<br/><br/>
+<font color="#A82F2F"><font size="2">(02:04:21 AM)</font> <b>lastmikoi:</b></font> alors que j'ai include le truc bien<br/>
+<font color="#16569E"><font size="2">(02:05:47 AM)</font> <b>SeiZa:</b></font> lastmikoi: env -i a test :D<br/>
+<font color="#16569E"><font size="2">(02:06:05 AM)</font> <b>SeiZa:</b></font> euh..<br/>
+<font color="#16569E"><font size="2">(02:06:06 AM)</font> <b>SeiZa:</b></font> wait<br/>
+<font color="#A82F2F"><font size="2">(02:06:39 AM)</font> <b>lastmikoi:</b></font> env -i : mygkrellm: cannot connect to X server <br/><br/>
+<font color="#A82F2F"><font size="2">(02:06:40 AM)</font> <b>lastmikoi:</b></font> :)<br/>
+<font color="#16569E"><font size="2">(02:06:44 AM)</font> <b>SeiZa:</b></font> ca compile chez moi lastmikoi... tu fais un truc pas correct surement<br/>
+<font color="#16569E"><font size="2">(02:06:53 AM)</font> <b>SeiZa:</b></font> CPUInfoMonitor dans le main et tout<br/>
+<font color="#A82F2F"><font size="2">(02:07:14 AM)</font> <b>lastmikoi:</b></font>   display.addModule(new CPUInfoMonitor(&quot;0&quot;));<br/><br/>
+<font color="#16569E"><font size="2">(02:07:22 AM)</font> <b>SeiZa:</b></font> Cpu*<br/>
+<font color="#A82F2F"><font size="2">(02:07:27 AM)</font> <b>lastmikoi:</b></font> ...<br/>
+<font color="#16569E"><font size="2">(02:07:30 AM)</font> <b>SeiZa:</b></font> :D<br/>
+<font color="#A82F2F"><font size="2">(02:07:42 AM)</font> <b>lastmikoi:</b></font> Même nom que le fichier, va m'éditer ça de suite.<br/>
+<font color="#16569E"><font size="2">(02:07:53 AM)</font> <b>SeiZa:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(02:09:31 AM)</font> <b>SeiZa:</b></font> lastmikoi: commit en cours<br/>
+<font color="#A82F2F"><font size="2">(02:10:21 AM)</font> <b>lastmikoi:</b></font> c'est lent.<br/>
+<font color="#A82F2F"><font size="2">(02:10:35 AM)</font> <b>lastmikoi:</b></font> bon, poke moi.<br/>
+<font color="#16569E"><font size="2">(02:10:48 AM)</font> <b>SeiZa:</b></font> lastmikoi: poked!<br/>
+<font color="#16569E"><font size="2">(02:10:56 AM)</font> <b>SeiZa:</b></font> et oui ca compile normalement<br/>
+<font color="#A82F2F"><font size="2">(02:11:01 AM)</font> <b>lastmikoi:</b></font> ah putain<br/>
+<font color="#A82F2F"><font size="2">(02:11:13 AM)</font> <b>lastmikoi:</b></font> [ 5/17] qxx: NCurses.cpp -&gt; NCurses.cpp.1.o<br/>main.cpp:32:29: fatal error: CPUInfoMonitor.hh: Aucun fichier ou dossier de ce type<br/><br/>
+<font color="#A82F2F"><font size="2">(02:11:16 AM)</font> <b>lastmikoi:</b></font> non mais putain<br/>
+<font color="#A82F2F"><font size="2">(02:11:21 AM)</font> <b>lastmikoi:</b></font> t'a carrément renommé le fichier<br/>
+<font color="#16569E"><font size="2">(02:11:28 AM)</font> <b>SeiZa:</b></font> OUI<br/>
+<font color="#A82F2F"><font size="2">(02:11:30 AM)</font> <b>lastmikoi:</b></font> alors que CPU c'est des initiales correctes...<br/>
+<font color="#A82F2F"><font size="2">(02:11:35 AM)</font> <b>lastmikoi:</b></font> bon.<br/>
+<font color="#A82F2F"><font size="2">(02:11:36 AM)</font> <b>lastmikoi:</b></font> tant pis.<br/>
+<font color="#16569E"><font size="2">(02:11:55 AM)</font> <b>SeiZa:</b></font> meme Ram est en minuscule<br/>
+<font color="#16569E"><font size="2">(02:12:01 AM)</font> <b>SeiZa:</b></font> j'en ai ras le cul juste<br/>
+<font color="#A82F2F"><font size="2">(02:12:05 AM)</font> <b>lastmikoi:</b></font> ben c'est pas bien.<br/>
+<font color="#A82F2F"><font size="2">(02:12:21 AM)</font> <b>lastmikoi:</b></font> ah ben ça t'a qua avoir un éditeur qui te résoud ce genre de truc en 5sec<br/>
+<font color="#A82F2F"><font size="2">(02:12:23 AM)</font> <b>lastmikoi:</b></font> :)<br/>
+<font color="#16569E"><font size="2">(02:12:51 AM)</font> <b>SeiZa:</b></font> du coup tu m'as tjs pas repondu pour operator=<br/>
+<font color="#16569E"><font size="2">(02:15:01 AM)</font> <b>SeiZa:</b></font> lastmikoi: RAM timer<br/>
+<font color="#16569E"><font size="2">(02:15:02 AM)</font> <b>SeiZa:</b></font> vite<br/>
+<font color="#16569E"><font size="2">(02:15:03 AM)</font> <b>SeiZa:</b></font> plz<br/>
+<font color="#A82F2F"><font size="2">(02:15:10 AM)</font> <b>lastmikoi:</b></font> quoi<br/>
+<font color="#16569E"><font size="2">(02:15:17 AM)</font> <b>SeiZa:</b></font> timer timer timer<br/>
+<font color="#16569E"><font size="2">(02:15:19 AM)</font> <b>SeiZa:</b></font> heartbeat<br/>
+<font color="#16569E"><font size="2">(02:15:20 AM)</font> <b>SeiZa:</b></font> NOW<br/>
+<font color="#16569E"><font size="2">(02:15:21 AM)</font> <b>SeiZa:</b></font> NAW<br/>
+<font color="#16569E"><font size="2">(02:15:23 AM)</font> <b>SeiZa:</b></font> NAWU<br/>
+<font color="#16569E"><font size="2">(02:15:28 AM)</font> <b>SeiZa:</b></font> :3<br/>
+<font color="#A82F2F"><font size="2">(02:15:33 AM)</font> <b>lastmikoi:</b></font> 1/24e de seconde<br/>
+<font color="#A82F2F"><font size="2">(02:15:36 AM)</font> <b>lastmikoi:</b></font> do the math.<br/>
+<font color="#16569E"><font size="2">(02:16:50 AM)</font> <b>SeiZa:</b></font> 41666<br/>
+<font color="#16569E"><font size="2">(02:16:53 AM)</font> <b>SeiZa:</b></font> c'est infinii<br/>
+<font color="#16569E"><font size="2">(02:17:08 AM)</font> <b>SeiZa:</b></font> 41666 micro*<br/>
+<font color="#16569E"><font size="2">(02:22:35 AM)</font> <b>SeiZa:</b></font> so?<br/>
+<font color="#16569E"><font size="2">(02:22:40 AM)</font> <b>SeiZa:</b></font> on fait avec 41666?<br/>
+<font color="#A82F2F"><font size="2">(02:22:51 AM)</font> <b>lastmikoi:</b></font> c'est 1/24e de seconde ?<br/>
+<font color="#16569E"><font size="2">(02:22:56 AM)</font> <b>SeiZa:</b></font> go bc<br/>
+<font color="#A82F2F"><font size="2">(02:23:45 AM)</font> <b>lastmikoi:</b></font> go prendre des initiatives et pas passer 30min sur une fucking intervale<br/>
+<font color="#A82F2F"><font size="2">(02:23:56 AM)</font> <b>lastmikoi:</b></font> ;)<br/>
+<font color="#16569E"><font size="2">(02:24:08 AM)</font> <b>SeiZa:</b></font> ok<br/>
+<font color="#16569E"><font size="2">(02:24:20 AM)</font> <b>SeiZa:</b></font> 40000 micro<br/>
+<font color="#16569E"><font size="2">(02:24:21 AM)</font> <b>SeiZa:</b></font> 1/25<br/>
+<font color="#16569E"><font size="2">(02:40:21 AM)</font> <b>SeiZa:</b></font> lastmikoi: j'ai envie de calculer la ram en dirty<br/>
+<font color="#A82F2F"><font size="2">(02:41:15 AM)</font> <b>lastmikoi:</b></font> pour changer<br/>
+<font color="#16569E"><font size="2">(02:41:32 AM)</font> <b>SeiZa:</b></font> bah j'vois pas comment tu peux calculer la ram a partir de cat /proc/meminfo<br/>
+<font color="#16569E"><font size="2">(02:41:38 AM)</font> <b>SeiZa:</b></font> y'a a moitie les choses n'importe ou<br/>
+<font color="#16569E"><font size="2">(02:41:40 AM)</font> <b>SeiZa:</b></font> c'est ultra chiant<br/>
+<font color="#A82F2F"><font size="2">(02:51:46 AM)</font> <b>lastmikoi:</b></font> bon je snapshot le boulot sur qt<br/>
+<font color="#A82F2F"><font size="2">(02:52:06 AM)</font> <b>lastmikoi:</b></font> commité<br/>
+<font color="#16569E"><font size="2">(02:56:14 AM)</font> <b>SeiZa:</b></font> bon lastmikoi... j'ai une bonne et une mauvaise nouvelle<br/>
+<font color="#16569E"><font size="2">(02:56:20 AM)</font> <b>SeiZa:</b></font> je commence par quoi?<br/>
+<font color="#16569E"><font size="2">(02:56:37 AM)</font> <b>SeiZa:</b></font> en fait<br/>
+<font color="#16569E"><font size="2">(02:56:44 AM)</font> <b>SeiZa:</b></font> c'est 2 mauvaise nouvelles... une plus chiante que l'autre<br/>
+<font color="#16569E"><font size="2">(02:56:55 AM)</font> <b>SeiZa:</b></font> pas au niveau du code en tout cas<br/>
+<font color="#A82F2F"><font size="2">(02:57:54 AM)</font> <b>lastmikoi:</b></font> poke moi quand tu te sera décidé à le dire<br/>
+<font color="#16569E"><font size="2">(02:58:52 AM)</font> <b>SeiZa:</b></font> lastmikoi: la pas trop mauvaise nouvelle c'est qu'il me reste la RAM et le Network...<br/>
+<font color="#16569E"><font size="2">(02:59:45 AM)</font> <b>SeiZa:</b></font> la plus chiante... c'est que je trouve pas comment calculer la RAM et j'arrive pas a me concentrer physiquement en allant toutes les 5 minutes aux chiotes<br/>
+<font color="#A82F2F"><font size="2">(03:00:36 AM)</font> <b>lastmikoi:</b></font> 7h du rendu<br/>
+<font color="#16569E"><font size="2">(03:01:27 AM)</font> <b>SeiZa:</b></font> je ne compte pas continuer a coder a 3 heures du rendu<br/>
+<font color="#16569E"><font size="2">(03:01:31 AM)</font> <b>SeiZa:</b></font> surtout qu'il faudra clean tout<br/>
+<font color="#16569E"><font size="2">(03:01:39 AM)</font> <b>SeiZa:</b></font> et faire des tests<br/>
+<font color="#A82F2F"><font size="2">(03:04:28 AM)</font> <b>lastmikoi:</b></font> oki<br/>
+<font color="#A82F2F"><font size="2">(03:04:42 AM)</font> <b>lastmikoi:</b></font> bon<br/>
+<font color="#A82F2F"><font size="2">(03:05:44 AM)</font> <b>lastmikoi:</b></font> TODO : getopt pour choisir entre ncurses et Qt<br/>TODO : centrage de ces widgets Qt à la con<br/>TODO : widget de graph Qt<br/>
+<font color="#A82F2F"><font size="2">(03:05:59 AM)</font> <b>lastmikoi:</b></font> SeiZa: et le module CPU qui envoie un graph ?<br/>
+<font color="#16569E"><font size="2">(03:06:42 AM)</font> <b>SeiZa:</b></font> what?<br/>
+<font color="#A82F2F"><font size="2">(03:06:43 AM)</font> <b>lastmikoi:</b></font> CpuMonitor, ok<br/>
+<font color="#16569E"><font size="2">(03:07:04 AM)</font> <b>SeiZa:</b></font> mais quel graph?<br/>
+<font color="#A82F2F"><font size="2">(03:07:24 AM)</font> <b>lastmikoi:</b></font> le graph d'activité<br/>
+<font color="#A82F2F"><font size="2">(03:07:29 AM)</font> <b>lastmikoi:</b></font> qui envoie la valeur à grapher*<br/>
+<font color="#A82F2F"><font size="2">(03:07:40 AM)</font> <b>lastmikoi:</b></font> &quot;cpu : DV:1359252437:-nan&quot;<br/>
+<font color="#A82F2F"><font size="2">(03:07:41 AM)</font> <b>lastmikoi:</b></font> =/<br/>
+<font color="#16569E"><font size="2">(03:08:22 AM)</font> <b>SeiZa:</b></font> c'est un double coco<br/>
+<font color="#A82F2F"><font size="2">(03:08:40 AM)</font> <b>lastmikoi:</b></font> ouai<br/>
+<font color="#A82F2F"><font size="2">(03:08:45 AM)</font> <b>lastmikoi:</b></font> coco c'est censé être une chaîne.<br/>
+<font color="#A82F2F"><font size="2">(03:08:50 AM)</font> <b>lastmikoi:</b></font> et ça met -nan<br/>
+<font color="#A82F2F"><font size="2">(03:08:53 AM)</font> <b>lastmikoi:</b></font> donc y'a un prob<br/>
+<font color="#16569E"><font size="2">(03:09:20 AM)</font> <b>SeiZa:</b></font> commit ton main que je voie ca<br/>
+<font color="#A82F2F"><font size="2">(03:09:58 AM)</font> <b>lastmikoi:</b></font> commité<br/>
+<font color="#16569E"><font size="2">(03:12:21 AM)</font> <b>SeiZa:</b></font> curieux... il marche sur le Headless<br/>
+<font color="#16569E"><font size="2">(03:13:22 AM)</font> <b>SeiZa:</b></font> mdr<br/>
+<font color="#16569E"><font size="2">(03:15:31 AM)</font> <b>SeiZa:</b></font> cpu : DV:1359252898:28.5714<br/>DV:1359252898:5.26316<br/>cpu : DV:1359252898:100<br/>DV:1359252898:5.26316<br/>cpu : DV:1359252898:-nan<br/><br/>
+<font color="#16569E"><font size="2">(03:15:33 AM)</font> <b>SeiZa:</b></font> interessant<br/>
+<font color="#A82F2F"><font size="2">(03:15:47 AM)</font> <b>lastmikoi:</b></font> jpdeplaix: ?<br/>
+<font color="#16569E"><font size="2">(03:15:53 AM)</font> <b>SeiZa:</b></font> il a eu le meme probleme<br/>
+<font color="#16569E"><font size="2">(03:16:00 AM)</font> <b>SeiZa:</b></font> mais il a reussi a fix<br/>
+<font color="#A82F2F"><font size="2">(03:16:41 AM)</font> <b>lastmikoi:</b></font> ah ben ça le fais plus<br/>
+<font color="#A82F2F"><font size="2">(03:21:09 AM)</font> <b>lastmikoi:</b></font> bon, j'attaque le graph Qt<br/>
+<font color="#16569E"><font size="2">(03:22:52 AM)</font> <b>SeiZa:</b></font> lastmikoi: perso la fatigue me tue<br/>
+<font color="#A82F2F"><font size="2">(03:35:22 AM)</font> <b>lastmikoi:</b></font> SeiZa: ouai ben faut finir quand même<br/>
+<font color="#16569E"><font size="2">(03:41:52 AM)</font> <b>SeiZa:</b></font> lastmikoi: en commencant a savoir ce qu'on fout des putin d'operator=<br/>
+<font color="#16569E"><font size="2">(03:41:57 AM)</font> <b>SeiZa:</b></font> et qu'on dit qu'on verra apres<br/>
+<font color="#16569E"><font size="2">(03:42:06 AM)</font> <b>SeiZa:</b></font> et qu'on va devoir tous se les taper a 6:30<br/>
+<font color="#16569E"><font size="2">(03:42:11 AM)</font> <b>SeiZa:</b></font> quand on aura pas la tete pour<br/>
+<font color="#A82F2F"><font size="2">(03:42:14 AM)</font> <b>lastmikoi:</b></font> mais quels putain d'operator =<br/>
+<font color="#A82F2F"><font size="2">(03:42:19 AM)</font> <b>lastmikoi:</b></font> et sur quel putain de classe<br/>
+<font color="#16569E"><font size="2">(03:43:20 AM)</font> <b>SeiZa:</b></font> COPLIEN FORM<br/>
+<font color="#16569E"><font size="2">(03:43:25 AM)</font> <b>SeiZa:</b></font> ALL THE FUCKING MODULES<br/>
+<font color="#16569E"><font size="2">(03:43:28 AM)</font> <b>SeiZa:</b></font> :D<br/>
+<font color="#A82F2F"><font size="2">(03:43:37 AM)</font> <b>lastmikoi:</b></font> eh ben si t'a tout terminé la ram et tout ben tu mets<br/>
+<font color="#A82F2F"><font size="2">(03:43:51 AM)</font> <b>lastmikoi:</b></font> sinon priorité à la fonctionnalité effective et pas à la &quot;coplien olol&quot;<br/>
+<font color="#A82F2F"><font size="2">(03:47:01 AM)</font> <b>lastmikoi:</b></font> bon, SeiZa et jpdeplaix, vous etes ou, vous comptez dormir, si oui quand<br/>
+<font color="#16569E"><font size="2">(03:49:53 AM)</font> <b>SeiZa:</b></font> lastmikoi: ram et network<br/>
+<font color="#16569E"><font size="2">(03:50:08 AM)</font> <b>SeiZa:</b></font> je compte dormir honnetement dans 2 heures<br/>
+<font color="#A82F2F"><font size="2">(03:50:18 AM)</font> <b>lastmikoi:</b></font> k<br/>
+<font color="#A82F2F"><font size="2">(03:50:25 AM)</font> <b>lastmikoi:</b></font> je fais un GROS commit.<br/>
+<font color="#16569E"><font size="2">(03:50:29 AM)</font> <b>SeiZa:</b></font> lastmikoi: la ram est pas finie... le network... je sais pas<br/>
+<font color="#16569E"><font size="2">(03:50:41 AM)</font> <b>SeiZa:</b></font> je sais pas si j'arriverai a la faire en realite<br/>
+<font color="#16569E"><font size="2">(03:51:21 AM)</font> <b>SeiZa:</b></font> meme la ram a vrai dire... je suis en train de la faire en mode crados...<br/>
+<font color="#16569E"><font size="2">(03:51:38 AM)</font> <b>SeiZa:</b></font> if ()<br/>   for ()<br/>      while(peek ftw)<br/>
+<font color="#A82F2F"><font size="2">(03:51:38 AM)</font> <b>lastmikoi:</b></font> commité.<br/>
+<font color="#16569E"><font size="2">(03:51:53 AM)</font> <b>SeiZa:</b></font> en soutenance on va se faire arracher<br/>
+<font color="#16569E"><font size="2">(03:53:43 AM)</font> <b>SeiZa:</b></font> lastmikoi: c'est normal que je vois rien dans le cpu?<br/>
+<font color="#A82F2F"><font size="2">(03:54:01 AM)</font> <b>lastmikoi:</b></font> c'est un graph<br/>
+<font color="#A82F2F"><font size="2">(03:54:06 AM)</font> <b>lastmikoi:</b></font> j'ai pas encore le widget de graph<br/>
+<font color="#16569E"><font size="2">(03:54:54 AM)</font> <b>SeiZa:</b></font> lastmikoi: pffff... je ne trouve pas comment faire proprement la ram et... j'vois pas la fin<br/>
+<font color="#A82F2F"><font size="2">(03:56:50 AM)</font> <b>lastmikoi:</b></font> tu peux tester de tout compiler chez toi à nouveau?<br/>
+<font color="#16569E"><font size="2">(04:02:07 AM)</font> <b>SeiZa:</b></font> lastmikoi: salaud :D<br/>
+<font color="#16569E"><font size="2">(04:02:16 AM)</font> <b>SeiZa:</b></font> il est en train de TOUT compiler<br/>
+<font color="#16569E"><font size="2">(04:02:19 AM)</font> <b>SeiZa:</b></font> litteralement<br/>
+<font color="#16569E"><font size="2">(04:02:27 AM)</font> <b>SeiZa:</b></font> le koala a mon avis il va apprecier moyen<br/>
+<font color="#A82F2F"><font size="2">(04:02:37 AM)</font> <b>jpdeplaix:</b></font> lastmikoi: putain, mais pourquoi t'use de ça ?<br/>
+<font color="#A82F2F"><font size="2">(04:02:55 AM)</font> <b>lastmikoi:</b></font> vas-y, ponds moi une lib de plotting pour avant 6h' du matin<br/>
+<font color="#16569E"><font size="2">(04:02:56 AM)</font> <b>SeiZa:</b></font> ./mygkrellm: error while loading shared libraries: libqwt.so.6: cannot open shared object file: No such file or directory<br/><br/>
+<font color="#16569E"><font size="2">(04:05:47 AM)</font> <b>SeiZa:</b></font> lastmikoi: j'ai le choix entre un while dans un for...<br/>
+<font color="#16569E"><font size="2">(04:05:52 AM)</font> <b>SeiZa:</b></font> ou 4 if dans un for<br/>
+<font color="#A82F2F"><font size="2">(04:15:23 AM)</font> <b>lastmikoi:</b></font> jpdeplaix: je fais comment pour qu'il utilise le .so que j'ai crée ?<br/>
+<font color="#A82F2F"><font size="2">(04:15:35 AM)</font> <b>lastmikoi:</b></font> car le libqwt je l'ai dans dependencies/qwt-6.0<br/>
+<font color="#A82F2F"><font size="2">(04:19:21 AM)</font> <b>lastmikoi:</b></font> en linkage dynamique ça compile<br/>
+<font color="#A82F2F"><font size="2">(04:19:26 AM)</font> <b>lastmikoi:</b></font> mais en statique ça plante (normal)<br/>
+<font color="#16569E"><font size="2">(04:19:30 AM)</font> <b>SeiZa:</b></font> custom plot<br/>
+<font color="#16569E"><font size="2">(04:20:06 AM)</font> <b>SeiZa:</b></font> by croize_m<br/>
+<font color="#A82F2F"><font size="2">(04:20:37 AM)</font> <b>lastmikoi:</b></font> #lol<br/>
+<font color="#A82F2F"><font size="2">(04:24:33 AM)</font> <b>jpdeplaix:</b></font> lastmikoi: c'est le nom d'une lib cool<br/>
+<font color="#A82F2F"><font size="2">(04:24:48 AM)</font> <b>jpdeplaix:</b></font> pas le fait de faire un custom thing<br/>
+<font color="#A82F2F"><font size="2">(04:25:55 AM)</font> <b>lastmikoi:</b></font> ça ne répond pas à ma question<br/>
+<font color="#A82F2F"><font size="2">(04:26:00 AM)</font> <b>lastmikoi:</b></font> j'aurai malgrés tout un .so à ramener<br/>
+<font color="#A82F2F"><font size="2">(04:27:45 AM)</font> <b>lastmikoi:</b></font>     CXXFLAGS = ['-I./dependencies/qwt-6.0/src/','-Wall', &quot;-Wextra&quot;, '-Werror']<br/>    LINKFLAGS = ['-L./dependencies/qwt-6.0/lib/', '-dynamic', '-lncurses',             '-static', '-lqwt']<br/><br/><br/>
+<font color="#A82F2F"><font size="2">(04:27:48 AM)</font> <b>lastmikoi:</b></font> et chamarchpo<br/>
+<font color="#A82F2F"><font size="2">(04:29:48 AM)</font> <b>lastmikoi:</b></font> jpdeplaix: ?<br/>
+<font color="#A82F2F"><font size="2">(04:33:42 AM)</font> <b>jpdeplaix:</b></font> lastmikoi: -dynamic -static ?<br/>
+<font color="#A82F2F"><font size="2">(04:33:50 AM)</font> <b>jpdeplaix:</b></font> ça s'annule pas un peu ?<br/>
+<font color="#A82F2F"><font size="2">(04:34:19 AM)</font> <b>lastmikoi:</b></font> dynamic pour lncurses<br/>
+<font color="#A82F2F"><font size="2">(04:34:22 AM)</font> <b>lastmikoi:</b></font> static pour qwt<br/>
+<font color="#A82F2F"><font size="2">(04:40:44 AM)</font> <b>jpdeplaix:</b></font> bah je sais pas…<br/>
+<font color="#A82F2F"><font size="2">(04:52:34 AM)</font> <b>lastmikoi:</b></font> ...<br/>
+<font color="#16569E"><font size="2">(04:56:57 AM)</font> <b>SeiZa:</b></font> lastmikoi: bon... j'vais faire les operator= sur tous les modules d'ici 30 minutes<br/>
+<font color="#A82F2F"><font size="2">(04:57:02 AM)</font> <b>lastmikoi:</b></font> oki<br/>
+<font color="#16569E"><font size="2">(04:57:50 AM)</font> <b>SeiZa:</b></font> lastmikoi: format de la ram: DV:timestamp:used/max<br/>
+<font color="#A82F2F"><font size="2">(04:58:05 AM)</font> <b>lastmikoi:</b></font> oki<br/>
+<font color="#A82F2F"><font size="2">(04:58:12 AM)</font> <b>lastmikoi:</b></font> TEXT, donc ?<br/>
+<font color="#16569E"><font size="2">(04:58:14 AM)</font> <b>SeiZa:</b></font> non<br/>
+<font color="#16569E"><font size="2">(04:58:16 AM)</font> <b>SeiZa:</b></font> Gauge<br/>
+<font color="#A82F2F"><font size="2">(04:58:20 AM)</font> <b>lastmikoi:</b></font> mh<br/>
+<font color="#A82F2F"><font size="2">(04:58:39 AM)</font> <b>lastmikoi:</b></font> précise le max dans le getDataSource<br/>
+<font color="#A82F2F"><font size="2">(04:58:50 AM)</font> <b>lastmikoi:</b></font> y'a deux params min et max optionnels<br/>
+<font color="#A82F2F"><font size="2">(04:58:55 AM)</font> <b>lastmikoi:</b></font> tu mets 0 et max_ram<br/>
+<font color="#16569E"><font size="2">(04:58:56 AM)</font> <b>SeiZa:</b></font> ah<br/>
+<font color="#16569E"><font size="2">(04:59:01 AM)</font> <b>SeiZa:</b></font> right<br/>
+<font color="#16569E"><font size="2">(04:59:23 AM)</font> <b>SeiZa:</b></font> quoique...<br/>
+<font color="#16569E"><font size="2">(04:59:23 AM)</font> <b>SeiZa:</b></font> non<br/>
+<font color="#16569E"><font size="2">(04:59:25 AM)</font> <b>SeiZa:</b></font> j'peux pas<br/>
+<font color="#16569E"><font size="2">(04:59:32 AM)</font> <b>SeiZa:</b></font> je connais que le max a la lecture du fichier<br/>
+<font color="#16569E"><font size="2">(05:00:11 AM)</font> <b>SeiZa:</b></font> lastmikoi: sauf si tu m'attrape des implementations de 2 setters<br/>
+<font color="#16569E"><font size="2">(05:00:23 AM)</font> <b>SeiZa:</b></font> oui tu les attrapes et tu les mets dans ton vim<br/>
+<font color="#16569E"><font size="2">(05:00:28 AM)</font> <b>SeiZa:</b></font> enfin<br/>
+<font color="#16569E"><font size="2">(05:00:29 AM)</font> <b>SeiZa:</b></font> je sais pas<br/>
+<font color="#A82F2F"><font size="2">(05:00:50 AM)</font> <b>lastmikoi:</b></font> tu ouvres le fichier une seule fois pour le getDataSource<br/>
+<font color="#A82F2F"><font size="2">(05:01:03 AM)</font> <b>lastmikoi:</b></font> de toute la mémoire max ne sera __pas__ amenée a changée au runtime<br/>
+<font color="#16569E"><font size="2">(05:01:30 AM)</font> <b>SeiZa:</b></font> c'est quand meme... un membre prive<br/>
+<font color="#16569E"><font size="2">(05:02:53 AM)</font> <b>SeiZa:</b></font> lastmikoi: je crois qu'il vaut mieux que tu attrappes un setter pour _max au moins<br/>
+<font color="#A82F2F"><font size="2">(05:03:13 AM)</font> <b>lastmikoi:</b></font> nope, je pourrais le setter qu'une fois<br/>
+<font color="#16569E"><font size="2">(05:03:50 AM)</font> <b>SeiZa:</b></font> de toutes facon je ne peux pas acceder a _max<br/>
+<font color="#16569E"><font size="2">(05:04:08 AM)</font> <b>SeiZa:</b></font> surtout que en init list... je vais pas balancer du code<br/>
+<font color="#A82F2F"><font size="2">(05:04:31 AM)</font> <b>lastmikoi:</b></font> t'es pas obligé de mettre en init list...<br/>
+<font color="#16569E"><font size="2">(05:04:44 AM)</font> <b>SeiZa:</b></font> bah je pourrai toujours pas y acceder<br/>
+<font color="#A82F2F"><font size="2">(05:05:16 AM)</font> <b>lastmikoi:</b></font> tu le construit aprés...<br/>
+<font color="#16569E"><font size="2">(05:06:27 AM)</font> <b>SeiZa:</b></font> pff... okay<br/>
+<font color="#16569E"><font size="2">(05:06:42 AM)</font> <b>SeiZa:</b></font> fs.open dans un constructor... weee<br/>
+<font color="#A82F2F"><font size="2">(05:07:42 AM)</font> <b>lastmikoi:</b></font> je vois pas le problème<br/>
+<font color="#A82F2F"><font size="2">(05:07:48 AM)</font> <b>lastmikoi:</b></font> si c'est un truc qui _dois_ le faire<br/>
+<font color="#16569E"><font size="2">(05:08:20 AM)</font> <b>SeiZa:</b></font> j'ai compris<br/>
+<font color="#16569E"><font size="2">(05:08:23 AM)</font> <b>SeiZa:</b></font> j'ai compris<br/>
+<font color="#16569E"><font size="2">(05:08:25 AM)</font> <b>SeiZa:</b></font> j'ai compris<br/>
+<font color="#16569E"><font size="2">(05:08:27 AM)</font> <b>SeiZa:</b></font> j'ai compris<br/>
+<font color="#16569E"><font size="2">(05:08:29 AM)</font> <b>SeiZa:</b></font> j'ai compris<br/>
+<font color="#A82F2F"><font size="2">(05:13:11 AM)</font> <b>lastmikoi:</b></font> bon je vois pas comment faire en sorte que ça linke dynamiquement<br/>
+<font color="#A82F2F"><font size="2">(05:13:15 AM)</font> <b>lastmikoi:</b></font> et statiquement j'ai pas le .a<br/>
+<font color="#A82F2F"><font size="2">(05:13:20 AM)</font> <b>lastmikoi:</b></font> fais chier<br/>
+<font color="#16569E"><font size="2">(05:16:22 AM)</font> <b>SeiZa:</b></font> this-&gt;ds(&quot;RAM&quot;, DataSource::GAUGE, 40000, 0, max); pourquoi c'est faux?<br/>
+<font color="#16569E"><font size="2">(05:17:38 AM)</font> <b>SeiZa:</b></font> lastmikoi: ^<br/>
+<font color="#A82F2F"><font size="2">(05:17:47 AM)</font> <b>lastmikoi:</b></font> IT COMPILES :D<br/>
+<font color="#A82F2F"><font size="2">(05:17:53 AM)</font> <b>lastmikoi:</b></font> euh<br/>
+<font color="#A82F2F"><font size="2">(05:19:04 AM)</font> <b>lastmikoi:</b></font> this-&gt;ds = DataSource(bleh)<br/>
+<font color="#16569E"><font size="2">(05:19:12 AM)</font> <b>SeiZa:</b></font> n'a pas marche non plus<br/><br/>
+<font color="#A82F2F"><font size="2">(05:19:14 AM)</font> <b>lastmikoi:</b></font> va falloir le faire en forme de coplien<br/>
+<font color="#A82F2F"><font size="2">(05:19:17 AM)</font> <b>lastmikoi:</b></font> operator =<br/>
+<font color="#16569E"><font size="2">(05:19:27 AM)</font> <b>SeiZa:</b></font> yep<br/>
+<font color="#A82F2F"><font size="2">(05:20:25 AM)</font> <b>lastmikoi:</b></font> si t'a le temps tu peux le faire<br/>
+<font color="#16569E"><font size="2">(05:20:33 AM)</font> <b>SeiZa:</b></font> ca compile pas<br/>
+<font color="#16569E"><font size="2">(05:20:36 AM)</font> <b>SeiZa:</b></font> ca compile pas?<br/>
+<font color="#16569E"><font size="2">(05:20:40 AM)</font> <b>SeiZa:</b></font> ca compile vraiment pas?<br/>
+<font color="#16569E"><font size="2">(05:20:42 AM)</font> <b>SeiZa:</b></font> mais alors vraiment<br/>
+<font color="#16569E"><font size="2">(05:20:55 AM)</font> <b>SeiZa:</b></font> RamMonitor.cpp: In constructor ‘RamMonitor::RamMonitor()’:<br/>RamMonitor.cpp:9:1: error: uninitialized member ‘RamMonitor::ds’ with ‘const’ type ‘const DataSource’ [-fpermissive]<br/>RamMonitor.cpp:9:48: error: no matching function for call to ‘DataSource::DataSource()’<br/>RamMonitor.cpp:9:48: note: candidates are:<br/>DataSource.hh:41:5: note: DataSource::DataSource(const string&amp;, const DataSource::SOURCE_TYPE&amp;, const long unsigned int&amp;, const long int&amp;, const long int&amp;)<br/>DataSource.hh:41:5: note:   candidate expects 5 arguments, 0 provided<br/>DataSource.hh:30:7: note: DataSource::DataSource(const DataSource&amp;)<br/>DataSource.hh:30:7: note:   candidate expects 1 argument, 0 provided<br/>RamMonitor.cpp:23:64: error: passing ‘const DataSource’ as ‘this’ argument of ‘DataSource&amp; DataSource::operator=(const DataSource&amp;)’ discards qualifiers [-fpermissive]<br/><br/>
+<font color="#16569E"><font size="2">(05:21:22 AM)</font> <b>SeiZa:</b></font> et jpdeplaix est au bout du rouleau<br/>
+<font color="#A82F2F"><font size="2">(05:21:59 AM)</font> <b>lastmikoi:</b></font> bon ben on s'en fout alors<br/>
+<font color="#A82F2F"><font size="2">(05:22:04 AM)</font> <b>lastmikoi:</b></font> mets le value/max dans la chaine<br/>
+<font color="#A82F2F"><font size="2">(05:22:07 AM)</font> <b>lastmikoi:</b></font> spa grav<br/>
+<font color="#16569E"><font size="2">(05:22:20 AM)</font> <b>SeiZa:</b></font> ou alors on retire tes const sur tes DataSource<br/>
+<font color="#A82F2F"><font size="2">(05:25:02 AM)</font> <b>lastmikoi:</b></font> non met value/max<br/>
+<font color="#A82F2F"><font size="2">(05:25:09 AM)</font> <b>lastmikoi:</b></font> au plus court<br/>
+<font color="#A82F2F"><font size="2">(05:25:47 AM)</font> <b>jpdeplaix:</b></font> putain lastmikoi, ça fait vraiment chier ton qwt…<br/>
+<font color="#A82F2F"><font size="2">(05:26:01 AM)</font> <b>jpdeplaix:</b></font> il prent 3 plombe à compiler<br/>
+<font color="#A82F2F"><font size="2">(05:27:10 AM)</font> <b>lastmikoi:</b></font> il est rapide chez moi<br/>
+<font color="#A82F2F"><font size="2">(05:27:22 AM)</font> <b>lastmikoi:</b></font> ça recompile pas à chaque fois ici<br/>
+<font color="#A82F2F"><font size="2">(05:27:27 AM)</font> <b>lastmikoi:</b></font> ça saute simplement<br/>
+<font color="#A82F2F"><font size="2">(05:27:41 AM)</font> <b>lastmikoi:</b></font> tu fais make ?<br/>
+<font color="#A82F2F"><font size="2">(05:27:53 AM)</font> <b>lastmikoi:</b></font> si tu fais make re ça recompile tout<br/>
+<font color="#A82F2F"><font size="2">(05:27:56 AM)</font> <b>lastmikoi:</b></font> make tout court, c'est court :à)<br/>
+<font color="#16569E"><font size="2">(05:31:47 AM)</font> <b>SeiZa:</b></font> lastmikoi: va me faire un setter NOW<br/>
+<font color="#16569E"><font size="2">(05:31:56 AM)</font> <b>SeiZa:</b></font> MAINTENANT!<br/>
+<font color="#16569E"><font size="2">(05:32:03 AM)</font> <b>SeiZa:</b></font> SINON JE TE FAIS LA PEAU EN SOUTENANCE<br/>
+<font color="#16569E"><font size="2">(05:32:09 AM)</font> <b>SeiZa:</b></font> SINON JE TE BOUFFE EN FAIT<br/>
+<font color="#A82F2F"><font size="2">(05:32:39 AM)</font> <b>lastmikoi:</b></font> MAIS FAIS LE CE PUTAIN DE SETTER<br/>
+<font color="#A82F2F"><font size="2">(05:32:43 AM)</font> <b>lastmikoi:</b></font> JAI PAS PISSE SUR LE CODE LA<br/>
+<font color="#A82F2F"><font size="2">(05:32:49 AM)</font> <b>lastmikoi:</b></font> MAIRDE<br/>
+<font color="#A82F2F"><font size="2">(05:32:57 AM)</font> <b>lastmikoi:</b></font> JE SUIS SUR CETTE SALOPERIE DE QT QUE MEME LOUIS PIGE QUE DALLE<br/>
+<font size="2">(05:35:47 AM)</font><b> The account has disconnected and you are no longer in this chat. You will be automatically rejoined in the chat when the account reconnects.</b><br/>
+</body></html>

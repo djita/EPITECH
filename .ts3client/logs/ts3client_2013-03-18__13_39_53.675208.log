@@ -1,0 +1,210 @@
+2013-03-18 13:39:53.675390|INFO    |              |   | TeamSpeak 3 Client 3.0.9.2 (2012-10-29 10:00:43)
+2013-03-18 13:39:53.682683|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-18 13:39:53.702437|INFO    |Query         |   | listening on 127.0.0.1:25639
+2013-03-18 13:39:54.021392|INFO    |              |   | *** Time [MAINWINDOW]: 130
+2013-03-18 13:39:54.021828|INFO    |              |   | *** Time [INIT]: 130
+2013-03-18 13:39:54.029151|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-18 13:39:54.029312|INFO    |ClientUI      |   | Qt version: 4.7.2
+2013-03-18 13:39:54.029369|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-18 13:39:54.521739|INFO    |ClientUI      |   | Last update check was: Mon Mar 18 10:42:16 2013
+2013-03-18 13:39:57.389286|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 13:39:57.391173|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 13:39:57.391303|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 13:39:57.436307|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-18 13:39:57.746696|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-18 13:39:57.747506|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:39:57.750335|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 13:39:57.808142|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-18 13:39:57.828496|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-18 13:39:57.849430|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-18 13:48:03.267178|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:48:13.652088|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:48:13.653952|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:48:21.208581|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:49:13.211161|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:49:18.224319|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 13:52:31.987311|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-18 14:04:30.512742|WARNING |SCHandler     |  1| Got command data while disconnected, dropping
+2013-03-18 14:04:30.513960|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:04:30.515709|INFO    |ClientUI      |  1| Connection lost, want autoreconnect = 1
+2013-03-18 14:04:30.639893|INFO    |Bookmarks     |   | Disconnect, total time: 1472 - 3822
+2013-03-18 14:04:31.640506|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:04:31.640653|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:04:31.641245|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:04:31.641281|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:04:31.863551|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:04:36.644377|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:04:36.644541|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:04:37.519169|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:04:37.520526|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:04:38.521265|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:04:38.521396|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:04:38.522264|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:04:38.522356|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:04:38.524366|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:04:38.524491|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:04:38.762372|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:04:44.426516|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:04:44.432981|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:04:45.433509|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:04:45.433626|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:04:45.434367|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:04:45.434436|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:04:45.436221|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:04:45.436323|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:04:45.662005|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:04:51.333799|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:04:51.335019|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:04:52.335762|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:04:52.335889|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:04:52.336756|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:04:52.336822|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:04:52.338888|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:04:52.338987|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:04:52.603935|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:04:58.240128|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:04:58.241520|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:04:59.242406|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:04:59.242553|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:04:59.243348|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:04:59.243411|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:04:59.244926|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:04:59.245006|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:04:59.473888|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:05.146403|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:05.147624|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:06.148285|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:06.148403|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:06.149033|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:06.149072|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:06.150547|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:06.150629|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:06.445557|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:12.052577|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:12.053293|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:13.053789|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:13.053945|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:13.054861|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:13.054974|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:13.056973|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:13.057097|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:13.285959|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:18.958936|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:18.960003|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:19.960622|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:19.960788|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:19.961978|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:19.962047|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:19.964235|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:19.964345|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:20.184963|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:25.865445|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:25.866672|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:26.867336|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:26.867482|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:26.868389|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:26.868452|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:26.870579|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:26.870686|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:27.122116|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:32.772154|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:32.773549|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:33.774596|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:33.774742|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:33.775798|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:33.775905|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:33.779317|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:33.779602|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:34.017737|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:39.679265|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:39.680515|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:40.681174|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:40.681286|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:40.682011|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:40.682064|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:40.683410|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:40.683501|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:40.928802|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:46.586361|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:46.587700|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:47.588364|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:47.588517|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:47.589381|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:47.589475|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:47.591512|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:47.591614|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:47.879204|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:05:53.494144|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:05:53.495433|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:05:54.496725|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:05:54.496843|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:05:54.497712|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:05:54.497779|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:05:54.499376|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:05:54.499453|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:05:54.720474|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:00.401707|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:00.403291|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:01.404028|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:01.404159|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:01.405331|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:01.405428|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:01.407626|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:01.407778|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:01.615799|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:07.307910|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:07.309183|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:08.310005|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:08.310130|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:08.311119|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:08.311185|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:08.312974|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:08.313042|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:08.523767|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:14.214743|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:14.215673|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:15.216183|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:15.216303|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:15.217127|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:15.217182|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:15.218862|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:15.218945|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:15.455690|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:21.121300|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:21.122595|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:22.123084|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:22.123207|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:22.124148|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:22.124214|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:22.125801|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:22.125917|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:22.355954|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:28.028004|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:28.029755|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:29.030659|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:29.030816|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:29.031990|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:29.032090|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:29.033520|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:29.033610|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:29.301804|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:34.935285|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:34.936824|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:35.937640|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:35.937763|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:35.938619|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:35.938683|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:35.940752|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:35.940855|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:36.176173|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:41.842801|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:41.844160|INFO    |ClientUI      |  1| Failed to connect to server, want autoreconnect = 1
+2013-03-18 14:06:42.844840|INFO    |ClientUI      |  1| Autoreconnecting
+2013-03-18 14:06:42.844963|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-18 14:06:42.845792|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-18 14:06:42.845851|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-18 14:06:42.847780|WARNING |              |   |  getaddrinfo error: Name or service not known
+2013-03-18 14:06:42.847890|INFO    |              |   | DNS resolve unsuccessful for "blacklist.teamspeak.com"
+2013-03-18 14:06:43.063193|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-18 14:06:46.846693|INFO    |ClientUI      |  1| Connect status: Disconnected
+2013-03-18 14:06:46.846802|INFO    |ClientUI      |  1| Disconnected or forced to leave, want autoreconnect = 0

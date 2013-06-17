@@ -1,0 +1,158 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=ProtoThreadFlags)(B9=folderName)(BA=storeToken)(BB=gloda-id)
+  (BC=gloda-dirty)(BD=junkscore)(BE=keywords)
+  (BF=ns:msg:db:row:scope:ops:all)(C0=ns:msg:db:table:kind:ops)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=bccList)
+  (8F=msgThreadId)(90=threadId)(91=threadFlags)(92=threadNewestMsgDate)
+  (93=children)(94=unreadChildren)(95=threadSubject)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)
+  (AD=fixedBadRefThreading)(AE=onlineName)(AF=useServerRetention)
+  (B0=highestModSeq)(B1=imapFlags)(B2=charSetOverride)(B3=charSet)
+  (B4=highestRecordedUID)(B5=ns:msg:db:row:scope:pending:all)
+  (B6=ns:msg:db:table:kind:pending)(B7=dateReceived)>
+<(80=1)(8E=fffffffe)(83=0)>[1:m(^9C=1)(^90^8E)(^92=0)(^91=0)(^93=0)]
+<(94=2)>[2:m(^9C=2)(^90=2)(^92=0)(^91=0)(^93=0)]
+<(9A=3)>[3:m(^9C=3)(^90=3)(^92=0)(^91=0)(^93=0)]
+<(A0=4)>[4:m(^9C=4)(^90=4)(^92=0)(^91=0)(^93=0)]
+<(A5=5)>[5:m(^9C=5)(^90=5)(^92=0)(^91=0)(^93=0)]
+<(A9=6)>[6:m(^9C=6)(^90=6)(^92=0)(^91=0)(^93=0)]
+<(B3=7)>[7:m(^9C=7)(^90=7)(^92=0)(^91=0)(^93=0)]
+<(B9=8)>[8:m(^9C=8)(^90=8)(^92=0)(^91=0)(^93=0)]
+<(C0=9)(BE=50b23411)>[9:m(^9C=9)(^90=9)(^92^BE)(^91=0)(^93=1)]
+<(C5=a)(C3=50eab6e6)>[A:m(^9C=a)(^90=a)(^92^C3)(^91=0)(^93=1)]
+<(101=b)(FE=50f2112e)>[B:m(^9C=b)(^90=b)(^92^FE)(^91=0)(^93=1)]
+<(117=c)(115=513cff5b)>[C:m(^9C=c)(^90=c)(^92^115)(^91=0)(^93=1)]
+
+<(D3=91)(AA=Gmail Lyoma <guillou.lyoma@gmail.com>)(BA=support@zynga.com)
+  (BB=Reply from Zynga Customer Support[ ref:00D6J52i.5006Mwx3Y:ref ])
+  (BC=50B23411.9070103@gmail.com)(BD
+    =<AqPb5000000000000000000000000000000000000000000000MDZZY300PfaEG-wbTRKI9w\
+3BSB3gwQ@sfdc.net>)(BF=4fca)(8D=ffffffff)(DA=17cf)(DB=6095)(DC=4e6a)
+  (DD=1b3)(ED=d7b)(86=)(E0=10000081)(87
+    ="=?utf-8?B?Z3VpbGxvdS5seW9tYUBnbWFpbC5jb20=?=" <guillou.lyoma@gmail.com>)
+  (C1=jpdeplaix@gmail.com)(96==?utf-8?B?UGhvdG9z?=)(C2
+    =50eab755.039ccc0a.49c6.3ffa@mx.google.com)(C4=2c7336)(DE=6639)
+  (DF=26169)(E1=2be10b)(E2=927e)(EE=d7c)(FC
+    ="=?utf-8?B?5piO56We5Yas5oKf?=" <lyoma.guillou@me.com>)(FD
+    =50f21384.c35fb40a.5f67.3ae4@mx.google.com)(100=358f38)(102=adcfdb)
+  (103=11390939)(104=34df15)(105=b076)(106=e60)(C7=81)(111
+    =Lyoma G <guillou.lyoma@gmail.com>)(112=rush_bmail@gmx.com)(113=TEST)
+  (114=513CFF5B.9020904@gmail.com)(B7=ISO-8859-1)(116=288)(118=e2aef0)
+  (119=14855920)(11A=2cb)(11B=10)>
+{1:^80 {(k^97:c)(s=9)} 
+  [9(^88=91)(^8B=0)(^82^AA)(^85^BA)(^81^BB)(^83^BC)(^84^BD)(^86^BE)
+    (^B7^BE)(^89=1)(^87^BF)(^9B^8D)(^8F=9)(^B8=0)(^9D^DA)(^BA^DB)(^9E^DC)
+    (^8C^DD)(^BB^ED)(^BE=)(^8A=0)]
+  [A(^88^E0)(^8B=0)(^82^87)(^85^C1)(^81^96)(^83^C2)(^86^C3)(^B7^C3)
+    (^89=1)(^87^C4)(^9B^8D)(^8F=a)(^B8=0)(^9D^DE)(^BA^DF)(^9E^E1)(^8C^E2)
+    (^BB^EE)(^BE=)(^8A=0)]
+  [B(^88^E0)(^8B=0)(^82^87)(^85^FC)(^81=)(^83^FD)(^86^FE)(^B7^FE)(^89=1)
+    (^87^100)(^9B^8D)(^8F=b)(^B8=0)(^9D^102)(^BA^103)(^9E^104)(^8C^105)
+    (^BB=e60)(^BE=)(^8A=0)]
+  [C(^88=81)(^8B=0)(^82^111)(^85^112)(^81^113)(^83^114)(^86^115)(^B7^115)
+    (^89=1)(^96^B7)(^87=288)(^9B^8D)(^8F=c)(^B8=0)(^9D^118)(^BA^119)
+    (^9E=2cb)(^8C=10)]}
+{9:^80 {(k^98:c)(s=9)9:m } 9 }
+{A:^80 {(k^98:c)(s=9)A:m } A }
+{B:^80 {(k^98:c)(s=9)B:m } B }
+{C:^80 {(k^98:c)(s=9)C:m } C }[1:^80]
+[2:^80]
+[3:^80]
+[4:^80]
+[5:^80]
+[6:^80]
+[7:^80]
+[8:^80]
+{FFFFFFFD:^9A {(k^99:c)(s=9)} 
+  [9(^95^BB)]
+  [A(^95^96)]
+  [B(^95=)]
+  [C(^95^113)]}
+[2:^9A(^95=)]
+[3:^9A(^95^96)]
+<(9D=Cours de Lettre Pro (Expression Ecrite\))>
+[4:^9A(^95^9D)]
+[5:^9A(^95=)]
+[6:^9A(^95=)]
+<(AD=hi)>[7:^9A(^95=hi)]
+<(B4=Hey! Hope you haven't forgotten me!)>
+[8:^9A(^95^B4)]
+
+<(81=[Gmail]/Sent Mail)(82=8082214)(84=ee00)(85=2712bd30)(110=81a066)>
+{1:^9F {(k^A0:c)(s=9)} 
+  [1(^AC=1)(^AD=1)(^AE^81)(^88^82)(^A7^81)(^AF=1)(^B0=0)(^B1^84)(^A8^85)
+    (^B4=c)(^A1=4)(^A6=c)(^A4^110)]}
+
+@$${1B{@
+@$$}1B}@
+
+@$${1C{@
+<(11C=1510)>[C:^80(^BB^11C)]
+@$$}1C}@
+
+@$${1D{@
+[-C:^80(^88=81)(^8B=0)(^82^111)(^85^112)(^81^113)(^83^114)(^86^115)
+    (^B7^115)(^89=1)(^96^B7)(^87=288)(^9B^8D)(^8F=c)(^B8=0)(^9D^118)
+    (^BA^119)(^9E=2cb)(^8C=10)(^BB^11C)(^BE=)(^8A=0)]
+@$$}1D}@
+
+@$${1F{@
+[-9:m(^9C=9)(^90=9)(^92=0)(^91=0)(^93=0)]
+{1:^80 {(k^97:c)(s=9)} -
+  [-9]}
+{-9:^80 {(k^98:c)(s=9)9:m } }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} -9 }
+<(11E=81eed0)>[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^82)(^A7^81)(^AF=1)
+    (^B0=0)(^B1^84)(^A8^85)(^B4=c)(^A1=3)(^A6=c)(^A4^11E)]
+{-1:^BF {(k^C0:c)(s=9)} }
+@$$}1F}@
+
+@$${21{@
+[-A:m(^9C=a)(^90=a)(^92=0)(^91=0)(^93=0)]
+{-1:^80 {(k^97:c)(s=9)} B C }
+{-A:^80 {(k^98:c)(s=9)A:m } }[-A:^80]
+{-FFFFFFFD:^9A {(k^99:c)(s=9)} B C }
+[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^82)(^A7^81)(^AF=1)(^B0=0)(^B1^84)
+    (^A8^85)(^B4=c)(^A1=2)(^A6=c)(^A4^102)]
+@$$}21}@
+
+@$${22{@
+@$$}22}@
+
+@$${24{@
+[-B:m(^9C=b)(^90=b)(^92=0)(^91=0)(^93=0)]
+{-B:^80 {(k^98:c)(s=9)B:m } }
+{-1:^80 {(k^97:c)(s=9)} C }[-B:^80]
+{-FFFFFFFD:^9A {(k^99:c)(s=9)} C }
+[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^82)(^A7^81)(^AF=1)(^B0=0)(^B1^84)
+    (^A8^85)(^B4=c)(^A1=1)(^A6=c)(^A4^118)]
+@$$}24}@
+
+@$${25{@
+@$$}25}@
+
+@$${26{@
+@$$}26}@
+
+@$${29{@
+[-C:m(^9C=c)(^90=c)(^92=0)(^91=0)(^93=0)]
+{-C:^80 {(k^98:c)(s=9)C:m } }
+{-1:^80 {(k^97:c)(s=9)} }[-C:^80]
+{-FFFFFFFD:^9A {(k^99:c)(s=9)} }
+<(11F=181161)(121=e2b1bb)>[-1:^9F(^AC=1)(^AD=1)(^AE^81)(^88^82)(^A7^81)
+    (^AF=1)(^B0^11F)(^B1^84)(^A8^85)(^B4=c)(^A1=0)(^A6=c)(^A4^121)]
+@$$}29}@
+
+@$${2A{@
+@$$}2A}@

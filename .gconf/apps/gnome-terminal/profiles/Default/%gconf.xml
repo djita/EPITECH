@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="default_show_menubar" mtime="1371487202" type="bool" value="false"/>
+	<entry name="silent_bell" mtime="1363271002" type="bool" value="false"/>
+	<entry name="use_system_font" mtime="1363270997" type="bool" value="true"/>
+	<entry name="use_custom_default_size" mtime="1363270316" type="bool" value="false"/>
+	<entry name="use_custom_command" mtime="1363266645" type="bool" value="false"/>
+	<entry name="title_mode" mtime="1371487202" type="string">
+		<stringvalue>after</stringvalue>
+	</entry>
+	<entry name="background_image" mtime="1371487202" type="string">
+		<stringvalue>/home/guillo_e/Pictures/wallpaper-138125.jpg</stringvalue>
+	</entry>
+	<entry name="scroll_background" mtime="1371487202" type="bool" value="false"/>
+	<entry name="background_darkness" mtime="1371487202" type="float" value="0.70292901992797852"/>
+	<entry name="background_type" mtime="1371487202" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="use_theme_colors" mtime="1371487202" type="bool" value="false"/>
+	<entry name="palette" mtime="1371487202" type="string">
+		<stringvalue>#000000000000:#CDCB00000000:#0000CDCB0000:#CDCBCDCB0000:#1E1A908FFFFF:#CDCB0000CDCB:#0000CDCBCDCB:#E5E2E5E2E5E2:#4CCC4CCC4CCC:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#46458281B4AE:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1371487202" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1371487202" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="bold_color" mtime="1371487202" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1371487202" type="string">
+		<stringvalue>#FFFFFFFFFFFF</stringvalue>
+	</entry>
+</gconf>

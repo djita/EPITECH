@@ -1,0 +1,31 @@
+2013-03-19 17:56:14.093912|INFO    |              |   | TeamSpeak 3 Client 3.0.10 (2013-02-27 15:08:47)
+2013-03-19 17:56:14.100425|DEBUG   |PulseAudio    |   | connected to pulse audio server
+2013-03-19 17:56:14.117140|ERROR   |Query         |   | bind failed on 127.0.0.1:25639
+2013-03-19 17:56:14.592847|INFO    |              |   | *** Time [MAINWINDOW]: 120
+2013-03-19 17:56:14.593050|INFO    |              |   | *** Time [INIT]: 120
+2013-03-19 17:56:14.598224|INFO    |ClientUI      |   | Failed to init text to speech engine
+2013-03-19 17:56:14.598335|INFO    |ClientUI      |   | Qt version: 4.8.3
+2013-03-19 17:56:14.598359|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
+2013-03-19 17:56:15.093402|INFO    |ClientUI      |   | Last update check was: Tue Mar 19 17:55:43 2013
+2013-03-19 17:56:17.860775|INFO    |ClientUI      |  1| Connect to server: 62.210.250.140
+2013-03-19 17:56:17.863694|INFO    |ClientUI      |  1| Blacklist check ok
+2013-03-19 17:56:17.863843|INFO    |ClientUI      |  1| Initiating connection: 62.210.250.140:36395 62.210.250.140
+2013-03-19 17:56:17.893378|INFO    |              |   | DNS resolve successful, "blacklist.teamspeak.com"=176.9.148.78
+2013-03-19 17:56:18.182671|INFO    |PreProSpeex   |  1| Speex version: 1.2rc1
+2013-03-19 17:56:18.183092|DEBUG   |PulseAudio    |   | Underflow occurred on device ts3.pa.dummy.playbackdefault
+2013-03-19 17:56:18.185399|INFO    |ClientUI      |  1| Connect status: Connecting
+2013-03-19 17:56:18.213442|INFO    |ClientUI      |  1| Connect status: Connected
+2013-03-19 17:56:18.314846|INFO    |ClientUI      |  1| Connect status: Establishing connection
+2013-03-19 17:56:18.746463|INFO    |ClientUI      |  1| Connect status: Connection established
+2013-03-19 17:56:18.754191|INFO    |PermManager   |   | Requesting permissions from server
+2013-03-19 17:58:08.926335|ERROR   |PulseAudio    |   | failed to connect to pulse audio server
+2013-03-19 17:58:08.926482|ERROR   |PulseAudio    |   | opening stream failure: Connection terminated
+                                                        
+2013-03-19 17:58:08.926525|ERROR   |PulseAudio    |   | opening stream failure: Connection terminated
+                                                        
+2013-03-19 17:58:10.139112|INFO    |SoundDevManager|   | Device removed
+2013-03-19 17:58:10.139282|INFO    |SoundDevManager|   | Device removed
+2013-03-19 17:58:10.139374|INFO    |SoundDevManager|   | Device removed
+2013-03-19 17:58:10.139465|INFO    |SoundDevManager|   | Device removed
+2013-03-19 17:58:10.139556|INFO    |SoundDevManager|   | Device removed
+2013-03-19 17:58:10.139660|INFO    |SoundDevManager|   | Device removed
