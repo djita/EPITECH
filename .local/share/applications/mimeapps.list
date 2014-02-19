@@ -1,6 +1,0 @@
-
-[Default Applications]
-x-scheme-handler/mailto=trackerbird-launcher.desktop
-
-[Added Associations]
-x-scheme-handler/mailto=trackerbird-launcher.desktop;

@@ -1,4 +1,0 @@
-
-[State]
-timestamp=1371493803
-converted=org.gnome.Vino.convert;org.gnome.seahorse.convert;nautilus.convert;nautilus-sendto-convert;gedit.convert;shotwell.convert;org.gnome.seahorse.manager.convert;file-roller.convert;eog.convert;gsettings-desktop-schemas.convert;mousetweaks.convert;gvfs-dns-sd.convert;gnome-session.convert;evince.convert;org.gnome.crypto.pgp.convert;gnome-settings-daemon.convert;org.gnome.crypto.pgp_keyservers.convert;org.gnome.crypto.cache.convert;gvfs-smb.convert;libgnomekbd.convert;org.gnome.packagekit.gschema.migrate;org.gnome.Vinagre.convert;
