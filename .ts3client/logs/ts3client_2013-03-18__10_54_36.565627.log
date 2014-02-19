@@ -1,8 +1,0 @@
-2013-03-18 10:54:36.565868|INFO    |              |   | TeamSpeak 3 Client 3.0.9.2 (2012-10-29 10:00:43)
-2013-03-18 10:54:36.566264|WARNING |SoundDevManager|   | Could not find soundbackends folder. No sound backends loaded
-2013-03-18 10:54:36.899710|INFO    |              |   | *** Time [MAINWINDOW]: 110
-2013-03-18 10:54:36.899940|INFO    |              |   | *** Time [INIT]: 110
-2013-03-18 10:54:36.900337|INFO    |ClientUI      |   | Failed to init text to speech engine
-2013-03-18 10:54:36.900396|INFO    |ClientUI      |   | Qt version: 4.7.4
-2013-03-18 10:54:36.900429|INFO    |ClientUI      |   | Using configuration location: /home/guillo_e/.ts3client/settings.db
-2013-03-18 10:54:37.400059|INFO    |ClientUI      |   | Last update check was: Mon Mar 18 10:42:16 2013
