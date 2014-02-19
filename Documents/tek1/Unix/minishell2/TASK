@@ -1,6 +1,0 @@
-TASK FOR SHELL:
-
-- Intégrer la recherche de commande avec $PATH
-- Utilisation de signal
-- Vérification des appels systèmes
-- Ne pas oublier de free

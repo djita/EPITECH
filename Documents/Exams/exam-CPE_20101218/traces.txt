@@ -1,6 +1,0 @@
--- guillo_e --
-- maff_alpha: success (grade: 5)
-- epur_str: failed (grade: 0)
-- ord_alphlong: failed (grade: 0)
-- rotone: not found (grade: 0)
-grade: 5

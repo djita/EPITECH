@@ -1,6 +1,0 @@
--- guillo_e --
-- aff_z: success (grade: 5)
-- maff_alpha: success (grade: 5)
-- rev_str: success (grade: 5)
-- infin_add: failed (grade: 0)
-grade: 15
